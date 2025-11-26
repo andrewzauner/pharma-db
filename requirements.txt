@@ -19,6 +19,10 @@ xlrd>=2.0.0
 # Date utilities
 python-dateutil>=2.8.0
 
+# Browser automation (optional, for Purple Book)
+# selenium>=4.0.0
+# Note: Also requires ChromeDriver or GeckoDriver installed separately
+
 # Optional: SQL Server support (if needed for legacy)
 # pyodbc>=4.0.0
 

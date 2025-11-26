@@ -11,7 +11,6 @@ import re
 import csv
 import sys
 import time
-import math
 import zipfile
 import logging
 import unicodedata
@@ -77,53 +76,151 @@ def build_pb_candidate_urls(months_back: int = 8) -> List[str]:
     """
     Build a list of plausible FDA Purple Book download URLs for the current
     and previous N months, trying CSV then XLSX for each month.
+    
+    Also includes alternative URL patterns that the FDA might use.
     """
-    base = "https://purplebooksearch.fda.gov/downloads/files/{year}/purplebook-search-{mon}-data-download.{ext}"
-    today = dt.date.today()
     urls: List[str] = []
+    today = dt.date.today()
+    
+    # Pattern 1: /downloads/files/{year}/purplebook-search-{month}-data-download.{ext}
+    base1 = "https://purplebooksearch.fda.gov/downloads/files/{year}/purplebook-search-{mon}-data-download.{ext}"
+    
+    # Pattern 2: Alternative with different month format
+    base2 = "https://purplebooksearch.fda.gov/downloads/files/{year}/{mon}/purplebook-search-data-download.{ext}"
+    
+    # Pattern 3: Simple path without year/month
+    base3 = "https://purplebooksearch.fda.gov/downloads/files/purplebook-search-data-download.{ext}"
+    
     for i in range(months_back):
         # rolling back i months
         month_dt = (dt.date(today.year, today.month, 1) - relativedelta(months=i))
         year = month_dt.year
         mon = _month_slug(month_dt)
-        # CSV first, then XLSX
-        urls.append(base.format(year=year, mon=mon, ext="csv"))
-        urls.append(base.format(year=year, mon=mon, ext="xlsx"))
-    # A couple of generic fallbacks (if FDA changes naming)
+        mon_num = month_dt.strftime("%m")  # e.g., "01", "02"
+        
+        # Pattern 1: year/month-name format
+        urls.append(base1.format(year=year, mon=mon, ext="csv"))
+        urls.append(base1.format(year=year, mon=mon, ext="xlsx"))
+        
+        # Pattern 2: year/month-number format
+        urls.append(base2.format(year=year, mon=mon_num, ext="csv"))
+        urls.append(base2.format(year=year, mon=mon_num, ext="xlsx"))
+    
+    # Generic fallbacks (no date)
+    urls.append(base3.format(ext="csv"))
+    urls.append(base3.format(ext="xlsx"))
+    
+    # Additional fallback patterns
     urls += [
-        "https://purplebooksearch.fda.gov/downloads/files/purplebook-search-data-download.csv",
-        "https://purplebooksearch.fda.gov/downloads/files/purplebook-search-data-download.xlsx",
+        "https://purplebooksearch.fda.gov/downloads/purplebook-search-data-download.csv",
+        "https://purplebooksearch.fda.gov/downloads/purplebook-search-data-download.xlsx",
+        "https://www.fda.gov/files/drugs/published/Purple-Book-Data-Download.csv",
+        "https://www.fda.gov/files/drugs/published/Purple-Book-Data-Download.xlsx",
     ]
+    
     return urls
 
 # --------------------
 # Helpers (shared)
 # --------------------
-def _download(url: str, out_path: str, timeout: int = 15) -> bool:
+def _download(url: str, out_path: str, timeout: int = 60) -> bool:
+    """
+    Download a file from URL with retries and verification.
+    Returns True if download succeeded and file is valid.
+    """
     # honor corporate proxies if set (HTTP(S)_PROXY env)
     proxies = {
         "http": os.environ.get("HTTP_PROXY") or os.environ.get("http_proxy"),
         "https": os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy"),
     }
+    
+    logging.info(f"Attempting to download: {url}")
+    
     for attempt in range(1, RETRIES + 1):
         try:
             r = session.get(url, timeout=timeout, allow_redirects=True, stream=True, proxies=proxies)
+            
             if r.status_code == 200:
                 clen = int(r.headers.get("content-length", "0") or "0")
+                
+                # Check content-length if provided
                 if clen and clen < 512:
                     logging.warning(f"{url} -> tiny content-length={clen}, skipping (attempt {attempt}/{RETRIES})")
-                else:
-                    with open(out_path, "wb") as f:
-                        for chunk in r.iter_content(chunk_size=1 << 17):
-                            if chunk:
-                                f.write(chunk)
-                    logging.info(f"Downloaded → {out_path}")
-                    return True
+                    continue
+                
+                # Download the file
+                bytes_written = 0
+                with open(out_path, "wb") as f:
+                    for chunk in r.iter_content(chunk_size=1 << 17):  # 128KB chunks
+                        if chunk:
+                            f.write(chunk)
+                            bytes_written += len(chunk)
+                
+                # Verify file was written and has content
+                if not os.path.exists(out_path):
+                    logging.warning(f"Download failed: file not created at {out_path} (attempt {attempt}/{RETRIES})")
+                    continue
+                
+                file_size = os.path.getsize(out_path)
+                if file_size < 512:  # Less than 512 bytes is likely an error page
+                    logging.warning(f"Downloaded file too small ({file_size} bytes), likely an error page (attempt {attempt}/{RETRIES})")
+                    try:
+                        os.remove(out_path)  # Clean up invalid file
+                    except:
+                        pass
+                    continue
+                
+                # Verify it's not HTML (error page)
+                with open(out_path, "rb") as f:
+                    first_bytes = f.read(500)
+                    if b"<html" in first_bytes.lower() or b"<!doctype" in first_bytes.lower() or b"<script" in first_bytes.lower():
+                        logging.warning(f"Downloaded file appears to be HTML (error page), not data (attempt {attempt}/{RETRIES})")
+                        try:
+                            os.remove(out_path)
+                        except:
+                            pass
+                        continue
+                
+                # For CSV files, verify it's not just HTML with .csv extension
+                if out_path.endswith(".csv"):
+                    with open(out_path, "rb") as f:
+                        first_line = f.readline(200).decode('utf-8', errors='ignore').lower()
+                        if first_line.strip().startswith('<!') or 'html' in first_line[:50]:
+                            logging.warning(f"CSV file appears to be HTML, rejecting (attempt {attempt}/{RETRIES})")
+                            try:
+                                os.remove(out_path)
+                            except:
+                                pass
+                            continue
+                
+                logging.info(f"✓ Successfully downloaded {file_size:,} bytes → {out_path}")
+                if clen and abs(file_size - clen) > 1024:  # More than 1KB difference
+                    logging.warning(f"File size mismatch: expected {clen:,} bytes, got {file_size:,} bytes")
+                
+                return True
+            elif r.status_code == 404:
+                return False  # Don't retry 404s
             else:
                 logging.warning(f"{url} -> HTTP {r.status_code} (attempt {attempt}/{RETRIES})")
+                
+        except requests.Timeout:
+            logging.warning(f"Timeout downloading {url} (attempt {attempt}/{RETRIES})")
         except requests.RequestException as e:
             logging.warning(f"Download error: {e} (attempt {attempt}/{RETRIES})")
-        time.sleep(1.25 * attempt)
+        except Exception as e:
+            logging.error(f"Unexpected error downloading {url}: {e} (attempt {attempt}/{RETRIES})", exc_info=True)
+        
+        # Clean up partial file on retry
+        if os.path.exists(out_path) and attempt < RETRIES:
+            try:
+                os.remove(out_path)
+            except:
+                pass
+        
+        if attempt < RETRIES:
+            time.sleep(1.25 * attempt)
+    
+    logging.error(f"Failed to download after {RETRIES} attempts: {url}")
     return False
 
 
@@ -172,11 +269,93 @@ def _best_col(df: pd.DataFrame, *candidates: str) -> Optional[str]:
                 return norm[k]
     return None
 
+def _read_purple_book_csv(path: str) -> Optional[pd.DataFrame]:
+    """
+    Specialized reader for Purple Book CSV files that have metadata rows.
+    Finds the actual header row and data, skipping metadata.
+    """
+    try:
+        # Read file line by line to find the header
+        with open(path, 'r', encoding='utf-8-sig', errors='replace') as f:
+            lines = f.readlines()
+        
+        # Look for the header row - it should contain "N/R/U" and "BLA Number"
+        header_idx = None
+        for i, line in enumerate(lines):
+            line_lower = line.lower()
+            # Check if this looks like the header row
+            if 'n/r/u' in line_lower and 'bla number' in line_lower and 'applicant' in line_lower:
+                header_idx = i
+                break
+        
+        if header_idx is None:
+            logging.warning(f"Could not find header row in {path}, trying standard CSV read")
+            # Fallback to standard read
+            return pd.read_csv(path, dtype=str, keep_default_na=False, na_values=[""], skipinitialspace=True)
+        
+        # Read from the header row onwards
+        # Use the header row as column names
+        header_line = lines[header_idx].strip()
+        
+        # Parse header
+        reader = csv.reader([header_line])
+        header = next(reader)
+        header = [h.strip() for h in header]
+        
+        # Read data rows (skip header and any empty rows)
+        data_rows = []
+        for line in lines[header_idx + 1:]:
+            line = line.strip()
+            if not line:  # Skip empty lines
+                continue
+            
+            # Check if this is another header row (sometimes headers repeat)
+            if line.lower().startswith('n/r/u') and 'bla number' in line.lower():
+                continue  # Skip duplicate headers
+            
+            # Parse the row
+            try:
+                reader = csv.reader([line])
+                row = next(reader)
+                # Only add if it has the expected number of columns (or close)
+                if len(row) >= len(header) * 0.5:  # At least half the columns
+                    # Pad or truncate to match header length
+                    if len(row) < len(header):
+                        row.extend([''] * (len(header) - len(row)))
+                    elif len(row) > len(header):
+                        row = row[:len(header)]
+                    data_rows.append(row)
+            except Exception:
+                continue
+        
+        if not data_rows:
+            logging.warning(f"No data rows found after header in {path}")
+            return pd.DataFrame(columns=header)
+        
+        # Create DataFrame
+        df = pd.DataFrame(data_rows, columns=header)
+        
+        # Clean up
+        df = df.replace('', pd.NA)
+        for col in df.columns:
+            if df[col].dtype == "object":
+                df[col] = df[col].astype(str).str.strip()
+                df[col] = df[col].replace('nan', pd.NA).replace('', pd.NA)
+        
+        logging.info(f"Parsed Purple Book CSV: {len(df)} rows, {len(df.columns)} columns")
+        return df
+        
+    except Exception as e:
+        logging.error(f"Error reading Purple Book CSV {path}: {e}", exc_info=True)
+        return None
+
+
 def _read_any_table(path: str) -> Dict[str, pd.DataFrame]:
     """
     Read CSV/XLSX (or ZIP of CSV/XLSX) into dict of {name: DataFrame}.
     - For CSV: returns {"data": df}
     - For XLSX: returns {sheet_name: df}
+    - For Purple Book CSV: uses specialized parser
     """
     out: Dict[str, pd.DataFrame] = {}
     if _is_zip(path):
@@ -184,8 +363,25 @@ def _read_any_table(path: str) -> Dict[str, pd.DataFrame]:
             for name in zf.namelist():
                 base = os.path.basename(name).lower()
                 if base.endswith(".csv"):
-                    df = pd.read_csv(zf.open(name), dtype=str, keep_default_na=False, na_values=[""])
-                    out[os.path.splitext(base)[0]] = df
+                    # For ZIP files, extract and use file path approach
+                    # Extract to temp location first
+                    import tempfile
+                    with tempfile.NamedTemporaryFile(mode='wb', delete=False, suffix='.csv') as tmp:
+                        tmp.write(zf.read(name))
+                        tmp_path = tmp.name
+                    try:
+                        df = _read_purple_book_csv(tmp_path)
+                        if df is not None:
+                            out[os.path.splitext(base)[0]] = df
+                        else:
+                            # Fallback to standard read
+                            df = pd.read_csv(tmp_path, dtype=str, keep_default_na=False, na_values=[""])
+                            out[os.path.splitext(base)[0]] = df
+                    finally:
+                        try:
+                            os.unlink(tmp_path)
+                        except:
+                            pass
                 elif base.endswith(".xlsx") or base.endswith(".xls"):
                     bio = io.BytesIO(zf.read(name))
                     xls = pd.ExcelFile(bio)
@@ -195,8 +391,23 @@ def _read_any_table(path: str) -> Dict[str, pd.DataFrame]:
     else:
         base = path.lower()
         if base.endswith(".csv"):
-            df = pd.read_csv(path, dtype=str, keep_default_na=False, na_values=[""])
-            out["data"] = df
+            # Check if file name suggests it's a Purple Book file
+            filename_lower = os.path.basename(path).lower()
+            is_purple_book = 'purple' in filename_lower or 'purplebook' in filename_lower
+            
+            if is_purple_book:
+                # Use specialized Purple Book parser
+                df = _read_purple_book_csv(path)
+                if df is not None:
+                    out["data"] = df
+                else:
+                    # Fallback
+                    df = pd.read_csv(path, dtype=str, keep_default_na=False, na_values=[""])
+                    out["data"] = df
+            else:
+                # Standard CSV read
+                df = pd.read_csv(path, dtype=str, keep_default_na=False, na_values=[""])
+                out["data"] = df
         elif base.endswith(".xlsx") or base.endswith(".xls"):
             xls = pd.ExcelFile(path)
             for sheet in xls.sheet_names:
@@ -204,20 +415,33 @@ def _read_any_table(path: str) -> Dict[str, pd.DataFrame]:
                 out[sheet] = df
         else:
             logging.error(f"Unsupported file type: {path}")
+    
     # Trim whitespace
     for k, df in list(out.items()):
-        df.columns = [str(c).strip() for c in df.columns]
-        for c in df.columns:
-            if df[c].dtype == "object":
-                df[c] = df[c].astype(str).str.strip()
-        out[k] = df
+        if df is not None and not df.empty:
+            df.columns = [str(c).strip() for c in df.columns]
+            for c in df.columns:
+                if df[c].dtype == "object":
+                    df[c] = df[c].astype(str).str.strip()
+            out[k] = df
     return out
 
 def _find_local_raw_files() -> List[str]:
+    """Find all CSV/XLSX/XLS/ZIP files in the raw directory."""
     files = []
-    for fn in os.listdir(RAW_DIR):
-        if fn.lower().endswith((".csv", ".xlsx", ".xls", ".zip")):
-            files.append(os.path.join(RAW_DIR, fn))
+    if not os.path.exists(RAW_DIR):
+        logging.warning(f"Raw directory does not exist: {RAW_DIR}")
+        return files
+    
+    try:
+        for fn in os.listdir(RAW_DIR):
+            if fn.lower().endswith((".csv", ".xlsx", ".xls", ".zip")):
+                full_path = os.path.join(RAW_DIR, fn)
+                if os.path.isfile(full_path):
+                    files.append(full_path)
+    except Exception as e:
+        logging.error(f"Error listing files in {RAW_DIR}: {e}")
+    
     return files
 
 def _pass_through_if_already_curated(raw_files: list) -> bool:
@@ -257,34 +481,44 @@ def _map_product(df: pd.DataFrame) -> pd.DataFrame:
         return pd.DataFrame(columns=keep)
 
     alias = {
-        "blanumber": "BLANumber", "blano": "BLANumber", "licenseapplno": "BLANumber",
-        "biologiclicenseapplication": "BLANumber",
-        "propername": "ProperName", "nonproprietaryname": "ProperName",
-        "proprietaryname": "ProprietaryName", "tradename": "ProprietaryName",
-        "productname": "ProprietaryName",
-        "applicant": "Applicant", "sponsor": "Applicant", "licenseholder": "Applicant",
-        "dosageform": "DosageForm", "dosageformroute": "DosageForm",
-        "route": "Route", "routeofadministration": "Route",
-        "strength": "Strength", "strengthconcentration": "Strength",
-        "referenceproduct": "ReferenceProductName", "referenceproductname": "ReferenceProductName",
+        "blanumber": "BLANumber", "bla number": "BLANumber",
+        "propername": "ProperName", "proper name": "ProperName",
+        "proprietaryname": "ProprietaryName", "proprietary name": "ProprietaryName",
+        "applicant": "Applicant",
+        "dosageform": "DosageForm", "dosage form": "DosageForm",
+        "route": "Route", "routeofadministration": "Route", "route of administration": "Route",
+        "strength": "Strength",
+        "refproductproprietaryname": "ReferenceProductName", "ref. product proprietary name": "ReferenceProductName",
         "referenceproductproprietaryname": "ReferenceProductName",
-        "isreferenceproduct": "IsReferenceProductFlag", "referenceproductflag": "IsReferenceProductFlag",
-        "approvaldate": "BLAApprovalDate", "blaapprovaldate": "BLAApprovalDate",
-        "dateoflicensure": "BLAApprovalDate", "originallicensuredate": "BLAApprovalDate",
+        "approvaldate": "BLAApprovalDate", "approval date": "BLAApprovalDate",
     }
     ren = {c: alias[_norm_col(c)] for c in df.columns if _norm_col(c) in alias}
     prod = df.rename(columns=ren)
 
-    if "DosageForm" in prod.columns and "Route" not in prod.columns:
+    # Handle Route - may be in separate column or combined with DosageForm
+    route_col = None
+    for col in df.columns:
+        if _norm_col(col) == "routeofadministration" or _norm_col(col) == "route of administration":
+            route_col = col
+            break
+    if "Route" not in prod.columns and route_col:
+        prod["Route"] = df[route_col]
+    elif "DosageForm" in prod.columns and "Route" not in prod.columns:
+        # Try to split if combined
         parts = prod["DosageForm"].str.split(";", n=1, expand=True)
         if isinstance(parts, pd.DataFrame) and parts.shape[1] == 2:
             prod["DosageForm"] = parts[0].str.strip()
             prod["Route"] = parts[1].str.strip()
-
-    prod["IsReferenceProductFlag"] = prod.get("IsReferenceProductFlag").map(
-        lambda v: "Y" if str(v).strip().upper() in ("Y","YES","TRUE","1") else (
-                  "N" if str(v).strip().upper() in ("N","NO","FALSE","0") else pd.NA)
-    )
+    
+    # Set IsReferenceProductFlag - Y if ReferenceProductName is empty/N/A, N if it has a value
+    if "IsReferenceProductFlag" not in prod.columns:
+        if "ReferenceProductName" in prod.columns:
+            prod["IsReferenceProductFlag"] = prod["ReferenceProductName"].apply(
+                lambda x: "N" if pd.notna(x) and str(x).strip() != "" and str(x).strip().upper() != "N/A" else "Y"
+            )
+        else:
+            prod["IsReferenceProductFlag"] = "Y"  # Default to reference product if no ref product name
+    
     if "BLAApprovalDate" in prod.columns:
         prod["BLAApprovalDate"] = prod["BLAApprovalDate"].map(_parse_date_like)
 
@@ -304,51 +538,105 @@ def _map_biosimilar(df: pd.DataFrame) -> pd.DataFrame:
     if df is None or df.empty:
         return pd.DataFrame(columns=keep)
 
+    # Map columns - Purple Book CSV uses different names
     alias = {
-        "blanumber": "BLANumber", "blano": "BLANumber", "biosimilarblanumber": "BLANumber",
-        "biosimilarname": "BiosimilarProprietaryName", "proprietaryname": "BiosimilarProprietaryName",
-        "tradename": "BiosimilarProprietaryName",
-        "propername": "BiosimilarProperName", "nonproprietaryname": "BiosimilarProperName",
-        "referenceproduct": "ReferenceProductName", "referenceproductname": "ReferenceProductName",
-        "referenceblanumber": "ReferenceBLANumber", "referenceblano": "ReferenceBLANumber",
-        "interchangeability": "InterchangeabilityFlag", "interchangeabilitystatus": "InterchangeabilityFlag",
-        "licensuredate": "LicensureDate", "approvaldate": "LicensureDate", "dateoflicensure": "LicensureDate",
+        "blanumber": "BLANumber", "bla number": "BLANumber",
+        "proprietaryname": "BiosimilarProprietaryName", "proprietary name": "BiosimilarProprietaryName",
+        "propername": "BiosimilarProperName", "proper name": "BiosimilarProperName",
+        "refproductproprietaryname": "ReferenceProductName", "ref. product proprietary name": "ReferenceProductName",
+        "referenceproductproprietaryname": "ReferenceProductName",
+        "refproductpropername": "ReferenceProductName", "ref. product proper name": "ReferenceProductName",
+        "referenceproductpropername": "ReferenceProductName",
+        "approvaldate": "LicensureDate", "approval date": "LicensureDate",
+        "dateoffirstlicensure": "LicensureDate", "date of first licensure": "LicensureDate",
     }
     ren = {c: alias[_norm_col(c)] for c in df.columns if _norm_col(c) in alias}
     bs = df.rename(columns=ren)
 
-    bs["InterchangeabilityFlag"] = bs.get("InterchangeabilityFlag").map(
-        lambda v: "Y" if str(v).strip().upper() in ("Y","YES","TRUE","1","INTERCHANGEABLE") else (
-                  "N" if str(v).strip().upper() in ("N","NO","FALSE","0","NOTINTERCHANGEABLE") else pd.NA)
-    )
+    # Set InterchangeabilityFlag - check if "First Interchangeable Exclusivity" date exists
+    if "InterchangeabilityFlag" not in bs.columns:
+        bs["InterchangeabilityFlag"] = pd.NA
+        # Check for interchangeability exclusivity date column
+        for col in df.columns:
+            cn = _norm_col(col)
+            if "firstinterchangeable" in cn and "exclusivity" in cn and "date" in cn:
+                # If this date column has a value, it's interchangeable
+                bs["InterchangeabilityFlag"] = bs.apply(
+                    lambda row: "Y" if pd.notna(row[col]) and str(row[col]).strip() != "" else "N",
+                    axis=1
+                )
+                break
+    
     if "LicensureDate" in bs.columns:
         bs["LicensureDate"] = bs["LicensureDate"].map(_parse_date_like)
+    
+    # ReferenceBLANumber - not directly available, leave as None
+    if "ReferenceBLANumber" not in bs.columns:
+        bs["ReferenceBLANumber"] = pd.NA
 
     bs = _ensure_cols(bs, keep)
     return bs[keep].drop_duplicates()
 
-def _map_exclusivity(df: pd.DataFrame) -> pd.DataFrame:
+def _map_exclusivity(excl_df: pd.DataFrame, product_df: pd.DataFrame) -> pd.DataFrame:
     """
     FactPB_Exclusivity:
       BLANumber, ReferenceProductName, ExclusivityType, ExclusivityEndDate, Notes
+    
+    Extract exclusivity data from product table where exclusivity date columns have values.
+    Creates one row per exclusivity type per product.
     """
     keep = ["BLANumber","ReferenceProductName","ExclusivityType","ExclusivityEndDate","Notes"]
-    if df is None or df.empty:
+    
+    if excl_df is None or excl_df.empty:
         return pd.DataFrame(columns=keep)
-
-    alias = {
-        "blanumber": "BLANumber", "blano": "BLANumber",
-        "referenceproductname": "ReferenceProductName", "referenceproduct": "ReferenceProductName",
-        "exclusivitytype": "ExclusivityType", "exclusivitycategory": "ExclusivityType", "exclusivitycode": "ExclusivityType",
-        "exclusivityenddate": "ExclusivityEndDate", "enddate": "ExclusivityEndDate", "expirationdate": "ExclusivityEndDate",
-        "notes": "Notes", "note": "Notes", "comment": "Notes",
-    }
-    ren = {c: alias[_norm_col(c)] for c in df.columns if _norm_col(c) in alias}
-    ex = df.rename(columns=ren)
-
-    if "ExclusivityEndDate" in ex.columns:
-        ex["ExclusivityEndDate"] = ex["ExclusivityEndDate"].map(_parse_date_like)
-
+    
+    # Find exclusivity date columns
+    excl_cols = {}
+    for col in excl_df.columns:
+        cn = _norm_col(col)
+        if "exclusivityexpirationdate" in cn:
+            excl_cols["ExclusivityExpirationDate"] = col
+        elif "firstinterchangeableexclusivityexpdate" in cn:
+            excl_cols["FirstInterchangeableExclusivityExpDate"] = col
+        elif "refproductexclusivityexpdate" in cn:
+            excl_cols["RefProductExclusivityExpDate"] = col
+        elif "orphexclusivityexpdate" in cn:
+            excl_cols["OrphanExclusivityExpDate"] = col
+    
+    # Build exclusivity rows - one per exclusivity type
+    excl_rows = []
+    
+    # Find BLA Number and Reference Product columns
+    bla_col = None
+    ref_prod_col = None
+    for col in excl_df.columns:
+        cn = _norm_col(col)
+        if "blanumber" in cn:
+            bla_col = col
+        if "refproductproprietaryname" in cn or "referenceproductproprietaryname" in cn:
+            ref_prod_col = col
+    
+    for _, row in excl_df.iterrows():
+        bla_num = str(row[bla_col]).strip() if bla_col and bla_col in row else ""
+        ref_prod = str(row[ref_prod_col]).strip() if ref_prod_col and ref_prod_col in row else ""
+        
+        # Create a row for each exclusivity type that has a date
+        for excl_type, col_name in excl_cols.items():
+            if col_name in row and pd.notna(row[col_name]):
+                date_val = str(row[col_name]).strip()
+                if date_val and date_val.upper() != "N/A":
+                    excl_rows.append({
+                        "BLANumber": bla_num,
+                        "ReferenceProductName": ref_prod if ref_prod and ref_prod.upper() != "N/A" else None,
+                        "ExclusivityType": excl_type,
+                        "ExclusivityEndDate": _parse_date_like(date_val),
+                        "Notes": None
+                    })
+    
+    if not excl_rows:
+        return pd.DataFrame(columns=keep)
+    
+    ex = pd.DataFrame(excl_rows)
     ex = _ensure_cols(ex, keep)
     return ex[keep].drop_duplicates()
 
@@ -361,23 +649,44 @@ def _map_application(df: pd.DataFrame) -> pd.DataFrame:
     if df is None or df.empty:
         return pd.DataFrame(columns=keep)
 
+    # Map columns from Purple Book CSV format
     alias = {
-        "blanumber": "BLANumber", "blano": "BLANumber",
-        "licenseholder": "Applicant", "applicant": "Applicant", "sponsor": "Applicant",
-        "status": "Status", "applicationstatus": "Status",
-        "originallicensuredate": "OriginalLicensureDate", "approvaldate": "OriginalLicensureDate",
-        "lastupdatedate": "LastUpdateDate", "updatedate": "LastUpdateDate", "filedate": "LastUpdateDate",
+        "blanumber": "BLANumber", "bla number": "BLANumber",
+        "applicant": "Applicant",
+        "licensure": "Status", "marketingstatus": "Status", "marketing status": "Status",
     }
     ren = {c: alias[_norm_col(c)] for c in df.columns if _norm_col(c) in alias}
     app = df.rename(columns=ren)
 
-    if "OriginalLicensureDate" in app.columns:
-        app["OriginalLicensureDate"] = app["OriginalLicensureDate"].map(_parse_date_like)
-    if "LastUpdateDate" in app.columns:
-        app["LastUpdateDate"] = app["LastUpdateDate"].map(_parse_date_like)
+    # Use Date of First Licensure for OriginalLicensureDate
+    for col in df.columns:
+        cn = _norm_col(col)
+        if "dateoffirstlicensure" in cn:
+            app["OriginalLicensureDate"] = df[col].map(_parse_date_like)
+            break
+    # Fallback to Approval Date if Date of First Licensure not available
+    if "OriginalLicensureDate" not in app.columns or app["OriginalLicensureDate"].isna().all():
+        for col in df.columns:
+            cn = _norm_col(col)
+            if "approvaldate" in cn:
+                app["OriginalLicensureDate"] = df[col].map(_parse_date_like)
+                break
+    
+    # Use Approval Date as LastUpdateDate
+    for col in df.columns:
+        cn = _norm_col(col)
+        if "approvaldate" in cn:
+            app["LastUpdateDate"] = df[col].map(_parse_date_like)
+            break
 
     app = _ensure_cols(app, keep)
-    return app[keep].drop_duplicates()
+    # Get unique applications (by BLA Number)
+    if "BLANumber" in app.columns:
+        app = app.drop_duplicates(subset=["BLANumber"], keep="first")
+    else:
+        app = app.drop_duplicates()
+    
+    return app[keep] if all(col in app.columns for col in keep) else pd.DataFrame(columns=keep)
 
 # --------------------
 # Orchestration
@@ -397,8 +706,13 @@ def main():
     args = parser.parse_args()
 
 
-    # 0) If final pb_* CSVs already exist in RAW_DIR, pass-through and exit early
+    # 0) Check for manually placed files first (before trying to download)
     raw_files = _find_local_raw_files()
+    
+    # If we have manually placed files, prioritize them over downloads
+    manually_placed = [f for f in raw_files if os.path.getsize(f) > 1024]  # Files > 1KB are likely real data
+    
+    # 0a) If final pb_* CSVs already exist in RAW_DIR, pass-through and exit early
     if raw_files and not args.force_download and _pass_through_if_already_curated(raw_files):
         out_prod = os.path.join(DATA_DIR, "pb_dim_product.csv")
         out_bio  = os.path.join(DATA_DIR, "pb_dim_biosimilar.csv")
@@ -440,18 +754,75 @@ def main():
             logging.error(f"Failed to download from --url: {args.url}")
 
     else:
-        # Build candidate URLs for recent months (CSV then XLSX)
-        urls = build_pb_candidate_urls(months_back=args.months_back)
-        for url in urls:
-            ext = ".xlsx" if url.endswith(".xlsx") else ".csv"
-            safe = os.path.basename(url).replace("/", "_")
-            out_path = os.path.join(RAW_DIR, f"purplebook_{safe}{ext}")
-            if _download(url, out_path):
-                downloaded_path = out_path
-                break
+        # Skip download if we already have manually placed files
+        if manually_placed:
+            logging.info(f"Found {len(manually_placed)} manually placed file(s), skipping download")
+            logging.info(f"Using: {[os.path.basename(f) for f in manually_placed]}")
+        else:
+            # Try direct download URLs
+            urls = build_pb_candidate_urls(months_back=args.months_back)
+            logging.info(f"Trying {len(urls)} candidate URLs for Purple Book download...")
+            
+            for i, url in enumerate(urls, 1):
+                ext = ".xlsx" if url.endswith(".xlsx") else ".csv"
+                safe = os.path.basename(url).replace("/", "_").replace("?", "_").replace("&", "_")
+                if not safe or safe == "_":
+                    safe = f"purplebook_download_{i}"
+                out_path = os.path.join(RAW_DIR, f"purplebook_{safe}{ext}")
+                
+                logging.info(f"[{i}/{len(urls)}] Trying: {url}")
+                if _download(url, out_path):
+                    if os.path.exists(out_path) and os.path.getsize(out_path) > 1024:
+                        downloaded_path = out_path
+                        logging.info(f"✓ Successfully downloaded Purple Book data from: {url}")
+                        break
+                    else:
+                        logging.warning(f"Downloaded file verification failed, trying next URL...")
+        
+        if not downloaded_path:
+            logging.error(f"\n{'='*70}")
+            logging.error("AUTOMATIC DOWNLOAD FAILED - MANUAL DOWNLOAD REQUIRED")
+            logging.error(f"{'='*70}")
+            logging.error("The FDA Purple Book website (https://purplebooksearch.fda.gov/)")
+            logging.error("is a JavaScript application and doesn't provide direct download URLs.")
+            logging.error("")
+            logging.error("SOLUTION: Download the file manually, then:")
+            logging.error("")
+            logging.error("  Option 1: Place file in raw directory")
+            logging.error(f"    • Download CSV/XLSX from https://purplebooksearch.fda.gov/")
+            logging.error(f"    • Save to: {RAW_DIR}")
+            logging.error(f"    • Run this script again")
+            logging.error("")
+            logging.error("  Option 2: Use --local flag")
+            logging.error("    • python purple_book_ingest.py --local <path-to-file>")
+            logging.error("")
+            logging.error("See PURPLE_BOOK_MANUAL_DOWNLOAD.md for detailed instructions.")
+            logging.error(f"{'='*70}\n")
 
     # Refresh raw_files list to include any newly downloaded file
     raw_files = _find_local_raw_files()
+    
+    # Filter out HTML files that were mistakenly downloaded
+    valid_raw_files = []
+    for f in raw_files:
+        try:
+            size = os.path.getsize(f)
+            if size < 1024:  # Less than 1KB is suspicious
+                continue
+            
+            # Check if it's HTML
+            with open(f, "rb") as check_file:
+                first_bytes = check_file.read(200)
+                if b"<html" in first_bytes.lower() or b"<!doctype" in first_bytes.lower():
+                    logging.warning(f"Skipping HTML file: {os.path.basename(f)}")
+                    continue
+            
+            valid_raw_files.append(f)
+        except Exception:
+            continue
+    
+    raw_files = valid_raw_files
+    
     if not raw_files:
         print("\n=== Purple Book Ingest Summary ===")
         print(f"DimPB_Product rows:       0 -> {os.path.join(DATA_DIR,'pb_dim_product.csv')}")
@@ -475,43 +846,77 @@ def main():
         except Exception as e:
             logging.warning(f"Failed to read {path}: {e}")
 
-    # 3) Heuristics to pick which sheet/table is which
-    def has_any(df, names: List[str]) -> bool:
-        cols = [_norm_col(c) for c in df.columns]
-        want = set(_norm_col(n) for n in names)
-        return any(w in cols for w in want)
-
+    # 3) Find the main product table (should have BLA Number, Applicant, etc.)
     product_df = None
-    biosim_df  = None
-    excl_df    = None
-    app_df     = None
-
     for name, df in tables.items():
         ncols = [_norm_col(c) for c in df.columns]
-
-        if ("blanumber" in ncols or "blano" in ncols) and any(k in ncols for k in ("exclusivitytype","exclusivitydate","exclusivityenddate","expirationdate")):
-            excl_df = df if excl_df is None else pd.concat([excl_df, df], ignore_index=True)
-            continue
-
-        if any(k in ncols for k in ("biosimilarname","interchangeability","interchangeabilitystatus")) or \
-           ("referenceblanumber" in ncols or "referenceblano" in ncols):
-            biosim_df = df if biosim_df is None else pd.concat([biosim_df, df], ignore_index=True)
-            continue
-
-        if any(k in ncols for k in ("propername","nonproprietaryname","proprietaryname","tradename")) and \
-           any(k in ncols for k in ("applicant","sponsor","licenseholder")):
+        # Look for the main Purple Book table with BLA Number
+        if ("blanumber" in ncols or "bla number" in ncols) and \
+           any(k in ncols for k in ("applicant", "proprietaryname", "propername")):
             product_df = df if product_df is None else pd.concat([product_df, df], ignore_index=True)
-            if has_any(df, ["status","application status","last update date","original licensure date"]):
-                app_df = df if app_df is None else pd.concat([app_df, df], ignore_index=True)
-            continue
+    
+    if product_df is None or product_df.empty:
+        logging.error("No product data found in files!")
+        print("\n=== Purple Book Ingest Summary ===")
+        print(f"DimPB_Product rows:       0 -> {os.path.join(DATA_DIR,'pb_dim_product.csv')}")
+        print(f"DimPB_Biosimilar rows:    0 -> {os.path.join(DATA_DIR,'pb_dim_biosimilar.csv')}")
+        print(f"FactPB_Exclusivity rows:  0 -> {os.path.join(DATA_DIR,'pb_fact_exclusivity.csv')}")
+        print(f"DimPB_Application rows:   0 -> {os.path.join(DATA_DIR,'pb_dim_application.csv')}")
+        return
 
-        if has_any(df, ["BLA Number","Status","Applicant"]) or has_any(df, ["Original Licensure Date","Last Update Date"]):
-            app_df = df if app_df is None else pd.concat([app_df, df], ignore_index=True)
-
-    # 4) Map to canonical outputs
+    # 4) Extract different data types from the product table
+    # All data is in one table, we need to split it:
+    
+    # 4a) Biosimilar products: where "Ref. Product Proper Name" or "Ref. Product Proprietary Name" is filled
+    ncols = [_norm_col(c) for c in product_df.columns]
+    ref_prod_proper_col = None
+    ref_prod_proprietary_col = None
+    for col in product_df.columns:
+        cn = _norm_col(col)
+        if "refproductpropername" in cn or "referenceproductpropername" in cn:
+            ref_prod_proper_col = col
+        if "refproductproprietaryname" in cn or "referenceproductproprietaryname" in cn:
+            ref_prod_proprietary_col = col
+    
+    biosim_df = None
+    if ref_prod_proper_col or ref_prod_proprietary_col:
+        # Filter rows where reference product columns have values (not empty, not "N/A")
+        mask = pd.Series([False] * len(product_df))
+        if ref_prod_proper_col:
+            mask |= (product_df[ref_prod_proper_col].notna()) & \
+                    (product_df[ref_prod_proper_col].astype(str).str.strip() != "") & \
+                    (product_df[ref_prod_proper_col].astype(str).str.upper() != "N/A")
+        if ref_prod_proprietary_col:
+            mask |= (product_df[ref_prod_proprietary_col].notna()) & \
+                    (product_df[ref_prod_proprietary_col].astype(str).str.strip() != "") & \
+                    (product_df[ref_prod_proprietary_col].astype(str).str.upper() != "N/A")
+        biosim_df = product_df[mask].copy() if mask.any() else None
+        logging.info(f"Found {len(biosim_df) if biosim_df is not None else 0} biosimilar products")
+    
+    # 4b) Exclusivity data: where any exclusivity date column has values
+    excl_date_cols = []
+    for col in product_df.columns:
+        cn = _norm_col(col)
+        if "exclusivity" in cn and "date" in cn:
+            excl_date_cols.append(col)
+    
+    excl_df = None
+    if excl_date_cols:
+        # Filter rows where any exclusivity date column has a value
+        mask = pd.Series([False] * len(product_df))
+        for col in excl_date_cols:
+            mask |= (product_df[col].notna()) & \
+                    (product_df[col].astype(str).str.strip() != "")
+        excl_df = product_df[mask].copy() if mask.any() else None
+        logging.info(f"Found {len(excl_df) if excl_df is not None else 0} products with exclusivity data")
+    
+    # 4c) Application data: extract unique applications (BLA Number + Applicant)
+    app_df = product_df.copy()  # Use all product data for application extraction
+    
+    # 5) Map to canonical outputs
     dim_product = _map_product(product_df)
     dim_biosim  = _map_biosimilar(biosim_df)
-    fact_excl   = _map_exclusivity(excl_df)
+    fact_excl   = _map_exclusivity(excl_df, product_df)
     dim_app     = _map_application(app_df)
 
     # 5) Write CSV outputs

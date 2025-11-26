@@ -1,1 +1,537 @@
-BLANumber,BiosimilarProprietaryName,BiosimilarProperName,ReferenceProductName,ReferenceBLANumber,InterchangeabilityFlag,LicensureDate
+BLANumber,BiosimilarProprietaryName,BiosimilarProperName,ReferenceProductName,ReferenceProductName,ReferenceBLANumber,InterchangeabilityFlag,LicensureDate,LicensureDate
+125197,Provenge,sipuleucel-T,<NA>,N/A,,Y,2010-04-29,NaT
+125384,Kedbumin,Albumin (Human),<NA>,N/A,,Y,2011-06-03,NaT
+125384,Kedbumin,Albumin (Human),<NA>,N/A,,Y,2013-09-05,NaT
+125822,QIVIGY,"Immune Globulin Intravenous, Human-kthm, 10% Solution",N/A,<NA>,,Y,2025-09-26,NaT
+761439,Enoby,denosumab-qbde,denosumab,Prolia,,Y,2025-09-26,NaT
+761439,Xtrenbo,denosumab-qbde,denosumab,Xgeva,,Y,2025-09-26,NaT
+<NA>,<NA>,<NA>,<NA>,<NA>,,Y,NaT,NaT
+101062,<NA>,Antivenin (Latrodectus mactans),<NA>,N/A,,Y,2036-02-13,NaT
+101066,"Recombivax, Recombivax Hb",Hepatitis B Vaccine (Recombinant),<NA>,N/A,,Y,1986-07-23,NaT
+101068,ATTENUVAX,Measles Virus Vaccine Live,<NA>,<NA>,,Y,2063-03-21,NaT
+101069,M-M-R Ii,"Measles, Mumps and Rubella Virus Vaccine Live",<NA>,N/A,,Y,2071-04-22,NaT
+101069,M-M-R Ii,"Measles, Mumps and Rubella Virus Vaccine Live",<NA>,N/A,,Y,2023-02-27,NaT
+101072,MumpsVax,Mumps Virus Vaccine Live,<NA>,<NA>,,Y,2067-12-28,NaT
+101075,MERUVAX II,Rubella Virus Vaccine Live,<NA>,<NA>,,Y,2069-06-09,NaT
+101094,Pneumovax 23,"Pneumococcal Vaccine, Polyvalent",<NA>,N/A,,Y,1977-11-21,NaT
+101098,<NA>,Antivenin (Crotalidae) Polyvalent,<NA>,N/A,,Y,2054-02-08,NaT
+101099,<NA>,Antivenin (Micrurus fulvius),<NA>,N/A,,Y,2067-08-28,NaT
+101130,"Koate, Koate-Dvi",Antihemophilic Factor (Human),<NA>,N/A,,Y,2074-01-24,NaT
+101134,"Baygam, Gamastan S/D",Immune Globulin (Human),<NA>,N/A,,Y,2044-01-11,NaT
+101138,"Albuked, Plasbumin-20, Plasbumin-25, Plasbumin-5",Albumin (Human),<NA>,N/A,,Y,2042-10-21,NaT
+101140,Plasmanate,Plasma Protein Fraction (Human),<NA>,N/A,,Y,2058-10-02,NaT
+101141,"Bayrho-D, Hyprho-D, Hyperrho S/D Full Dose, Hyperrho S/D Mini-Dose",Rho(D) Immune Globulin (Human),<NA>,N/A,,Y,2071-06-11,NaT
+101142,"Baytet, Hypertet",Tetanus Immune Globulin (Human),<NA>,N/A,,Y,2057-10-17,NaT
+101144,"Bayrab, Hyperrab",Rabies Immune Globulin (Human),<NA>,N/A,,Y,2074-06-12,NaT
+101144,"Bayrab,Hyperrab",Rabies Immune Globulin (Human),<NA>,N/A,,Y,2019-11-06,NaT
+101146,"Bayhep B, Hyperhep B S/D",Hepatitis B Immune Globulin (Human),<NA>,N/A,,Y,1977-09-23,NaT
+101147,Gamimune,Immune Globulin Intravenous (Human),<NA>,<NA>,,Y,1981-09-11,NaT
+101246,Panhematin,Hemin for Injection,<NA>,N/A,,Y,1983-07-20,NaT
+101322,Tdvax,Tetanus and Diphtheria Toxoids Adsorbed,<NA>,N/A,,Y,2070-07-27,NaT
+101377,<NA>,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,N/A,,Y,2030-07-11,NaT
+101378,<NA>,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,N/A,,Y,2030-07-11,NaT
+101379,<NA>,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,N/A,,Y,2030-06-14,NaT
+101380,<NA>,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,N/A,,Y,2030-06-14,NaT
+101381,<NA>,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,N/A,,Y,2030-06-14,NaT
+101382,<NA>,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,N/A,,Y,2030-06-14,NaT
+101382,<NA>,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,N/A,,Y,1997-05-29,NaT
+101383,<NA>,"Pollens - Grasses, Redtop Agrostis alba",<NA>,N/A,,Y,2030-06-14,NaT
+101384,<NA>,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,N/A,,Y,2030-06-14,NaT
+101384,<NA>,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,N/A,,Y,1997-06-25,NaT
+101385,<NA>,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,N/A,,Y,2030-06-14,NaT
+101386,<NA>,"Pollens - Grasses, Timothy Phleum pratense",<NA>,N/A,,Y,2030-06-14,NaT
+101387,<NA>,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,N/A,,Y,2030-06-14,NaT
+101447,"Autoplex, Feiba Nf, Feiba Vh",Anti-Inhibitor Coagulant Complex,<NA>,N/A,,Y,1979-12-21,NaT
+101447,"Autoplex, Feiba Nf, Feiba Vh",Anti-Inhibitor Coagulant Complex,<NA>,N/A,,Y,2000-07-31,NaT
+101447,"Autoplex, Feiba Nf, Feiba Vh",Anti-Inhibitor Coagulant Complex,<NA>,N/A,,Y,2005-08-11,NaT
+101448,Hemofil M,Antihemophilic Factor (Human),<NA>,N/A,,Y,2001-03-14,NaT
+101452,"Buminate, Flexbumin",Albumin (Human),<NA>,N/A,,Y,2054-03-03,NaT
+101834,<NA>,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,N/A,,Y,2058-09-15,NaT
+101835,<NA>,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,N/A,,Y,2058-09-15,NaT
+101836,<NA>,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,N/A,,Y,2030-06-14,NaT
+101837,<NA>,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,N/A,,Y,2030-06-14,NaT
+101838,<NA>,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,N/A,,Y,2030-06-14,NaT
+101839,<NA>,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,N/A,,Y,2030-06-14,NaT
+101840,<NA>,"Pollens - Grasses, Redtop Agrostis alba",<NA>,N/A,,Y,2030-06-14,NaT
+101841,<NA>,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,N/A,,Y,2030-06-14,NaT
+101842,<NA>,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,N/A,,Y,2030-06-14,NaT
+101843,<NA>,"Pollens - Grasses, Timothy Phleum pratense",<NA>,N/A,,Y,2030-06-14,NaT
+101844,<NA>,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,N/A,,Y,2030-06-14,NaT
+101845,<NA>,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia elatior",<NA>,N/A,,Y,2058-09-15,NaT
+101993,<NA>,Albumin (Human),<NA>,N/A,,Y,1979-09-07,NaT
+102212,<NA>,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,N/A,,Y,2074-03-12,NaT
+102213,<NA>,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,N/A,,Y,2074-03-12,NaT
+102214,<NA>,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,N/A,,Y,2030-06-14,NaT
+102215,<NA>,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,N/A,,Y,2030-06-14,NaT
+102216,<NA>,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,N/A,,Y,2074-03-12,NaT
+102217,<NA>,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,N/A,,Y,2074-03-12,NaT
+102218,<NA>,"Pollens - Grasses, Redtop Agrostis alba",<NA>,N/A,,Y,2074-03-12,NaT
+102219,<NA>,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,N/A,,Y,2074-03-12,NaT
+102219,<NA>,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,N/A,,Y,2030-06-14,NaT
+102220,<NA>,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,N/A,,Y,2074-03-12,NaT
+102221,<NA>,"Pollens - Grasses, Timothy Phleum pratense",<NA>,N/A,,Y,2030-06-14,NaT
+102366,Alburx,Albumin (Human),<NA>,N/A,,Y,1976-07-23,NaT
+102367,"Carimune, Carimune Nf, Panglobulin, Sandoglobulin",Immune Globulin Intravenous (Human),<NA>,N/A,,Y,2000-07-27,NaT
+102475,Alphanate,Antihemophilic Factor/von Willebrand Factor Complex (Human),<NA>,N/A,,Y,1978-08-15,NaT
+102475,Alphanate,Antihemophilic Factor/von Willebrand Factor Complex (Human),<NA>,N/A,,Y,2014-06-26,NaT
+102476,"Profilnine, Profilnine Hp, Profilnine Ht, Profilnine Sd",Factor IX Complex,<NA>,N/A,,Y,1981-07-20,NaT
+102478,Albutein,Albumin (Human),<NA>,N/A,,Y,1978-08-15,NaT
+102821,Tice Bcg,BCG Live,<NA>,N/A,,Y,1989-06-21,NaT
+102865,"Thrombin-Jmi, Thrombocoll","Thrombin, Topical (Bovine)",<NA>,N/A,,Y,1986-02-03,NaT
+102865,"Thrombin-Jmi, Thrombocoll","Thrombin, Topical (Bovine)",<NA>,N/A,,Y,2011-02-10,NaT
+103050,<NA>,BCG Vaccine,<NA>,N/A,,Y,1989-06-21,NaT
+103051,<NA>,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,N/A,,Y,2058-09-29,NaT
+103052,<NA>,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,N/A,,Y,2050-09-29,NaT
+103053,<NA>,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,N/A,,Y,2050-09-29,NaT
+103054,<NA>,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,N/A,,Y,2050-09-29,NaT
+103055,<NA>,"Pollens - Grasses, Redtop Agrostis alba",<NA>,N/A,,Y,2050-09-29,NaT
+103056,<NA>,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,N/A,,Y,2050-09-29,NaT
+103057,<NA>,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,N/A,,Y,2050-09-29,NaT
+103058,<NA>,"Pollens - Grasses, Timothy Phleum pratense",<NA>,N/A,,Y,2050-09-29,NaT
+103059,<NA>,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,N/A,,Y,2050-09-29,NaT
+103060,<NA>,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,N/A,,Y,2050-09-29,NaT
+103061,<NA>,"Animal Allergens, Standardized Cat Pelt",<NA>,N/A,,Y,2050-09-29,NaT
+103112,Proplex-T; Bebulin,Factor IX Complex,<NA>,<NA>,,Y,2070-08-21,NaT
+103113,<NA>,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,N/A,,Y,2074-03-13,NaT
+103123,Vivotif,Typhoid Vaccine Live Oral Ty21a,<NA>,N/A,,Y,1989-12-15,NaT
+103133,"Gammagard, Gammagard S/D, Iveegam",Immune Globulin Intravenous (Human),<NA>,N/A,,Y,1986-02-18,NaT
+103133,"Gammagard, Gammagard S/D, Iveegam",Immune Globulin Intravenous (Human),<NA>,N/A,,Y,2000-07-27,NaT
+103141,Digibind,Digoxin Immune Fab (Ovine),<NA>,N/A,,Y,1986-04-22,NaT
+103171,Tenivac,Tetanus and Diphtheria Toxoids Adsorbed,<NA>,N/A,,Y,2003-11-03,NaT
+103174,"prolastin,prolastin-c,prolastin-c liquid",Alpha-1-Proteinase Inhibitor (Human),<NA>,N/A,,Y,1987-12-02,NaT
+103174,"prolastin,prolastin-c,prolastin-c liquid",Alpha-1-Proteinase Inhibitor (Human),<NA>,N/A,,Y,2017-09-08,NaT
+103174,"prolastin,prolastin-c,prolastin-c liquid",Alpha-1-Proteinase Inhibitor (Human),<NA>,N/A,,Y,2020-03-05,NaT
+103189,Cytogam,Cytomegalovirus Immune Globulin Intravenous (Human),<NA>,N/A,,Y,1990-04-17,NaT
+103196,Thrombate Iii,Antithrombin III (Human),<NA>,N/A,,Y,1991-12-30,NaT
+103237,Pedvaxhib,Haemophilus b Conjugate Vaccine (Meningococcal Protein Conjugate),<NA>,N/A,,Y,1989-12-20,NaT
+103239,Engerix-B,Hepatitis B Vaccine (Recombinant),<NA>,N/A,,Y,1989-08-28,NaT
+103249,"Alphanine, Alphanine Hp, Alphanine Sd",Coagulation Factor IX (Human),<NA>,N/A,,Y,1990-12-31,NaT
+103257,Candin,Candida albicans Skin Test Antigen for Cellular Hypersensitivity,<NA>,N/A,,Y,1995-11-27,NaT
+103317,<NA>,Positive Skin Test Control-Histamine,<NA>,N/A,,Y,1992-02-14,NaT
+103324,<NA>,"Animal Allergens, Standardized Cat Hair",<NA>,N/A,,Y,2030-07-11,NaT
+103332,"Helixate Fs, Kogenate, Kogenate Fs",Antihemophilic Factor (Recombinant),<NA>,N/A,,Y,2002-08-20,NaT
+103332,"Helixate Fs, Kogenate, Kogenate Fs",Antihemophilic Factor (Recombinant),<NA>,N/A,,Y,2007-06-07,NaT
+103332,"Helixate Fs, Kogenate, Kogenate Fs",Antihemophilic Factor (Recombinant),<NA>,N/A,,Y,2009-07-31,NaT
+103334,Rabavert,Rabies Vaccine,<NA>,N/A,,Y,1997-10-20,NaT
+103352,Human Albumin Grifols,Albumin (Human),<NA>,N/A,,Y,1995-02-17,NaT
+103352,Human Albumin Grifols,Albumin (Human),<NA>,N/A,,Y,2003-06-11,NaT
+103375,"Bioclate (Armour), Recombinate",Antihemophilic Factor (Recombinant),<NA>,N/A,,Y,1992-12-10,NaT
+103375,"Bioclate (Armour), Recombinate",Antihemophilic Factor (Recombinant),<NA>,N/A,,Y,2010-03-10,NaT
+103397,<NA>,"Animal Allergens, Standardized Cat Hair",<NA>,N/A,,Y,2058-09-15,NaT
+103473,<NA>,"Animal Allergens, Standardized Cat Hair",<NA>,N/A,,Y,2074-03-12,NaT
+103475,Havrix,Hepatitis A Vaccine,<NA>,N/A,,Y,1995-02-22,NaT
+103552,Varivax,Varicella Virus Vaccine Live,<NA>,N/A,,Y,1995-03-17,NaT
+103552,Varivax,Varicella Virus Vaccine Live,<NA>,N/A,,Y,2023-02-27,NaT
+103569,<NA>,Plague Vaccine,<NA>,N/A,,Y,1994-10-05,NaT
+103606,Vaqta,Hepatitis A Vaccine Inactivated,<NA>,N/A,,Y,1996-03-29,NaT
+103623,COMVAX,Haemophilus b Conjugate (Meningococcal Protein Conjugate) and Hepatitis B (Recombinant) Vaccine,<NA>,<NA>,,Y,1996-10-02,NaT
+103647,Infanrix,Diphtheria & Tetanus Toxoids & Acellular Pertussis Vaccine Adsorbed,<NA>,N/A,,Y,1997-01-29,NaT
+103649,"Winrho Sd, Winrho Sdf Liquid, Winrho Sdf Lyophilized",Rho(D) Immune Globulin Intravenous (Human),<NA>,N/A,,Y,1996-04-02,NaT
+103649,"Winrho Sd, Winrho Sdf Liquid, Winrho Sdf Lyophilized",Rho(D) Immune Globulin Intravenous (Human),<NA>,N/A,,Y,2005-03-31,NaT
+103649,"Winrho Sd, Winrho Sdf Liquid, Winrho Sdf Lyophilized",Rho(D) Immune Globulin Intravenous (Human),<NA>,N/A,,Y,2015-12-18,NaT
+103661,Carticel Sm Service,Autologous Cultured Chondrocytes,<NA>,N/A,,Y,1997-08-22,NaT
+103665,"Novoseven, Novoseven Rt",Coagulation Factor VIIa (Recombinant),<NA>,N/A,,Y,1999-03-25,NaT
+103665,"Novoseven, Novoseven Rt",Coagulation Factor VIIa (Recombinant),<NA>,N/A,,Y,2000-11-15,NaT
+103665,"Novoseven, Novoseven Rt",Coagulation Factor VIIa (Recombinant),<NA>,N/A,,Y,2008-05-09,NaT
+103665,"Novoseven, Novoseven Rt",Coagulation Factor VIIa (Recombinant),<NA>,N/A,,Y,2010-08-06,NaT
+103666,Daptacel,Diphtheria & Tetanus Toxoids & Acellular Pertussis Vaccine Adsorbed,<NA>,N/A,,Y,2002-05-14,NaT
+103676,Atgam,"Lymphocyte Immune Globulin, Anti-thymocyte Globulin (Equine)",<NA>,N/A,,Y,1996-12-04,NaT
+103677,Benefix,Coagulation Factor IX (Recombinant),<NA>,N/A,,Y,1997-02-11,NaT
+103677,Benefix,Coagulation Factor IX (Recombinant),<NA>,N/A,,Y,2007-03-21,NaT
+103677,Benefix,Coagulation Factor IX (Recombinant),<NA>,N/A,,Y,2011-11-23,NaT
+103738,T.R.U.E. Test,Thin-Layer Rapid Use Epicutaneous Patch Test,<NA>,N/A,,Y,1997-08-15,NaT
+103752,<NA>,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,N/A,,Y,2050-09-29,NaT
+103754,Histatrol,Positive Skin Test Control-Histamine,<NA>,N/A,,Y,2050-09-29,NaT
+103777,"Micrhogam, Rhogam",Rho(D) Immune Globulin (Human),<NA>,N/A,,Y,1998-04-23,NaT
+103779,Refacto,Antihemophilic Factor (Recombinant),<NA>,N/A,,Y,2001-06-27,NaT
+103779,Refacto,Antihemophilic Factor (Recombinant),<NA>,N/A,,Y,2001-07-06,NaT
+103782,Aplisol,"Tuberculin, Purified Protein Derivative",<NA>,N/A,,Y,1998-04-20,NaT
+103788,Crofab,Crotalidae Polyvalent Immune Fab (Ovine),<NA>,N/A,,Y,2000-10-02,NaT
+103810,<NA>,"Animal Allergens, Standardized Cat Hair",<NA>,N/A,,Y,2071-12-16,NaT
+103820,Biorab,Rabies Vaccine Adsorbed,<NA>,N/A,,Y,1998-11-12,NaT
+103821,Biothrax,Anthrax Vaccine Adsorbed,<NA>,N/A,,Y,1998-11-12,NaT
+103837,Fluvirin,Influenza Virus Vaccine,<NA>,N/A,,Y,1998-11-03,NaT
+103850,Twinrix,Hepatitis A & Hepatitis B (Recombinant) Vaccine,<NA>,N/A,,Y,2001-05-11,NaT
+103869,Thymoglobulin,Anti-thymocyte Globulin (Rabbit),<NA>,N/A,,Y,1999-05-19,NaT
+103870,<NA>,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,N/A,,Y,2024-03-13,NaT
+103871,<NA>,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,N/A,,Y,2024-03-13,NaT
+103872,<NA>,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,N/A,,Y,2024-03-13,NaT
+103873,<NA>,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,N/A,,Y,2024-03-13,NaT
+103874,<NA>,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,N/A,,Y,2024-03-13,NaT
+103875,<NA>,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,N/A,,Y,2024-03-13,NaT
+103876,<NA>,"Pollens - Grasses, Redtop Agrostis alba",<NA>,N/A,,Y,2024-03-13,NaT
+103877,<NA>,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,N/A,,Y,2024-03-13,NaT
+103878,<NA>,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,N/A,,Y,2024-03-13,NaT
+103879,<NA>,"Pollens - Grasses, Timothy Phleum pratense",<NA>,N/A,,Y,2024-03-13,NaT
+103880,<NA>,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,N/A,,Y,2024-03-13,NaT
+103882,<NA>,"Venoms, Honey Bee Venom",<NA>,N/A,,Y,2024-03-13,NaT
+103883,<NA>,"Venoms, Mixed Vespid Venom Protein",<NA>,N/A,,Y,2024-03-13,NaT
+103884,<NA>,"Venoms, Wasp Venom Protein",<NA>,N/A,,Y,2024-03-13,NaT
+103885,<NA>,"Venoms, White Faced Hornet Venom Protein",<NA>,N/A,,Y,2024-03-13,NaT
+103886,<NA>,"Venoms, Yellow Hornet Venom Protein",<NA>,N/A,,Y,2024-03-13,NaT
+103887,<NA>,"Venoms, Yellow Jacket Venom Protein",<NA>,N/A,,Y,2024-03-13,NaT
+103889,<NA>,"Animal Allergens, Standardized Cat Hair",<NA>,N/A,,Y,2024-03-13,NaT
+103890,<NA>,"Animal Allergens, Standardized Cat Pelt",<NA>,N/A,,Y,2024-03-13,NaT
+103891,<NA>,Positive Skin Test Control-Histamine,<NA>,N/A,,Y,2024-03-13,NaT
+103905,prevnar,Pneumococcal 7-valent Conjugate Vaccine (Diphtheria CRM197 Protein),<NA>,<NA>,,Y,2000-02-17,NaT
+103907,Pediarix,"Diphtheria and Tetanus Toxoids and Acellular Pertussis Adsorbed, Hepatitis B (Recombinant) and Inactivated Poliovirus Vaccine",<NA>,N/A,,Y,2002-12-13,NaT
+103910,Digifab,Digoxin Immune Fab (Ovine),<NA>,N/A,,Y,2001-08-31,NaT
+103913,<NA>,Tetanus Toxoid Adsorbed,<NA>,<NA>,,Y,1999-12-09,NaT
+103914,"Fluzone, Fluzone Hd Quadrivalent, Fluzone High Dose, Fluzone Intradermal, Fluzone Quadrivalent",Influenza Virus Vaccine,<NA>,N/A,,Y,1999-12-09,NaT
+103914,"Fluzone, Fluzone Hd Quadrivalent, Fluzone High Dose, Fluzone Intradermal, Fluzone Quadrivalent",Influenza Virus Vaccine,<NA>,N/A,,Y,2009-12-23,NaT
+103914,"Fluzone, Fluzone Hd Quadrivalent, Fluzone High Dose, Fluzone Intradermal, Fluzone Quadrivalent",Influenza Virus Vaccine,<NA>,N/A,,Y,2011-05-09,NaT
+103914,"Fluzone, Fluzone Hd Quadrivalent, Fluzone High Dose, Fluzone Intradermal, Fluzone Quadrivalent",Influenza Virus Vaccine,<NA>,N/A,,Y,2013-06-07,NaT
+103914,"Fluzone, Fluzone Hd Quadrivalent, Fluzone High Dose, Fluzone Intradermal, Fluzone Quadrivalent",Influenza Virus Vaccine,<NA>,N/A,,Y,2014-12-11,NaT
+103914,"Fluzone, Fluzone Hd Quadrivalent, Fluzone High Dose, Fluzone Intradermal, Fluzone Quadrivalent",Influenza Virus Vaccine,N/A,<NA>,,Y,2019-11-04,NaT
+103915,Yf-Vax,Yellow Fever Vaccine,<NA>,N/A,,Y,1999-12-09,NaT
+103919,<NA>,Diphtheria & Tetanus Toxoids Adsorbed,<NA>,<NA>,,Y,1999-12-09,NaT
+103921,<NA>,Tetanus and Diphtheria Toxoids Adsorbed,<NA>,<NA>,,Y,1999-12-09,NaT
+103922,Tripedia,Diphtheria & Tetanus Toxoids & Acellular Pertussis Vaccine Adsorbed,<NA>,<NA>,,Y,1999-12-09,NaT
+103923,Menomune-C,"Meningococcal Polysaccharide Vaccine, Group C",<NA>,N/A,,Y,1999-12-09,NaT
+103924,Menomune-A,"Meningococcal Polysaccharide Vaccine, Group A",<NA>,N/A,,Y,1999-12-09,NaT
+103925,Menomune-A/C,"Meningococcal Polysaccharide Vaccine, Groups A and C Combined",<NA>,N/A,,Y,1999-12-09,NaT
+103926,Menomune,"Meningococcal Polysaccharide Vaccine, Groups A, C, Y, and W-135 Combined",<NA>,N/A,,Y,1999-12-09,NaT
+103930,Ipol,Poliovirus Vaccine Inactivated,<NA>,N/A,,Y,2000-02-04,NaT
+103931,Imovax Rabies,Rabies Vaccine,<NA>,N/A,,Y,2000-02-04,NaT
+103932,Imogam,Rabies Immune Globulin (Human),<NA>,N/A,,Y,2001-03-06,NaT
+103935,"Acthib,Omnihib",Haemophilus b Conjugate Vaccine (Tetanus Toxoid Conjugate),<NA>,N/A,,Y,2000-02-04,NaT
+103936,Typhim Vi,Typhoid Vi Polysaccharide Vaccine,<NA>,N/A,,Y,2000-02-04,NaT
+103937,<NA>,Botulism Antitoxin Bivalent (Equine) Types A and B.,<NA>,<NA>,,Y,2000-02-24,NaT
+103940,Poliovax,Poliovirus Vaccine Inactivated (Human Diploid Cell),<NA>,N/A,,Y,2000-02-24,NaT
+103941,Tubersol,"Tuberculin, Purified Protein Derivative",<NA>,N/A,,Y,2000-02-24,NaT
+103942,Mycobax,BCG Vaccine,<NA>,<NA>,,Y,2000-02-24,NaT
+103943,TheraCys,BCG Live,<NA>,<NA>,,Y,2000-02-24,NaT
+103944,<NA>,Diphtheria & Tetanus Toxoids Adsorbed,<NA>,N/A,,Y,2000-02-24,NaT
+103945,Nabi-HB,Hepatitis B Immune Globulin (Human),<NA>,N/A,,Y,2001-10-23,NaT
+Subcutaneous,Autoinjector,Disc,CDER,<NA>,,Y,NaT,NaT
+Subcutaneous,Single-Dose Vial,Disc,CDER,<NA>,,Y,NaT,NaT
+103953,"Monoclate, Monoclate-P",Antihemophilic Factor (Human),<NA>,N/A,,Y,2003-05-14,NaT
+103953,"Monoclate, Monoclate-P",Antihemophilic Factor (Human),<NA>,N/A,,Y,2004-03-04,NaT
+103955,"Albuminar, Albuminar-20, Albuminar-25, Albuminar-5",Albumin (Human),<NA>,N/A,,Y,2000-03-17,NaT
+103955,"Albuminar, Albuminar-20, Albuminar-25, Albuminar-5",Albumin (Human),<NA>,N/A,,Y,2000-07-17,NaT
+103956,"gammar i.v.,gammar-p i.v.",Immune Globulin Intravenous (Human),<NA>,<NA>,,Y,2000-03-17,NaT
+103957,Mononine,Coagulation Factor IX (Human),<NA>,N/A,,Y,2000-03-17,NaT
+103960,Humate-P,Antihemophilic Factor/von Willebrand Factor Complex (Human),<NA>,N/A,,Y,2000-04-11,NaT
+103969,Pharmalgen,"Venoms, Honey Bee Venom",<NA>,N/A,,Y,1991-10-08,NaT
+103970,Pharmalgen,"Venoms, Mixed Vespid Venom Protein",<NA>,N/A,,Y,1991-10-08,NaT
+103971,Pharmalgen,"Venoms, Wasp Venom Protein",<NA>,N/A,,Y,1991-10-08,NaT
+103972,Pharmalgen,"Venoms, White Faced Hornet Venom Protein",<NA>,N/A,,Y,1991-10-08,NaT
+103973,Pharmalgen,"Venoms, Yellow Hornet Venom Protein",<NA>,N/A,,Y,1991-10-08,NaT
+103974,Pharmalgen,"Venoms, Yellow Jacket Venom Protein",<NA>,N/A,,Y,1991-10-08,NaT
+103980,Tisseel,Fibrin Sealant (Tisseel),<NA>,N/A,,Y,1998-05-01,NaT
+103980,Tisseel,Fibrin Sealant (Tisseel),<NA>,N/A,,Y,2006-07-27,NaT
+125010,"Crosseal, Evicel",Fibrin Sealant (Human),<NA>,N/A,,Y,2003-03-21,NaT
+125020,"Flumist, Flumist Quad","Influenza Vaccine Live, Intranasal",<NA>,N/A,,Y,2003-06-17,NaT
+125020,"Flumist, Flumist Quad","Influenza Vaccine Live, Intranasal",<NA>,N/A,,Y,2012-02-29,NaT
+125034,BabyBig,Botulism Immune Globulin Intravenous (Human),<NA>,N/A,,Y,2003-10-23,NaT
+125035,Hepagam B,Hepatitis B Immune Globulin (Human),<NA>,N/A,,Y,2006-01-27,NaT
+125039,"Aralast, Aralast Np",Alpha-1-Proteinase Inhibitor (Human),<NA>,N/A,,Y,2002-12-23,NaT
+125046,"Gammaked, Gamunex-C",Immune Globulin Injection (Human) 10% Caprylate/Chromatography Purified,<NA>,N/A,,Y,2003-08-27,NaT
+125062,Octagam,Immune Globulin Intravenous (Human),<NA>,N/A,,Y,2004-05-21,NaT
+125062,Octagam,Immune Globulin Intravenous (Human),<NA>,N/A,,Y,2007-03-26,NaT
+125062,Octagam,Immune Globulin Intravenous (Human),<NA>,N/A,,Y,2014-07-11,NaT
+125063,Advate,"Antihemophilic Factor (Recombinant), Plasma/Albumin Free Method",<NA>,N/A,,Y,2003-07-25,NaT
+125063,Advate,"Antihemophilic Factor (Recombinant), Plasma/Albumin Free Method",<NA>,N/A,,Y,2006-04-12,NaT
+125063,Advate,"Antihemophilic Factor (Recombinant), Plasma/Albumin Free Method",<NA>,N/A,,Y,2007-07-03,NaT
+125063,Advate,"Antihemophilic Factor (Recombinant), Plasma/Albumin Free Method",<NA>,N/A,,Y,2012-07-12,NaT
+125070,Rhophylac,Rho(D) Immune Globulin Intravenous (Human),<NA>,N/A,,Y,2004-02-12,NaT
+125077,"Flebogamma 5%, Flebogamma 5% Dif",Immune Globulin Intravenous (Human),<NA>,N/A,,Y,2003-12-15,NaT
+125077,"Flebogamma 5%, Flebogamma 5% Dif",Immune Globulin Intravenous (Human),<NA>,N/A,,Y,2006-12-21,NaT
+125077,"Flebogamma 5%, Flebogamma 5% Dif",Immune Globulin Intravenous (Human),<NA>,N/A,,Y,2010-07-27,NaT
+125078,Zemaira,Alpha-1-Proteinase Inhibitor (Human),<NA>,N/A,,Y,2003-07-08,NaT
+125078,Zemaira,Alpha-1-Proteinase Inhibitor (Human),<NA>,N/A,,Y,2019-04-16,NaT
+125089,Menactra,"Meningococcal (Groups A, C, Y and W-135) Polysaccharide Diphtheria Toxoid Conjugate Vaccine",<NA>,N/A,,Y,2005-01-14,NaT
+125105,Gammagard Liquid,Immune Globulin Infusion (Human),<NA>,N/A,,Y,2005-04-27,NaT
+125106,Boostrix,"Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed",<NA>,N/A,,Y,2005-05-03,NaT
+125108,Proquad,"Measles, Mumps, Rubella and Varicella Virus Vaccine Live",<NA>,N/A,,Y,2005-09-06,NaT
+125108,Proquad,"Measles, Mumps, Rubella and Varicella Virus Vaccine Live",<NA>,N/A,,Y,2023-02-27,NaT
+125109,Cnj-016,Vaccinia Immune Globulin Intravenous (Human),<NA>,N/A,,Y,2005-05-02,NaT
+125111,Adacel,"Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed",<NA>,N/A,,Y,2005-06-10,NaT
+125115,Vivaglobin,Immune Globulin Subcutaneous (Human),<NA>,<NA>,,Y,2006-01-09,NaT
+125122,Rotateq,"Rotavirus Vaccine, Live, Oral, Pentavalent",<NA>,N/A,,Y,2006-02-03,NaT
+125123,Zostavax,Zoster Vaccine Live,<NA>,N/A,,Y,2006-05-25,NaT
+125126,Gardasil,"Human Papillomavirus Quadrivalent (Types 6, 11, 16 and 18) Vaccine, Recombinant",<NA>,N/A,,Y,2006-06-08,NaT
+125127,"Fluarix, Fluarix Quadrivalent",Influenza Vaccine,<NA>,N/A,,Y,2005-08-31,NaT
+125127,"Fluarix, Fluarix Quadrivalent",Influenza Vaccine,<NA>,N/A,,Y,2012-12-14,NaT
+125145,Pentacel,"Diphtheria and Tetanus Toxoids and Acellular Pertussis Adsorbed, Inactivated Poliovirus and Haemophilus b Conjugate (Tetanus Toxoid Conjugate) Vaccine",<NA>,N/A,,Y,2008-06-20,NaT
+125154,<NA>,Albumin (Human),<NA>,N/A,,Y,2006-10-17,NaT
+125154,<NA>,Albumin (Human),<NA>,N/A,,Y,2007-09-27,NaT
+125158,Acam2000,"Smallpox (Vaccinia) Vaccine, Live",<NA>,N/A,,Y,2007-08-31,NaT
+125163,"Flulaval, Flulaval Quadrivalent",Influenza Vaccine,<NA>,N/A,,Y,2006-10-05,NaT
+125163,"Flulaval, Flulaval Quadrivalent",Influenza Vaccine,<NA>,N/A,,Y,2009-11-10,NaT
+125163,"Flulaval, Flulaval Quadrivalent",Influenza Vaccine,<NA>,N/A,,Y,2013-08-15,NaT
+125163,"Flulaval, Flulaval Quadrivalent",Influenza Vaccine,<NA>,N/A,,Y,2013-09-27,NaT
+125201,Privigen,"Immune Globulin Intravenous (Human), 10% Liquid",<NA>,N/A,,Y,2007-07-26,NaT
+125201,Privigen,"Immune Globulin Intravenous (Human), 10% Liquid",<NA>,N/A,,Y,2009-10-02,NaT
+125201,Privigen,"Immune Globulin Intravenous (Human), 10% Liquid",<NA>,N/A,,Y,2013-02-07,NaT
+125234,Ceprotin,Protein C Concentrate (Human),<NA>,N/A,,Y,2007-03-30,NaT
+125244,<NA>,"Influenza Virus Vaccine, H5N1",<NA>,N/A,,Y,2007-04-17,NaT
+125247,Evithrom,"Thrombin, Topical (Human)",<NA>,N/A,,Y,2007-08-27,NaT
+125247,Evithrom,"Thrombin, Topical (Human)",<NA>,N/A,,Y,2009-09-17,NaT
+125248,Recothrom,Thrombin topical (Recombinant),<NA>,N/A,,Y,2008-01-17,NaT
+125248,Recothrom,Thrombin topical (Recombinant),<NA>,N/A,,Y,2008-05-23,NaT
+125251,Wilate,von Willebrand Factor/Coagulation Factor VIII Complex (Human),<NA>,N/A,,Y,2010-12-20,NaT
+125254,"Afluria, Afluria Quadrivalent",Influenza Vaccine,<NA>,N/A,,Y,2007-09-28,NaT
+125254,"Afluria, Afluria Quadrivalent",Influenza Vaccine,<NA>,N/A,,Y,2016-08-26,NaT
+125259,Cervarix,"Human Papillomavirus Bivalent (Types 16 and 18) Vaccine, Recombinant",<NA>,N/A,,Y,2009-10-16,NaT
+125260,Kinrix,Diphtheria and Tetanus Toxoids and Acellular Pertussis Adsorbed and Inactivated Poliovirus Vaccine,<NA>,N/A,,Y,2008-06-24,NaT
+125264,"Xyntha, Xyntha Solofuse","Antihemophilic Factor (Recombinant), Plasma/Albumin Free",<NA>,N/A,,Y,2008-02-21,NaT
+125264,"Xyntha, Xyntha Solofuse","Antihemophilic Factor (Recombinant), Plasma/Albumin Free",<NA>,N/A,,Y,2010-08-06,NaT
+125265,Rotarix,"Rotavirus Vaccine, Live, Oral",<NA>,N/A,,Y,2008-04-03,NaT
+125265,Rotarix,"Rotavirus Vaccine, Live, Oral",<NA>,<NA>,,Y,2022-11-04,NaT
+125266,Artiss,Fibrin Sealant (Human),<NA>,N/A,,Y,2008-03-19,NaT
+125267,Cinryze,C1 Esterase Inhibitor (Human),<NA>,N/A,,Y,2008-10-10,NaT
+125280,Ixiaro,"Japanese Encephalitis Vaccine, Inactivated, Adsorbed",<NA>,N/A,,Y,2009-03-30,NaT
+125284,Atryn,Antithrombin (Recombinant),<NA>,N/A,,Y,2009-02-06,NaT
+125284,Atryn,Antithrombin (Recombinant),<NA>,N/A,,Y,2014-04-11,NaT
+125285,Flublok,Influenza Vaccine,<NA>,N/A,,Y,2013-01-16,2013-01-16
+125285,Flublok,Influenza Vaccine,<NA>,N/A,,Y,2016-10-07,NaT
+125285,Flublok,Influenza Vaccine,<NA>,N/A,,Y,2024-03-04,NaT
+125287,Berinert,C1 Esterase Inhibitor (Human),<NA>,N/A,,Y,2009-10-09,NaT
+125296,<NA>,"Adenovirus Type 4 and Type 7 Vaccine, Live, Oral",<NA>,N/A,,Y,2011-03-16,NaT
+125297,Agriflu,Influenza Virus Vaccine,<NA>,N/A,,Y,2009-11-27,NaT
+125300,Menveo,"Meningococcal (Groups A, C, Y, and W-135) Oligosaccharide Diphtheria CRM197 Conjugate Vaccine",<NA>,N/A,,Y,2010-02-19,NaT
+125300,Menveo,"Meningococcal (Groups A, C, Y, and W-135) Oligosaccharide Diphtheria CRM197 Conjugate Vaccine",<NA>,N/A,,Y,2022-10-14,NaT
+125317,Riastap,Fibrinogen Concentrate (Human),<NA>,N/A,,Y,2009-01-16,NaT
+125324,Prevnar 13,Pneumococcal 13-valent Conjugate Vaccine (Diphtheria CRM197 Protein),<NA>,N/A,,Y,2010-02-24,NaT
+125325,Glassia,Alpha-1-Proteinase Inhibitor (Human),<NA>,N/A,,Y,2010-07-01,NaT
+125325,Glassia,Alpha-1-Proteinase Inhibitor (Human),<NA>,N/A,,Y,2025-02-27,NaT
+125329,Gammaplex,Immune Globulin Intravenous (Human),<NA>,N/A,,Y,2009-09-17,NaT
+125329,Gammaplex,Immune Globulin Intravenous (Human),<NA>,N/A,,Y,2017-02-06,NaT
+125335,Anascorp,Centruroides (Scorpion) Immune F(ab')2 (Equine) Injection,<NA>,N/A,,Y,2011-08-03,NaT
+125347,Hiberix,Haemophilus b Conjugate Vaccine (Tetanus Toxoid Conjugate),<NA>,N/A,,Y,2009-08-19,NaT
+125348,Laviv,Azficel-T,<NA>,N/A,,Y,2011-06-21,NaT
+125350,Hizentra,"Immune Globulin Subcutaneous (Human), 20% Liquid",<NA>,N/A,,Y,2010-03-04,NaT
+125350,Hizentra,"Immune Globulin Subcutaneous (Human), 20% Liquid",<NA>,N/A,,Y,2023-04-13,NaT
+125351,Tachosil,Fibrin Sealant Patch,<NA>,N/A,,Y,2010-04-05,NaT
+125354,Spherusol,Coccidioides immitis Spherule-Derived Skin Test Antigen,<NA>,N/A,,Y,2011-07-29,NaT
+125363,MENHIBRIX,Meningococcal Groups C and Y and Haemophilus b Tetanus Toxoid Conjugate Vaccine,<NA>,<NA>,,Y,2012-06-14,NaT
+125385,Corifact,Factor XIII Concentrate (Human),<NA>,N/A,,Y,2011-02-17,NaT
+125389,Bivigam,Immune Globulin Intravenous (Human),<NA>,N/A,,Y,2012-12-19,NaT
+125391,<NA>,"HPC, Cord Blood",<NA>,N/A,,Y,2012-05-24,NaT
+125392,Evarrest,Fibrin Sealant Patch,<NA>,N/A,,Y,2012-12-05,NaT
+125392,Evarrest,Fibrin Sealant Patch,<NA>,N/A,,Y,2013-05-16,NaT
+125392,Evarrest,Fibrin Sealant Patch,<NA>,N/A,,Y,2014-05-27,NaT
+125397,Hemacord,"Hematopoietic Progenitor Cells, Cord (HPC-C)",<NA>,N/A,,Y,2011-11-10,NaT
+125398,Tretten,Coagulation Factor XIII A-Subunit (Recombinant),<NA>,N/A,,Y,2013-12-23,NaT
+125400,Gintuit,Allogeneic Cultured Keratinocytes and Fibroblasts in Bovine Collagen,<NA>,N/A,,Y,2012-03-09,NaT
+125402,Hyqvia,"Immune Globulin Infusion (Human), 10% with Recombinant Human Hyaluronidase",<NA>,N/A,,Y,2014-09-12,NaT
+125407,Ducord,"HPC, Cord Blood",<NA>,N/A,,Y,2012-10-04,NaT
+125408,"Flucelvax, Flucelvax Quadrivalent",Influenza Vaccine,<NA>,N/A,,Y,2012-11-20,NaT
+125408,"Flucelvax, Flucelvax Quadrivalent",Influenza Vaccine,<NA>,N/A,,Y,2016-05-23,NaT
+125413,Allocord,"HPC, Cord Blood",<NA>,N/A,,Y,2013-05-30,NaT
+125416,Octaplas,"Pooled Plasma (Human), Solvent/Detergent Treated",<NA>,N/A,,Y,2013-01-17,NaT
+125419,Arepanrix,"Influenza A (H5N1) Virus Monovalent Vaccine, Adjuvanted",<NA>,N/A,,Y,2013-11-22,NaT
+125421,Kcentra,Prothrombin Complex Concentrate (Human),<NA>,N/A,,Y,2013-04-29,NaT
+125421,Kcentra,Prothrombin Complex Concentrate (Human),<NA>,N/A,,Y,2013-11-26,NaT
+125426,Ixinity,Coagulation Factor IX (Recombinant),<NA>,N/A,,Y,2015-04-29,NaT
+125426,Ixinity,Coagulation Factor IX (Recombinant),<NA>,N/A,,Y,2015-12-21,NaT
+125428,Heplisav-B,"Hepatitis B Vaccine (Recombinant), Adjuvanted",<NA>,N/A,,Y,2017-11-09,NaT
+125430,Varizig,Varicella Zoster Immune Globulin (Human),<NA>,N/A,,Y,2012-12-20,NaT
+125430,Varizig,Varicella Zoster Immune Globulin (Human),<NA>,N/A,,Y,2014-09-29,NaT
+125432,Cordcyte,"HPC, Cord Blood",<NA>,N/A,,Y,2013-06-13,NaT
+125444,Alprolix,"Coagulation Factor IX (Recombinant), Fc Fusion Protein",<NA>,N/A,,Y,2014-03-28,NaT
+125444,Alprolix,"Coagulation Factor IX (Recombinant), Fc Fusion Protein",<NA>,N/A,,Y,2016-02-18,NaT
+125444,Alprolix,"Coagulation Factor IX (Recombinant), Fc Fusion Protein",<NA>,N/A,,Y,2016-07-14,NaT
+125446,Rixubis,Coagulation Factor IX (Recombinant),<NA>,N/A,,Y,2013-06-26,NaT
+125462,Bat,"Botulism Antitoxin Heptavalent (A, B, C, D, E, F, G) - (Equine)",<NA>,N/A,,Y,2013-03-22,NaT
+125466,Novoeight,Antihemophilic Factor (Recombinant),<NA>,N/A,,Y,2013-10-15,NaT
+125471,Oralair,"Sweet Vernal, Orchard, Perennial Rye, Timothy, and Kentucky Blue Grass Mixed Pollens Allergen Extract",<NA>,N/A,,Y,2014-04-01,NaT
+125473,Grastek,Timothy Grass Pollen Allergen Extract,<NA>,N/A,,Y,2014-04-11,NaT
+125478,Ragwitek,Short Ragweed Pollen Allergen Extract,<NA>,N/A,,Y,2014-04-17,NaT
+125487,Eloctate,"Antihemophilic Factor (Recombinant), Fc Fusion protein",<NA>,N/A,,Y,2014-06-06,NaT
+125487,Eloctate,"Antihemophilic Factor (Recombinant), Fc Fusion protein",<NA>,N/A,,Y,2017-01-27,NaT
+125488,Anavip,Crotalidae Immune F(ab')2 (Equine),<NA>,N/A,,Y,2015-05-06,NaT
+125495,Ruconest,C1 Esterase Inhibitor (Recombinant),<NA>,N/A,,Y,2014-07-16,2014-07-16
+125506,Coagadex,Coagulation Factor X (Human),<NA>,N/A,,Y,2015-10-20,NaT
+125508,Gardasil 9,"Human Papillomavirus 9-valent Vaccine, Recombinant",<NA>,N/A,,Y,2014-12-10,NaT
+125510,Fluad,"Influenza Vaccine, Adjuvanted",<NA>,N/A,,Y,2015-11-24,NaT
+125510,"Fluad,Fluad Quadrivalent","Influenza Vaccine, Adjuvanted",<NA>,<NA>,,Y,2020-02-21,NaT
+125512,Obizur,"Antihemophilic Factor (Recombinant), Porcine Sequence",<NA>,N/A,,Y,2014-10-23,NaT
+125518,Imlygic,Talimogene laherparepvec,<NA>,N/A,,Y,2015-10-27,NaT
+125523,Raplixa,Fibrin Sealant (Human),<NA>,<NA>,,Y,2015-04-30,NaT
+125525,Quadracel,Diphtheria and Tetanus Toxoids and Acellular Pertussis Adsorbed and Inactivated Poliovirus Vaccine,<NA>,N/A,,Y,2015-03-24,NaT
+125544,Inflectra,infliximab-dyyb,infliximab,Remicade,,Y,2016-04-05,NaT
+125545,Retacrit,epoetin alfa-epbx,epoetin alfa,Procrit,,Y,2018-05-15,NaT
+125545,Retacrit,epoetin alfa-epbx,epoetin alfa,Procrit,,Y,2020-06-30,NaT
+125546,Bexsero,Meningococcal Group B Vaccine,<NA>,N/A,,Y,2015-01-23,NaT
+125549,Trumenba,Meningococcal Group B Vaccine,<NA>,N/A,,Y,2014-10-29,2014-10-29
+125553,Zarxio,filgrastim-sndz,filgrastim,Neupogen,,Y,2015-03-06,NaT
+125553,Zarxio,filgrastim-sndz,filgrastim,Neupogen,,Y,2024-08-09,NaT
+125555,Nuwiq,Antihemophilic Factor (Recombinant),<NA>,N/A,,Y,2015-09-04,NaT
+125555,Nuwiq,Antihemophilic Factor (Recombinant),<NA>,N/A,,Y,2017-07-07,NaT
+125555,Nuwiq,Antihemophilic Factor (Recombinant),<NA>,N/A,,Y,2021-12-07,NaT
+125562,Anthrasil,Anthrax Immune Globulin Intravenous (Human),<NA>,N/A,,Y,2015-03-24,NaT
+125563,Vaxelis,"Diphtheria and Tetanus Toxoids and Acellular Pertussis, Inactivated Poliovirus, Haemophilus b Conjugate and Hepatitis B Vaccine",<NA>,N/A,,Y,2018-12-21,NaT
+125563,Vaxelis,"Diphtheria and Tetanus Toxoids and Acellular Pertussis, Inactivated Poliovirus, Haemophilus b Conjugate and Hepatitis B Vaccine",<NA>,N/A,,Y,2020-09-25,NaT
+125566,Adynovate,"Antihemophilic Factor (Recombinant), PEGylated",<NA>,N/A,,Y,2015-11-13,NaT
+125566,Adynovate,"Antihemophilic Factor (Recombinant), PEGylated",<NA>,N/A,,Y,2016-10-25,NaT
+125566,Adynovate,"Antihemophilic Factor (Recombinant), PEGylated",<NA>,N/A,,Y,2017-03-13,NaT
+125574,Kovaltry,"Antihemophilic Factor (Recombinant), Full Length",<NA>,N/A,,Y,2016-03-16,NaT
+125577,Vonvendi,von Willebrand factor (Recombinant),<NA>,N/A,,Y,2015-12-08,NaT
+125579,Rubber Panel T.R.U.E. Test,Rubber Panel Thin-Layer Rapid Use Epicutaneous Patch Test,<NA>,N/A,,Y,2017-03-03,NaT
+125582,Idelvion,"Coagulation Factor IX (Recombinant), Albumin Fusion Protein",<NA>,N/A,,Y,2016-03-04,NaT
+125582,Idelvion,"Coagulation Factor IX (Recombinant), Albumin Fusion Protein",<NA>,N/A,,Y,2018-05-30,NaT
+125585,<NA>,"HPC, Cord Blood",<NA>,N/A,,Y,2016-01-28,NaT
+125586,Andexxa,"Coagulation Factor Xa (Recombinant), Inactivated-zhzo",<NA>,N/A,,Y,2018-05-03,NaT
+125586,Andexxa,"Coagulation Factor Xa (Recombinant), Inactivated-zhzo",<NA>,N/A,,Y,2018-12-31,NaT
+125587,Panzyga,Immune Globulin Intravenous (Human)-ifas,<NA>,N/A,,Y,2018-08-02,NaT
+125590,Asceniv,"Immune Globulin Intravenous, Human-slra",<NA>,N/A,,Y,2019-04-01,NaT
+125591,Afstyla,"Antihemophilic Factor (Recombinant), Single Chain",<NA>,N/A,,Y,2016-05-25,NaT
+125591,Afstyla,"Antihemophilic Factor (Recombinant), Single Chain",<NA>,N/A,,Y,2017-03-31,NaT
+125592,Odactra,House Dust Mites (Dermatophagoides farinae and Dermatophagoides pteronyssinus) Allergen Extract,<NA>,N/A,,Y,2017-03-01,NaT
+125594,Clevecord,"HPC, Cord Blood",<NA>,N/A,,Y,2016-09-01,NaT
+125596,Cuvitru,"Immune Globulin Subcutaneous (Human), 20% Solution",<NA>,N/A,,Y,2016-09-13,NaT
+125596,Cuvitru,"Immune Globulin Subcutaneous (Human), 20% Solution",<NA>,N/A,,Y,2019-02-07,NaT
+125597,Vaxchora,"Cholera Vaccine, Live, Oral",<NA>,N/A,,Y,2016-06-10,NaT
+125603,Maci,autologous cultured chondrocytes on porcine collagen membrane,<NA>,N/A,,Y,2016-12-13,NaT
+125606,Haegarda,C1 Esterase Inhibitor Subcutaneous (Human),<NA>,N/A,,Y,2017-06-22,NaT
+125610,Luxturna,Voretigene Neparvovec,<NA>,N/A,,Y,2017-12-19,NaT
+125611,Rebinyn,"Coagulation Factor IX (Recombinant), GlycoPEGylated",<NA>,N/A,,Y,2017-05-31,NaT
+125612,Fibryga,Fibrinogen (Human),<NA>,N/A,,Y,2017-06-07,NaT
+125613,Kedrab,Rabies Immune Globulin (Human),<NA>,N/A,,Y,2017-08-23,NaT
+125614,Shingrix,"Zoster Vaccine Recombinant, Adjuvanted",<NA>,N/A,,Y,2017-10-20,NaT
+125614,Shingrix,"Zoster Vaccine Recombinant, Adjuvanted",N/A,<NA>,,Y,2021-07-23,NaT
+125614,Shingrix,"Zoster Vaccine Recombinant, Adjuvanted",N/A,<NA>,,Y,2025-07-16,NaT
+125640,Vistaseal,Fibrin Sealant (Human),<NA>,N/A,,Y,2017-11-01,NaT
+125641,Sevenfact,coagulation factor VIIa (recombinant)-jncw,<NA>,<NA>,,Y,2020-04-01,NaT
+125641,Sevenfact,coagulation factor VIIa (recombinant)-jncw,<NA>,<NA>,,Y,2024-06-20,NaT
+125643,Yescarta,axicabtagene ciloleucel,<NA>,N/A,,Y,2017-10-18,NaT
+125644,Albuminex,Albumin (Human)-kjda,<NA>,N/A,,Y,2018-06-19,NaT
+125646,Kymriah,tisagenlecleucel,<NA>,N/A,,Y,2017-08-30,NaT
+125657,<NA>,"Hematopoietic Progenitor Cells, Cord (HPC-C)",<NA>,N/A,,Y,2018-06-21,NaT
+125659,Ryplazim,"plasminogen, human-tvmh",<NA>,N/A,,Y,2021-06-04,2021-06-04
+125661,Jivi,"Antihemophilic factor (recombinant), PEGylated-aucl",<NA>,N/A,,Y,2018-08-29,NaT
+125668,Cutaquig,Immune Globulin Subcutaneous (Human)-hipp,<NA>,N/A,,Y,2018-12-12,NaT
+125671,Esperoct,"Antihemophilic Factor (Recombinant), GlycoPEGylated-exei",<NA>,N/A,,Y,2019-02-19,NaT
+125678,Jynneos,"Smallpox and Mpox Vaccine, Live, Non-replicating",<NA>,N/A,,Y,2019-09-24,NaT
+125682,Dengvaxia,"Dengue Tetravalent Vaccine, Live",<NA>,N/A,,Y,2019-05-01,2019-05-01
+125683,Xembify,"immune globulin subcutaneous, human-klhw",<NA>,N/A,,Y,2019-07-03,NaT
+125690,Ervebo,"Ebola Zaire Vaccine, Live",<NA>,N/A,,Y,2019-12-19,2019-12-19
+125692,Audenz,"Influenza A (H5N1) Monovalent Vaccine, Adjuvanted",<NA>,<NA>,,Y,2020-01-31,NaT
+125694,Zolgensma,onasemnogene abeparvovec-xioi,<NA>,N/A,,Y,2019-05-24,2019-05-24
+125696,Palforzia,Peanut (Arachis hypogaea) Allergen Powder-dnfp,<NA>,<NA>,,Y,2020-01-31,NaT
+125701,Menquadfi,"Meningococcal (Groups A, C, Y, W) Conjugate Vaccine",<NA>,<NA>,,Y,2020-04-23,2020-04-23
+125703,Tecartus,Brexucabtagene Autoleucel,<NA>,<NA>,,Y,2020-07-24,NaT
+125714,Breyanzi,lisocabtagene maraleucel,<NA>,<NA>,,Y,2021-02-05,NaT
+125720,Roctavian,valoctocogene roxaparvovec-rvox,<NA>,<NA>,,Y,2023-06-29,NaT
+125731,Prevnar 20,Pneumococcal 20-valent Conjugate Vaccine,<NA>,N/A,,Y,2021-06-08,2021-06-08
+125734,Lantidra,donislecel-jujn,<NA>,<NA>,,Y,2023-06-28,NaT
+125740,Ticovac,Tick-Borne Encephalitis Vaccine,<NA>,<NA>,,Y,2021-08-13,NaT
+125741,Vaxneuvance,Pneumococcal 15-valent Conjugate Vaccine,N/A,<NA>,,Y,2021-07-16,2021-07-16
+125755,Skysona,elivaldogene autotemcel,<NA>,<NA>,,Y,2022-09-16,2022-09-16
+125776,Balfaxar,"Prothrombin complex concentrate, human-lans",<NA>,<NA>,,Y,2023-07-21,NaT
+125812,symvess,acellular tissue engineered vessel-tyod,<NA>,N/A,,Y,2024-12-19,2024-12-19
+761024,Amjevita,adalimumab-atto,adalimumab,Humira,,Y,2016-09-23,NaT
+761024,Amjevita,adalimumab-atto,adalimumab,Humira,,Y,2023-04-06,NaT
+761024,Amjevita,adalimumab-atto,adalimumab,Humira,,Y,2023-08-14,NaT
+761028,Mvasi,bevacizumab-awwb,bevacizumab,Avastin,,Y,2017-09-14,NaT
+761039,Udenyca,pegfilgrastim-cbqv,pegfilgrastim,Neulasta,,Y,2018-11-02,NaT
+761039,Udenyca,pegfilgrastim-cbqv,pegfilgrastim,Neulasta,,Y,2023-03-03,NaT
+761039,Udenyca Onbody,pegfilgrastim-cbqv,pegfilgrastim,Neulasta,,Y,2023-12-22,NaT
+761042,Erelzi,etanercept-szzs,etanercept,Enbrel,,Y,2016-08-30,NaT
+761042,Erelzi Sensoready,etanercept-szzs,etanercept,Enbrel,,Y,2016-08-30,NaT
+761042,Erelzi,etanercept-szzs,etanercept,Enbrel,,Y,2022-11-10,NaT
+761045,Ziextenzo,pegfilgrastim-bmez,pegfilgrastim,Neulasta,,Y,2019-11-04,NaT
+761054,Renflexis,infliximab-abda,infliximab,Remicade,,Y,2017-04-21,NaT
+761058,Cyltezo,adalimumab-adbm,adalimumab,Humira,,Y,2017-08-25,NaT
+761058,Cyltezo,adalimumab-adbm,adalimumab,Humira,,Y,2018-07-13,NaT
+761058,Cyltezo,adalimumab-adbm,adalimumab,Humira,,Y,2022-03-18,NaT
+761058,Cyltezo,adalimumab-adbm,adalimumab,Humira,,Y,2023-05-18,NaT
+761058,Cyltezo,adalimumab-adbm,adalimumab,Humira,,Y,2024-04-30,NaT
+761059,Hadlima,adalimumab-bwwd,adalimumab,Humira,,Y,2019-07-23,NaT
+761059,Hadlima,adalimumab-bwwd,adalimumab,Humira,,Y,2022-06-17,NaT
+761059,Hadlima,adalimumab-bwwd,adalimumab,Humira,,Y,2022-08-15,NaT
+761066,Eticovo,etanercept-ykro,etanercept,Enbrel,,Y,2019-04-25,NaT
+761066,Eticovo,etanercept-ykro,etanercept,Enbrel,,Y,2024-05-03,NaT
+761071,Hyrimoz,adalimumab-adaz,adalimumab,Humira,,Y,2018-10-30,NaT
+761071,Hyrimoz,adalimumab-adaz,adalimumab,Humira,,Y,2022-03-28,NaT
+761071,Hyrimoz,adalimumab-adaz,adalimumab,Humira,,Y,2023-03-20,NaT
+761072,Ixifi,infliximab-qbtx,infliximab,Remicade,,Y,2017-12-13,NaT
+761073,Kanjinti,trastuzumab-anns,trastuzumab,Herceptin,,Y,2019-06-13,NaT
+761073,Kanjinti,trastuzumab-anns,trastuzumab,Herceptin,,Y,2019-10-25,NaT
+761074,Ogivri,trastuzumab-dkst,trastuzumab,Herceptin,,Y,2017-12-01,NaT
+761074,Ogivri,trastuzumab-dkst,trastuzumab,Herceptin,,Y,2019-04-17,NaT
+761075,Fulphila,pegfilgrastim-jmdb,pegfilgrastim,Neulasta,,Y,2018-06-04,NaT
+761080,Nivestym,filgrastim-aafi,filgrastim,Neupogen,,Y,2018-07-20,NaT
+761081,Trazimera,trastuzumab-qyyp,trastuzumab,Herceptin,,Y,2019-03-11,NaT
+761081,Trazimera,trastuzumab-qyyp,trastuzumab,Herceptin,,Y,2020-11-30,NaT
+761082,Releuko,filgrastim-ayow,filgrastim,Neupogen,,Y,2022-02-25,NaT
+761084,Fylnetra,pegfilgrastim-pbbk,pegfilgrastim,Neulasta,,Y,2022-05-26,NaT
+761086,Avsola,infliximab-axxq,infliximab,Remicade,,Y,2019-12-06,NaT
+761088,Truxima,rituximab-abbs,rituximab,Rituxan,,Y,2018-11-28,NaT
+761091,Herzuma,trastuzumab-pkrb,trastuzumab,Herceptin,,Y,2018-12-14,NaT
+761091,Herzuma,trastuzumab-pkrb,trastuzumab,Herceptin,,Y,2019-05-16,NaT
+761099,Zirabev,bevacizumab-bvzr,bevacizumab,Avastin,,Y,2019-06-27,NaT
+761100,Ontruzant,trastuzumab-dttb,trastuzumab,Herceptin,,Y,2019-01-18,NaT
+761100,Ontruzant,trastuzumab-dttb,trastuzumab,Herceptin,,Y,2020-03-20,NaT
+761103,Ruxience,rituximab-pvvr,rituximab,Rituxan,,Y,2019-07-23,NaT
+761111,Nyvepria,pegfilgrastim-apgf,pegfilgrastim,Neulasta,,Y,2020-06-10,NaT
+761118,Abrilada,adalimumab-afzb,adalimumab,Humira,,Y,2019-11-15,NaT
+761126,Nypozi,filgrastim-txid,filgrastim,Neupogen,,Y,2024-06-28,NaT
+761140,Riabni,rituximab-arrx,rituximab,Rituxan,,Y,2020-12-17,NaT
+761154,Hulio,adalimumab-fkjp,adalimumab,Humira,,Y,2020-07-06,NaT
+761165,Cimerli,ranibizumab-eqrn,ranibizumab,Lucentis,,Y,2022-08-02,NaT
+761173,Stimufend,pegfilgrastim-fpgk,pegfilgrastim,Neulasta,,Y,2022-09-01,NaT
+761175,Jobevne,bevacizumab-nwgd,bevacizumab,Avastin,,Y,2025-04-09,NaT
+761188,Kirsty,insulin aspart-xjhz,insulin aspart,Novolog,,Y,2025-07-15,NaT
+761198,Avzivi,bevacizumab-tnjn,bevacizumab,Avastin,,Y,2023-12-06,NaT
+761201,Semglee,insulin glargine-yfgn,insulin glargine,Lantus,,Y,2021-07-28,NaT
+761202,Byooviz,ranibizumab-nuna,ranibizumab,Lucentis,,Y,2021-09-17,NaT
+761215,Rezvoglar,insulin glargine-aglr,insulin glargine,Lantus,,Y,2021-12-17,NaT
+761216,Yusimry,adalimumab-aqvh,adalimumab,Humira,,Y,2021-12-17,NaT
+761216,Yusimry,adalimumab-aqvh,adalimumab,Humira,,Y,2023-02-27,NaT
+761219,Yuflyma,adalimumab-aaty,adalimumab,Humira,,Y,2023-05-23,NaT
+761219,Yuflyma,adalimumab-aaty,adalimumab,Humira,,Y,2023-09-29,NaT
+761231,Alymsys,bevacizumab-maly,bevacizumab,Avastin,,Y,2022-04-13,NaT
+761255,Idacio,adalimumab-aacf,adalimumab,Humira,,Y,2022-12-13,NaT
+761255,Idacio,adalimumab-aacf,adalimumab,Humira,,Y,2024-01-05,NaT
+761268,Vegzelma,bevacizumab-adcd,bevacizumab,Avastin,,Y,2022-09-27,NaT
+761274,Yesafili,aflibercept-jbvf,aflibercept,Eylea,,Y,2024-05-20,NaT
+761275,Tyenne,tocilizumab-aazg,tocilizumab,Actemra,,Y,2024-03-05,NaT
+761285,Wezlana,ustekinumab-auub,ustekinumab,Stelara,,Y,2023-10-31,NaT
+761285,Wezlana,ustekinumab-auub,ustekinumab,Stelara,,Y,2024-12-26,NaT
+761298,Pavblu,aflibercept-ayyh,aflibercept,Eylea,,Y,2024-08-23,NaT
+761299,Simlandi,adalimumab-ryvk,adalimumab,Humira,,Y,2024-02-23,NaT
+761299,Simlandi,adalimumab-ryvk,adalimumab,Humira,,Y,2024-06-26,NaT
+761299,Simlandi,adalimumab-ryvk,adalimumab,Humira,,Y,2025-02-14,NaT
+761322,Tyruko,natalizumab-sztn,natalizumab,Tysabri,,Y,2023-08-24,NaT
+761325,Merilog,insulin aspart-szjj,insulin aspart,Novolog,,Y,2025-02-14,NaT
+761331,Wezlana,ustekinumab-auub,ustekinumab,Stelara,,Y,2023-10-31,NaT
+761333,Bkemv,eculizumab-aeeb,eculizumab,Soliris,,Y,2024-05-28,NaT
+761338,Steqeyma,ustekinumab-stba,ustekinumab,Stelara,,Y,2024-12-17,NaT
+761338,Steqeyma,ustekinumab-stba,ustekinumab,Stelara,,Y,2025-06-12,NaT
+761340,Epysqli,eculizumab-aagh,eculizumab,Soliris,,Y,2024-07-19,NaT
+761343,Selarsdi,ustekinumab-aekn,ustekinumab,Stelara,,Y,2024-04-16,NaT
+761343,Selarsdi,ustekinumab-aekn,ustekinumab,Stelara,,Y,2024-10-18,NaT
+761343,Selarsdi,ustekinumab-aekn,ustekinumab,Stelara,,Y,2025-02-12,NaT
+761346,Hercessi,trastuzumab-strf,trastuzumab,Herceptin,,Y,2024-04-25,NaT
+761346,Hercessi,trastuzumab-strf,trastuzumab,Herceptin,,Y,2024-09-06,NaT
+761350,Opuviz,aflibercept-yszy,aflibercept,Eylea,,Y,2024-05-20,NaT
+761354,Tofidence,tocilizumab-bavi,tocilizumab,Actemra,,Y,2023-09-29,NaT
+761362,Jubbonti,denosumab-bbdz,denosumab,Prolia,,Y,2024-03-05,NaT
+761362,Wyost,denosumab-bbdz,denosumab,Xgeva,,Y,2024-03-05,NaT
+761364,Imuldosa,ustekinumab-srlf,ustekinumab,Stelara,,Y,2024-10-10,NaT
+761373,Pyzchiva,ustekinumab-ttwe,ustekinumab,Stelara,,Y,2024-06-28,NaT
+761373,Pyzchiva,ustekinumab-ttwe,ustekinumab,Stelara,,Y,2024-12-20,NaT
+761373,Pyzchiva,ustekinumab-ttwe,ustekinumab,Stelara,,Y,2025-06-27,NaT
+761378,Ahzantive,aflibercept-mrbb,aflibercept,Eylea,,Y,2024-06-28,NaT
+761379,Otulfi,ustekinumab-aauz,ustekinumab,Stelara,,Y,2024-09-27,NaT
+761379,Otulfi,ustekinumab-aauz,ustekinumab,Stelara,,Y,2025-03-21,NaT
+761382,Enzeevu,aflibercept-abzv,aflibercept,Eylea,,Y,2024-08-09,NaT
+761392,Ospomyv,denosumab-dssb,denosumab,Prolia,,Y,2025-02-13,NaT
+761392,Xbryk,denosumab-dssb,denosumab,Xgeva,,Y,2025-02-13,NaT
+761398,Conexxence,denosumab-bnht,denosumab,Prolia,,Y,2025-03-25,NaT
+761398,Bomyntra,denosumab-bnht,denosumab,Xgeva,,Y,2025-03-25,NaT
+761399,Omlyclo,omalizumab-igec,omalizumab,Xolair,,Y,2025-03-07,NaT
+761404,Stoboclo,denosumab-bmwo,denosumab,Prolia,,Y,2025-02-28,NaT
+761404,Osenvelt,denosumab-bmwo,denosumab,Xgeva,,Y,2025-02-28,NaT
+761406,Yesintek,ustekinumab-kfce,ustekinumab,Stelara,,Y,2024-11-29,NaT
+761419,Starjemza,ustekinumab-hmny,ustekinumab,Stelara,,Y,2025-05-22,NaT
+761420,Avtozma,tocilizumab-anoh,tocilizumab,Actemra,,Y,2025-01-24,NaT
+761425,Pyzchiva,ustekinumab-ttwe,ustekinumab,Stelara,,Y,2024-06-28,NaT
+761436,Bosaya,denosumab-kyqq,denosumab,Prolia,,Y,2025-09-16,NaT
+761436,Aukelso,denosumab-kyqq,denosumab,Xgeva,,Y,2025-09-16,NaT
+761444,Bildyos,denosumab-nxxp,denosumab,Prolia,,Y,2025-08-29,NaT
+761444,Bilprevda,denosumab-nxxp,denosumab,Xgeva,,Y,2025-08-29,NaT
+761449,Tyenne,tocilizumab-aazg,tocilizumab,Actemra,,Y,2025-03-14,NaT
