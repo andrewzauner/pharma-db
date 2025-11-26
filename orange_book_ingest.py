@@ -6,7 +6,9 @@ import pandas as pd
 import requests
 import unicodedata
 
-DATA_DIR = r"C:\Users\andre\Documents\code\PharmaDB\data"
+# Get the directory of this script, then go up one level to find data/
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(SCRIPT_DIR, "data")
 RAW_DIR  = os.path.join(DATA_DIR, "orange_book_raw")
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(RAW_DIR, exist_ok=True)
@@ -126,35 +128,6 @@ def _read_tilde_txt(path: str) -> Optional[pd.DataFrame]:
     logging.error(f"Failed to read tilde-delimited file: {path}")
     return None
 
-
-
-import unicodedata
-
-def _norm_col(s: str) -> str:
-    """
-    Normalize any column name to a stable key:
-      - Unicode NFKD, strip accents
-      - lowercase
-      - remove all non [a-z0-9]
-    Examples:
-      'Appl No' -> 'applno'
-      'Patent Expiration Date' -> 'patentexpirationdate'
-    """
-    if s is None: return ""
-    s = unicodedata.normalize("NFKD", s)
-    s = "".join(ch for ch in s if not unicodedata.combining(ch))
-    s = s.lower()
-    return re.sub(r"[^a-z0-9]+", "", s)
-
-def _rename_with_aliases(df: pd.DataFrame, alias_map: Dict[str, str]) -> pd.DataFrame:
-    if df is None or df.empty:
-        return df
-    ren = {}
-    for c in df.columns:
-        key = _norm_col(c)
-        if key in alias_map:
-            ren[c] = alias_map[key]
-    return df.rename(columns=ren)
 
 def _best_col(df: pd.DataFrame, *candidates: str) -> Optional[str]:
     """
@@ -428,11 +401,6 @@ def main():
     exclusivity_path  = paths["Exclusivity.txt"]
 
     # 2) Read them (all are ASCII-ish, but utf-16/utf-8-sig tolerant)
-    product_df = _read_products_known_headers(products_path)
-    if product_df is None:
-        logging.error("Products.txt from ZIP failed to parse; cannot continue.")
-        sys.exit(1)
-
     product_df = _read_products_known_headers(products_path)
     if product_df is None:
         logging.error("Products.txt from ZIP failed to parse; cannot continue.")

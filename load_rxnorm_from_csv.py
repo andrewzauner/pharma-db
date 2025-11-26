@@ -8,7 +8,9 @@ import argparse
 import pandas as pd
 import pyodbc
 
-DEFAULT_CSV_DIR = r"C:\Users\andre\Documents\code\PharmaDB\data"
+# Get the directory of this script, then go up one level to find data/
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_CSV_DIR = os.path.join(SCRIPT_DIR, "data")
 
 def conn_string(server: str, database: str, driver: str) -> str:
     return (

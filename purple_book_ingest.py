@@ -21,7 +21,7 @@ from typing import Dict, List, Optional
 
 import requests
 import pandas as pd
-
+from dateutil.relativedelta import relativedelta
 
 import argparse
 from urllib3.util.retry import Retry
@@ -32,7 +32,9 @@ from requests.adapters import HTTPAdapter
 # --------------------
 # CONFIG
 # --------------------
-DATA_DIR = r"C:\Users\andre\Documents\code\PharmaDB\data"
+# Get the directory of this script, then go up one level to find data/
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(SCRIPT_DIR, "data")
 RAW_DIR  = os.path.join(DATA_DIR, "purple_book_raw")
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(RAW_DIR, exist_ok=True)
@@ -81,8 +83,8 @@ def build_pb_candidate_urls(months_back: int = 8) -> List[str]:
     urls: List[str] = []
     for i in range(months_back):
         # rolling back i months
-        year = (today.replace(day=1) - pd.DateOffset(months=i)).date().year
-        month_dt = (today.replace(day=1) - pd.DateOffset(months=i)).date()
+        month_dt = (dt.date(today.year, today.month, 1) - relativedelta(months=i))
+        year = month_dt.year
         mon = _month_slug(month_dt)
         # CSV first, then XLSX
         urls.append(base.format(year=year, mon=mon, ext="csv"))

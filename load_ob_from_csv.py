@@ -11,7 +11,9 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 
 # === Config ===
-DATA_DIR = r"C:\Users\andre\Documents\code\PharmaDB\data"
+# Get the directory of this script, then go up one level to find data/
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(SCRIPT_DIR, "data")
 DB_NAME  = "Pharma"
 DRIVER   = "ODBC Driver 17 for SQL Server"  # or "ODBC Driver 18 for SQL Server"
 SERVER   = "localhost"

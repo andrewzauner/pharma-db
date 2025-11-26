@@ -18,7 +18,9 @@ RETRY_COUNT = 5
 RETRY_BACKOFF_SEC = 1.5
 TIMEOUT_SEC = 20
 
-OUTPUT_DIR = "data"
+# Get the directory of this script, then go up one level to find data/
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = os.path.join(SCRIPT_DIR, "data")
 ING_OUTPUT = os.path.join(OUTPUT_DIR, "dim_drug_ingredient.csv")  # NEW
 PRD_OUTPUT = os.path.join(OUTPUT_DIR, "dim_drug_product.csv")     # NEW
 PACK_OUTPUT = os.path.join(OUTPUT_DIR, "dim_productpack_ndc.csv")
@@ -351,7 +353,7 @@ CONFIG = {
     "database": "Pharma", 
     "driver": "ODBC Driver 17 for SQL Server",
     "replace_table": "Y",     # 'Y' = drop & create, 'N' = append
-    "csv_dir": r"C:\Users\andre\Documents\code\PharmaDB\data",
+    "csv_dir": OUTPUT_DIR,
     "schema": "Dim",
 }
 
@@ -466,9 +468,8 @@ def main():
     ing_df, prd_df, pack_df = build_from_names(SEED_DRUG_NAMES)
     summarize(SEED_DRUG_NAMES, ing_df, prd_df, pack_df)
     write_outputs(ing_df, prd_df, pack_df)
-
-    # Auto load to SQL Server
-    load_csvs_to_sql()
+    
+    # Note: Database loading is handled by load_to_postgres.py
 
 if __name__ == "__main__":
     main()
