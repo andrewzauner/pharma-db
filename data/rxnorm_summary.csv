@@ -1,0 +1,26 @@
+ProductRxCUI,IngredientRxCUI,RxTTY,PreferredName,BrandName,GenericName,DosageForm,Route,Strength,NDC_Count
+1655728,327361,SBD,0.8 ML adalimumab 50 MG/ML Auto-Injector [Humira],Humira,adalimumab,Auto-Injector,,0.8 ML,254
+1726846,327361,SBD,0.4 ML adalimumab 100 MG/ML Prefilled Syringe [Humira],Humira,adalimumab,Prefilled Syringe,,0.4 ML,254
+1855524,327361,SBD,0.8 ML adalimumab 100 MG/ML Prefilled Syringe [Humira],Humira,adalimumab,Prefilled Syringe,,0.8 ML,254
+1872980,327361,SBD,0.4 ML adalimumab 100 MG/ML Auto-Injector [Humira],Humira,adalimumab,Auto-Injector,,0.4 ML,254
+1921010,327361,SBD,0.1 ML adalimumab 100 MG/ML Prefilled Syringe [Humira],Humira,adalimumab,Prefilled Syringe,,0.1 ML,254
+1921017,327361,SBD,0.2 ML adalimumab 100 MG/ML Prefilled Syringe [Humira],Humira,adalimumab,Prefilled Syringe,,0.2 ML,254
+1921240,327361,SBD,0.8 ML adalimumab 100 MG/ML Auto-Injector [Humira],Humira,adalimumab,Auto-Injector,,0.8 ML,254
+2627717,327361,SBD,0.4 ML adalimumab-atto 50 MG/ML Prefilled Syringe [Amjevita],Amjevita,adalimumab; adalimumab-atto,Prefilled Syringe,,0.4 ML,254
+2627722,327361,SBD,0.8 ML adalimumab-atto 50 MG/ML Auto-Injector [Amjevita],Amjevita,adalimumab; adalimumab-atto,Auto-Injector,,0.8 ML,254
+2627725,327361,SBD,0.8 ML adalimumab-atto 50 MG/ML Prefilled Syringe [Amjevita],Amjevita,adalimumab; adalimumab-atto,Prefilled Syringe,,0.8 ML,254
+2634479,327361,SBD,0.2 ML adalimumab-atto 50 MG/ML Prefilled Syringe [Amjevita],Amjevita,adalimumab; adalimumab-atto,Prefilled Syringe,,0.2 ML,254
+2639657,327361,SBD,0.4 ML adalimumab-aaty 100 MG/ML Auto-Injector [Yuflyma],Yuflyma,adalimumab; adalimumab-aaty,Auto-Injector,,0.4 ML,254
+2639662,327361,SBD,0.4 ML adalimumab-aaty 100 MG/ML Prefilled Syringe [Yuflyma],Yuflyma,adalimumab; adalimumab-aaty,Prefilled Syringe,,0.4 ML,254
+2640300,327361,SBD,0.8 ML adalimumab-bwwd 50 MG/ML Auto-Injector [Hadlima],Hadlima,adalimumab; adalimumab-bwwd,Auto-Injector,,0.8 ML,254
+2640305,327361,SBD,0.8 ML adalimumab-bwwd 50 MG/ML Prefilled Syringe [Hadlima],Hadlima,adalimumab; adalimumab-bwwd,Prefilled Syringe,,0.8 ML,254
+2640395,327361,SBD,0.8 ML adalimumab-aqvh 50 MG/ML Prefilled Syringe [Yusimry],Yusimry,adalimumab; adalimumab-aqvh,Prefilled Syringe,,0.8 ML,254
+2640400,327361,SBD,0.8 ML adalimumab-aqvh 50 MG/ML Auto-Injector [Yusimry],Yusimry,adalimumab; adalimumab-aqvh,Auto-Injector,,0.8 ML,254
+2640410,327361,SBD,0.8 ML adalimumab-fkjp 50 MG/ML Auto-Injector [Hulio],Hulio,adalimumab; adalimumab-fkjp,Auto-Injector,,0.8 ML,254
+2640415,327361,SBD,0.4 ML adalimumab-fkjp 50 MG/ML Prefilled Syringe [Hulio],Hulio,adalimumab; adalimumab-fkjp,Prefilled Syringe,,0.4 ML,254
+2640418,327361,SBD,0.8 ML adalimumab-fkjp 50 MG/ML Prefilled Syringe [Hulio],Hulio,adalimumab; adalimumab-fkjp,Prefilled Syringe,,0.8 ML,254
+2640422,327361,SBD,0.8 ML adalimumab-bwwd 50 MG/ML Injection [Hadlima],Hadlima,adalimumab; adalimumab-bwwd,Injection,,0.8 ML,254
+2640428,327361,SBD,0.4 ML adalimumab-bwwd 100 MG/ML Prefilled Syringe [Hadlima],Hadlima,adalimumab; adalimumab-bwwd,Prefilled Syringe,,0.4 ML,254
+2640432,327361,SBD,0.4 ML adalimumab-bwwd 100 MG/ML Auto-Injector [Hadlima],Hadlima,adalimumab; adalimumab-bwwd,Auto-Injector,,0.4 ML,254
+2640857,327361,SBD,0.8 ML adalimumab-aacf 50 MG/ML Prefilled Syringe [Idacio],Idacio,adalimumab; adalimumab-aacf,Prefilled Syringe,,0.8 ML,254
+2640862,327361,SBD,0.8 ML adalimumab-aacf 50 MG/ML Auto-Injector [Idacio],Idacio,adalimumab; adalimumab-aacf,Auto-Injector,,0.8 ML,254

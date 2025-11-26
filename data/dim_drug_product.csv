@@ -1,0 +1,681 @@
+ProductRxCUI,IngredientRxCUI,RxTTY,PreferredName,BrandName,GenericName,DosageForm,Route,Strength
+1655728,327361,SBD,0.8 ML adalimumab 50 MG/ML Auto-Injector [Humira],Humira,adalimumab,Auto-Injector,,0.8 ML
+1726846,327361,SBD,0.4 ML adalimumab 100 MG/ML Prefilled Syringe [Humira],Humira,adalimumab,Prefilled Syringe,,0.4 ML
+1855524,327361,SBD,0.8 ML adalimumab 100 MG/ML Prefilled Syringe [Humira],Humira,adalimumab,Prefilled Syringe,,0.8 ML
+1872980,327361,SBD,0.4 ML adalimumab 100 MG/ML Auto-Injector [Humira],Humira,adalimumab,Auto-Injector,,0.4 ML
+1921010,327361,SBD,0.1 ML adalimumab 100 MG/ML Prefilled Syringe [Humira],Humira,adalimumab,Prefilled Syringe,,0.1 ML
+1921017,327361,SBD,0.2 ML adalimumab 100 MG/ML Prefilled Syringe [Humira],Humira,adalimumab,Prefilled Syringe,,0.2 ML
+1921240,327361,SBD,0.8 ML adalimumab 100 MG/ML Auto-Injector [Humira],Humira,adalimumab,Auto-Injector,,0.8 ML
+2627717,327361,SBD,0.4 ML adalimumab-atto 50 MG/ML Prefilled Syringe [Amjevita],Amjevita,adalimumab; adalimumab-atto,Prefilled Syringe,,0.4 ML
+2627722,327361,SBD,0.8 ML adalimumab-atto 50 MG/ML Auto-Injector [Amjevita],Amjevita,adalimumab; adalimumab-atto,Auto-Injector,,0.8 ML
+2627725,327361,SBD,0.8 ML adalimumab-atto 50 MG/ML Prefilled Syringe [Amjevita],Amjevita,adalimumab; adalimumab-atto,Prefilled Syringe,,0.8 ML
+2634479,327361,SBD,0.2 ML adalimumab-atto 50 MG/ML Prefilled Syringe [Amjevita],Amjevita,adalimumab; adalimumab-atto,Prefilled Syringe,,0.2 ML
+2639657,327361,SBD,0.4 ML adalimumab-aaty 100 MG/ML Auto-Injector [Yuflyma],Yuflyma,adalimumab; adalimumab-aaty,Auto-Injector,,0.4 ML
+2639662,327361,SBD,0.4 ML adalimumab-aaty 100 MG/ML Prefilled Syringe [Yuflyma],Yuflyma,adalimumab; adalimumab-aaty,Prefilled Syringe,,0.4 ML
+2640300,327361,SBD,0.8 ML adalimumab-bwwd 50 MG/ML Auto-Injector [Hadlima],Hadlima,adalimumab; adalimumab-bwwd,Auto-Injector,,0.8 ML
+2640305,327361,SBD,0.8 ML adalimumab-bwwd 50 MG/ML Prefilled Syringe [Hadlima],Hadlima,adalimumab; adalimumab-bwwd,Prefilled Syringe,,0.8 ML
+2640395,327361,SBD,0.8 ML adalimumab-aqvh 50 MG/ML Prefilled Syringe [Yusimry],Yusimry,adalimumab; adalimumab-aqvh,Prefilled Syringe,,0.8 ML
+2640400,327361,SBD,0.8 ML adalimumab-aqvh 50 MG/ML Auto-Injector [Yusimry],Yusimry,adalimumab; adalimumab-aqvh,Auto-Injector,,0.8 ML
+2640410,327361,SBD,0.8 ML adalimumab-fkjp 50 MG/ML Auto-Injector [Hulio],Hulio,adalimumab; adalimumab-fkjp,Auto-Injector,,0.8 ML
+2640415,327361,SBD,0.4 ML adalimumab-fkjp 50 MG/ML Prefilled Syringe [Hulio],Hulio,adalimumab; adalimumab-fkjp,Prefilled Syringe,,0.4 ML
+2640418,327361,SBD,0.8 ML adalimumab-fkjp 50 MG/ML Prefilled Syringe [Hulio],Hulio,adalimumab; adalimumab-fkjp,Prefilled Syringe,,0.8 ML
+2640422,327361,SBD,0.8 ML adalimumab-bwwd 50 MG/ML Injection [Hadlima],Hadlima,adalimumab; adalimumab-bwwd,Injection,,0.8 ML
+2640428,327361,SBD,0.4 ML adalimumab-bwwd 100 MG/ML Prefilled Syringe [Hadlima],Hadlima,adalimumab; adalimumab-bwwd,Prefilled Syringe,,0.4 ML
+2640432,327361,SBD,0.4 ML adalimumab-bwwd 100 MG/ML Auto-Injector [Hadlima],Hadlima,adalimumab; adalimumab-bwwd,Auto-Injector,,0.4 ML
+2640857,327361,SBD,0.8 ML adalimumab-aacf 50 MG/ML Prefilled Syringe [Idacio],Idacio,adalimumab; adalimumab-aacf,Prefilled Syringe,,0.8 ML
+2640862,327361,SBD,0.8 ML adalimumab-aacf 50 MG/ML Auto-Injector [Idacio],Idacio,adalimumab; adalimumab-aacf,Auto-Injector,,0.8 ML
+2640889,327361,SBD,0.8 ML adalimumab-adbm 50 MG/ML Prefilled Syringe [Cyltezo],Cyltezo,adalimumab; adalimumab-adbm,Prefilled Syringe,,0.8 ML
+2640892,327361,SBD,0.2 ML adalimumab-adbm 50 MG/ML Prefilled Syringe [Cyltezo],Cyltezo,adalimumab; adalimumab-adbm,Prefilled Syringe,,0.2 ML
+2640894,327361,SBD,0.4 ML adalimumab-adbm 50 MG/ML Prefilled Syringe [Cyltezo],Cyltezo,adalimumab; adalimumab-adbm,Prefilled Syringe,,0.4 ML
+2640898,327361,SBD,0.8 ML adalimumab-adbm 50 MG/ML Auto-Injector [Cyltezo],Cyltezo,adalimumab; adalimumab-adbm,Auto-Injector,,0.8 ML
+2641650,327361,SBD,0.1 ML adalimumab-adaz 100 MG/ML Prefilled Syringe [Hyrimoz],Hyrimoz,adalimumab; adalimumab-adaz,Prefilled Syringe,,0.1 ML
+2641654,327361,SBD,0.2 ML adalimumab-adaz 100 MG/ML Prefilled Syringe [Hyrimoz],Hyrimoz,adalimumab; adalimumab-adaz,Prefilled Syringe,,0.2 ML
+2641658,327361,SBD,0.4 ML adalimumab-adaz 100 MG/ML Auto-Injector [Hyrimoz],Hyrimoz,adalimumab; adalimumab-adaz,Auto-Injector,,0.4 ML
+2641661,327361,SBD,0.4 ML adalimumab-adaz 100 MG/ML Prefilled Syringe [Hyrimoz],Hyrimoz,adalimumab; adalimumab-adaz,Prefilled Syringe,,0.4 ML
+2641663,327361,SBD,0.8 ML adalimumab-adaz 100 MG/ML Auto-Injector [Hyrimoz],Hyrimoz,adalimumab; adalimumab-adaz,Auto-Injector,,0.8 ML
+2641667,327361,SBD,0.8 ML adalimumab-adaz 100 MG/ML Prefilled Syringe [Hyrimoz],Hyrimoz,adalimumab; adalimumab-adaz,Prefilled Syringe,,0.8 ML
+2663904,327361,SBD,0.2 ML adalimumab-atto 100 MG/ML Prefilled Syringe [Amjevita],Amjevita,adalimumab; adalimumab-atto,Prefilled Syringe,,0.2 ML
+2663907,327361,SBD,0.4 ML adalimumab-atto 100 MG/ML Prefilled Syringe [Amjevita],Amjevita,adalimumab; adalimumab-atto,Prefilled Syringe,,0.4 ML
+2663910,327361,SBD,0.4 ML adalimumab-atto 100 MG/ML Auto-Injector [Amjevita],Amjevita,adalimumab; adalimumab-atto,Auto-Injector,,0.4 ML
+2663913,327361,SBD,0.8 ML adalimumab-atto 100 MG/ML Prefilled Syringe [Amjevita],Amjevita,adalimumab; adalimumab-atto,Prefilled Syringe,,0.8 ML
+2663915,327361,SBD,0.8 ML adalimumab-atto 100 MG/ML Auto-Injector [Amjevita],Amjevita,adalimumab; adalimumab-atto,Auto-Injector,,0.8 ML
+2665422,327361,SBD,0.8 ML adalimumab-adaz 50 MG/ML Auto-Injector [Hyrimoz],Hyrimoz,adalimumab; adalimumab-adaz,Auto-Injector,,0.8 ML
+2665426,327361,SBD,0.8 ML adalimumab-adaz 50 MG/ML Prefilled Syringe [Hyrimoz],Hyrimoz,adalimumab; adalimumab-adaz,Prefilled Syringe,,0.8 ML
+2668071,327361,SBD,0.8 ML adalimumab-afzb 50 MG/ML Auto-Injector [Abrilada],Abrilada,adalimumab; adalimumab-afzb,Auto-Injector,,0.8 ML
+2668078,327361,SBD,0.8 ML adalimumab-afzb 50 MG/ML Prefilled Syringe [Abrilada],Abrilada,adalimumab; adalimumab-afzb,Prefilled Syringe,,0.8 ML
+2668096,327361,SBD,0.4 ML adalimumab-afzb 50 MG/ML Prefilled Syringe [Abrilada],Abrilada,adalimumab; adalimumab-afzb,Prefilled Syringe,,0.4 ML
+2668484,327361,SBD,0.2 ML adalimumab-aaty 100 MG/ML Prefilled Syringe [Yuflyma],Yuflyma,adalimumab; adalimumab-aaty,Prefilled Syringe,,0.2 ML
+2668486,327361,SBD,0.8 ML adalimumab-aaty 100 MG/ML Prefilled Syringe [Yuflyma],Yuflyma,adalimumab; adalimumab-aaty,Prefilled Syringe,,0.8 ML
+2668488,327361,SBD,0.8 ML adalimumab-aaty 100 MG/ML Auto-Injector [Yuflyma],Yuflyma,adalimumab; adalimumab-aaty,Auto-Injector,,0.8 ML
+2677787,327361,SBD,0.4 ML adalimumab-ryvk 100 MG/ML Auto-Injector [Simlandi],Simlandi,adalimumab; adalimumab-ryvk,Auto-Injector,,0.4 ML
+2680746,327361,SBD,0.4 ML adalimumab-adbm 100 MG/ML Prefilled Syringe [Cyltezo],Cyltezo,adalimumab; adalimumab-adbm,Prefilled Syringe,,0.4 ML
+2680750,327361,SBD,0.4 ML adalimumab-adbm 100 MG/ML Auto-Injector [Cyltezo],Cyltezo,adalimumab; adalimumab-adbm,Auto-Injector,,0.4 ML
+2688823,327361,SBD,0.2 ML adalimumab-ryvk 100 MG/ML Prefilled Syringe [Simlandi],Simlandi,adalimumab; adalimumab-ryvk,Prefilled Syringe,,0.2 ML
+2688827,327361,SBD,0.4 ML adalimumab-ryvk 100 MG/ML Prefilled Syringe [Simlandi],Simlandi,adalimumab; adalimumab-ryvk,Prefilled Syringe,,0.4 ML
+2688829,327361,SBD,0.8 ML adalimumab-ryvk 100 MG/ML Prefilled Syringe [Simlandi],Simlandi,adalimumab; adalimumab-ryvk,Prefilled Syringe,,0.8 ML
+2699319,327361,SBD,0.8 ML adalimumab-aacf 50 MG/ML Injection [Idacio],Idacio,adalimumab; adalimumab-aacf,Injection,,0.8 ML
+2706645,327361,SBD,0.8 ML adalimumab-ryvk 100 MG/ML Auto-Injector [Simlandi],Simlandi,adalimumab; adalimumab-ryvk,Auto-Injector,,0.8 ML
+727705,327361,SBD,0.8 ML adalimumab 50 MG/ML Prefilled Syringe [Humira],Humira,adalimumab,Prefilled Syringe,,0.8 ML
+1655726,327361,SCD,0.8 ML adalimumab 50 MG/ML Auto-Injector,,0.8 ML adalimumab 50 MG/ML Auto-Injector,Auto-Injector,,0.8 ML
+1726844,327361,SCD,0.4 ML adalimumab 100 MG/ML Prefilled Syringe,,0.4 ML adalimumab 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.4 ML
+1855523,327361,SCD,0.8 ML adalimumab 100 MG/ML Prefilled Syringe,,0.8 ML adalimumab 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.8 ML
+1872979,327361,SCD,0.4 ML adalimumab 100 MG/ML Auto-Injector,,0.4 ML adalimumab 100 MG/ML Auto-Injector,Auto-Injector,,0.4 ML
+1921009,327361,SCD,0.1 ML adalimumab 100 MG/ML Prefilled Syringe,,0.1 ML adalimumab 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.1 ML
+1921016,327361,SCD,0.2 ML adalimumab 100 MG/ML Prefilled Syringe,,0.2 ML adalimumab 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.2 ML
+1921238,327361,SCD,0.8 ML adalimumab 100 MG/ML Auto-Injector,,0.8 ML adalimumab 100 MG/ML Auto-Injector,Auto-Injector,,0.8 ML
+2627711,327361,SCD,0.4 ML adalimumab-atto 50 MG/ML Prefilled Syringe,,0.4 ML adalimumab-atto 50 MG/ML Prefilled Syringe,Prefilled Syringe,,0.4 ML
+2627719,327361,SCD,0.8 ML adalimumab-atto 50 MG/ML Auto-Injector,,0.8 ML adalimumab-atto 50 MG/ML Auto-Injector,Auto-Injector,,0.8 ML
+2627724,327361,SCD,0.8 ML adalimumab-atto 50 MG/ML Prefilled Syringe,,0.8 ML adalimumab-atto 50 MG/ML Prefilled Syringe,Prefilled Syringe,,0.8 ML
+2634478,327361,SCD,0.2 ML adalimumab-atto 50 MG/ML Prefilled Syringe,,0.2 ML adalimumab-atto 50 MG/ML Prefilled Syringe,Prefilled Syringe,,0.2 ML
+2639651,327361,SCD,0.4 ML adalimumab-aaty 100 MG/ML Auto-Injector,,0.4 ML adalimumab-aaty 100 MG/ML Auto-Injector,Auto-Injector,,0.4 ML
+2639659,327361,SCD,0.4 ML adalimumab-aaty 100 MG/ML Prefilled Syringe,,0.4 ML adalimumab-aaty 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.4 ML
+2640287,327361,SCD,0.8 ML adalimumab-bwwd 50 MG/ML Auto-Injector,,0.8 ML adalimumab-bwwd 50 MG/ML Auto-Injector,Auto-Injector,,0.8 ML
+2640302,327361,SCD,0.8 ML adalimumab-bwwd 50 MG/ML Prefilled Syringe,,0.8 ML adalimumab-bwwd 50 MG/ML Prefilled Syringe,Prefilled Syringe,,0.8 ML
+2640389,327361,SCD,0.8 ML adalimumab-aqvh 50 MG/ML Prefilled Syringe,,0.8 ML adalimumab-aqvh 50 MG/ML Prefilled Syringe,Prefilled Syringe,,0.8 ML
+2640397,327361,SCD,0.8 ML adalimumab-aqvh 50 MG/ML Auto-Injector,,0.8 ML adalimumab-aqvh 50 MG/ML Auto-Injector,Auto-Injector,,0.8 ML
+2640404,327361,SCD,0.8 ML adalimumab-fkjp 50 MG/ML Auto-Injector,,0.8 ML adalimumab-fkjp 50 MG/ML Auto-Injector,Auto-Injector,,0.8 ML
+2640412,327361,SCD,0.4 ML adalimumab-fkjp 50 MG/ML Prefilled Syringe,,0.4 ML adalimumab-fkjp 50 MG/ML Prefilled Syringe,Prefilled Syringe,,0.4 ML
+2640417,327361,SCD,0.8 ML adalimumab-fkjp 50 MG/ML Prefilled Syringe,,0.8 ML adalimumab-fkjp 50 MG/ML Prefilled Syringe,Prefilled Syringe,,0.8 ML
+2640419,327361,SCD,0.8 ML adalimumab-bwwd 50 MG/ML Injection,,0.8 ML adalimumab-bwwd 50 MG/ML Injection,Injection,,0.8 ML
+2640425,327361,SCD,0.4 ML adalimumab-bwwd 100 MG/ML Prefilled Syringe,,0.4 ML adalimumab-bwwd 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.4 ML
+2640430,327361,SCD,0.4 ML adalimumab-bwwd 100 MG/ML Auto-Injector,,0.4 ML adalimumab-bwwd 100 MG/ML Auto-Injector,Auto-Injector,,0.4 ML
+2640851,327361,SCD,0.8 ML adalimumab-aacf 50 MG/ML Prefilled Syringe,,0.8 ML adalimumab-aacf 50 MG/ML Prefilled Syringe,Prefilled Syringe,,0.8 ML
+2640859,327361,SCD,0.8 ML adalimumab-aacf 50 MG/ML Auto-Injector,,0.8 ML adalimumab-aacf 50 MG/ML Auto-Injector,Auto-Injector,,0.8 ML
+2640883,327361,SCD,0.8 ML adalimumab-adbm 50 MG/ML Prefilled Syringe,,0.8 ML adalimumab-adbm 50 MG/ML Prefilled Syringe,Prefilled Syringe,,0.8 ML
+2640891,327361,SCD,0.2 ML adalimumab-adbm 50 MG/ML Prefilled Syringe,,0.2 ML adalimumab-adbm 50 MG/ML Prefilled Syringe,Prefilled Syringe,,0.2 ML
+2640893,327361,SCD,0.4 ML adalimumab-adbm 50 MG/ML Prefilled Syringe,,0.4 ML adalimumab-adbm 50 MG/ML Prefilled Syringe,Prefilled Syringe,,0.4 ML
+2640895,327361,SCD,0.8 ML adalimumab-adbm 50 MG/ML Auto-Injector,,0.8 ML adalimumab-adbm 50 MG/ML Auto-Injector,Auto-Injector,,0.8 ML
+2641644,327361,SCD,0.1 ML adalimumab-adaz 100 MG/ML Prefilled Syringe,,0.1 ML adalimumab-adaz 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.1 ML
+2641653,327361,SCD,0.2 ML adalimumab-adaz 100 MG/ML Prefilled Syringe,,0.2 ML adalimumab-adaz 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.2 ML
+2641655,327361,SCD,0.4 ML adalimumab-adaz 100 MG/ML Auto-Injector,,0.4 ML adalimumab-adaz 100 MG/ML Auto-Injector,Auto-Injector,,0.4 ML
+2641660,327361,SCD,0.4 ML adalimumab-adaz 100 MG/ML Prefilled Syringe,,0.4 ML adalimumab-adaz 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.4 ML
+2641662,327361,SCD,0.8 ML adalimumab-adaz 100 MG/ML Auto-Injector,,0.8 ML adalimumab-adaz 100 MG/ML Auto-Injector,Auto-Injector,,0.8 ML
+2641666,327361,SCD,0.8 ML adalimumab-adaz 100 MG/ML Prefilled Syringe,,0.8 ML adalimumab-adaz 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.8 ML
+2663901,327361,SCD,0.2 ML adalimumab-atto 100 MG/ML Prefilled Syringe,,0.2 ML adalimumab-atto 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.2 ML
+2663906,327361,SCD,0.4 ML adalimumab-atto 100 MG/ML Prefilled Syringe,,0.4 ML adalimumab-atto 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.4 ML
+2663908,327361,SCD,0.4 ML adalimumab-atto 100 MG/ML Auto-Injector,,0.4 ML adalimumab-atto 100 MG/ML Auto-Injector,Auto-Injector,,0.4 ML
+2663912,327361,SCD,0.8 ML adalimumab-atto 100 MG/ML Prefilled Syringe,,0.8 ML adalimumab-atto 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.8 ML
+2663914,327361,SCD,0.8 ML adalimumab-atto 100 MG/ML Auto-Injector,,0.8 ML adalimumab-atto 100 MG/ML Auto-Injector,Auto-Injector,,0.8 ML
+2665419,327361,SCD,0.8 ML adalimumab-adaz 50 MG/ML Auto-Injector,,0.8 ML adalimumab-adaz 50 MG/ML Auto-Injector,Auto-Injector,,0.8 ML
+2665424,327361,SCD,0.8 ML adalimumab-adaz 50 MG/ML Prefilled Syringe,,0.8 ML adalimumab-adaz 50 MG/ML Prefilled Syringe,Prefilled Syringe,,0.8 ML
+2668064,327361,SCD,0.8 ML adalimumab-afzb 50 MG/ML Auto-Injector,,0.8 ML adalimumab-afzb 50 MG/ML Auto-Injector,Auto-Injector,,0.8 ML
+2668074,327361,SCD,0.8 ML adalimumab-afzb 50 MG/ML Prefilled Syringe,,0.8 ML adalimumab-afzb 50 MG/ML Prefilled Syringe,Prefilled Syringe,,0.8 ML
+2668095,327361,SCD,0.4 ML adalimumab-afzb 50 MG/ML Prefilled Syringe,,0.4 ML adalimumab-afzb 50 MG/ML Prefilled Syringe,Prefilled Syringe,,0.4 ML
+2668483,327361,SCD,0.2 ML adalimumab-aaty 100 MG/ML Prefilled Syringe,,0.2 ML adalimumab-aaty 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.2 ML
+2668485,327361,SCD,0.8 ML adalimumab-aaty 100 MG/ML Prefilled Syringe,,0.8 ML adalimumab-aaty 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.8 ML
+2668487,327361,SCD,0.8 ML adalimumab-aaty 100 MG/ML Auto-Injector,,0.8 ML adalimumab-aaty 100 MG/ML Auto-Injector,Auto-Injector,,0.8 ML
+2677780,327361,SCD,0.4 ML adalimumab-ryvk 100 MG/ML Auto-Injector,,0.4 ML adalimumab-ryvk 100 MG/ML Auto-Injector,Auto-Injector,,0.4 ML
+2680743,327361,SCD,0.4 ML adalimumab-adbm 100 MG/ML Prefilled Syringe,,0.4 ML adalimumab-adbm 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.4 ML
+2680748,327361,SCD,0.4 ML adalimumab-adbm 100 MG/ML Auto-Injector,,0.4 ML adalimumab-adbm 100 MG/ML Auto-Injector,Auto-Injector,,0.4 ML
+2688819,327361,SCD,0.2 ML adalimumab-ryvk 100 MG/ML Prefilled Syringe,,0.2 ML adalimumab-ryvk 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.2 ML
+2688826,327361,SCD,0.4 ML adalimumab-ryvk 100 MG/ML Prefilled Syringe,,0.4 ML adalimumab-ryvk 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.4 ML
+2688828,327361,SCD,0.8 ML adalimumab-ryvk 100 MG/ML Prefilled Syringe,,0.8 ML adalimumab-ryvk 100 MG/ML Prefilled Syringe,Prefilled Syringe,,0.8 ML
+2699315,327361,SCD,0.8 ML adalimumab-aacf 50 MG/ML Injection,,0.8 ML adalimumab-aacf 50 MG/ML Injection,Injection,,0.8 ML
+2706644,327361,SCD,0.8 ML adalimumab-ryvk 100 MG/ML Auto-Injector,,0.8 ML adalimumab-ryvk 100 MG/ML Auto-Injector,Auto-Injector,,0.8 ML
+727703,327361,SCD,0.8 ML adalimumab 50 MG/ML Prefilled Syringe,,0.8 ML adalimumab 50 MG/ML Prefilled Syringe,Prefilled Syringe,,0.8 ML
+262095,153165,SBD,atorvastatin 80 MG Oral Tablet [Lipitor],Lipitor,atorvastatin,Oral Tablet,,80 MG
+617314,153165,SBD,atorvastatin 10 MG Oral Tablet [Lipitor],Lipitor,atorvastatin,Oral Tablet,,10 MG
+617318,153165,SBD,atorvastatin 20 MG Oral Tablet [Lipitor],Lipitor,atorvastatin,Oral Tablet,,20 MG
+617320,153165,SBD,atorvastatin 40 MG Oral Tablet [Lipitor],Lipitor,atorvastatin,Oral Tablet,,40 MG
+259255,153165,SCD,atorvastatin 80 MG Oral Tablet,,atorvastatin 80 MG Oral Tablet,Oral Tablet,,80 MG
+617310,153165,SCD,atorvastatin 20 MG Oral Tablet,,atorvastatin 20 MG Oral Tablet,Oral Tablet,,20 MG
+617311,153165,SCD,atorvastatin 40 MG Oral Tablet,,atorvastatin 40 MG Oral Tablet,Oral Tablet,,40 MG
+617312,153165,SCD,atorvastatin 10 MG Oral Tablet,,atorvastatin 10 MG Oral Tablet,Oral Tablet,,10 MG
+1037240,161,SBD,acetaminophen 300 MG / phenyltoloxamine citrate 20 MG / salicylamide 200 MG Oral Capsule [By Ache],By Ache,acetaminophen; phenyltoloxamine; phenyltoloxamine citrate; salicylamide,Oral Capsule,,300 MG
+1037274,161,SBD,acetaminophen 300 MG / phenyltoloxamine citrate 20 MG / salicylamide 200 MG Oral Tablet [Anabar],Anabar,acetaminophen; phenyltoloxamine; phenyltoloxamine citrate; salicylamide,Oral Tablet,,300 MG
+1038779,161,SBD,acetaminophen 32 MG/ML Oral Solution [Bactimicina],Bactimicina,acetaminophen,Oral Solution,,32 MG
+1041530,161,SBD,100 ML acetaminophen 10 MG/ML Injection [Ofirmev],Ofirmev,acetaminophen,Injection,,100 ML
+1049216,161,SBD,acetaminophen 325 MG / oxycodone hydrochloride 10 MG Oral Tablet [Endocet],Endocet,acetaminophen; oxycodone; oxycodone hydrochloride,Oral Tablet,,325 MG
+1049223,161,SBD,acetaminophen 325 MG / oxycodone hydrochloride 5 MG Oral Tablet [Endocet],Endocet,acetaminophen; oxycodone; oxycodone hydrochloride,Oral Tablet,,325 MG
+1049227,161,SBD,acetaminophen 325 MG / oxycodone hydrochloride 7.5 MG Oral Tablet [Endocet],Endocet,acetaminophen; oxycodone; oxycodone hydrochloride,Oral Tablet,,325 MG
+1049625,161,SBD,acetaminophen 325 MG / oxycodone hydrochloride 10 MG Oral Tablet [Percocet],Percocet,acetaminophen; oxycodone; oxycodone hydrochloride,Oral Tablet,,325 MG
+1049637,161,SBD,acetaminophen 325 MG / oxycodone hydrochloride 2.5 MG Oral Tablet [Percocet],Percocet,acetaminophen; oxycodone; oxycodone hydrochloride,Oral Tablet,,325 MG
+1049640,161,SBD,acetaminophen 325 MG / oxycodone hydrochloride 5 MG Oral Tablet [Percocet],Percocet,acetaminophen; oxycodone; oxycodone hydrochloride,Oral Tablet,,325 MG
+1049642,161,SBD,acetaminophen 325 MG / oxycodone hydrochloride 7.5 MG Oral Tablet [Percocet],Percocet,acetaminophen; oxycodone; oxycodone hydrochloride,Oral Tablet,,325 MG
+1052416,161,SBD,acetaminophen 250 MG / aspirin 250 MG / caffeine 65 MG Oral Tablet [Pamprin Max Formula],Pamprin Max Formula,acetaminophen; aspirin; caffeine,Oral Tablet,,250 MG
+1052445,161,SBD,acetaminophen 250 MG / magnesium salicylate 250 MG / pamabrom 25 MG Oral Tablet [Pamprin Cramp Formula],Pamprin Cramp Formula,acetaminophen; magnesium salicylate; pamabrom,Oral Tablet,,250 MG
+1052466,161,SBD,acetaminophen 325 MG / diphenhydramine hydrochloride 12.5 MG Oral Tablet [Percogesic Reformulated Jan 2011],Percogesic Reformulated Jan 2011,acetaminophen; diphenhydramine; diphenhydramine hydrochloride,Oral Tablet,,325 MG
+1052469,161,SBD,acetaminophen 500 MG / diphenhydramine hydrochloride 12.5 MG Oral Tablet [Percogesic Reformulated Jan 2011],Percogesic Reformulated Jan 2011,acetaminophen; diphenhydramine; diphenhydramine hydrochloride,Oral Tablet,,500 MG
+1052641,161,SBD,acetaminophen 500 MG / pamabrom 25 MG / pyrilamine maleate 15 MG Oral Tablet [Premsyn PMS],Premsyn PMS,acetaminophen; pamabrom; pyrilamine; pyrilamine maleate,Oral Tablet,,500 MG
+1053852,161,SBD,acetaminophen 500 MG / pamabrom 25 MG / pyrilamine maleate 15 MG Oral Tablet [Pamprin Multi-Symptom],Pamprin Multi-Symptom,acetaminophen; pamabrom; pyrilamine; pyrilamine maleate,Oral Tablet,,500 MG
+1087609,161,SBD,acetaminophen 500 MG / diphenhydramine hydrochloride 50 MG Oral Tablet [Legatrin PM],Legatrin PM,acetaminophen; diphenhydramine; diphenhydramine hydrochloride,Oral Tablet,,500 MG
+1088761,161,SBD,acetaminophen 33.3 MG/ML / phenyltoloxamine citrate 2 MG/ML Oral Solution [Dologesic],Dologesic,acetaminophen; phenyltoloxamine; phenyltoloxamine citrate,Oral Solution,,33.3 MG
+1092375,161,SBD,acetaminophen 33.3 MG/ML / diphenhydramine hydrochloride 1.67 MG/ML Oral Solution [Tylenol PM],Tylenol PM,acetaminophen; diphenhydramine; diphenhydramine hydrochloride,Oral Solution,,33.3 MG
+1092378,161,SBD,acetaminophen 500 MG / diphenhydramine hydrochloride 25 MG Oral Tablet [Tylenol PM],Tylenol PM,acetaminophen; diphenhydramine; diphenhydramine hydrochloride,Oral Tablet,,500 MG
+1093077,161,SBD,acetaminophen 325 MG / diphenhydramine hydrochloride 50 MG Oral Tablet [Unisom with Pain Relief],Unisom with Pain Relief,acetaminophen; diphenhydramine; diphenhydramine hydrochloride,Oral Tablet,,325 MG
+1094718,161,SBD,acetaminophen 500 MG / diphenhydramine hydrochloride 25 MG Oral Tablet [Panadol PM],Panadol PM,acetaminophen; diphenhydramine; diphenhydramine hydrochloride,Oral Tablet,,500 MG
+1095636,161,SBD,acetaminophen 32 MG/ML Oral Solution [Panadol],Panadol,acetaminophen,Oral Solution,,32 MG
+1100005,161,SBD,acetaminophen 500 MG Oral Tablet [CounterAct Pain],CounterAct Pain,acetaminophen,Oral Tablet,,500 MG
+1100907,161,SBD,acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule [Capacet],Capacet,acetaminophen; butalbital; caffeine,Oral Capsule,,325 MG
+1101345,161,SBD,acetaminophen 100 MG/ML Oral Solution [Nortemp],Nortemp,acetaminophen,Oral Solution,,100 MG
+1101754,161,SBD,acetaminophen 194 MG / aspirin 227 MG / caffeine 33 MG Oral Tablet [Vanquish],Vanquish,acetaminophen; aspirin; caffeine,Oral Tablet,,194 MG
+1116532,161,SBD,acetaminophen 500 MG / diphenhydramine hydrochloride 25 MG Oral Tablet [Acetadryl],Acetadryl,acetaminophen; diphenhydramine; diphenhydramine hydrochloride,Oral Tablet,,500 MG
+1117539,161,SBD,acetaminophen 500 MG / diphenhydramine citrate 38 MG Oral Tablet [Excedrin PM],Excedrin PM,acetaminophen; diphenhydramine; diphenhydramine citrate,Oral Tablet,,500 MG
+1190201,161,SBD,acetaminophen 320.5 MG / caffeine 30 MG / dihydrocodeine bitartrate 16 MG Oral Capsule [Trezix],Trezix,acetaminophen; caffeine; dihydrocodeine; dihydrocodeine bitartrate,Oral Capsule,,320.5 MG
+1235462,161,SBD,acetaminophen 325 MG Oral Tablet [Ringl],Ringl,acetaminophen,Oral Tablet,,325 MG
+1243439,161,SBD,8 HR acetaminophen 650 MG Extended Release Oral Tablet [Mapap],Mapap,acetaminophen,Extended Release Oral Tablet,,650 MG
+1243440,161,SBD,8 HR acetaminophen 650 MG Extended Release Oral Tablet [Tylenol],Tylenol,acetaminophen,Extended Release Oral Tablet,,650 MG
+1293942,161,SBD,acetaminophen 500 MG Oral Tablet [Pharbetol],Pharbetol,acetaminophen,Oral Tablet,,500 MG
+1298830,161,SBD,acetaminophen 325 MG Oral Tablet [Pharbetol],Pharbetol,acetaminophen,Oral Tablet,,325 MG
+1301882,161,SBD,acetaminophen 32 MG/ML Oral Suspension [Little Fevers],Little Fevers,acetaminophen,Oral Suspension,,32 MG
+1303159,161,SBD,acetaminophen 250 MG / aspirin 250 MG / caffeine 65 MG Oral Tablet [Arthriten Inflammatory Pain],Arthriten Inflammatory Pain,acetaminophen; aspirin; caffeine,Oral Tablet,,250 MG
+1356080,161,SBD,acetaminophen 500 MG / pamabrom 25 MG Oral Tablet [Backaid],Backaid,acetaminophen; pamabrom,Oral Tablet,,500 MG
+1358835,161,SBD,acetaminophen 500 MG Oral Tablet [Cetafen],Cetafen,acetaminophen,Oral Tablet,,500 MG
+1358837,161,SBD,acetaminophen 325 MG Oral Tablet [Cetafen],Cetafen,acetaminophen,Oral Tablet,,325 MG
+1358853,161,SBD,acetaminophen 110 MG / aspirin 162 MG / caffeine 32.4 MG / salicylamide 152 MG Oral Tablet [Exaprin],Exaprin,acetaminophen; aspirin; caffeine; salicylamide,Oral Tablet,,110 MG
+1361402,161,SBD,acetaminophen 250 MG / aspirin 250 MG / caffeine 65 MG Oral Tablet [Backaid IPF],Backaid IPF,acetaminophen; aspirin; caffeine,Oral Tablet,,250 MG
+1428622,161,SBD,acetaminophen 300 MG / butalbital 50 MG Oral Tablet [Bupap],Bupap,acetaminophen; butalbital,Oral Tablet,,300 MG
+1432261,161,SBD,acetaminophen 300 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule [Fioricet],Fioricet,acetaminophen; butalbital; caffeine,Oral Capsule,,300 MG
+1433802,161,SBD,acetaminophen 300 MG / butalbital 50 MG / caffeine 40 MG / codeine phosphate 30 MG Oral Capsule [Fioricet with Codeine],Fioricet with Codeine,acetaminophen; butalbital; caffeine; codeine; codeine phosphate,Oral Capsule,,300 MG
+1442445,161,SBD,acetaminophen 20 MG/ML / hydrocodone bitartrate 0.667 MG/ML Oral Solution [Lortab],Lortab,acetaminophen; hydrocodone; hydrocodone bitartrate,Oral Solution,,20 MG
+1483329,161,SBD,acetaminophen 325 MG / butalbital 50 MG Oral Tablet [Tencon],Tencon,acetaminophen; butalbital,Oral Tablet,,325 MG
+1487251,161,SBD,acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule [Zebutal],Zebutal,acetaminophen; butalbital; caffeine,Oral Capsule,,325 MG
+1487288,161,SBD,acetaminophen 325 MG / oxycodone hydrochloride 2.5 MG Oral Tablet [Endocet],Endocet,acetaminophen; oxycodone; oxycodone hydrochloride,Oral Tablet,,325 MG
+1492673,161,SBD,acetaminophen 325 MG / hydrocodone bitartrate 5 MG Oral Tablet [Lorcet],Lorcet,acetaminophen; hydrocodone; hydrocodone bitartrate,Oral Tablet,,325 MG
+1495472,161,SBD,acetaminophen 325 MG / hydrocodone bitartrate 10 MG Oral Tablet [Lortab],Lortab,acetaminophen; hydrocodone; hydrocodone bitartrate,Oral Tablet,,325 MG
+1495474,161,SBD,acetaminophen 325 MG / hydrocodone bitartrate 5 MG Oral Tablet [Lortab],Lortab,acetaminophen; hydrocodone; hydrocodone bitartrate,Oral Tablet,,325 MG
+1495476,161,SBD,acetaminophen 325 MG / hydrocodone bitartrate 7.5 MG Oral Tablet [Lortab],Lortab,acetaminophen; hydrocodone; hydrocodone bitartrate,Oral Tablet,,325 MG
+1537116,161,SBD,acetaminophen 300 MG / oxycodone hydrochloride 5 MG Oral Tablet [Primlev],Primlev,acetaminophen; oxycodone; oxycodone hydrochloride,Oral Tablet,,300 MG
+1537120,161,SBD,acetaminophen 300 MG / oxycodone hydrochloride 10 MG Oral Tablet [Primlev],Primlev,acetaminophen; oxycodone; oxycodone hydrochloride,Oral Tablet,,300 MG
+1537122,161,SBD,acetaminophen 300 MG / oxycodone hydrochloride 7.5 MG Oral Tablet [Primlev],Primlev,acetaminophen; oxycodone; oxycodone hydrochloride,Oral Tablet,,300 MG
+1542981,161,SBD,acetaminophen 325 MG / hydrocodone bitartrate 2.5 MG Oral Tablet [Verdrocet],Verdrocet,acetaminophen; hydrocodone; hydrocodone bitartrate,Oral Tablet,,325 MG
+1591934,161,SBD,acetaminophen 325 MG / caffeine 65 MG Oral Tablet [Excedrin Mild Headache],Excedrin Mild Headache,acetaminophen; caffeine,Oral Tablet,,325 MG
+1593116,161,SBD,acetaminophen 250 MG / aspirin 250 MG / diphenhydramine citrate 38 MG Oral Tablet [Excedrin PM Triple Action],Excedrin PM Triple Action,acetaminophen; aspirin; diphenhydramine; diphenhydramine citrate,Oral Tablet,,250 MG
+1593771,161,SBD,acetaminophen 32 MG/ML / chlophedianol hydrochloride 2.5 MG/ML / pyrilamine maleate 2.5 MG/ML Oral Solution [Ninjacof A],Ninjacof A,acetaminophen; chlophedianol; chlophedianol hydrochloride; pyrilamine; pyrilamine maleate,Oral Solution,,32 MG
+1602570,161,SBD,acetaminophen 500 MG / phenyltoloxamine citrate 29 MG Oral Tablet [Relagesic],Relagesic,acetaminophen; phenyltoloxamine; phenyltoloxamine citrate,Oral Tablet,,500 MG
+1648584,161,SBD,acetaminophen 21.7 MG/ML / butalbital 3.33 MG/ML / caffeine 2.67 MG/ML Oral Solution [Vanatol],Vanatol,acetaminophen; butalbital; caffeine,Oral Solution,,21.7 MG
+1738139,161,SBD,acetaminophen 325 MG Oral Capsule [Tylenol],Tylenol,acetaminophen,Oral Capsule,,325 MG
+1866143,161,SBD,acetaminophen 500 MG / caffeine 65 MG Oral Tablet [Sed-Max],Sed-Max,acetaminophen; caffeine,Oral Tablet,,500 MG
+1872075,161,SBD,acetaminophen 500 MG / caffeine 65 MG Oral Tablet [Panadol Extra],Panadol Extra,acetaminophen; caffeine,Oral Tablet,,500 MG
+1944113,161,SBD,acetaminophen 250 MG / aspirin 250 MG / caffeine 65 MG Oral Tablet [Arthriten Max],Arthriten Max,acetaminophen; aspirin; caffeine,Oral Tablet,,250 MG
+2001364,161,SBD,acetaminophen 325 MG / benzhydrocodone 6.12 MG Oral Tablet [Apadaz],Apadaz,acetaminophen; benzhydrocodone,Oral Tablet,,325 MG
+200977,161,SBD,acetaminophen 500 MG Oral Tablet [Panadol],Panadol,acetaminophen,Oral Tablet,,500 MG
+2045500,161,SBD,acetaminophen 300 MG / oxycodone hydrochloride 2.5 MG Oral Tablet [Nalocet],Nalocet,acetaminophen; oxycodone; oxycodone hydrochloride,Oral Tablet,,300 MG
+209352,161,SBD,acetaminophen 120 MG Rectal Suppository [Acephen],Acephen,acetaminophen,Rectal Suppository,,120 MG
+209353,161,SBD,acetaminophen 120 MG Rectal Suppository [Feverall],Feverall,acetaminophen,Rectal Suppository,,120 MG
+209360,161,SBD,acetaminophen 325 MG Rectal Suppository [Acephen],Acephen,acetaminophen,Rectal Suppository,,325 MG
+209361,161,SBD,acetaminophen 325 MG Rectal Suppository [Feverall],Feverall,acetaminophen,Rectal Suppository,,325 MG
+209363,161,SBD,acetaminophen 650 MG Rectal Suppository [Acephen],Acephen,acetaminophen,Rectal Suppository,,650 MG
+209364,161,SBD,acetaminophen 650 MG Rectal Suppository [Feverall],Feverall,acetaminophen,Rectal Suppository,,650 MG
+209375,161,SBD,acetaminophen 325 MG Oral Tablet [Mapap],Mapap,acetaminophen,Oral Tablet,,325 MG
+209384,161,SBD,acetaminophen 325 MG Oral Tablet [Tycolene],Tycolene,acetaminophen,Oral Tablet,,325 MG
+209387,161,SBD,acetaminophen 325 MG Oral Tablet [Tylenol],Tylenol,acetaminophen,Oral Tablet,,325 MG
+209397,161,SBD,acetaminophen 32 MG/ML Oral Solution [Mapap],Mapap,acetaminophen,Oral Solution,,32 MG
+209417,161,SBD,acetaminophen 33.3 MG/ML Oral Solution [Mapap],Mapap,acetaminophen,Oral Solution,,33.3 MG
+209425,161,SBD,acetaminophen 33.3 MG/ML Oral Solution [Redutemp],Redutemp,acetaminophen,Oral Solution,,33.3 MG
+209433,161,SBD,acetaminophen 500 MG Oral Tablet [Anacin AF],Anacin AF,acetaminophen,Oral Tablet,,500 MG
+209443,161,SBD,acetaminophen 500 MG Oral Tablet [Mapap],Mapap,acetaminophen,Oral Tablet,,500 MG
+209459,161,SBD,acetaminophen 500 MG Oral Tablet [Tylenol],Tylenol,acetaminophen,Oral Tablet,,500 MG
+209468,161,SBD,acetaminophen 250 MG / aspirin 250 MG / caffeine 65 MG Oral Tablet [Excedrin],Excedrin,acetaminophen; aspirin; caffeine,Oral Tablet,,250 MG
+209495,161,SBD,acetaminophen 80 MG Chewable Tablet [Mapap],Mapap,acetaminophen,Chewable Tablet,,80 MG
+209501,161,SBD,acetaminophen 80 MG Chewable Tablet [Tempra Quicklets],Tempra Quicklets,acetaminophen,Chewable Tablet,,80 MG
+209531,161,SBD,acetaminophen 80 MG Rectal Suppository [Feverall],Feverall,acetaminophen,Rectal Suppository,,80 MG
+209826,161,SBD,acetaminophen 325 MG / butalbital 50 MG Oral Tablet [Marten-Tab],Marten-Tab,acetaminophen; butalbital,Oral Tablet,,325 MG
+209870,161,SBD,acetaminophen 160 MG Chewable Tablet [Mapap],Mapap,acetaminophen,Chewable Tablet,,160 MG
+209873,161,SBD,acetaminophen 160 MG Chewable Tablet [Tempra Quicklets],Tempra Quicklets,acetaminophen,Chewable Tablet,,160 MG
+209890,161,SBD,acetaminophen 500 MG Oral Capsule [Mapap],Mapap,acetaminophen,Oral Capsule,,500 MG
+2105929,161,SBD,acetaminophen 325 MG / caffeine 30 MG / dihydrocodeine bitartrate 16 MG Oral Tablet [Dvorah],Dvorah,acetaminophen; caffeine; dihydrocodeine; dihydrocodeine bitartrate,Oral Tablet,,325 MG
+210864,161,SBD,acetaminophen 115 MG / aspirin 210 MG / caffeine 16 MG / salicylamide 65 MG Oral Tablet [Saleto],Saleto,acetaminophen; aspirin; caffeine; salicylamide,Oral Tablet,,115 MG
+211161,161,SBD,acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule [Esgic],Esgic,acetaminophen; butalbital; caffeine,Oral Capsule,,325 MG
+211189,161,SBD,acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG Oral Tablet [Esgic],Esgic,acetaminophen; butalbital; caffeine,Oral Tablet,,325 MG
+211194,161,SBD,acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG Oral Tablet [Repan],Repan,acetaminophen; butalbital; caffeine,Oral Tablet,,325 MG
+2118730,161,SBD,acetaminophen 325 MG / benzhydrocodone 4.08 MG Oral Tablet [Apadaz],Apadaz,acetaminophen; benzhydrocodone,Oral Tablet,,325 MG
+2118734,161,SBD,acetaminophen 325 MG / benzhydrocodone 8.16 MG Oral Tablet [Apadaz],Apadaz,acetaminophen; benzhydrocodone,Oral Tablet,,325 MG
+2178758,161,SBD,acetaminophen 160 MG Oral Powder [Tylenol],Tylenol,acetaminophen,Oral Powder,,160 MG
+2261403,161,SBD,acetaminophen 21.7 MG/ML / butalbital 3.33 MG/ML / caffeine 2.67 MG/ML Oral Solution [Vtol],Vtol,acetaminophen; butalbital; caffeine,Oral Solution,,21.7 MG
+2279007,161,SBD,acetaminophen 325 MG / butalbital 25 MG Oral Tablet [Allzital],Allzital,acetaminophen; butalbital,Oral Tablet,,325 MG
+2279510,161,SBD,acetaminophen 300 MG / oxycodone hydrochloride 10 MG Oral Tablet [Prolate],Prolate,acetaminophen; oxycodone; oxycodone hydrochloride,Oral Tablet,,300 MG
+2279512,161,SBD,acetaminophen 300 MG / oxycodone hydrochloride 5 MG Oral Tablet [Prolate],Prolate,acetaminophen; oxycodone; oxycodone hydrochloride,Oral Tablet,,300 MG
+2279514,161,SBD,acetaminophen 300 MG / oxycodone hydrochloride 7.5 MG Oral Tablet [Prolate],Prolate,acetaminophen; oxycodone; oxycodone hydrochloride,Oral Tablet,,300 MG
+2281851,161,SBD,acetaminophen 60 MG/ML / oxycodone hydrochloride 2 MG/ML Oral Solution [Prolate],Prolate,acetaminophen; oxycodone; oxycodone hydrochloride,Oral Solution,,60 MG
+2374361,161,SBD,acetaminophen 500 MG Oral Powder [Tylenol],Tylenol,acetaminophen,Oral Powder,,500 MG
+2391568,161,SBD,acetaminophen 500 MG / phenyltoloxamine citrate 30 MG Oral Tablet [Dologesic],Dologesic,acetaminophen; phenyltoloxamine; phenyltoloxamine citrate,Oral Tablet,,500 MG
+2391610,161,SBD,acetaminophen 325 MG / phenyltoloxamine citrate 30 MG Oral Tablet [Contragesic],Contragesic,acetaminophen; phenyltoloxamine; phenyltoloxamine citrate,Oral Tablet,,325 MG
+2639351,161,SBD,acetaminophen 32 MG/ML Oral Suspension [Feverall],Feverall,acetaminophen,Oral Suspension,,32 MG
+2673880,161,SBD,100 ML acetaminophen 10 MG/ML / ibuprofen 3 MG/ML Injection [Combogesic],Combogesic,acetaminophen; ibuprofen,Injection,,100 ML
+2675765,161,SBD,acetaminophen 325 MG / ibuprofen 97.5 MG Oral Tablet [Combogesic],Combogesic,acetaminophen; ibuprofen,Oral Tablet,,325 MG
+404172,161,SBD,acetaminophen 500 MG / caffeine 65 MG Oral Tablet [Excedrin Tension Headache],Excedrin Tension Headache,acetaminophen; caffeine,Oral Tablet,,500 MG
+540434,161,SBD,acetaminophen 250 MG / salicylamide 600 MG Oral Tablet [Frenadol],Frenadol,acetaminophen; salicylamide,Oral Tablet,,250 MG
+702615,161,SBD,acetaminophen 500 MG / caffeine 65 MG Disintegrating Oral Tablet [Excedrin Quick Tab],Excedrin Quick Tab,acetaminophen; caffeine,Disintegrating Oral Tablet,,500 MG
+707322,161,SBD,acetaminophen 33.3 MG/ML Oral Solution [Comtrex Sore Throat Relief],Comtrex Sore Throat Relief,acetaminophen,Oral Solution,,33.3 MG
+723530,161,SBD,acetaminophen 250 MG / aspirin 250 MG Oral Tablet [Excedrin Back & Body],Excedrin Back & Body,acetaminophen; aspirin,Oral Tablet,,250 MG
+723533,161,SBD,acetaminophen 250 MG / aspirin 250 MG / caffeine 65 MG Oral Tablet [Anacin Advanced Headache Formula],Anacin Advanced Headache Formula,acetaminophen; aspirin; caffeine,Oral Tablet,,250 MG
+798926,161,SBD,acetaminophen 325 MG Oral Tablet [Tactinal],Tactinal,acetaminophen,Oral Tablet,,325 MG
+828555,161,SBD,acetaminophen 32 MG/ML Oral Suspension [Tylenol],Tylenol,acetaminophen,Oral Suspension,,32 MG
+828557,161,SBD,acetaminophen 160 MG Chewable Tablet [Tylenol],Tylenol,acetaminophen,Chewable Tablet,,160 MG
+836397,161,SBD,acetaminophen 325 MG / tramadol hydrochloride 37.5 MG Oral Tablet [Ultracet],Ultracet,acetaminophen; tramadol; tramadol hydrochloride,Oral Tablet,,325 MG
+856942,161,SBD,acetaminophen 21.7 MG/ML / hydrocodone bitartrate 0.5 MG/ML Oral Solution [Hycet],Hycet,acetaminophen; hydrocodone; hydrocodone bitartrate,Oral Solution,,21.7 MG
+856946,161,SBD,acetaminophen 21.7 MG/ML / hydrocodone bitartrate 0.67 MG/ML Oral Solution [Zamicet],Zamicet,acetaminophen; hydrocodone; hydrocodone bitartrate,Oral Solution,,21.7 MG
+857001,161,SBD,acetaminophen 325 MG / hydrocodone bitartrate 10 MG Oral Tablet [Norco],Norco,acetaminophen; hydrocodone; hydrocodone bitartrate,Oral Tablet,,325 MG
+857004,161,SBD,acetaminophen 325 MG / hydrocodone bitartrate 5 MG Oral Tablet [Norco],Norco,acetaminophen; hydrocodone; hydrocodone bitartrate,Oral Tablet,,325 MG
+857007,161,SBD,acetaminophen 325 MG / hydrocodone bitartrate 7.5 MG Oral Tablet [Norco],Norco,acetaminophen; hydrocodone; hydrocodone bitartrate,Oral Tablet,,325 MG
+884770,161,SBD,acetaminophen 250 MG / caffeine 50 MG / magnesium salicylate 290 MG Oral Tablet [Backprin],Backprin,acetaminophen; caffeine; magnesium salicylate,Oral Tablet,,250 MG
+993837,161,SBD,acetaminophen 300 MG / codeine phosphate 30 MG Oral Tablet [Tylenol with Codeine],Tylenol with Codeine,acetaminophen; codeine; codeine phosphate,Oral Tablet,,300 MG
+993892,161,SBD,acetaminophen 300 MG / codeine phosphate 60 MG Oral Tablet [Tylenol with Codeine],Tylenol with Codeine,acetaminophen; codeine; codeine phosphate,Oral Tablet,,300 MG
+998706,161,SBD,acetaminophen 300 MG / phenyltoloxamine citrate 20 MG / salicylamide 200 MG Oral Capsule [Ed Flex],Ed Flex,acetaminophen; phenyltoloxamine; phenyltoloxamine citrate; salicylamide,Oral Capsule,,300 MG
+1014599,161,SCD,acetaminophen 300 MG / oxycodone hydrochloride 10 MG Oral Tablet,,acetaminophen 300 MG / oxycodone hydrochloride 10 MG Oral Tablet,Oral Tablet,,300 MG
+1014615,161,SCD,acetaminophen 300 MG / oxycodone hydrochloride 5 MG Oral Tablet,,acetaminophen 300 MG / oxycodone hydrochloride 5 MG Oral Tablet,Oral Tablet,,300 MG
+1014632,161,SCD,acetaminophen 300 MG / oxycodone hydrochloride 7.5 MG Oral Tablet,,acetaminophen 300 MG / oxycodone hydrochloride 7.5 MG Oral Tablet,Oral Tablet,,300 MG
+1037259,161,SCD,acetaminophen 300 MG / oxycodone hydrochloride 2.5 MG Oral Tablet,,acetaminophen 300 MG / oxycodone hydrochloride 2.5 MG Oral Tablet,Oral Tablet,,300 MG
+1037273,161,SCD,acetaminophen 300 MG / phenyltoloxamine citrate 20 MG / salicylamide 200 MG Oral Tablet,,acetaminophen 300 MG / phenyltoloxamine citrate 20 MG / salicylamide 200 MG Oral Tablet,Oral Tablet,,300 MG
+1042675,161,SCD,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution,,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution,Oral Solution,,21.7 MG
+1042684,161,SCD,acetaminophen 33.3 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution,,acetaminophen 33.3 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution,Oral Solution,,33.3 MG
+1042688,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Oral Capsule,,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Oral Capsule,Oral Capsule,,325 MG
+1042695,161,SCD,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / guaifenesin 13.3 MG/ML Oral Solution,,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / guaifenesin 13.3 MG/ML Oral Solution,Oral Solution,,21.7 MG
+1043400,161,SCD,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution,,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution,Oral Solution,,21.7 MG
+1044427,161,SCD,acetaminophen 20 MG/ML / hydrocodone bitartrate 0.667 MG/ML Oral Solution,,acetaminophen 20 MG/ML / hydrocodone bitartrate 0.667 MG/ML Oral Solution,Oral Solution,,20 MG
+1046378,161,SCD,acetaminophen 325 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 325 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,325 MG
+1046384,161,SCD,acetaminophen 21.7 MG/ML / chlorpheniramine maleate 0.133 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution,,acetaminophen 21.7 MG/ML / chlorpheniramine maleate 0.133 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution,Oral Solution,,21.7 MG
+1046751,161,SCD,acetaminophen 325 MG / diphenhydramine hydrochloride 25 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 325 MG / diphenhydramine hydrochloride 25 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,325 MG
+1046781,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,325 MG
+104906,161,SCD,acetaminophen 24 MG/ML Oral Solution,,acetaminophen 24 MG/ML Oral Solution,Oral Solution,,24 MG
+104908,161,SCD,acetaminophen 500 MG / methionine 250 MG Oral Tablet,,acetaminophen 500 MG / methionine 250 MG Oral Tablet,Oral Tablet,,500 MG
+1049179,161,SCD,acetaminophen 325 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,,acetaminophen 325 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,Oral Tablet,,325 MG
+1049214,161,SCD,acetaminophen 325 MG / oxycodone hydrochloride 10 MG Oral Tablet,,acetaminophen 325 MG / oxycodone hydrochloride 10 MG Oral Tablet,Oral Tablet,,325 MG
+1049221,161,SCD,acetaminophen 325 MG / oxycodone hydrochloride 5 MG Oral Tablet,,acetaminophen 325 MG / oxycodone hydrochloride 5 MG Oral Tablet,Oral Tablet,,325 MG
+1049225,161,SCD,acetaminophen 325 MG / oxycodone hydrochloride 7.5 MG Oral Tablet,,acetaminophen 325 MG / oxycodone hydrochloride 7.5 MG Oral Tablet,Oral Tablet,,325 MG
+1049233,161,SCD,acetaminophen 500 MG / oxycodone hydrochloride 7.5 MG Oral Tablet,,acetaminophen 500 MG / oxycodone hydrochloride 7.5 MG Oral Tablet,Oral Tablet,,500 MG
+1049251,161,SCD,acetaminophen 400 MG / oxycodone hydrochloride 10 MG Oral Tablet,,acetaminophen 400 MG / oxycodone hydrochloride 10 MG Oral Tablet,Oral Tablet,,400 MG
+1049260,161,SCD,acetaminophen 400 MG / oxycodone hydrochloride 5 MG Oral Tablet,,acetaminophen 400 MG / oxycodone hydrochloride 5 MG Oral Tablet,Oral Tablet,,400 MG
+1049267,161,SCD,acetaminophen 400 MG / oxycodone hydrochloride 7.5 MG Oral Tablet,,acetaminophen 400 MG / oxycodone hydrochloride 7.5 MG Oral Tablet,Oral Tablet,,400 MG
+1049270,161,SCD,acetaminophen 650 MG / oxycodone hydrochloride 10 MG Oral Tablet,,acetaminophen 650 MG / oxycodone hydrochloride 10 MG Oral Tablet,Oral Tablet,,650 MG
+1049580,161,SCD,acetaminophen 65 MG/ML / oxycodone hydrochloride 1 MG/ML Oral Solution,,acetaminophen 65 MG/ML / oxycodone hydrochloride 1 MG/ML Oral Solution,Oral Solution,,65 MG
+1049635,161,SCD,acetaminophen 325 MG / oxycodone hydrochloride 2.5 MG Oral Tablet,,acetaminophen 325 MG / oxycodone hydrochloride 2.5 MG Oral Tablet,Oral Tablet,,325 MG
+1049651,161,SCD,acetaminophen 500 MG / oxycodone hydrochloride 10 MG Oral Tablet,,acetaminophen 500 MG / oxycodone hydrochloride 10 MG Oral Tablet,Oral Tablet,,500 MG
+1049658,161,SCD,acetaminophen 500 MG / oxycodone hydrochloride 5 MG Oral Capsule,,acetaminophen 500 MG / oxycodone hydrochloride 5 MG Oral Capsule,Oral Capsule,,500 MG
+1050385,161,SCD,acetaminophen 32 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,,acetaminophen 32 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,Oral Solution,,32 MG
+1052462,161,SCD,acetaminophen 325 MG / diphenhydramine hydrochloride 12.5 MG Oral Tablet,,acetaminophen 325 MG / diphenhydramine hydrochloride 12.5 MG Oral Tablet,Oral Tablet,,325 MG
+1052467,161,SCD,acetaminophen 500 MG / diphenhydramine hydrochloride 12.5 MG Oral Tablet,,acetaminophen 500 MG / diphenhydramine hydrochloride 12.5 MG Oral Tablet,Oral Tablet,,500 MG
+1052637,161,SCD,acetaminophen 500 MG / pamabrom 25 MG / pyrilamine maleate 15 MG Oral Tablet,,acetaminophen 500 MG / pamabrom 25 MG / pyrilamine maleate 15 MG Oral Tablet,Oral Tablet,,500 MG
+1052647,161,SCD,acetaminophen 325 MG / doxylamine succinate 6.25 MG / phenylephrine hydrochloride 5 MG Oral Capsule,,acetaminophen 325 MG / doxylamine succinate 6.25 MG / phenylephrine hydrochloride 5 MG Oral Capsule,Oral Capsule,,325 MG
+1052670,161,SCD,acetaminophen 325 MG / phenylephrine hydrochloride 5 MG Oral Capsule,,acetaminophen 325 MG / phenylephrine hydrochloride 5 MG Oral Capsule,Oral Capsule,,325 MG
+1052679,161,SCD,acetaminophen 500 MG / chlorpheniramine maleate 2 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 500 MG / chlorpheniramine maleate 2 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,500 MG
+106814,161,SCD,acetaminophen 450 MG / caffeine 30 MG Oral Tablet,,acetaminophen 450 MG / caffeine 30 MG Oral Tablet,Oral Tablet,,450 MG
+106815,161,SCD,acetaminophen 450 MG / caffeine 25 MG Oral Tablet,,acetaminophen 450 MG / caffeine 25 MG Oral Tablet,Oral Tablet,,450 MG
+106818,161,SCD,acetaminophen 5 MG/ML / caffeine 0.65 MG/ML Oral Solution,,acetaminophen 5 MG/ML / caffeine 0.65 MG/ML Oral Solution,Oral Solution,,5 MG
+106821,161,SCD,acetaminophen 150 MG / sodium salicylate 100 MG Oral Tablet,,acetaminophen 150 MG / sodium salicylate 100 MG Oral Tablet,Oral Tablet,,150 MG
+1086750,161,SCD,acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Suspension,,acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Suspension,Oral Suspension,,32 MG
+1086991,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,325 MG
+1086997,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Oral Capsule,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Oral Capsule,Oral Capsule,,325 MG
+1087607,161,SCD,acetaminophen 500 MG / diphenhydramine hydrochloride 50 MG Oral Tablet,,acetaminophen 500 MG / diphenhydramine hydrochloride 50 MG Oral Tablet,Oral Tablet,,500 MG
+1088758,161,SCD,acetaminophen 33.3 MG/ML / phenyltoloxamine citrate 2 MG/ML Oral Solution,,acetaminophen 33.3 MG/ML / phenyltoloxamine citrate 2 MG/ML Oral Solution,Oral Solution,,33.3 MG
+1089822,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / doxylamine succinate 6.25 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / doxylamine succinate 6.25 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,Oral Capsule,,325 MG
+1089968,161,SCD,acetaminophen 500 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 15 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,,acetaminophen 500 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 15 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,Oral Tablet,,500 MG
+1090476,161,SCD,acetaminophen 250 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 100 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,,acetaminophen 250 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 100 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,Oral Capsule,,250 MG
+1090743,161,SCD,acetaminophen 500 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,,acetaminophen 500 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,Oral Tablet,,500 MG
+1092189,161,SCD,acetaminophen 500 MG / diphenhydramine hydrochloride 25 MG Oral Tablet,,acetaminophen 500 MG / diphenhydramine hydrochloride 25 MG Oral Tablet,Oral Tablet,,500 MG
+1092373,161,SCD,acetaminophen 33.3 MG/ML / diphenhydramine hydrochloride 1.67 MG/ML Oral Solution,,acetaminophen 33.3 MG/ML / diphenhydramine hydrochloride 1.67 MG/ML Oral Solution,Oral Solution,,33.3 MG
+1093075,161,SCD,acetaminophen 325 MG / diphenhydramine hydrochloride 50 MG Oral Tablet,,acetaminophen 325 MG / diphenhydramine hydrochloride 50 MG Oral Tablet,Oral Tablet,,325 MG
+1093083,161,SCD,acetaminophen 650 MG / diphenhydramine hydrochloride 50 MG Oral Tablet,,acetaminophen 650 MG / diphenhydramine hydrochloride 50 MG Oral Tablet,Oral Tablet,,650 MG
+1094131,161,SCD,acetaminophen 65 MG/ML / dextromethorphan hydrobromide 2 MG/ML / diphenhydramine hydrochloride 2.5 MG/ML Oral Solution,,acetaminophen 65 MG/ML / dextromethorphan hydrobromide 2 MG/ML / diphenhydramine hydrochloride 2.5 MG/ML Oral Solution,Oral Solution,,65 MG
+1094538,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,325 MG
+1094549,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / doxylamine succinate 6.25 MG Oral Capsule,,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / doxylamine succinate 6.25 MG Oral Capsule,Oral Capsule,,325 MG
+1098435,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 100 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 100 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,325 MG
+1098496,161,SCD,acetaminophen 500 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 15 MG Oral Tablet,,acetaminophen 500 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 15 MG Oral Tablet,Oral Tablet,,500 MG
+1099872,161,SCD,acetaminophen 500 MG / diphenhydramine citrate 38 MG Oral Tablet,,acetaminophen 500 MG / diphenhydramine citrate 38 MG Oral Tablet,Oral Tablet,,500 MG
+1101534,161,SCD,acetaminophen 500 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 500 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,500 MG
+1110988,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,325 MG
+1112864,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 2 MG Oral Tablet,,acetaminophen 325 MG / chlorpheniramine maleate 2 MG Oral Tablet,Oral Tablet,,325 MG
+1113397,161,SCD,acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Suspension,,acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Suspension,Oral Suspension,,32 MG
+1113522,161,SCD,acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1.5 MG/ML Oral Solution,,acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1.5 MG/ML Oral Solution,Oral Solution,,32 MG
+1113705,161,SCD,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution,,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution,Oral Solution,,21.7 MG
+1116568,161,SCD,acetaminophen 32.5 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,,acetaminophen 32.5 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,Oral Solution,,32.5 MG
+1116572,161,SCD,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,Oral Solution,,32.5 MG
+1117245,161,SCD,acetaminophen 500 MG / diphenhydramine hydrochloride 25 MG Oral Capsule,,acetaminophen 500 MG / diphenhydramine hydrochloride 25 MG Oral Capsule,Oral Capsule,,500 MG
+1147619,161,SCD,acetaminophen 650 MG / diphenhydramine hydrochloride 25 MG / phenylephrine hydrochloride 10 MG Oral Tablet,,acetaminophen 650 MG / diphenhydramine hydrochloride 25 MG / phenylephrine hydrochloride 10 MG Oral Tablet,Oral Tablet,,650 MG
+1147795,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,Oral Tablet,,325 MG
+1148399,161,SCD,8 HR acetaminophen 650 MG Extended Release Oral Tablet,,8 HR acetaminophen 650 MG Extended Release Oral Tablet,Extended Release Oral Tablet,,650 MG
+1189316,161,SCD,acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution,,acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution,Granules for Oral Solution,,500 MG
+1190931,161,SCD,acetaminophen 650 MG / dexbrompheniramine maleate 2 MG Oral Tablet,,acetaminophen 650 MG / dexbrompheniramine maleate 2 MG Oral Tablet,Oral Tablet,,650 MG
+1193292,161,SCD,acetaminophen 250 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Oral Capsule,,acetaminophen 250 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Oral Capsule,Oral Capsule,,250 MG
+1193293,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 4 MG / phenylephrine hydrochloride 10 MG Oral Tablet,,acetaminophen 325 MG / chlorpheniramine maleate 4 MG / phenylephrine hydrochloride 10 MG Oral Tablet,Oral Tablet,,325 MG
+1233575,161,SCD,acetaminophen 325 MG / diphenhydramine hydrochloride 12.5 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 325 MG / diphenhydramine hydrochloride 12.5 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,325 MG
+1234871,161,SCD,acetaminophen 356.4 MG / caffeine 30 MG / dihydrocodeine bitartrate 16 MG Oral Capsule,,acetaminophen 356.4 MG / caffeine 30 MG / dihydrocodeine bitartrate 16 MG Oral Capsule,Oral Capsule,,356.4 MG
+1234978,161,SCD,acetaminophen 712.8 MG / caffeine 60 MG / dihydrocodeine bitartrate 32 MG Oral Tablet,,acetaminophen 712.8 MG / caffeine 60 MG / dihydrocodeine bitartrate 32 MG Oral Tablet,Oral Tablet,,712.8 MG
+1234999,161,SCD,acetaminophen 500 MG / dihydrocodeine bitartrate 10 MG Oral Tablet,,acetaminophen 500 MG / dihydrocodeine bitartrate 10 MG Oral Tablet,Oral Tablet,,500 MG
+1235009,161,SCD,acetaminophen 500 MG / dihydrocodeine bitartrate 20 MG Oral Tablet,,acetaminophen 500 MG / dihydrocodeine bitartrate 20 MG Oral Tablet,Oral Tablet,,500 MG
+1235011,161,SCD,acetaminophen 500 MG / dihydrocodeine bitartrate 30 MG Oral Tablet,,acetaminophen 500 MG / dihydrocodeine bitartrate 30 MG Oral Tablet,Oral Tablet,,500 MG
+1236070,161,SCD,acetaminophen 21.7 MG/ML / chlorpheniramine maleate 0.13 MG/ML / dextromethorphan hydrobromide 0.67 MG/ML Oral Solution,,acetaminophen 21.7 MG/ML / chlorpheniramine maleate 0.13 MG/ML / dextromethorphan hydrobromide 0.67 MG/ML Oral Solution,Oral Solution,,21.7 MG
+1236395,161,SCD,acetaminophen 250 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,,acetaminophen 250 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,Oral Capsule,,250 MG
+1236419,161,SCD,acetaminophen 250 MG / dextromethorphan hydrobromide 10 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,,acetaminophen 250 MG / dextromethorphan hydrobromide 10 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,Oral Capsule,,250 MG
+1236435,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,Oral Capsule,,325 MG
+1237110,161,SCD,acetaminophen 33.3 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML / pseudoephedrine hydrochloride 2 MG/ML Oral Solution,,acetaminophen 33.3 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML / pseudoephedrine hydrochloride 2 MG/ML Oral Solution,Oral Solution,,33.3 MG
+1241829,161,SCD,acetaminophen 325 MG / phenylephrine hydrochloride 5 MG / pyrilamine maleate 25 MG Oral Tablet,,acetaminophen 325 MG / phenylephrine hydrochloride 5 MG / pyrilamine maleate 25 MG Oral Tablet,Oral Tablet,,325 MG
+1242618,161,SCD,acetaminophen 250 MG / doxylamine succinate 25 MG / salicylamide 150 MG Oral Tablet,,acetaminophen 250 MG / doxylamine succinate 25 MG / salicylamide 150 MG Oral Tablet,Oral Tablet,,250 MG
+1242747,161,SCD,acetaminophen 162.5 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Oral Capsule,,acetaminophen 162.5 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Oral Capsule,Oral Capsule,,162.5 MG
+1243679,161,SCD,acetaminophen 325 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 325 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,325 MG
+1244918,161,SCD,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.25 MG/ML Oral Solution,,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.25 MG/ML Oral Solution,Oral Solution,,21.7 MG
+1245169,161,SCD,acetaminophen 163 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 163 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,163 MG
+1249617,161,SCD,acetaminophen 300 MG / butalbital 50 MG Oral Tablet,,acetaminophen 300 MG / butalbital 50 MG Oral Tablet,Oral Tablet,,300 MG
+1250743,161,SCD,acetaminophen 500 MG / dextromethorphan hydrobromide 15 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,,acetaminophen 500 MG / dextromethorphan hydrobromide 15 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,Oral Tablet,,500 MG
+1251928,161,SCD,acetaminophen 500 MG / chlorpheniramine maleate 2 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,,acetaminophen 500 MG / chlorpheniramine maleate 2 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,Oral Tablet,,500 MG
+1291948,161,SCD,acetaminophen 24 MG/ML / diphenhydramine hydrochloride 2.5 MG/ML Oral Solution,,acetaminophen 24 MG/ML / diphenhydramine hydrochloride 2.5 MG/ML Oral Solution,Oral Solution,,24 MG
+1291951,161,SCD,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / pseudoephedrine hydrochloride 2 MG/ML Oral Solution,,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / pseudoephedrine hydrochloride 2 MG/ML Oral Solution,Oral Solution,,21.7 MG
+1292342,161,SCD,acetaminophen 43.3 MG/ML / chlorpheniramine maleate 0.267 MG/ML / dextromethorphan hydrobromide 2 MG/ML Oral Solution,,acetaminophen 43.3 MG/ML / chlorpheniramine maleate 0.267 MG/ML / dextromethorphan hydrobromide 2 MG/ML Oral Solution,Oral Solution,,43.3 MG
+1293344,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,Oral Tablet,,325 MG
+1294019,161,SCD,acetaminophen 325 MG / guaifenesin 200 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,,acetaminophen 325 MG / guaifenesin 200 MG / pseudoephedrine hydrochloride 30 MG Oral Tablet,Oral Tablet,,325 MG
+1294201,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,Oral Capsule,,325 MG
+1294607,161,SCD,acetaminophen 21.7 MG/ML / diphenhydramine hydrochloride 0.833 MG/ML Oral Solution,,acetaminophen 21.7 MG/ML / diphenhydramine hydrochloride 0.833 MG/ML Oral Solution,Oral Solution,,21.7 MG
+1297288,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG / phenylephrine hydrochloride 5 MG Oral Capsule,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG / phenylephrine hydrochloride 5 MG Oral Capsule,Oral Capsule,,325 MG
+1297947,161,SCD,acetaminophen 500 MG / diphenhydramine citrate 38 MG Oral Powder,,acetaminophen 500 MG / diphenhydramine citrate 38 MG Oral Powder,Oral Powder,,500 MG
+1298288,161,SCD,acetaminophen 650 MG / dextromethorphan hydrobromide 30 MG / diphenhydramine hydrochloride 50 MG / pseudoephedrine hydrochloride 60 MG Oral Tablet,,acetaminophen 650 MG / dextromethorphan hydrobromide 30 MG / diphenhydramine hydrochloride 50 MG / pseudoephedrine hydrochloride 60 MG Oral Tablet,Oral Tablet,,650 MG
+1298348,161,SCD,acetaminophen 21.7 MG/ML / diphenhydramine hydrochloride 0.833 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution,,acetaminophen 21.7 MG/ML / diphenhydramine hydrochloride 0.833 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution,Oral Solution,,21.7 MG
+1299646,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 15 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 15 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,Oral Capsule,,325 MG
+1299662,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / pseudoephedrine hydrochloride 30 MG Oral Capsule,Oral Capsule,,325 MG
+1303251,161,SCD,acetaminophen 100 MG / caffeine 2 MG / chlorpheniramine maleate 2 MG Oral Capsule,,acetaminophen 100 MG / caffeine 2 MG / chlorpheniramine maleate 2 MG Oral Capsule,Oral Capsule,,100 MG
+1304853,161,SCD,acetaminophen 33.3 MG/ML / brompheniramine maleate 0.133 MG/ML / pseudoephedrine hydrochloride 2 MG/ML Oral Solution,,acetaminophen 33.3 MG/ML / brompheniramine maleate 0.133 MG/ML / pseudoephedrine hydrochloride 2 MG/ML Oral Solution,Oral Solution,,33.3 MG
+1307244,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 15 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 15 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,325 MG
+1309062,161,SCD,acetaminophen 325 MG / guaifenesin 100 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 325 MG / guaifenesin 100 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,325 MG
+1312260,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / phenylephrine hydrochloride 5 MG Oral Capsule,,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / phenylephrine hydrochloride 5 MG Oral Capsule,Oral Capsule,,325 MG
+1313969,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / phenylephrine hydrochloride 5 MG Oral Capsule,,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / phenylephrine hydrochloride 5 MG Oral Capsule,Oral Capsule,,325 MG
+1357553,161,SCD,acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,,acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,Oral Solution,,32 MG
+1359154,161,SCD,acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG / guaifenesin 400 MG / pseudoephedrine hydrochloride 60 MG Oral Tablet,,acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG / guaifenesin 400 MG / pseudoephedrine hydrochloride 60 MG Oral Tablet,Oral Tablet,,500 MG
+1359455,161,SCD,acetaminophen 33.3 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution,,acetaminophen 33.3 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution,Oral Solution,,33.3 MG
+1366825,161,SCD,acetaminophen 80 MG / chlorpheniramine maleate 0.5 MG / dextromethorphan hydrobromide 2.5 MG / pseudoephedrine hydrochloride 7.5 MG Chewable Tablet,,acetaminophen 80 MG / chlorpheniramine maleate 0.5 MG / dextromethorphan hydrobromide 2.5 MG / pseudoephedrine hydrochloride 7.5 MG Chewable Tablet,Chewable Tablet,,80 MG
+1367204,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,325 MG
+1367205,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,325 MG
+1367206,161,SCD,acetaminophen 325 MG / guaifenesin 200 MG / phenylephrine hydrochloride 10 MG Oral Tablet,,acetaminophen 325 MG / guaifenesin 200 MG / phenylephrine hydrochloride 10 MG Oral Tablet,Oral Tablet,,325 MG
+1367210,161,SCD,acetaminophen 500 MG / caffeine 32.5 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 500 MG / caffeine 32.5 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,500 MG
+1367384,161,SCD,acetaminophen 32 MG/ML / pheniramine maleate 0.8 MG/ML / phenylephrine hydrochloride 0.8 MG/ML Oral Solution,,acetaminophen 32 MG/ML / pheniramine maleate 0.8 MG/ML / phenylephrine hydrochloride 0.8 MG/ML Oral Solution,Oral Solution,,32 MG
+1369842,161,SCD,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / guaifenesin 13.3 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution,,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / guaifenesin 13.3 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution,Oral Solution,,21.7 MG
+1369927,161,SCD,acetaminophen 33.3 MG/ML / dextromethorphan hydrobromide 1 MG/ML / pseudoephedrine hydrochloride 2 MG/ML Oral Solution,,acetaminophen 33.3 MG/ML / dextromethorphan hydrobromide 1 MG/ML / pseudoephedrine hydrochloride 2 MG/ML Oral Solution,Oral Solution,,33.3 MG
+1370113,161,SCD,acetaminophen 32 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Suspension,,acetaminophen 32 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Suspension,Oral Suspension,,32 MG
+1370285,161,SCD,acetaminophen 16.7 MG/ML / caffeine 1.08 MG/ML Oral Solution,,acetaminophen 16.7 MG/ML / caffeine 1.08 MG/ML Oral Solution,Oral Solution,,16.7 MG
+1370440,161,SCD,acetaminophen 50 MG/ML / chlorpheniramine maleate 0.8 MG/ML / dextromethorphan hydrobromide 2 MG/ML / phenylephrine hydrochloride 2 MG/ML Oral Solution,,acetaminophen 50 MG/ML / chlorpheniramine maleate 0.8 MG/ML / dextromethorphan hydrobromide 2 MG/ML / phenylephrine hydrochloride 2 MG/ML Oral Solution,Oral Solution,,50 MG
+1372312,161,SCD,acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Suspension,,acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Suspension,Oral Suspension,,32 MG
+1375932,161,SCD,acetaminophen 32.5 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,,acetaminophen 32.5 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,Oral Solution,,32.5 MG
+1425315,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 6.25 MG / dextromethorphan hydrobromide 15 MG Oral Tablet,,acetaminophen 325 MG / chlorpheniramine maleate 6.25 MG / dextromethorphan hydrobromide 15 MG Oral Tablet,Oral Tablet,,325 MG
+1426334,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG Oral Capsule,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG Oral Capsule,Oral Capsule,,325 MG
+1431245,161,SCD,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / doxylamine succinate 0.417 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution,,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / doxylamine succinate 0.417 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution,Oral Solution,,21.7 MG
+1431286,161,SCD,acetaminophen 300 MG / butalbital 50 MG / caffeine 40 MG / codeine phosphate 30 MG Oral Capsule,,acetaminophen 300 MG / butalbital 50 MG / caffeine 40 MG / codeine phosphate 30 MG Oral Capsule,Oral Capsule,,300 MG
+1432488,161,SCD,acetaminophen 250 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Oral Capsule,,acetaminophen 250 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Oral Capsule,Oral Capsule,,250 MG
+1435853,161,SCD,acetaminophen 325 MG / caffeine 20 MG / isometheptene mucate 65 MG Oral Tablet,,acetaminophen 325 MG / caffeine 20 MG / isometheptene mucate 65 MG Oral Tablet,Oral Tablet,,325 MG
+1484879,161,SCD,acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG / guaifenesin 400 MG / phenylephrine hydrochloride 10 MG Oral Tablet,,acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG / guaifenesin 400 MG / phenylephrine hydrochloride 10 MG Oral Tablet,Oral Tablet,,500 MG
+152596,161,SCD,acetaminophen 500 MG / methionine 100 MG Oral Tablet,,acetaminophen 500 MG / methionine 100 MG Oral Tablet,Oral Tablet,,500 MG
+152620,161,SCD,acetaminophen 240 MG Rectal Suppository,,acetaminophen 240 MG Rectal Suppository,Rectal Suppository,,240 MG
+1534666,161,SCD,acetaminophen 650 MG / chlorpheniramine maleate 4 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution,,acetaminophen 650 MG / chlorpheniramine maleate 4 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution,Powder for Oral Solution,,650 MG
+1534835,161,SCD,acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / doxylamine succinate 12.5 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution,,acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / doxylamine succinate 12.5 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution,Powder for Oral Solution,,650 MG
+1536457,161,SCD,acetaminophen 500 MG / codeine phosphate 8 MG Effervescent Oral Tablet,,acetaminophen 500 MG / codeine phosphate 8 MG Effervescent Oral Tablet,Effervescent Oral Tablet,,500 MG
+1536459,161,SCD,acetaminophen 500 MG / codeine phosphate 30 MG Effervescent Oral Tablet,,acetaminophen 500 MG / codeine phosphate 30 MG Effervescent Oral Tablet,Effervescent Oral Tablet,,500 MG
+1536477,161,SCD,acetaminophen 250 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,,acetaminophen 250 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,Effervescent Oral Tablet,,250 MG
+1536880,161,SCD,acetaminophen 500 MG Effervescent Oral Tablet,,acetaminophen 500 MG Effervescent Oral Tablet,Effervescent Oral Tablet,,500 MG
+1536882,161,SCD,acetaminophen 250 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,,acetaminophen 250 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,Effervescent Oral Tablet,,250 MG
+1536924,161,SCD,acetaminophen 250 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,,acetaminophen 250 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,Effervescent Oral Tablet,,250 MG
+1536931,161,SCD,acetaminophen 250 MG / chlorpheniramine maleate 2 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,,acetaminophen 250 MG / chlorpheniramine maleate 2 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,Effervescent Oral Tablet,,250 MG
+1536934,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / phenylpropanolamine bitartrate 20 MG Effervescent Oral Tablet,,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / phenylpropanolamine bitartrate 20 MG Effervescent Oral Tablet,Effervescent Oral Tablet,,325 MG
+1536999,161,SCD,acetaminophen 250 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,,acetaminophen 250 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,Effervescent Oral Tablet,,250 MG
+153830,161,SCD,acetaminophen 500 MG / domperidone 10 MG Oral Tablet,,acetaminophen 500 MG / domperidone 10 MG Oral Tablet,Oral Tablet,,500 MG
+1538456,161,SCD,acetaminophen 325 MG / pyrilamine maleate 25 MG Oral Tablet,,acetaminophen 325 MG / pyrilamine maleate 25 MG Oral Tablet,Oral Tablet,,325 MG
+1539545,161,SCD,acetaminophen 80 MG / phenylephrine hydrochloride 2.5 MG Chewable Tablet,,acetaminophen 80 MG / phenylephrine hydrochloride 2.5 MG Chewable Tablet,Chewable Tablet,,80 MG
+1540507,161,SCD,acetaminophen 80 MG / chlorpheniramine maleate 0.5 MG / phenylephrine hydrochloride 1.25 MG Chewable Tablet,,acetaminophen 80 MG / chlorpheniramine maleate 0.5 MG / phenylephrine hydrochloride 1.25 MG Chewable Tablet,Chewable Tablet,,80 MG
+1543072,161,SCD,acetaminophen 650 MG / caffeine 50 MG Oral Powder,,acetaminophen 650 MG / caffeine 50 MG Oral Powder,Oral Powder,,650 MG
+1546700,161,SCD,acetaminophen 325 MG / dexbrompheniramine maleate 1 MG Oral Tablet,,acetaminophen 325 MG / dexbrompheniramine maleate 1 MG Oral Tablet,Oral Tablet,,325 MG
+1546881,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,325 MG
+1550968,161,SCD,acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG / guaifenesin 400 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution,,acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG / guaifenesin 400 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution,Powder for Oral Solution,,500 MG
+1593110,161,SCD,acetaminophen 250 MG / aspirin 250 MG / diphenhydramine citrate 38 MG Oral Tablet,,acetaminophen 250 MG / aspirin 250 MG / diphenhydramine citrate 38 MG Oral Tablet,Oral Tablet,,250 MG
+1593450,161,SCD,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Suspension,,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Suspension,Oral Suspension,,32.5 MG
+1593765,161,SCD,acetaminophen 32 MG/ML / chlophedianol hydrochloride 2.5 MG/ML / pyrilamine maleate 2.5 MG/ML Oral Solution,,acetaminophen 32 MG/ML / chlophedianol hydrochloride 2.5 MG/ML / pyrilamine maleate 2.5 MG/ML Oral Solution,Oral Solution,,32 MG
+1595631,161,SCD,acetaminophen 250 MG / brompheniramine maleate 2 MG Oral Tablet,,acetaminophen 250 MG / brompheniramine maleate 2 MG Oral Tablet,Oral Tablet,,250 MG
+1596108,161,SCD,acetaminophen 320.5 MG / caffeine 30 MG / dihydrocodeine bitartrate 16 MG Oral Capsule,,acetaminophen 320.5 MG / caffeine 30 MG / dihydrocodeine bitartrate 16 MG Oral Capsule,Oral Capsule,,320.5 MG
+1597298,161,SCD,acetaminophen 500 MG / caffeine 60 MG / pyrilamine maleate 15 MG Oral Tablet,,acetaminophen 500 MG / caffeine 60 MG / pyrilamine maleate 15 MG Oral Tablet,Oral Tablet,,500 MG
+1602568,161,SCD,acetaminophen 500 MG / phenyltoloxamine citrate 29 MG Oral Tablet,,acetaminophen 500 MG / phenyltoloxamine citrate 29 MG Oral Tablet,Oral Tablet,,500 MG
+1656815,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Oral Capsule,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Oral Capsule,Oral Capsule,,325 MG
+1659175,161,SCD,acetaminophen 500 MG / diphenhydramine hydrochloride 25 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution,,acetaminophen 500 MG / diphenhydramine hydrochloride 25 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution,Powder for Oral Solution,,500 MG
+1659960,161,SCD,acetaminophen 650 MG / diphenhydramine hydrochloride 25 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution,,acetaminophen 650 MG / diphenhydramine hydrochloride 25 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution,Granules for Oral Solution,,650 MG
+1659964,161,SCD,acetaminophen 650 MG / pheniramine maleate 20 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution,,acetaminophen 650 MG / pheniramine maleate 20 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution,Powder for Oral Solution,,650 MG
+1659967,161,SCD,acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution,,acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution,Granules for Oral Solution,,650 MG
+1661683,161,SCD,acetaminophen 16.7 MG/ML Oral Solution,,acetaminophen 16.7 MG/ML Oral Solution,Oral Solution,,16.7 MG
+1664451,161,SCD,acetaminophen 200 MG / dextromethorphan hydrobromide 8 MG / guaifenesin 35 MG / phenylephrine hydrochloride 5 MG Oral Capsule,,acetaminophen 200 MG / dextromethorphan hydrobromide 8 MG / guaifenesin 35 MG / phenylephrine hydrochloride 5 MG Oral Capsule,Oral Capsule,,200 MG
+1664631,161,SCD,acetaminophen 200 MG / dextromethorphan hydrobromide 8 MG / diphenhydramine 18.75 MG / guaifenesin 35 MG / phenylephrine hydrochloride 5 MG Oral Capsule,,acetaminophen 200 MG / dextromethorphan hydrobromide 8 MG / diphenhydramine 18.75 MG / guaifenesin 35 MG / phenylephrine hydrochloride 5 MG Oral Capsule,Oral Capsule,,200 MG
+1673869,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 20 MG / guaifenesin 200 MG / pseudoephedrine hydrochloride 60 MG Oral Tablet,,acetaminophen 325 MG / dextromethorphan hydrobromide 20 MG / guaifenesin 200 MG / pseudoephedrine hydrochloride 60 MG Oral Tablet,Oral Tablet,,325 MG
+1724446,161,SCD,acetaminophen 325 MG / butalbital 25 MG Oral Tablet,,acetaminophen 325 MG / butalbital 25 MG Oral Tablet,Oral Tablet,,325 MG
+1741529,161,SCD,acetaminophen 650 MG / chlorpheniramine maleate 4 MG / phenylephrine hydrochloride 10 MG Oral Powder,,acetaminophen 650 MG / chlorpheniramine maleate 4 MG / phenylephrine hydrochloride 10 MG Oral Powder,Oral Powder,,650 MG
+1743369,161,SCD,acetaminophen 25 MG/ML / chlorpheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 1.33 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,,acetaminophen 25 MG/ML / chlorpheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 1.33 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,Oral Solution,,25 MG
+1744049,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 3 MG / dextromethorphan hydrobromide 30 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 325 MG / chlorpheniramine maleate 3 MG / dextromethorphan hydrobromide 30 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,325 MG
+1790651,161,SCD,acetaminophen 25 MG/ML / dextromethorphan hydrobromide 1.33 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,,acetaminophen 25 MG/ML / dextromethorphan hydrobromide 1.33 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,Oral Solution,,25 MG
+1796460,161,SCD,acetaminophen 325 MG / pheniramine maleate 20 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution,,acetaminophen 325 MG / pheniramine maleate 20 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution,Powder for Oral Solution,,325 MG
+1796708,161,SCD,acetaminophen 32 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution,,acetaminophen 32 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution,Oral Solution,,32 MG
+1798453,161,SCD,acetaminophen 500 MG / dexbrompheniramine maleate 1 MG Oral Tablet,,acetaminophen 500 MG / dexbrompheniramine maleate 1 MG Oral Tablet,Oral Tablet,,500 MG
+1805288,161,SCD,acetaminophen 650 MG / dextromethorphan hydrobromide 30 MG / doxylamine succinate 12.5 MG Powder for Oral Solution,,acetaminophen 650 MG / dextromethorphan hydrobromide 30 MG / doxylamine succinate 12.5 MG Powder for Oral Solution,Powder for Oral Solution,,650 MG
+1812164,161,SCD,acetaminophen 325 MG / caffeine 30 MG / dihydrocodeine bitartrate 16 MG Oral Tablet,,acetaminophen 325 MG / caffeine 30 MG / dihydrocodeine bitartrate 16 MG Oral Tablet,Oral Tablet,,325 MG
+1867684,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG Oral Capsule,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG Oral Capsule,Oral Capsule,,325 MG
+1919076,161,SCD,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution,,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution,Oral Solution,,32.5 MG
+197425,161,SCD,acetaminophen 325 MG / butalbital 50 MG Oral Capsule,,acetaminophen 325 MG / butalbital 50 MG Oral Capsule,Oral Capsule,,325 MG
+197426,161,SCD,acetaminophen 325 MG / butalbital 50 MG Oral Tablet,,acetaminophen 325 MG / butalbital 50 MG Oral Tablet,Oral Tablet,,325 MG
+197427,161,SCD,acetaminophen 650 MG / butalbital 50 MG Oral Capsule,,acetaminophen 650 MG / butalbital 50 MG Oral Capsule,Oral Capsule,,650 MG
+197428,161,SCD,acetaminophen 650 MG / butalbital 50 MG Oral Tablet,,acetaminophen 650 MG / butalbital 50 MG Oral Tablet,Oral Tablet,,650 MG
+198204,161,SCD,acetaminophen 250 MG / salicylamide 600 MG Oral Tablet,,acetaminophen 250 MG / salicylamide 600 MG Oral Tablet,Oral Tablet,,250 MG
+198434,161,SCD,acetaminophen 120 MG Rectal Suppository,,acetaminophen 120 MG Rectal Suppository,Rectal Suppository,,120 MG
+198436,161,SCD,acetaminophen 325 MG Oral Capsule,,acetaminophen 325 MG Oral Capsule,Oral Capsule,,325 MG
+198437,161,SCD,acetaminophen 325 MG Rectal Suppository,,acetaminophen 325 MG Rectal Suppository,Rectal Suppository,,325 MG
+198439,161,SCD,acetaminophen 500 MG Oral Capsule,,acetaminophen 500 MG Oral Capsule,Oral Capsule,,500 MG
+198440,161,SCD,acetaminophen 500 MG Oral Tablet,,acetaminophen 500 MG Oral Tablet,Oral Tablet,,500 MG
+198443,161,SCD,acetaminophen 650 MG Rectal Suppository,,acetaminophen 650 MG Rectal Suppository,Rectal Suppository,,650 MG
+198444,161,SCD,acetaminophen 650 MG Oral Tablet,,acetaminophen 650 MG Oral Tablet,Oral Tablet,,650 MG
+198445,161,SCD,acetaminophen 80 MG Rectal Suppository,,acetaminophen 80 MG Rectal Suppository,Rectal Suppository,,80 MG
+198449,161,SCD,acetaminophen 500 MG / pamabrom 25 MG Oral Tablet,,acetaminophen 500 MG / pamabrom 25 MG Oral Tablet,Oral Tablet,,500 MG
+1995136,161,SCD,acetaminophen 300 MG / butalbital 50 MG Oral Capsule,,acetaminophen 300 MG / butalbital 50 MG Oral Capsule,Oral Capsule,,300 MG
+1996081,161,SCD,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,Oral Solution,,32.5 MG
+1996098,161,SCD,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution,Oral Solution,,32.5 MG
+2001358,161,SCD,acetaminophen 325 MG / benzhydrocodone 6.12 MG Oral Tablet,,acetaminophen 325 MG / benzhydrocodone 6.12 MG Oral Tablet,Oral Tablet,,325 MG
+204900,161,SCD,acetaminophen 16 MG/ML Oral Solution,,acetaminophen 16 MG/ML Oral Solution,Oral Solution,,16 MG
+2049223,161,SCD,acetaminophen 325 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Oral Capsule,,acetaminophen 325 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Oral Capsule,Oral Capsule,,325 MG
+2049283,161,SCD,acetaminophen 33.3 MG/ML / chlorpheniramine maleate 0.133 MG/ML / dextromethorphan hydrobromide 1 MG/ML / pseudoephedrine hydrochloride 2 MG/ML Oral Solution,,acetaminophen 33.3 MG/ML / chlorpheniramine maleate 0.133 MG/ML / dextromethorphan hydrobromide 1 MG/ML / pseudoephedrine hydrochloride 2 MG/ML Oral Solution,Oral Solution,,33.3 MG
+2049841,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG Oral Tablet,,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG Oral Tablet,Oral Tablet,,325 MG
+205251,161,SCD,acetaminophen 160 MG / aspirin 230 MG / caffeine 33 MG Oral Tablet,,acetaminophen 160 MG / aspirin 230 MG / caffeine 33 MG Oral Tablet,Oral Tablet,,160 MG
+2101281,161,SCD,acetaminophen 32 MG/ML / dextromethorphan hydrobromide 1.5 MG/ML Oral Solution,,acetaminophen 32 MG/ML / dextromethorphan hydrobromide 1.5 MG/ML Oral Solution,Oral Solution,,32 MG
+2101282,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / guaifenesin 200 MG Oral Tablet,,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / guaifenesin 200 MG Oral Tablet,Oral Tablet,,325 MG
+2105822,161,SCD,acetaminophen 60 MG/ML / oxycodone hydrochloride 2 MG/ML Oral Solution,,acetaminophen 60 MG/ML / oxycodone hydrochloride 2 MG/ML Oral Solution,Oral Solution,,60 MG
+2118728,161,SCD,acetaminophen 325 MG / benzhydrocodone 4.08 MG Oral Tablet,,acetaminophen 325 MG / benzhydrocodone 4.08 MG Oral Tablet,Oral Tablet,,325 MG
+2118732,161,SCD,acetaminophen 325 MG / benzhydrocodone 8.16 MG Oral Tablet,,acetaminophen 325 MG / benzhydrocodone 8.16 MG Oral Tablet,Oral Tablet,,325 MG
+2121065,161,SCD,acetaminophen 65 MG/ML / chlorpheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 1.3 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,,acetaminophen 65 MG/ML / chlorpheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 1.3 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,Oral Solution,,65 MG
+2122363,161,SCD,acetaminophen 160 MG / dextromethorphan hydrobromide 5 MG Chewable Tablet,,acetaminophen 160 MG / dextromethorphan hydrobromide 5 MG Chewable Tablet,Chewable Tablet,,160 MG
+2167679,161,SCD,acetaminophen 160 MG / dextromethorphan hydrobromide 5 MG / pseudoephedrine hydrochloride 15 MG Chewable Tablet,,acetaminophen 160 MG / dextromethorphan hydrobromide 5 MG / pseudoephedrine hydrochloride 15 MG Chewable Tablet,Chewable Tablet,,160 MG
+2169129,161,SCD,acetaminophen 162.5 MG / dextromethorphan hydrobromide 5 MG / guaifenesin 100 MG / phenylephrine hydrochloride 2.5 MG Oral Tablet,,acetaminophen 162.5 MG / dextromethorphan hydrobromide 5 MG / guaifenesin 100 MG / phenylephrine hydrochloride 2.5 MG Oral Tablet,Oral Tablet,,162.5 MG
+2173662,161,SCD,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / phenylephrine hydrochloride 0.5 MG/ML / triprolidine hydrochloride 0.125 MG/ML Oral Solution,,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / phenylephrine hydrochloride 0.5 MG/ML / triprolidine hydrochloride 0.125 MG/ML Oral Solution,Oral Solution,,32.5 MG
+2173667,161,SCD,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / triprolidine hydrochloride 0.125 MG/ML Oral Solution,,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / triprolidine hydrochloride 0.125 MG/ML Oral Solution,Oral Solution,,32.5 MG
+2178755,161,SCD,acetaminophen 160 MG Oral Powder,,acetaminophen 160 MG Oral Powder,Oral Powder,,160 MG
+2181307,161,SCD,acetaminophen 325 MG / caffeine 45 MG / chlorpheniramine maleate 2 MG / phenylephrine hydrochloride 5 MG Oral Tablet,,acetaminophen 325 MG / caffeine 45 MG / chlorpheniramine maleate 2 MG / phenylephrine hydrochloride 5 MG Oral Tablet,Oral Tablet,,325 MG
+2264779,161,SCD,acetaminophen 325 MG Chewable Tablet,,acetaminophen 325 MG Chewable Tablet,Chewable Tablet,,325 MG
+226882,161,SCD,acetaminophen 60 MG Rectal Suppository,,acetaminophen 60 MG Rectal Suppository,Rectal Suppository,,60 MG
+2360605,161,SCD,acetaminophen 500 MG / aspirin 500 MG / caffeine 65 MG Oral Powder,,acetaminophen 500 MG / aspirin 500 MG / caffeine 65 MG Oral Powder,Oral Powder,,500 MG
+2374360,161,SCD,acetaminophen 500 MG Oral Powder,,acetaminophen 500 MG Oral Powder,Oral Powder,,500 MG
+2374554,161,SCD,acetaminophen 32.5 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML Oral Solution,,acetaminophen 32.5 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML Oral Solution,Oral Solution,,32.5 MG
+2377385,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG Oral Capsule,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG Oral Capsule,Oral Capsule,,325 MG
+238153,161,SCD,acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule,,acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule,Oral Capsule,,325 MG
+238154,161,SCD,acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG Oral Tablet,,acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG Oral Tablet,Oral Tablet,,325 MG
+238159,161,SCD,acetaminophen 100 MG/ML Oral Solution,,acetaminophen 100 MG/ML Oral Solution,Oral Solution,,100 MG
+2387532,161,SCD,acetaminophen 250 MG / ibuprofen 125 MG Oral Tablet,,acetaminophen 250 MG / ibuprofen 125 MG Oral Tablet,Oral Tablet,,250 MG
+2391564,161,SCD,acetaminophen 500 MG / phenyltoloxamine citrate 30 MG Oral Tablet,,acetaminophen 500 MG / phenyltoloxamine citrate 30 MG Oral Tablet,Oral Tablet,,500 MG
+2391569,161,SCD,acetaminophen 325 MG / phenyltoloxamine citrate 30 MG Oral Tablet,,acetaminophen 325 MG / phenyltoloxamine citrate 30 MG Oral Tablet,Oral Tablet,,325 MG
+240093,161,SCD,acetaminophen 500 MG / butalbital 50 MG / caffeine 40 MG Oral Tablet,,acetaminophen 500 MG / butalbital 50 MG / caffeine 40 MG Oral Tablet,Oral Tablet,,500 MG
+241864,161,SCD,acetaminophen 650 MG / phenyltoloxamine citrate 50 MG Oral Tablet,,acetaminophen 650 MG / phenyltoloxamine citrate 50 MG Oral Tablet,Oral Tablet,,650 MG
+243675,161,SCD,acetaminophen 100 MG/ML Oral Suspension,,acetaminophen 100 MG/ML Oral Suspension,Oral Suspension,,100 MG
+243694,161,SCD,acetaminophen 194 MG / aspirin 227 MG / caffeine 33 MG Oral Tablet,,acetaminophen 194 MG / aspirin 227 MG / caffeine 33 MG Oral Tablet,Oral Tablet,,194 MG
+2463332,161,SCD,acetaminophen 500 MG / chlorpheniramine maleate 4 MG / phenylephrine hydrochloride 10 MG Oral Tablet,,acetaminophen 500 MG / chlorpheniramine maleate 4 MG / phenylephrine hydrochloride 10 MG Oral Tablet,Oral Tablet,,500 MG
+247324,161,SCD,acetaminophen 500 MG / dextromethorphan hydrobromide 15 MG Oral Tablet,,acetaminophen 500 MG / dextromethorphan hydrobromide 15 MG Oral Tablet,Oral Tablet,,500 MG
+247816,161,SCD,acetaminophen 325 MG / caffeine 65 MG Oral Tablet,,acetaminophen 325 MG / caffeine 65 MG Oral Tablet,Oral Tablet,,325 MG
+2480095,161,SCD,50 ML acetaminophen 10 MG/ML Injection,,50 ML acetaminophen 10 MG/ML Injection,Injection,,50 ML
+248316,161,SCD,acetaminophen 50 MG/ML Oral Solution,,acetaminophen 50 MG/ML Oral Solution,Oral Solution,,50 MG
+249875,161,SCD,acetaminophen 250 MG Rectal Suppository,,acetaminophen 250 MG Rectal Suppository,Rectal Suppository,,250 MG
+250085,161,SCD,acetaminophen 25 MG/ML / ibuprofen 20 MG/ML Oral Suspension,,acetaminophen 25 MG/ML / ibuprofen 20 MG/ML Oral Suspension,Oral Suspension,,25 MG
+250420,161,SCD,acetaminophen 500 MG / caffeine 32 MG Oral Capsule,,acetaminophen 500 MG / caffeine 32 MG Oral Capsule,Oral Capsule,,500 MG
+250649,161,SCD,acetaminophen 50 MG/ML Oral Suspension,,acetaminophen 50 MG/ML Oral Suspension,Oral Suspension,,50 MG
+250650,161,SCD,acetaminophen 24 MG/ML Oral Suspension,,acetaminophen 24 MG/ML Oral Suspension,Oral Suspension,,24 MG
+250651,161,SCD,acetaminophen 500 MG Rectal Suppository,,acetaminophen 500 MG Rectal Suppository,Rectal Suppository,,500 MG
+251169,161,SCD,acetaminophen 325 MG / isometheptene 65 MG Oral Capsule,,acetaminophen 325 MG / isometheptene 65 MG Oral Capsule,Oral Capsule,,325 MG
+251374,161,SCD,acetaminophen 80 MG Disintegrating Oral Tablet,,acetaminophen 80 MG Disintegrating Oral Tablet,Disintegrating Oral Tablet,,80 MG
+251454,161,SCD,acetaminophen 500 MG / metoclopramide 5 MG Oral Tablet,,acetaminophen 500 MG / metoclopramide 5 MG Oral Tablet,Oral Tablet,,500 MG
+251698,161,SCD,acetaminophen 300 MG Rectal Suppository,,acetaminophen 300 MG Rectal Suppository,Rectal Suppository,,300 MG
+252650,161,SCD,acetaminophen 500 MG / melatonin 1.5 MG Oral Tablet,,acetaminophen 500 MG / melatonin 1.5 MG Oral Tablet,Oral Tablet,,500 MG
+2549034,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / triprolidine hydrochloride 1.25 MG Oral Tablet,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / triprolidine hydrochloride 1.25 MG Oral Tablet,Oral Tablet,,325 MG
+2549037,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG / triprolidine hydrochloride 1.25 MG Oral Tablet,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG / triprolidine hydrochloride 1.25 MG Oral Tablet,Oral Tablet,,325 MG
+2557336,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,Effervescent Oral Tablet,,325 MG
+2588212,161,SCD,acetaminophen 6.67 MG/ML / chlorpheniramine maleate 0.0833 MG/ML / dextromethorphan hydrobromide 0.5 MG/ML Oral Solution,,acetaminophen 6.67 MG/ML / chlorpheniramine maleate 0.0833 MG/ML / dextromethorphan hydrobromide 0.5 MG/ML Oral Solution,Oral Solution,,6.67 MG
+2599517,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 4 MG / phenylephrine hydrochloride 10 MG Oral Capsule,,acetaminophen 325 MG / chlorpheniramine maleate 4 MG / phenylephrine hydrochloride 10 MG Oral Capsule,Oral Capsule,,325 MG
+2604561,161,SCD,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML Oral Solution,,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML Oral Solution,Oral Solution,,21.7 MG
+2604562,161,SCD,acetaminophen 33.3 MG/ML / chlorpheniramine maleate 0.133 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution,,acetaminophen 33.3 MG/ML / chlorpheniramine maleate 0.133 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution,Oral Solution,,33.3 MG
+2608082,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG / triprolidine hydrochloride 1.25 MG Oral Capsule,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG / triprolidine hydrochloride 1.25 MG Oral Capsule,Oral Capsule,,325 MG
+2636656,161,SCD,acetaminophen 1000 MG / dextromethorphan hydrobromide 30 MG Powder for Oral Solution,,acetaminophen 1000 MG / dextromethorphan hydrobromide 30 MG Powder for Oral Solution,Powder for Oral Solution,,1000 MG
+2636658,161,SCD,acetaminophen 1000 MG / chlorpheniramine maleate 4 MG / dextromethorphan hydrobromide 30 MG Powder for Oral Solution,,acetaminophen 1000 MG / chlorpheniramine maleate 4 MG / dextromethorphan hydrobromide 30 MG Powder for Oral Solution,Powder for Oral Solution,,1000 MG
+2645106,161,SCD,acetaminophen 10 MG/ML / chlorpheniramine maleate 0.125 MG/ML Oral Solution,,acetaminophen 10 MG/ML / chlorpheniramine maleate 0.125 MG/ML Oral Solution,Oral Solution,,10 MG
+2668206,161,SCD,acetaminophen 500 MG Granules for Oral Solution,,acetaminophen 500 MG Granules for Oral Solution,Granules for Oral Solution,,500 MG
+2670598,161,SCD,acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG Powder for Oral Solution,,acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG Powder for Oral Solution,Powder for Oral Solution,,500 MG
+2670677,161,SCD,acetaminophen 650 MG / diphenhydramine hydrochloride 25 MG Powder for Oral Solution,,acetaminophen 650 MG / diphenhydramine hydrochloride 25 MG Powder for Oral Solution,Powder for Oral Solution,,650 MG
+2670678,161,SCD,acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG Powder for Oral Solution,,acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG Powder for Oral Solution,Powder for Oral Solution,,650 MG
+2673874,161,SCD,100 ML acetaminophen 10 MG/ML / ibuprofen 3 MG/ML Injection,,100 ML acetaminophen 10 MG/ML / ibuprofen 3 MG/ML Injection,Injection,,100 ML
+2675760,161,SCD,acetaminophen 325 MG / ibuprofen 97.5 MG Oral Tablet,,acetaminophen 325 MG / ibuprofen 97.5 MG Oral Tablet,Oral Tablet,,325 MG
+2677914,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG / phenylephrine hydrochloride 5 MG Powder for Oral Solution,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG / phenylephrine hydrochloride 5 MG Powder for Oral Solution,Powder for Oral Solution,,325 MG
+2677915,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Powder for Oral Solution,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Powder for Oral Solution,Powder for Oral Solution,,325 MG
+2678223,161,SCD,acetaminophen 162.5 MG / dextromethorphan hydrobromide 5 MG Chewable Tablet,,acetaminophen 162.5 MG / dextromethorphan hydrobromide 5 MG Chewable Tablet,Chewable Tablet,,162.5 MG
+2678231,161,SCD,acetaminophen 162.5 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 5 MG Chewable Tablet,,acetaminophen 162.5 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 5 MG Chewable Tablet,Chewable Tablet,,162.5 MG
+2679420,161,SCD,acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG Granules for Oral Solution,,acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG Granules for Oral Solution,Granules for Oral Solution,,500 MG
+2679425,161,SCD,acetaminophen 650 MG / diphenhydramine hydrochloride 25 MG Granules for Oral Solution,,acetaminophen 650 MG / diphenhydramine hydrochloride 25 MG Granules for Oral Solution,Granules for Oral Solution,,650 MG
+2680300,161,SCD,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / guaifenesin 20 MG/ML Oral Solution,,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / guaifenesin 20 MG/ML Oral Solution,Oral Solution,,32.5 MG
+2683419,161,SCD,acetaminophen 250 MG Chewable Tablet,,acetaminophen 250 MG Chewable Tablet,Chewable Tablet,,250 MG
+2683420,161,SCD,acetaminophen 32 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML Oral Solution,,acetaminophen 32 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML Oral Solution,Oral Solution,,32 MG
+2684921,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG Oral Tablet,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG Oral Tablet,Oral Tablet,,325 MG
+2685209,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG Chewable Tablet,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG Chewable Tablet,Chewable Tablet,,325 MG
+2691098,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,,acetaminophen 325 MG / chlorpheniramine maleate 2 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,Effervescent Oral Tablet,,325 MG
+2691101,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Effervescent Oral Tablet,Effervescent Oral Tablet,,325 MG
+2691689,161,SCD,acetaminophen 325 MG / diphenhydramine hydrochloride 12.5 MG Chewable Tablet,,acetaminophen 325 MG / diphenhydramine hydrochloride 12.5 MG Chewable Tablet,Chewable Tablet,,325 MG
+2692302,161,SCD,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1.5 MG/ML / doxylamine succinate 0.625 MG/ML Oral Suspension,,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1.5 MG/ML / doxylamine succinate 0.625 MG/ML Oral Suspension,Oral Suspension,,32.5 MG
+2693770,161,SCD,acetaminophen 32 MG/ML / dextromethorphan hydrobromide 0.5 MG/ML Oral Suspension,,acetaminophen 32 MG/ML / dextromethorphan hydrobromide 0.5 MG/ML Oral Suspension,Oral Suspension,,32 MG
+2693772,161,SCD,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Suspension,,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Suspension,Oral Suspension,,32.5 MG
+2693775,161,SCD,acetaminophen 32.5 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML Oral Suspension,,acetaminophen 32.5 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML Oral Suspension,Oral Suspension,,32.5 MG
+2705808,161,SCD,acetaminophen 80 MG Oral Film,,acetaminophen 80 MG Oral Film,Oral Film,,80 MG
+2709229,161,SCD,acetaminophen 325 MG / chlorpheniramine maleate 4 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Oral Tablet,,acetaminophen 325 MG / chlorpheniramine maleate 4 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Oral Tablet,Oral Tablet,,325 MG
+2709673,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG Oral Tablet,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG Oral Tablet,Oral Tablet,,325 MG
+2712155,161,SCD,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 2 MG/ML / guaifenesin 40 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,,acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 2 MG/ML / guaifenesin 40 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,Oral Solution,,32.5 MG
+2712156,161,SCD,acetaminophen 32.5 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,,acetaminophen 32.5 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution,Oral Solution,,32.5 MG
+2713312,161,SCD,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG Oral Tablet,,acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG Oral Tablet,Oral Tablet,,325 MG
+2715604,161,SCD,65 ML acetaminophen 10 MG/ML Injection,,65 ML acetaminophen 10 MG/ML Injection,Injection,,65 ML
+2715863,161,SCD,acetaminophen 162.5 MG / dextromethorphan hydrobromide 5 MG / doxylamine succinate 3.125 MG Chewable Tablet,,acetaminophen 162.5 MG / dextromethorphan hydrobromide 5 MG / doxylamine succinate 3.125 MG Chewable Tablet,Chewable Tablet,,162.5 MG
+2719840,161,SCD,acetaminophen 45 MG/ML Oral Solution,,acetaminophen 45 MG/ML Oral Solution,Oral Solution,,45 MG
+282464,161,SCD,acetaminophen 160 MG Oral Tablet,,acetaminophen 160 MG Oral Tablet,Oral Tablet,,160 MG
+283274,161,SCD,acetaminophen 250 MG / caffeine 50 MG / magnesium salicylate 290 MG Oral Tablet,,acetaminophen 250 MG / caffeine 50 MG / magnesium salicylate 290 MG Oral Tablet,Oral Tablet,,250 MG
+284094,161,SCD,acetaminophen 500 MG / phenyltoloxamine citrate 60 MG Oral Tablet,,acetaminophen 500 MG / phenyltoloxamine citrate 60 MG Oral Tablet,Oral Tablet,,500 MG
+307666,161,SCD,acetaminophen 125 MG Rectal Suppository,,acetaminophen 125 MG Rectal Suppository,Rectal Suppository,,125 MG
+307667,161,SCD,acetaminophen 160 MG Oral Capsule,,acetaminophen 160 MG Oral Capsule,Oral Capsule,,160 MG
+307668,161,SCD,acetaminophen 32 MG/ML Oral Suspension,,acetaminophen 32 MG/ML Oral Suspension,Oral Suspension,,32 MG
+307675,161,SCD,acetaminophen 32 MG/ML Oral Solution,,acetaminophen 32 MG/ML Oral Solution,Oral Solution,,32 MG
+307684,161,SCD,acetaminophen 33.3 MG/ML Oral Solution,,acetaminophen 33.3 MG/ML Oral Solution,Oral Solution,,33.3 MG
+307686,161,SCD,acetaminophen 500 MG / caffeine 65 MG Oral Tablet,,acetaminophen 500 MG / caffeine 65 MG Oral Tablet,Oral Tablet,,500 MG
+307695,161,SCD,acetaminophen 80 MG Oral Capsule,,acetaminophen 80 MG Oral Capsule,Oral Capsule,,80 MG
+307696,161,SCD,acetaminophen 80 MG Chewable Tablet,,acetaminophen 80 MG Chewable Tablet,Chewable Tablet,,80 MG
+308278,161,SCD,acetaminophen 115 MG / aspirin 210 MG / caffeine 16 MG / salicylamide 65 MG Oral Tablet,,acetaminophen 115 MG / aspirin 210 MG / caffeine 16 MG / salicylamide 65 MG Oral Tablet,Oral Tablet,,115 MG
+308297,161,SCD,acetaminophen 250 MG / aspirin 250 MG / caffeine 65 MG Oral Tablet,,acetaminophen 250 MG / aspirin 250 MG / caffeine 65 MG Oral Tablet,Oral Tablet,,250 MG
+308310,161,SCD,acetaminophen 325 MG / caffeine 100 MG / isometheptene 65 MG Oral Capsule,,acetaminophen 325 MG / caffeine 100 MG / isometheptene 65 MG Oral Capsule,Oral Capsule,,325 MG
+308322,161,SCD,acetaminophen 500 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule,,acetaminophen 500 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule,Oral Capsule,,500 MG
+312288,161,SCD,acetaminophen 650 MG / pentazocine 25 MG Oral Tablet,,acetaminophen 650 MG / pentazocine 25 MG Oral Tablet,Oral Tablet,,650 MG
+313782,161,SCD,acetaminophen 325 MG Oral Tablet,,acetaminophen 325 MG Oral Tablet,Oral Tablet,,325 MG
+313820,161,SCD,acetaminophen 160 MG Chewable Tablet,,acetaminophen 160 MG Chewable Tablet,Chewable Tablet,,160 MG
+348978,161,SCD,acetaminophen 300 MG Oral Tablet,,acetaminophen 300 MG Oral Tablet,Oral Tablet,,300 MG
+349113,161,SCD,acetaminophen 500 MG Delayed Release Oral Capsule,,acetaminophen 500 MG Delayed Release Oral Capsule,Delayed Release Oral Capsule,,500 MG
+359221,161,SCD,acetaminophen 110 MG / aspirin 162 MG / caffeine 32.4 MG / salicylamide 152 MG Oral Tablet,,acetaminophen 110 MG / aspirin 162 MG / caffeine 32.4 MG / salicylamide 152 MG Oral Tablet,Oral Tablet,,110 MG
+388081,161,SCD,acetaminophen 250 MG Disintegrating Oral Tablet,,acetaminophen 250 MG Disintegrating Oral Tablet,Disintegrating Oral Tablet,,250 MG
+392293,161,SCD,acetaminophen 48.2 MG/ML Oral Solution,,acetaminophen 48.2 MG/ML Oral Solution,Oral Solution,,48.2 MG
+403937,161,SCD,acetaminophen 500 MG / caffeine 65 MG Disintegrating Oral Tablet,,acetaminophen 500 MG / caffeine 65 MG Disintegrating Oral Tablet,Disintegrating Oral Tablet,,500 MG
+410226,161,SCD,acetaminophen 500 MG / caffeine 65 MG Oral Capsule,,acetaminophen 500 MG / caffeine 65 MG Oral Capsule,Oral Capsule,,500 MG
+421071,161,SCD,acetaminophen 100 MG Rectal Suppository,,acetaminophen 100 MG Rectal Suppository,Rectal Suppository,,100 MG
+422626,161,SCD,acetaminophen 25 MG/ML Oral Suspension,,acetaminophen 25 MG/ML Oral Suspension,Oral Suspension,,25 MG
+425723,161,SCD,acetaminophen 120 MG/ML Oral Solution,,acetaminophen 120 MG/ML Oral Solution,Oral Solution,,120 MG
+430837,161,SCD,acetaminophen 1000 MG Oral Tablet,,acetaminophen 1000 MG Oral Tablet,Oral Tablet,,1000 MG
+432638,161,SCD,acetaminophen 250 MG / aspirin 250 MG Oral Tablet,,acetaminophen 250 MG / aspirin 250 MG Oral Tablet,Oral Tablet,,250 MG
+437160,161,SCD,acetaminophen 20 MG/ML Oral Suspension,,acetaminophen 20 MG/ML Oral Suspension,Oral Suspension,,20 MG
+477282,161,SCD,acetaminophen 160 MG Disintegrating Oral Tablet,,acetaminophen 160 MG Disintegrating Oral Tablet,Disintegrating Oral Tablet,,160 MG
+483017,161,SCD,100 ML acetaminophen 10 MG/ML Injection,,100 ML acetaminophen 10 MG/ML Injection,Injection,,100 ML
+602617,161,SCD,acetaminophen 325 MG / guaifenesin 200 MG Oral Tablet,,acetaminophen 325 MG / guaifenesin 200 MG Oral Tablet,Oral Tablet,,325 MG
+603136,161,SCD,acetaminophen 325 MG Disintegrating Oral Tablet,,acetaminophen 325 MG Disintegrating Oral Tablet,Disintegrating Oral Tablet,,325 MG
+606947,161,SCD,acetaminophen 325 MG / dichloralphenazone 100 MG / isometheptene 65 MG Oral Capsule,,acetaminophen 325 MG / dichloralphenazone 100 MG / isometheptene 65 MG Oral Capsule,Oral Capsule,,325 MG
+647877,161,SCD,acetaminophen 250 MG / magnesium salicylate 250 MG / pamabrom 25 MG Oral Tablet,,acetaminophen 250 MG / magnesium salicylate 250 MG / pamabrom 25 MG Oral Tablet,Oral Tablet,,250 MG
+647888,161,SCD,acetaminophen 325 MG / pamabrom 25 MG / vitamin B6 1 MG Oral Tablet,,acetaminophen 325 MG / pamabrom 25 MG / vitamin B6 1 MG Oral Tablet,Oral Tablet,,325 MG
+665056,161,SCD,acetaminophen 500 MG Chewable Tablet,,acetaminophen 500 MG Chewable Tablet,Chewable Tablet,,500 MG
+672601,161,SCD,acetaminophen 250 MG / caffeine 32.5 MG / magnesium salicylate 310 MG Oral Tablet,,acetaminophen 250 MG / caffeine 32.5 MG / magnesium salicylate 310 MG Oral Tablet,Oral Tablet,,250 MG
+692836,161,SCD,acetaminophen 325 MG / aspirin 500 MG / caffeine 65 MG Oral Powder,,acetaminophen 325 MG / aspirin 500 MG / caffeine 65 MG Oral Powder,Oral Powder,,325 MG
+701913,161,SCD,acetaminophen 500 MG / caffeine 60 MG / pyrilamine maleate 15 MG Oral Capsule,,acetaminophen 500 MG / caffeine 60 MG / pyrilamine maleate 15 MG Oral Capsule,Oral Capsule,,500 MG
+707195,161,SCD,acetaminophen 325 MG / guaifenesin 200 MG Oral Capsule,,acetaminophen 325 MG / guaifenesin 200 MG Oral Capsule,Oral Capsule,,325 MG
+756245,161,SCD,acetaminophen 21.7 MG/ML / butalbital 3.33 MG/ML / caffeine 2.67 MG/ML Oral Solution,,acetaminophen 21.7 MG/ML / butalbital 3.33 MG/ML / caffeine 2.67 MG/ML Oral Solution,Oral Solution,,21.7 MG
+763111,161,SCD,acetaminophen 325 MG / aspirin 500 MG Oral Powder,,acetaminophen 325 MG / aspirin 500 MG Oral Powder,Oral Powder,,325 MG
+763116,161,SCD,acetaminophen 260 MG / aspirin 520 MG / caffeine 32.5 MG Oral Powder,,acetaminophen 260 MG / aspirin 520 MG / caffeine 32.5 MG Oral Powder,Oral Powder,,260 MG
+827318,161,SCD,acetaminophen 250 MG / aspirin 250 MG / caffeine 65 MG Oral Capsule,,acetaminophen 250 MG / aspirin 250 MG / caffeine 65 MG Oral Capsule,Oral Capsule,,250 MG
+827751,161,SCD,acetaminophen 325 MG / propoxyphene napsylate 100 MG Oral Tablet,,acetaminophen 325 MG / propoxyphene napsylate 100 MG Oral Tablet,Oral Tablet,,325 MG
+827757,161,SCD,acetaminophen 21.7 MG/ML / guaifenesin 13.3 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution,,acetaminophen 21.7 MG/ML / guaifenesin 13.3 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution,Oral Solution,,21.7 MG
+828576,161,SCD,acetaminophen 650 MG / propoxyphene napsylate 100 MG Oral Tablet,,acetaminophen 650 MG / propoxyphene napsylate 100 MG Oral Tablet,Oral Tablet,,650 MG
+833036,161,SCD,acetaminophen 750 MG / hydrocodone bitartrate 7.5 MG Oral Tablet,,acetaminophen 750 MG / hydrocodone bitartrate 7.5 MG Oral Tablet,Oral Tablet,,750 MG
+836395,161,SCD,acetaminophen 325 MG / tramadol hydrochloride 37.5 MG Oral Tablet,,acetaminophen 325 MG / tramadol hydrochloride 37.5 MG Oral Tablet,Oral Tablet,,325 MG
+849293,161,SCD,acetaminophen 325 MG / propoxyphene hydrochloride 32.5 MG Oral Tablet,,acetaminophen 325 MG / propoxyphene hydrochloride 32.5 MG Oral Tablet,Oral Tablet,,325 MG
+849295,161,SCD,acetaminophen 325 MG / propoxyphene napsylate 50 MG Oral Tablet,,acetaminophen 325 MG / propoxyphene napsylate 50 MG Oral Tablet,Oral Tablet,,325 MG
+849304,161,SCD,acetaminophen 500 MG / propoxyphene napsylate 100 MG Oral Tablet,,acetaminophen 500 MG / propoxyphene napsylate 100 MG Oral Tablet,Oral Tablet,,500 MG
+856903,161,SCD,acetaminophen 500 MG / hydrocodone bitartrate 5 MG Oral Tablet,,acetaminophen 500 MG / hydrocodone bitartrate 5 MG Oral Tablet,Oral Tablet,,500 MG
+856908,161,SCD,acetaminophen 660 MG / hydrocodone bitartrate 10 MG Oral Tablet,,acetaminophen 660 MG / hydrocodone bitartrate 10 MG Oral Tablet,Oral Tablet,,660 MG
+856940,161,SCD,acetaminophen 21.7 MG/ML / hydrocodone bitartrate 0.5 MG/ML Oral Solution,,acetaminophen 21.7 MG/ML / hydrocodone bitartrate 0.5 MG/ML Oral Solution,Oral Solution,,21.7 MG
+856944,161,SCD,acetaminophen 21.7 MG/ML / hydrocodone bitartrate 0.67 MG/ML Oral Solution,,acetaminophen 21.7 MG/ML / hydrocodone bitartrate 0.67 MG/ML Oral Solution,Oral Solution,,21.7 MG
+856962,161,SCD,acetaminophen 500 MG / hydrocodone bitartrate 5 MG Oral Capsule,,acetaminophen 500 MG / hydrocodone bitartrate 5 MG Oral Capsule,Oral Capsule,,500 MG
+856980,161,SCD,acetaminophen 300 MG / hydrocodone bitartrate 10 MG Oral Tablet,,acetaminophen 300 MG / hydrocodone bitartrate 10 MG Oral Tablet,Oral Tablet,,300 MG
+856987,161,SCD,acetaminophen 300 MG / hydrocodone bitartrate 5 MG Oral Tablet,,acetaminophen 300 MG / hydrocodone bitartrate 5 MG Oral Tablet,Oral Tablet,,300 MG
+856992,161,SCD,acetaminophen 300 MG / hydrocodone bitartrate 7.5 MG Oral Tablet,,acetaminophen 300 MG / hydrocodone bitartrate 7.5 MG Oral Tablet,Oral Tablet,,300 MG
+856999,161,SCD,acetaminophen 325 MG / hydrocodone bitartrate 10 MG Oral Tablet,,acetaminophen 325 MG / hydrocodone bitartrate 10 MG Oral Tablet,Oral Tablet,,325 MG
+857002,161,SCD,acetaminophen 325 MG / hydrocodone bitartrate 5 MG Oral Tablet,,acetaminophen 325 MG / hydrocodone bitartrate 5 MG Oral Tablet,Oral Tablet,,325 MG
+857005,161,SCD,acetaminophen 325 MG / hydrocodone bitartrate 7.5 MG Oral Tablet,,acetaminophen 325 MG / hydrocodone bitartrate 7.5 MG Oral Tablet,Oral Tablet,,325 MG
+857076,161,SCD,acetaminophen 33.3 MG/ML / hydrocodone bitartrate 0.333 MG/ML Oral Solution,,acetaminophen 33.3 MG/ML / hydrocodone bitartrate 0.333 MG/ML Oral Solution,Oral Solution,,33.3 MG
+857083,161,SCD,acetaminophen 650 MG / hydrocodone bitartrate 7.5 MG Oral Tablet,,acetaminophen 650 MG / hydrocodone bitartrate 7.5 MG Oral Tablet,Oral Tablet,,650 MG
+857099,161,SCD,acetaminophen 33.3 MG/ML / hydrocodone bitartrate 0.5 MG/ML Oral Solution,,acetaminophen 33.3 MG/ML / hydrocodone bitartrate 0.5 MG/ML Oral Solution,Oral Solution,,33.3 MG
+857107,161,SCD,acetaminophen 500 MG / hydrocodone bitartrate 10 MG Oral Tablet,,acetaminophen 500 MG / hydrocodone bitartrate 10 MG Oral Tablet,Oral Tablet,,500 MG
+857111,161,SCD,acetaminophen 500 MG / hydrocodone bitartrate 2.5 MG Oral Tablet,,acetaminophen 500 MG / hydrocodone bitartrate 2.5 MG Oral Tablet,Oral Tablet,,500 MG
+857118,161,SCD,acetaminophen 500 MG / hydrocodone bitartrate 7.5 MG Oral Tablet,,acetaminophen 500 MG / hydrocodone bitartrate 7.5 MG Oral Tablet,Oral Tablet,,500 MG
+857128,161,SCD,acetaminophen 400 MG / hydrocodone bitartrate 10 MG Oral Tablet,,acetaminophen 400 MG / hydrocodone bitartrate 10 MG Oral Tablet,Oral Tablet,,400 MG
+857131,161,SCD,acetaminophen 400 MG / hydrocodone bitartrate 5 MG Oral Tablet,,acetaminophen 400 MG / hydrocodone bitartrate 5 MG Oral Tablet,Oral Tablet,,400 MG
+857134,161,SCD,acetaminophen 400 MG / hydrocodone bitartrate 7.5 MG Oral Tablet,,acetaminophen 400 MG / hydrocodone bitartrate 7.5 MG Oral Tablet,Oral Tablet,,400 MG
+857383,161,SCD,acetaminophen 650 MG / hydrocodone bitartrate 10 MG Oral Tablet,,acetaminophen 650 MG / hydrocodone bitartrate 10 MG Oral Tablet,Oral Tablet,,650 MG
+857391,161,SCD,acetaminophen 325 MG / hydrocodone bitartrate 2.5 MG Oral Tablet,,acetaminophen 325 MG / hydrocodone bitartrate 2.5 MG Oral Tablet,Oral Tablet,,325 MG
+857452,161,SCD,acetaminophen 500 MG / clemastine fumarate 0.335 MG / phenylpropanolamine hydrochloride 30 MG Oral Tablet,,acetaminophen 500 MG / clemastine fumarate 0.335 MG / phenylpropanolamine hydrochloride 30 MG Oral Tablet,Oral Tablet,,500 MG
+857501,161,SCD,acetaminophen 556 MG / hydrocodone bitartrate 5 MG Oral Tablet,,acetaminophen 556 MG / hydrocodone bitartrate 5 MG Oral Tablet,Oral Tablet,,556 MG
+880326,161,SCD,acetaminophen 300 MG / phenyltoloxamine citrate 20 MG / salicylamide 200 MG Oral Capsule,,acetaminophen 300 MG / phenyltoloxamine citrate 20 MG / salicylamide 200 MG Oral Capsule,Oral Capsule,,300 MG
+889520,161,SCD,acetaminophen 300 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule,,acetaminophen 300 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule,Oral Capsule,,300 MG
+992908,161,SCD,acetaminophen 24 MG/ML / promethazine hydrochloride 0.3 MG/ML Oral Suspension,,acetaminophen 24 MG/ML / promethazine hydrochloride 0.3 MG/ML Oral Suspension,Oral Suspension,,24 MG
+993755,161,SCD,acetaminophen 24 MG/ML / codeine phosphate 2.4 MG/ML Oral Solution,,acetaminophen 24 MG/ML / codeine phosphate 2.4 MG/ML Oral Solution,Oral Solution,,24 MG
+993770,161,SCD,acetaminophen 300 MG / codeine phosphate 15 MG Oral Tablet,,acetaminophen 300 MG / codeine phosphate 15 MG Oral Tablet,Oral Tablet,,300 MG
+993781,161,SCD,acetaminophen 300 MG / codeine phosphate 30 MG Oral Tablet,,acetaminophen 300 MG / codeine phosphate 30 MG Oral Tablet,Oral Tablet,,300 MG
+993890,161,SCD,acetaminophen 300 MG / codeine phosphate 60 MG Oral Tablet,,acetaminophen 300 MG / codeine phosphate 60 MG Oral Tablet,Oral Tablet,,300 MG
+993943,161,SCD,acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG / codeine phosphate 30 MG Oral Capsule,,acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG / codeine phosphate 30 MG Oral Capsule,Oral Capsule,,325 MG
+994043,161,SCD,acetaminophen 500 MG / codeine phosphate 15 MG Oral Tablet,,acetaminophen 500 MG / codeine phosphate 15 MG Oral Tablet,Oral Tablet,,500 MG
+994046,161,SCD,acetaminophen 500 MG / codeine phosphate 30 MG Oral Tablet,,acetaminophen 500 MG / codeine phosphate 30 MG Oral Tablet,Oral Tablet,,500 MG
+996976,161,SCD,acetaminophen 500 MG / codeine phosphate 12.8 MG Oral Tablet,,acetaminophen 500 MG / codeine phosphate 12.8 MG Oral Tablet,Oral Tablet,,500 MG
+996978,161,SCD,acetaminophen 500 MG / codeine phosphate 13.5 MG Oral Tablet,,acetaminophen 500 MG / codeine phosphate 13.5 MG Oral Tablet,Oral Tablet,,500 MG
+996979,161,SCD,acetaminophen 500 MG / codeine phosphate 30 MG Oral Capsule,,acetaminophen 500 MG / codeine phosphate 30 MG Oral Capsule,Oral Capsule,,500 MG
+996981,161,SCD,acetaminophen 500 MG / codeine phosphate 8 MG Oral Capsule,,acetaminophen 500 MG / codeine phosphate 8 MG Oral Capsule,Oral Capsule,,500 MG
+996982,161,SCD,acetaminophen 500 MG / codeine phosphate 8 MG Oral Tablet,,acetaminophen 500 MG / codeine phosphate 8 MG Oral Tablet,Oral Tablet,,500 MG
+999419,161,SCD,acetaminophen 500 MG / phenyltoloxamine citrate 50 MG Oral Tablet,,acetaminophen 500 MG / phenyltoloxamine citrate 50 MG Oral Tablet,Oral Tablet,,500 MG
+1991311,1991302,SBD,"0.25 MG, 0.5 MG Dose 1.5 ML semaglutide 1.34 MG/ML Pen Injector [Ozempic]",Ozempic,semaglutide,Pen Injector,,0.25 MG
+1991317,1991302,SBD,1 MG Dose 1.5 ML semaglutide 1.34 MG/ML Pen Injector [Ozempic],Ozempic,semaglutide,Pen Injector,,1 MG
+2200650,1991302,SBD,semaglutide 14 MG Oral Tablet [Rybelsus],Rybelsus,semaglutide,Oral Tablet,,14 MG
+2200654,1991302,SBD,semaglutide 3 MG Oral Tablet [Rybelsus],Rybelsus,semaglutide,Oral Tablet,,3 MG
+2200658,1991302,SBD,semaglutide 7 MG Oral Tablet [Rybelsus],Rybelsus,semaglutide,Oral Tablet,,7 MG
+2398842,1991302,SBD,3 ML semaglutide 1.34 MG/ML Pen Injector [Ozempic],Ozempic,semaglutide,Pen Injector,,3 ML
+2553506,1991302,SBD,0.5 ML semaglutide 0.5 MG/ML Auto-Injector [Wegovy],Wegovy,semaglutide,Auto-Injector,,0.5 ML
+2553603,1991302,SBD,0.5 ML semaglutide 1 MG/ML Auto-Injector [Wegovy],Wegovy,semaglutide,Auto-Injector,,0.5 ML
+2553803,1991302,SBD,0.5 ML semaglutide 2 MG/ML Auto-Injector [Wegovy],Wegovy,semaglutide,Auto-Injector,,0.5 ML
+2553903,1991302,SBD,0.75 ML semaglutide 2.27 MG/ML Auto-Injector [Wegovy],Wegovy,semaglutide,Auto-Injector,,0.75 ML
+2554104,1991302,SBD,0.75 ML semaglutide 3.2 MG/ML Auto-Injector [Wegovy],Wegovy,semaglutide,Auto-Injector,,0.75 ML
+2599365,1991302,SBD,3 ML semaglutide 2.68 MG/ML Pen Injector [Ozempic],Ozempic,semaglutide,Pen Injector,,3 ML
+2619154,1991302,SBD,"0.25 MG, 0.5 MG Dose 3 ML semaglutide 0.68 MG/ML Pen Injector [Ozempic]",Ozempic,semaglutide,Pen Injector,,0.25 MG
+2707549,1991302,SBD,semaglutide 1.5 MG Oral Tablet [Rybelsus],Rybelsus,semaglutide,Oral Tablet,,1.5 MG
+2707553,1991302,SBD,semaglutide 4 MG Oral Tablet [Rybelsus],Rybelsus,semaglutide,Oral Tablet,,4 MG
+2707557,1991302,SBD,semaglutide 9 MG Oral Tablet [Rybelsus],Rybelsus,semaglutide,Oral Tablet,,9 MG
+1991306,1991302,SCD,"0.25 MG, 0.5 MG Dose 1.5 ML semaglutide 1.34 MG/ML Pen Injector",,"0.25 MG, 0.5 MG Dose 1.5 ML semaglutide 1.34 MG/ML Pen Injector",Pen Injector,,0.25 MG
+1991316,1991302,SCD,1 MG Dose 1.5 ML semaglutide 1.34 MG/ML Pen Injector,,1 MG Dose 1.5 ML semaglutide 1.34 MG/ML Pen Injector,Pen Injector,,1 MG
+2200644,1991302,SCD,semaglutide 14 MG Oral Tablet,,semaglutide 14 MG Oral Tablet,Oral Tablet,,14 MG
+2200652,1991302,SCD,semaglutide 3 MG Oral Tablet,,semaglutide 3 MG Oral Tablet,Oral Tablet,,3 MG
+2200656,1991302,SCD,semaglutide 7 MG Oral Tablet,,semaglutide 7 MG Oral Tablet,Oral Tablet,,7 MG
+2398841,1991302,SCD,3 ML semaglutide 1.34 MG/ML Pen Injector,,3 ML semaglutide 1.34 MG/ML Pen Injector,Pen Injector,,3 ML
+2553501,1991302,SCD,0.5 ML semaglutide 0.5 MG/ML Auto-Injector,,0.5 ML semaglutide 0.5 MG/ML Auto-Injector,Auto-Injector,,0.5 ML
+2553601,1991302,SCD,0.5 ML semaglutide 1 MG/ML Auto-Injector,,0.5 ML semaglutide 1 MG/ML Auto-Injector,Auto-Injector,,0.5 ML
+2553802,1991302,SCD,0.5 ML semaglutide 2 MG/ML Auto-Injector,,0.5 ML semaglutide 2 MG/ML Auto-Injector,Auto-Injector,,0.5 ML
+2553901,1991302,SCD,0.75 ML semaglutide 2.27 MG/ML Auto-Injector,,0.75 ML semaglutide 2.27 MG/ML Auto-Injector,Auto-Injector,,0.75 ML
+2554102,1991302,SCD,0.75 ML semaglutide 3.2 MG/ML Auto-Injector,,0.75 ML semaglutide 3.2 MG/ML Auto-Injector,Auto-Injector,,0.75 ML
+2599362,1991302,SCD,3 ML semaglutide 2.68 MG/ML Pen Injector,,3 ML semaglutide 2.68 MG/ML Pen Injector,Pen Injector,,3 ML
+2619152,1991302,SCD,"0.25 MG, 0.5 MG Dose 3 ML semaglutide 0.68 MG/ML Pen Injector",,"0.25 MG, 0.5 MG Dose 3 ML semaglutide 0.68 MG/ML Pen Injector",Pen Injector,,0.25 MG
+2707547,1991302,SCD,semaglutide 1.5 MG Oral Tablet,,semaglutide 1.5 MG Oral Tablet,Oral Tablet,,1.5 MG
+2707551,1991302,SCD,semaglutide 4 MG Oral Tablet,,semaglutide 4 MG Oral Tablet,Oral Tablet,,4 MG
+2707555,1991302,SCD,semaglutide 9 MG Oral Tablet,,semaglutide 9 MG Oral Tablet,Oral Tablet,,9 MG
