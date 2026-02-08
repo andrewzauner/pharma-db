@@ -22,3 +22,4 @@ DATA_DIR = os.path.join(SCRIPT_DIR, "data")
 # ETL settings
 REPLACE_TABLES = True  # If True, drop and recreate tables; if False, append
 
+

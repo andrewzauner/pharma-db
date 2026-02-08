@@ -93,3 +93,4 @@ If you want to automate this, you can:
 
 As of now, manual download is the most reliable method. The script is optimized to work seamlessly once you provide the downloaded file.
 
+

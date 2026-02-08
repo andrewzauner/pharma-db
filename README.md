@@ -47,21 +47,7 @@ pip install -r requirements.txt
 
 Set environment variables for PostgreSQL connection:
 
-```bash
-# Windows PowerShell
-$env:DB_HOST="192.168.0.85"
-$env:DB_PORT="5432"
-$env:DB_NAME="asclepius"
-$env:DB_USER="postgres"
-$env:DB_PASSWORD="your_password"
 
-# Linux/Mac
-export DB_HOST=192.168.0.85
-export DB_PORT=5432
-export DB_NAME=asclepius
-export DB_USER=postgres
-export DB_PASSWORD=your_password
-```
 
 Or edit `config.py` directly to set default values.
 
@@ -227,4 +213,5 @@ PharmaDB/
 ## License
 
 This is a data extraction and loading tool. Ensure compliance with FDA and RxNorm data usage terms.
+
 
