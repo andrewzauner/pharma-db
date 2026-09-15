@@ -167,11 +167,11 @@ Examples:
         logger.info("\n" + "=" * 70)
         logger.info("STEP 3: RxNorm Ingest")
         logger.info("=" * 70)
-        # Note: RxNorm script uses seed names by default
-        # If custom names provided, we'd need to modify rxnorm_ingest.py to accept args
+        rxnorm_args = ["--names"] + args.rxnorm_names if args.rxnorm_names else []
         results["rxnorm"] = run_script(
             "rxnorm_ingest.py",
-            "RxNorm data ingest"
+            "RxNorm data ingest",
+            *rxnorm_args
         )
         if not results["rxnorm"]:
             logger.warning("RxNorm ingest failed, but continuing...")

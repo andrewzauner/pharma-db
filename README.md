@@ -84,6 +84,18 @@ python rxnorm_ingest.py
 python load_to_postgres.py --only rxnorm
 ```
 
+By default this queries RxNav for a small built-in seed list (adalimumab,
+lipitor, acetaminophen, semaglutide). To look up specific drugs instead:
+```bash
+python rxnorm_ingest.py --names ibuprofen naproxen
+```
+Or to build real coverage of what's actually in the Orange Book, seed from
+its most-common active ingredients (run `orange_book_ingest.py` first):
+```bash
+python rxnorm_ingest.py --from-orange-book 50
+```
+`run_etl_pipeline.py --rxnorm-names <names>` passes through to `--names`.
+
 **Load existing CSVs only:**
 ```bash
 python load_to_postgres.py
