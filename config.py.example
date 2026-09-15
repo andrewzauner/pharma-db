@@ -1,0 +1,30 @@
+"""
+Example configuration for PharmaDB ETL pipeline.
+
+Copy this file to config.py and fill in real values for local development,
+or (preferred) leave config.py alone and set these as environment variables:
+
+    export DB_HOST=192.168.0.85
+    export DB_PORT=5432
+    export DB_NAME=asclepius
+    export DB_USER=asclepius_app
+    export DB_PASSWORD=your_password_here
+
+config.py itself is gitignored so local credentials never get committed.
+"""
+import os
+from typing import Dict
+
+DB_CONFIG: Dict[str, str] = {
+    "host": os.getenv("DB_HOST", "localhost"),
+    "port": os.getenv("DB_PORT", "5432"),
+    "database": os.getenv("DB_NAME", "asclepius"),
+    "user": os.getenv("DB_USER", "asclepius_app"),
+    "password": os.getenv("DB_PASSWORD", ""),
+    "schema": "raw",
+}
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(SCRIPT_DIR, "data")
+
+REPLACE_TABLES = True

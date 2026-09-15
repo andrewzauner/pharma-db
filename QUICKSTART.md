@@ -8,9 +8,12 @@
    ```
 
 2. **Set database credentials:**
-   
-   Edit `config.py` or set environment variables:
+
+   Copy the example config and set environment variables (config.py is
+   gitignored so local credentials never get committed):
    ```bash
+   cp config.py.example config.py
+
    # Windows PowerShell
    $env:DB_PASSWORD="your_password"
    

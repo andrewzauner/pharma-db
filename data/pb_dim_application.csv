@@ -1,819 +1,817 @@
-BLANumber,Applicant,Status,Status,OriginalLicensureDate,LastUpdateDate
-125197,Dendreon Pharmaceuticals LLC,Disc,Licensed,NaT,2010-04-29
-125384,Kedrion Biopharma Inc.,Rx,Licensed,NaT,2011-06-03
-125822,"Kedrion, S.p.A.",Rx,Licensed,NaT,2025-09-26
-761439,Hikma Pharmaceuticals USA Inc.,Rx,Licensed,NaT,2025-09-26
-<NA>,<NA>,<NA>,<NA>,NaT,NaT
-17016,Ferring Pharmaceuticals Inc.,Disc,Licensed,NaT,2074-01-15
-17054,"Bel-Mar Laboratories, Inc.",Disc,Licensed,NaT,2074-03-26
-17055,Ferring Pharmaceuticals Inc.,Disc,Licensed,NaT,2074-12-13
-17067,"Fresenius Kabi USA, LLC",Disc,Licensed,NaT,2073-03-05
-17646,"EMD Serono, Inc.",Disc,Licensed,NaT,1975-08-22
-17692,"Organon USA LLC, a subsidiary of Organon & Co.",Rx,Licensed,NaT,1976-10-20
-17776,Jubilant DraxImage Inc.,Disc,Licensed,NaT,1976-11-16
-17833,Bracco Diagnostics Inc.,Disc,Licensed,NaT,1976-02-23
-17835,"Iso-Tex Diagnostics, Inc.",Disc,Voluntarily Revoked,NaT,1976-02-23
-17836,"Iso-Tex Diagnostics, Inc.",Disc,Voluntarily Revoked,NaT,1976-02-23
-17837,"Iso-Tex Diagnostics, Inc.",Disc,Licensed,NaT,1976-02-23
-17881,Jubilant DraxImage Inc.,Rx,Licensed,NaT,1987-12-30
-18263,Pharmalucence Inc,Disc,Voluntarily Revoked,NaT,1983-03-25
-18663,"DisCure Medical, LLC",Disc,Licensed,NaT,1982-11-10
-18780,Eli Lilly and Company,OTC,Licensed,NaT,1982-10-28
-18781,Eli Lilly and Company,OTC,Licensed,NaT,1982-10-28
-19640,Eli Lilly and Company,Disc,Licensed,NaT,1987-06-23
-19717,Eli Lilly and Company,OTC,Licensed,NaT,1989-04-25
-19764,"EMD Serono, Inc.",Disc,Voluntarily Revoked,NaT,1996-10-08
-19774,Ferring Pharmaceuticals Inc.,Disc,Licensed,NaT,1995-05-25
-19818,"Leadiant Biosciences, Inc",Disc,Licensed,NaT,1990-03-21
-19938,Novo Nordisk Inc.,OTC,Licensed,NaT,1991-06-25
-19959,Novo Nordisk Inc.,OTC,Licensed,NaT,1991-07-01
-19991,Novo Nordisk Inc.,OTC,Licensed,NaT,1991-06-25
-20032,AbbVie Inc.,Rx,Licensed,NaT,1991-07-01
-20162,Ferring Pharmaceuticals Inc.,Disc,Licensed,NaT,1996-05-23
-20168,"Genentech, Inc.",Disc,Voluntarily Revoked,NaT,1993-11-17
-20280,Pharmacia & Upjohn Company LLC,Disc,Licensed,NaT,1995-08-24
-20304,Bayer HealthCare Pharmaceuticals Inc.,Disc,Licensed,NaT,1993-12-29
-20328,"Organon USA Inc., a subsidiary of Merck & Co., Inc.",Disc,Voluntarily Revoked,NaT,1994-09-01
-20367,Genzyme Corporation,Disc,Licensed,NaT,1994-05-23
-20378,"EMD Serono, Inc.",Disc,Licensed,NaT,1997-09-29
-20521,ONY Biotech Inc.,Rx,Licensed,NaT,1998-07-01
-20522,"Genentech, Inc.",Disc,Voluntarily Revoked,NaT,1995-12-29
-20563,Eli Lilly and Company,Rx,Licensed,NaT,1996-06-14
-20580,"Organon USA Inc., a subsidiary of Merck & Co., Inc.",Disc,Voluntarily Revoked,NaT,1996-12-09
-20582,"Organon USA Inc., a subsidiary of Merck & Co., Inc.",Disc,Voluntarily Revoked,NaT,1997-09-29
-20604,"EMD Serono, Inc.",Rx,Licensed,NaT,1996-08-23
-20725,AbbVie Inc.,Rx,Licensed,NaT,2009-04-30
-20744,"Chiesi USA, Inc.",Rx,Licensed,NaT,1999-11-18
-20772,"QOL Medical, LLC",Rx,Licensed,NaT,1998-04-09
-20898,Genzyme Corporation,Rx,Licensed,NaT,1998-11-30
-20986,Novo Nordisk Inc.,Rx,Licensed,NaT,2000-06-07
-21017,Eli Lilly and Company,Rx,Licensed,NaT,1999-12-22
-21018,Eli Lilly and Company,Disc,Licensed,NaT,1999-12-22
-21047,Ferring Pharmaceuticals Inc.,Disc,Licensed,NaT,1999-08-27
-21081,Sanofi-Aventis U.S. LLC,Rx,Licensed,NaT,2000-04-20
-21106,Pharmacia & Upjohn Company LLC,Rx,Licensed,NaT,2003-03-25
-21148,Novo Nordisk Inc.,Disc,Licensed,NaT,2000-06-20
-21149,"EMD Serono, Inc.",Disc,Licensed,NaT,2000-09-20
-21172,Novo Nordisk Inc.,Rx,Licensed,NaT,2001-11-01
-21211,"Organon USA LLC, a subsidiary of Organon & Co.",Rx,Licensed,NaT,2004-03-23
-21271,"Bausch Health US, LLC",Disc,Voluntarily Revoked,NaT,2003-04-04
-21273,"Organon USA Inc., a subsidiary of Merck & Co., Inc.",Disc,Voluntarily Revoked,NaT,2005-08-26
-21289,Ferring Pharmaceuticals Inc.,Disc,Voluntarily Revoked,NaT,2002-05-06
-21426,Sandoz Inc.,Rx,Licensed,NaT,2006-05-30
-21536,Novo Nordisk Inc.,Disc,Licensed,NaT,2005-06-16
-21538,Emergent Biosolutions Canada Inc.,Disc,Voluntarily Revoked,NaT,2008-01-23
-21629,Sanofi-Aventis U.S. LLC,Rx,Licensed,NaT,2004-04-16
-21640,Bausch & Lomb Incorporated,Disc,Licensed,NaT,2004-05-05
-21663,Ferring Pharmaceuticals Inc.,Rx,Licensed,NaT,2004-10-29
-21665,"Amphastar Pharmaceuticals, Inc.",Rx,Licensed,NaT,2004-10-26
-21684,"EMD Serono, Inc.",Rx,Licensed,NaT,2004-05-25
-21716,"Akorn, Inc.",Disc,Licensed,NaT,2005-10-25
-21765,"EMD Serono, Inc.",Disc,Licensed,NaT,2004-03-25
-21810,Novo Nordisk Inc.,Disc,Voluntarily Revoked,NaT,2008-08-26
-21839,"Eton Pharmaceuticals, Inc.",Rx,Licensed,NaT,2005-08-30
-21846,Microbix Biosystems Inc.,Disc,Licensed,NaT,1978-01-16
-21859,"Halozyme Therapeutics, Inc.",Rx,Licensed,NaT,2005-12-02
-21884,Insmed Incorporated,Disc,Voluntarily Revoked,NaT,2005-12-12
-22175,"Digestive Care, Inc.",Rx,Licensed,NaT,2012-05-17
-22210,"Zenpep, LLC",Rx,Licensed,NaT,2009-08-27
-22458,Pfizer Inc.,Rx,Licensed,NaT,2012-05-01
-22472,Mannkind Corporation,Rx,Licensed,NaT,2014-06-27
-22505,Theratechnologies Inc.,Disc,Licensed,NaT,2010-11-10
-22523,VIVUS LLC,Rx,Licensed,NaT,2010-04-12
-22542,"Viokace, LLC",Rx,Licensed,NaT,2012-03-01
-22575,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2010-02-26
-50114,"AllerQuest, LLC",Rx,Licensed,NaT,2074-07-25
-50294,"Parke-Davis, a Division of Pfizer Inc.",Disc,Voluntarily Revoked,NaT,2064-04-01
-101062,Merck Sharp & Dohme LLC,Rx,Licensed,NaT,2036-02-13
-101063,"Recordati Rare Diseases, Inc.",Disc,Licensed,NaT,1978-01-10
-101066,Merck Sharp & Dohme LLC,Rx,Licensed,NaT,1986-07-23
-101068,Merck Sharp & Dohme LLC,Disc,Voluntarily Revoked,NaT,2063-03-21
-101069,Merck Sharp & Dohme LLC,Rx,Licensed,NaT,2071-04-22
-101072,Merck Sharp & Dohme LLC,Disc,Voluntarily Revoked,NaT,2067-12-28
-101075,Merck Sharp & Dohme LLC,Disc,Voluntarily Revoked,NaT,2069-06-09
-101094,Merck Sharp & Dohme LLC,Rx,Licensed,NaT,1977-11-21
-101098,Wyeth Pharmaceuticals LLC,Disc,Voluntarily Revoked,NaT,2054-02-08
-101099,Wyeth Pharmaceuticals LLC,Rx,Licensed,NaT,2067-08-28
-101130,Grifols Therapeutics LLC,Rx,Licensed,NaT,2074-01-24
-101134,Grifols Therapeutics LLC,Rx,Licensed,NaT,2044-01-11
-101138,Grifols Therapeutics LLC,Rx,Licensed,NaT,2042-10-21
-101140,Grifols Therapeutics LLC,Disc,Licensed,NaT,2058-10-02
-101141,Grifols Therapeutics LLC,Rx,Licensed,NaT,2071-06-11
-101142,Grifols Therapeutics LLC,Rx,Licensed,NaT,2057-10-17
-101144,Grifols Therapeutics LLC,Rx,Licensed,NaT,2074-06-12
-101146,Grifols Therapeutics LLC,Rx,Licensed,NaT,1977-09-23
-101147,Grifols Therapeutics LLC,Disc,Voluntarily Revoked,NaT,1981-09-11
-101246,"Recordati Rare Diseases, Inc.",Rx,Licensed,NaT,1983-07-20
-101322,MassBiologics,Disc,Licensed,NaT,2070-07-27
-101377,"Allergy Laboratories, Inc.",Disc,Voluntarily Revoked,NaT,2030-07-11
-101378,"Allergy Laboratories, Inc.",Disc,Voluntarily Revoked,NaT,2030-07-11
-101379,"Allergy Laboratories, Inc.",Disc,Voluntarily Revoked,NaT,2030-06-14
-101380,"Allergy Laboratories, Inc.",Disc,Voluntarily Revoked,NaT,2030-06-14
-101381,"Allergy Laboratories, Inc.",Disc,Voluntarily Revoked,NaT,2030-06-14
-101382,"Allergy Laboratories, Inc.",Disc,Voluntarily Revoked,NaT,2030-06-14
-101383,"Allergy Laboratories, Inc.",Disc,Voluntarily Revoked,NaT,2030-06-14
-101384,"Allergy Laboratories, Inc.",Disc,Voluntarily Revoked,NaT,2030-06-14
-101385,"Allergy Laboratories, Inc.",Disc,Voluntarily Revoked,NaT,2030-06-14
-101386,"Allergy Laboratories, Inc.",Disc,Voluntarily Revoked,NaT,2030-06-14
-101387,"Allergy Laboratories, Inc.",Disc,Voluntarily Revoked,NaT,2030-06-14
-101447,"Takeda Pharmaceuticals U.S.A., Inc.",Disc,Licensed,NaT,1979-12-21
-101448,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2001-03-14
-101452,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2054-03-03
-101834,"Greer Laboratories, Inc.",Rx,Licensed,NaT,2058-09-15
-101835,"Greer Laboratories, Inc.",Rx,Licensed,NaT,2058-09-15
-101836,"Greer Laboratories, Inc.",Rx,Licensed,NaT,2030-06-14
-101837,"Greer Laboratories, Inc.",Rx,Licensed,NaT,2030-06-14
-101838,"Greer Laboratories, Inc.",Rx,Licensed,NaT,2030-06-14
-101839,"Greer Laboratories, Inc.",Rx,Licensed,NaT,2030-06-14
-101840,"Greer Laboratories, Inc.",Rx,Licensed,NaT,2030-06-14
-101841,"Greer Laboratories, Inc.",Rx,Licensed,NaT,2030-06-14
-101842,"Greer Laboratories, Inc.",Rx,Licensed,NaT,2030-06-14
-101843,"Greer Laboratories, Inc.",Rx,Licensed,NaT,2030-06-14
-101844,"Greer Laboratories, Inc.",Rx,Licensed,NaT,2030-06-14
-101845,"Greer Laboratories, Inc.",Rx,Licensed,NaT,2058-09-15
-101993,Central Laboratory of the Netherlands Red Cross Blood Transfusion Service,Rx,Licensed,NaT,1979-09-07
-101995,"Smith & Nephew, Inc.",Rx,Licensed,NaT,2065-06-04
-102212,"Allermed Laboratories, Inc.",Rx,Licensed,NaT,2074-03-12
-102213,"Allermed Laboratories, Inc.",Rx,Licensed,NaT,2074-03-12
-102214,"Allermed Laboratories, Inc.",Rx,Licensed,NaT,2030-06-14
-102215,"Allermed Laboratories, Inc.",Rx,Licensed,NaT,2030-06-14
-102216,"Allermed Laboratories, Inc.",Rx,Licensed,NaT,2074-03-12
-102217,"Allermed Laboratories, Inc.",Rx,Licensed,NaT,2074-03-12
-102218,"Allermed Laboratories, Inc.",Rx,Licensed,NaT,2074-03-12
-102219,"Allermed Laboratories, Inc.",Rx,Licensed,NaT,2074-03-12
-102220,"Allermed Laboratories, Inc.",Rx,Licensed,NaT,2074-03-12
-102221,"Allermed Laboratories, Inc.",Rx,Licensed,NaT,2030-06-14
-102366,CSL Behring AG,Rx,Licensed,NaT,1976-07-23
-102367,CSL Behring AG,Disc,Voluntarily Revoked,NaT,2000-07-27
-102475,Grifols Biologicals LLC,Rx,Licensed,NaT,1978-08-15
-102476,Grifols Biologicals LLC,Rx,Licensed,NaT,1981-07-20
-102478,Grifols Biologicals LLC,Rx,Licensed,NaT,1978-08-15
-102821,Merck Teknika LLC,Rx,Licensed,NaT,1989-06-21
-102865,"GenTrac, Inc.",Rx,Licensed,NaT,1986-02-03
-103000,AbbVie Inc.,Rx,Licensed,NaT,1991-12-09
-103050,Merck Teknika LLC,Rx,Licensed,NaT,1989-06-21
-103051,"ALK-Abello, Inc.",Rx,Licensed,NaT,2058-09-29
-103052,"ALK-Abello, Inc.",Rx,Licensed,NaT,2050-09-29
-103053,"ALK-Abello, Inc.",Rx,Licensed,NaT,2050-09-29
-103054,"ALK-Abello, Inc.",Rx,Licensed,NaT,2050-09-29
-103055,"ALK-Abello, Inc.",Rx,Licensed,NaT,2050-09-29
-103056,"ALK-Abello, Inc.",Rx,Licensed,NaT,2050-09-29
-103057,"ALK-Abello, Inc.",Rx,Licensed,NaT,2050-09-29
-103058,"ALK-Abello, Inc.",Rx,Licensed,NaT,2050-09-29
-103059,"ALK-Abello, Inc.",Rx,Licensed,NaT,2050-09-29
-103060,"ALK-Abello, Inc.",Rx,Licensed,NaT,2050-09-29
-103061,"ALK-Abello, Inc.",Rx,Voluntarily Revoked,NaT,2050-09-29
-103112,Baxalta US Inc.,Rx,Voluntarily Revoked,NaT,2070-08-21
-103113,"Allermed Laboratories, Inc.",Rx,Licensed,NaT,2074-03-13
-103123,Bavarian Nordic A/S,Rx,Licensed,NaT,1989-12-15
-103132,Merck Sharp & Dohme LLC,Disc,Voluntarily Revoked,NaT,1986-06-04
-103133,"Takeda Pharmaceuticals U.S.A., Inc.",Disc,Licensed,NaT,1986-02-18
-103141,Wellcome Foundation Limited Wellcome Research Laboratories,Disc,Voluntarily Revoked,NaT,1986-04-22
-103145,Hoffmann-La Roche Inc.,Disc,Voluntarily Revoked,NaT,1986-06-04
-103158,AIM ImmunoTech Inc.,Disc,Licensed,NaT,1989-10-10
-103171,Sanofi Pasteur Limited,Rx,Licensed,NaT,2003-11-03
-103172,"Genentech, Inc.",Rx,Licensed,NaT,1987-11-13
-103174,Grifols Therapeutics LLC,Rx,Licensed,NaT,1987-12-02
-103189,Kamada Ltd.,Rx,Licensed,NaT,1990-04-17
-103196,Grifols Therapeutics LLC,Rx,Licensed,NaT,1991-12-30
-103234,Amgen Inc.,Rx,Licensed,NaT,1989-06-01
-103237,Merck Sharp & Dohme LLC,Rx,Licensed,NaT,1989-12-20
-103239,GlaxoSmithKline Biologicals,Rx,Licensed,NaT,1989-08-28
-103249,Grifols Biologicals LLC,Rx,Licensed,NaT,1990-12-31
-103257,"Nielsen Bioscience, Inc",Rx,Licensed,NaT,1995-11-27
-103293,Iovance Biotherapeutics Manufacturing LLC,Rx,Licensed,NaT,1992-05-05
-103317,"Nielsen Bioscience, Inc",Disc,Licensed,NaT,1992-02-14
-103324,"Allergy Laboratories, Inc.",Disc,Voluntarily Revoked,NaT,2030-07-11
-103332,Bayer HealthCare LLC,Disc,Licensed,NaT,2002-08-20
-103334,Bavarian Nordic A/S,Rx,Licensed,NaT,1997-10-20
-103352,"Instituto Grifols, S.A.",Disc,Licensed,NaT,1995-02-17
-103353,Amgen Inc.,Rx,Licensed,NaT,1991-02-20
-103362,"Partner Therapeutics, Inc.",Rx,Licensed,NaT,1991-03-05
-103375,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,1992-12-10
-103397,"Greer Laboratories, Inc.",Rx,Licensed,NaT,2058-09-15
-103411,Servier Pharmaceuticals LLC,Rx,Licensed,NaT,1994-02-01
-103463,"Centocor Ortho Biotech Products, L.P.",Disc,Voluntarily Revoked,NaT,1992-09-14
-103471,Bayer HealthCare Pharmaceuticals Inc.,Rx,Licensed,NaT,1993-07-23
-103473,"Allermed Laboratories, Inc.",Rx,Licensed,NaT,2074-03-12
-103475,GlaxoSmithKline Biologicals,Rx,Licensed,NaT,1995-02-22
-103532,"Genentech, Inc.",Rx,Licensed,NaT,1993-12-30
-103552,Merck Sharp & Dohme LLC,Rx,Licensed,NaT,1995-03-17
-103569,"Greer Laboratories, Inc.",Disc,Licensed,NaT,1994-10-05
-103575,"Janssen Biotech, Inc.",Disc,Voluntarily Revoked,NaT,1994-12-22
-103606,Merck Sharp & Dohme LLC,Rx,Licensed,NaT,1996-03-29
-103608,"Aytu BioScience, Inc.",Disc,Licensed,NaT,1996-10-28
-103623,Merck Sharp & Dohme LLC,Disc,Voluntarily Revoked,NaT,1996-10-02
-103628,Biogen Inc.,Disc,Licensed,NaT,1996-05-17
-103647,GlaxoSmithKline Biologicals,Rx,Licensed,NaT,1997-01-29
-103649,Kamada Ltd.,Disc,Licensed,NaT,1996-04-02
-103661,Vericel Corporation,Disc,Licensed,NaT,1997-08-22
-103663,Kadmon Pharmaceuticals LLC,Disc,Voluntarily Revoked,NaT,1997-10-06
-103665,Novo Nordisk Inc.,Disc,Licensed,NaT,1999-03-25
-103666,Sanofi Pasteur Limited,Rx,Licensed,NaT,2002-05-14
-103676,Pharmacia & Upjohn Company LLC,Rx,Licensed,NaT,1996-12-04
-103677,Wyeth Pharmaceuticals LLC,Rx,Licensed,NaT,1997-02-11
-103691,"Smith & Nephew, Inc.",Rx,Licensed,NaT,1997-12-16
-103694,Wyeth Pharmaceuticals Inc.,Disc,Voluntarily Revoked,NaT,1997-11-25
-103705,"Genentech, Inc.",Rx,Licensed,NaT,1997-11-26
-103737,IDEC Pharmaceuticals Corp.,Disc,Voluntarily Revoked,NaT,2002-02-19
-103738,SmartPractice Denmark ApS,Rx,Licensed,NaT,1997-08-15
-103749,Hoffmann-La Roche Inc.,Disc,Voluntarily Revoked,NaT,1997-12-10
-103752,"ALK-Abello, Inc.",Rx,Licensed,NaT,2050-09-29
-103754,"ALK-Abello, Inc.",Rx,Licensed,NaT,2050-09-29
-103764,Novartis Pharmaceuticals Corporation,Rx,Licensed,NaT,1998-05-12
-103767,"Eisai, Incorporated",Disc,Licensed,NaT,1999-02-05
-103769,Boehringer Ingelheim Pharma GmbH & Co. KG,Disc,Voluntarily Revoked,NaT,1998-10-13
-103770,Swedish Orphan Biovitrum AB (publ),Disc,Licensed,NaT,1998-06-19
-103772,"Janssen Biotech, Inc.",Rx,Licensed,NaT,1998-08-24
-103777,Kedrion Biopharma Inc.,Disc,Licensed,NaT,1998-04-23
-103779,Wyeth Pharmaceuticals LLC,Disc,Licensed,NaT,2001-06-27
-103780,"EMD Serono, Inc.",Rx,Licensed,NaT,2002-03-07
-103782,Endo Operations Limited,Rx,Licensed,NaT,1998-04-20
-103786,"Chiesi USA, Inc.",Rx,Licensed,NaT,1996-10-30
-103788,BTG International Inc.,Rx,Licensed,NaT,2000-10-02
-103792,"Genentech, Inc.",Disc*,Licensed,NaT,1998-09-25
-103795,Immunex Corporation,Disc,Licensed,NaT,1998-11-02
-103810,"ALK-Abello, Inc.",Rx,Licensed,NaT,2071-12-16
-103820,Emergent BioDefense Operations Lansing LLC,Disc,Licensed,NaT,1998-11-12
-103821,Emergent BioDefense Operations Lansing LLC,Rx,Licensed,NaT,1998-11-12
-103836,Horizon Therapeutics Ireland DAC,Rx,Licensed,NaT,1999-02-25
-103837,Seqirus Vaccines Limited,Disc,Licensed,NaT,1998-11-03
-103846,"Solstice NeuroSciences, LLC",Rx,Licensed,NaT,2000-12-08
-103850,GlaxoSmithKline Biologicals,Rx,Licensed,NaT,2001-05-11
-103869,Genzyme Corporation,Rx,Licensed,NaT,1999-05-19
-103870,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103871,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103872,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103873,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103874,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103875,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103876,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103877,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103878,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103879,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103880,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103882,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103883,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103884,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103885,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103886,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103887,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103889,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103890,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103891,Jubilant HollisterStier LLC,Rx,Licensed,NaT,2024-03-13
-103905,Wyeth Pharmaceuticals LLC,Rx,Voluntarily Revoked,NaT,2000-02-17
-103907,GlaxoSmithKline Biologicals,Rx,Licensed,NaT,2002-12-13
-103909,"Genentech, Inc.",Rx,Licensed,NaT,2000-06-02
-103910,BTG International Inc.,Rx,Licensed,NaT,2001-08-31
-103913,Sanofi Pasteur Inc.,Rx,Voluntarily Revoked,NaT,1999-12-09
-103914,Sanofi Pasteur Inc.,Rx,Licensed,NaT,1999-12-09
-103915,Sanofi Pasteur Inc.,Disc,Licensed,NaT,1999-12-09
-103919,Sanofi Pasteur Inc.,Rx,Voluntarily Revoked,NaT,1999-12-09
-103921,Sanofi Pasteur Inc.,Rx,Voluntarily Revoked,NaT,1999-12-09
-103922,Sanofi Pasteur Inc.,Rx,Voluntarily Revoked,NaT,1999-12-09
-103923,Sanofi Pasteur Inc.,Disc,Voluntarily Revoked,NaT,1999-12-09
-103924,Sanofi Pasteur Inc.,Disc,Voluntarily Revoked,NaT,1999-12-09
-103925,Sanofi Pasteur Inc.,Disc,Voluntarily Revoked,NaT,1999-12-09
-103926,Sanofi Pasteur Inc.,Disc,Voluntarily Revoked,NaT,1999-12-09
-103928,"Palatin Technologies, Inc.",Disc,Voluntarily Revoked,NaT,2004-07-02
-103930,Sanofi Pasteur SA,Rx,Licensed,NaT,2000-02-04
-103931,Sanofi Pasteur SA,Rx,Licensed,NaT,2000-02-04
-103932,Sanofi Pasteur SA,Disc,Voluntarily Revoked,NaT,2001-03-06
-103935,Sanofi Pasteur SA,Rx,Licensed,NaT,2000-02-04
-103936,Sanofi Pasteur SA,Rx,Licensed,NaT,2000-02-04
-103937,Sanofi Pasteur Limited,Rx,Voluntarily Revoked,NaT,2000-02-24
-103940,Sanofi Pasteur Limited,Disc,Licensed,NaT,2000-02-24
-103941,Sanofi Pasteur Limited,Rx,Licensed,NaT,2000-02-24
-103942,Sanofi Pasteur Limited,Rx,Voluntarily Revoked,NaT,2000-02-24
-103943,Sanofi Pasteur Limited,Rx,Voluntarily Revoked,NaT,2000-02-24
-103944,Sanofi Pasteur Limited,Disc,Voluntarily Revoked,NaT,2000-02-24
-103945,"ADMA Biologics, Inc.",Disc,Licensed,NaT,2001-10-23
-103946,Sanofi-Aventis U.S. LLC,Rx,Licensed,NaT,2002-07-12
-103948,Genzyme Corporation,Disc,Licensed,NaT,2001-05-07
-103949,Merck Sharp & Dohme LLC,Disc,Voluntarily Revoked,NaT,2001-01-19
-Subcutaneous,Injection,Original,2,NaT,NaT
-103950,Swedish Orphan Biovitrum AB (publ),Rx,Licensed,NaT,2001-11-14
-103951,Amgen Inc.,Rx,Licensed,NaT,2001-09-17
-103953,CSL Behring LLC,Disc,Voluntarily Revoked,NaT,2003-05-14
-103955,CSL Behring LLC,Disc,Voluntarily Revoked,NaT,2000-03-17
-103956,CSL Behring LLC,Disc,Voluntarily Revoked,NaT,2000-03-17
-103957,CSL Behring LLC,Disc,Voluntarily Revoked,NaT,2000-03-17
-103960,CSL Behring GmbH,Rx,Licensed,NaT,2000-04-11
-103964,pharmaand GmbH,Rx,Licensed,NaT,2002-10-16
-103969,ALK - Abello A/S,Disc,Voluntarily Revoked,NaT,1991-10-08
-103970,ALK - Abello A/S,Disc,Voluntarily Revoked,NaT,1991-10-08
-103971,ALK - Abello A/S,Disc,Voluntarily Revoked,NaT,1991-10-08
-103972,ALK - Abello A/S,Disc,Voluntarily Revoked,NaT,1991-10-08
-103973,ALK - Abello A/S,Disc,Voluntarily Revoked,NaT,1991-10-08
-103974,ALK - Abello A/S,Disc,Voluntarily Revoked,NaT,1991-10-08
-103976,"Genentech, Inc.",Rx,Licensed,NaT,2003-06-20
-103979,Genzyme Corporation,Rx,Licensed,NaT,2003-04-24
-103980,Baxter Healthcare Corporation,Rx,Licensed,NaT,1998-05-01
-125010,Omrix Biopharmaceuticals Ltd,Disc,Voluntarily Revoked,NaT,2003-03-21
-125011,GlaxoSmithKline LLC,Disc,Voluntarily Revoked,NaT,2003-06-27
-125019,Acrotech Biopharma Inc.,Rx,Licensed,NaT,2002-02-19
-125020,"MedImmune, LLC",Rx,Licensed,NaT,2003-06-17
-125029,Eli Lilly and Company,Disc,Voluntarily Revoked,NaT,2001-11-21
-125031,Amgen Inc.,Rx,Licensed,NaT,2002-01-31
-125034,California Department of Public Health (CDPH),Rx,Licensed,NaT,2003-10-23
-125035,Kamada Ltd.,Rx,Licensed,NaT,2006-01-27
-125036,"Astellas Pharma US, Inc.",Disc,Voluntarily Revoked,NaT,2003-01-30
-125039,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2002-12-23
-125046,Grifols Therapeutics LLC,Rx,Licensed,NaT,2003-08-27
-125057,AbbVie Inc.,Rx,Licensed,NaT,2002-12-31
-125058,BioMarin Pharmaceutical Inc.,Rx,Licensed,NaT,2003-04-30
-125062,Octapharma Pharmazeutika Produktionsges.m.b.H.,Rx,Licensed,NaT,2004-05-21
-125063,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2003-07-25
-125070,CSL Behring AG,Rx,Licensed,NaT,2004-02-12
-125075,"Genentech, Inc.",Disc,Voluntarily Revoked,NaT,2003-10-27
-125077,"Instituto Grifols, S.A.",Disc,Licensed,NaT,2003-12-15
-125078,CSL Behring LLC,Rx,Licensed,NaT,2003-07-08
-125083,Hoffmann-La Roche Inc.,Disc,Voluntarily Revoked,NaT,2004-06-04
-125084,Eli Lilly and Company,Rx,Licensed,NaT,2004-02-12
-125085,"Genentech, Inc.",Rx,Licensed,NaT,2004-02-26
-125089,Sanofi Pasteur Inc.,Rx,Licensed,NaT,2005-01-14
-125103,Swedish Orphan Biovitrum AB (publ),Rx,Licensed,NaT,2004-12-15
-125104,Biogen Inc.,Rx,Licensed,NaT,2004-11-23
-125105,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2005-04-27
-125106,GlaxoSmithKline Biologicals,Rx,Licensed,NaT,2005-05-03
-125108,Merck Sharp & Dohme LLC,Rx,Licensed,NaT,2005-09-06
-125109,Emergent BioSolutions Canada Inc.,Rx,Licensed,NaT,2005-05-02
-125111,Sanofi Pasteur Limited,Rx,Licensed,NaT,2005-06-10
-125115,CSL Behring GmbH,Disc,Voluntarily Revoked,NaT,2006-01-09
-125117,BioMarin Pharmaceutical Inc.,Rx,Licensed,NaT,2005-05-31
-125118,Bristol-Myers Squibb Company,Rx,Licensed,NaT,2005-12-23
-125122,Merck Sharp & Dohme LLC,Rx,Licensed,NaT,2006-02-03
-125123,Merck Sharp & Dohme LLC,Disc,Licensed,NaT,2006-05-25
-125126,Merck Sharp & Dohme LLC,Disc,Licensed,NaT,2006-06-08
-125127,GlaxoSmithKline Biologicals,Rx,Licensed,NaT,2005-08-31
-125141,Genzyme Corporation,Disc,Voluntarily Revoked,NaT,2006-04-28
-125145,Sanofi Pasteur Limited,Rx,Licensed,NaT,2008-06-20
-125147,Amgen Inc.,Rx,Licensed,NaT,2006-09-27
-125151,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2006-07-24
-125154,Octapharma Pharmazeutika Produktionsges.m.b.H.,Rx,Licensed,NaT,2006-10-17
-125156,"Genentech, Inc.",Disc*,Licensed,NaT,2006-06-30
-125158,"Emergent Product Development Gaithersburg, Inc.",Rx,Licensed,NaT,2007-08-31
-125160,"UCB, Inc.",Rx,Licensed,NaT,2008-04-22
-125163,ID Biomedical Corporation of Quebec,Rx,Licensed,NaT,2006-10-05
-125164,Vifor (International) Inc.,Rx,Licensed,NaT,2016-04-28
-125166,"Alexion Pharmaceuticals, Inc.",Rx,Licensed,NaT,2007-03-16
-125196,"Schering Corporation a subsidiary of Merck & Co., Inc.",Disc,Voluntarily Revoked,NaT,2008-06-13
-125201,CSL Behring AG,Rx,Licensed,NaT,2007-07-26
-125234,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2007-03-30
-125244,Sanofi Pasteur Inc.,Disc,Licensed,NaT,2007-04-17
-125247,Omrix Biopharmaceuticals Ltd,Disc,Licensed,NaT,2007-08-27
-125248,Baxter Healthcare Corporation,Rx,Licensed,NaT,2008-01-17
-125249,"Kiniksa Pharmaceuticals (UK), Ltd.",Rx,Licensed,NaT,2008-02-27
-125251,Octapharma Pharmazeutika Produktionsges.m.b.H.,Rx,Licensed,NaT,2010-12-20
-125254,Seqirus Pty Ltd.,Rx,Licensed,NaT,2007-09-28
-125259,GlaxoSmithKline Biologicals,Disc,Licensed,NaT,2009-10-16
-125260,GlaxoSmithKline Biologicals,Rx,Licensed,NaT,2008-06-24
-125261,"Janssen Biotech, Inc.",Rx,Licensed,NaT,2009-09-25
-125264,Wyeth Pharmaceuticals LLC,Rx,Licensed,NaT,2008-02-21
-125265,GlaxoSmithKline Biologicals,Disc,Licensed,NaT,2008-04-03
-125266,Baxter Healthcare Corporation,Rx,Licensed,NaT,2008-03-19
-125267,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2008-10-10
-125268,Amgen Inc.,Rx,Licensed,NaT,2008-08-22
-125274,Ipsen Biopharm Limited,Rx,Licensed,NaT,2009-04-29
-125276,"Genentech, Inc.",Rx,Licensed,NaT,2010-01-08
-125277,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2009-12-01
-125280,Valneva Austria GmbH,Rx,Licensed,NaT,2009-03-30
-125284,"rEVO Biologics, Inc.",Disc,Voluntarily Revoked,NaT,2009-02-06
-125285,Protein Sciences Corporation,Rx,Licensed,2013-01-16,2013-01-16
-125287,CSL Behring GmbH,Rx,Licensed,NaT,2009-10-09
-125288,Bristol-Myers Squibb Company,Rx,Licensed,NaT,2011-06-15
-125289,"Janssen Biotech, Inc.",Rx,Licensed,NaT,2009-04-24
-125290,Novartis Pharmaceuticals Corporation,Disc,Voluntarily Revoked,NaT,2009-08-14
-125291,Genzyme Corporation,Rx,Licensed,NaT,2010-05-24
-125293,Horizon Therapeutics Ireland DAC,Rx,Licensed,NaT,2010-09-14
-125294,UAB Teva Baltics,Rx,Licensed,2012-08-29,2012-08-29
-125296,"Teva Women's Health, Inc.",Rx,Licensed,NaT,2011-03-16
-125297,Seqirus Inc.,Disc,Licensed,NaT,2009-11-27
-125300,GlaxoSmithKline Biologicals,Rx,Licensed,NaT,2010-02-19
-125317,CSL Behring GmbH,Rx,Licensed,NaT,2009-01-16
-125319,Novartis Pharmaceuticals Corporation,Disc,Licensed,NaT,2009-06-17
-125320,Amgen Inc.,Rx,Licensed,NaT,2010-06-01
-125324,Wyeth Pharmaceuticals LLC,Disc,Licensed,NaT,2010-02-24
-125325,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2010-07-01
-125326,Novartis Pharmaceuticals Corporation,Disc,Licensed,NaT,2009-10-26
-125327,BTG International Inc.,Rx,Licensed,NaT,2012-01-17
-125329,Bio Products Laboratory Limited,Disc,Licensed,NaT,2009-09-17
-125335,"Rare Disease Therapeutics, Inc. (RDT)",Rx,Licensed,NaT,2011-08-03
-125338,"Auxilium Pharmaceuticals, Inc.",Rx,Licensed,NaT,2010-02-02
-125347,GlaxoSmithKline Biologicals,Rx,Licensed,NaT,2009-08-19
-125348,"Fibrocell Technologies, Inc.",Disc,Licensed,NaT,2011-06-21
-125349,Emergent Manufacturing Operations Baltimore LLC,Rx,Licensed,NaT,2012-12-14
-125350,CSL Behring AG,Rx,Licensed,NaT,2010-03-04
-125351,Corza Medical GmbH,Rx,Licensed,NaT,2010-04-05
-125354,"Nielsen Bioscience, Inc",Rx,Licensed,NaT,2011-07-29
-125359,"Jazz Pharmaceuticals, Inc.",Disc,Voluntarily Revoked,NaT,2011-11-18
-125360,Merz Pharmaceuticals GmbH c/o Merz Pharmaceuticals LLC,Rx,Licensed,NaT,2010-07-30
-125363,GlaxoSmithKline Biologicals,Disc,Voluntarily Revoked,NaT,2012-06-14
-125370,GlaxoSmithKline LLC,Rx,Licensed,NaT,2011-03-09
-125377,Bristol-Myers Squibb Company,Rx,Licensed,NaT,2011-03-25
-125385,CSL Behring GmbH,Rx,Licensed,NaT,2011-02-17
-125387,"Regeneron Pharmaceuticals, Inc.",Rx,Licensed,2011-11-18,2011-11-18
-125388,Seagen Inc.,Rx,Licensed,NaT,2011-08-19
-125389,"ADMA Biologics, Inc.",Rx,Licensed,NaT,2012-12-19
-125390,Chiesi Farmaceutici S.p.A.,Rx,Licensed,NaT,2014-02-24
-125391,Clinimmune Labs,Rx,Licensed,NaT,2012-05-24
-125392,"Ethicon, Inc.",Disc,Licensed,NaT,2012-12-05
-125397,"New York Blood Center, Inc.",Rx,Licensed,NaT,2011-11-10
-125398,Novo Nordisk Inc.,Rx,Licensed,NaT,2013-12-23
-125400,"Organogenesis, Inc.",Disc,Licensed,NaT,2012-03-09
-125402,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2014-09-12
-125407,Duke University School of Medicine,Rx,Licensed,NaT,2012-10-04
-125408,Seqirus Inc.,Disc,Voluntarily Revoked,NaT,2012-11-20
-125409,"Genentech, Inc.",Rx,Licensed,2012-06-08,2012-06-08
-125413,SSM Cardinal Glennon Children's Medical Center,Rx,Licensed,NaT,2013-05-30
-125416,Octapharma Pharmazeutika Produktionsges.m.b.H.,Rx,Licensed,NaT,2013-01-17
-125418,Sanofi-Aventis U.S. LLC,Rx,Licensed,NaT,2012-08-03
-125419,ID Biomedical Corporation of Quebec,Disc,Licensed,NaT,2013-11-22
-125421,CSL Behring GmbH,Rx,Licensed,NaT,2013-04-29
-125422,ThromboGenics Inc.,Disc,Voluntarily Revoked,NaT,2017-02-22
-125426,"Medexus Pharma, Inc.",Rx,Licensed,NaT,2015-04-29
-125427,"Genentech, Inc.",Rx,Licensed,NaT,2013-02-22
-125428,Dynavax Technologies Corporation,Rx,Licensed,NaT,2017-11-09
-125430,Kamada Ltd.,Disc,Licensed,NaT,2012-12-20
-125431,GlaxoSmithKline LLC,Disc,Voluntarily Revoked,NaT,2014-04-15
-125432,"LifeSouth Community Blood Centers, Inc.",Rx,Licensed,NaT,2013-06-13
-125433,"Janssen Biotech, Inc.",Rx,Licensed,NaT,2013-07-18
-125444,"Bioverativ Therapeutics, Inc.",Rx,Licensed,NaT,2014-03-28
-125446,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2013-06-26
-125460,BioMarin Pharmaceutical Inc.,Rx,Licensed,NaT,2014-02-14
-125462,Emergent BioSolutions Canada Inc.,Rx,Licensed,NaT,2013-03-22
-125466,Novo Nordisk Inc.,Rx,Licensed,NaT,2013-10-15
-125469,Eli Lilly and Company,Rx,Licensed,NaT,2014-09-18
-125471,"Stallergenes, SAS",Rx,Licensed,NaT,2014-04-01
-125472,"Genentech, Inc.",Rx,Licensed,NaT,2013-10-21
-125473,ALK - Abello A/S,Rx,Licensed,NaT,2014-04-11
-125476,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2014-05-20
-125477,Eli Lilly and Company,Rx,Licensed,NaT,2014-04-21
-125478,ALK - Abello A/S,Rx,Licensed,NaT,2014-04-17
-125486,"Genentech, Inc.",Rx,Licensed,NaT,2013-11-01
-125487,"Bioverativ Therapeutics, Inc.",Rx,Licensed,NaT,2014-06-06
-125488,"Rare Disease Therapeutics, Inc. (RDT)",Rx,Licensed,NaT,2015-05-06
-125495,Pharming Americas BV,Rx,Licensed,2014-07-16,2014-07-16
-125496,"Recordati Rare Diseases, Inc.",Rx,Licensed,NaT,2014-04-23
-125499,Biogen Inc.,Rx,Licensed,NaT,2014-08-15
-125504,Novartis Pharmaceuticals Corporation,Rx,Licensed,NaT,2015-01-21
-125506,Bio Products Laboratory Limited,Rx,Licensed,NaT,2015-10-20
-125508,Merck Sharp & Dohme LLC,Rx,Licensed,NaT,2014-12-10
-125509,"Elusys Therapeutics, Inc.",Rx,Licensed,NaT,2016-03-18
-125510,Seqirus Inc.,Disc,Licensed,NaT,2015-11-24
-125511,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2015-01-23
-125512,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2014-10-23
-125513,"Alexion Pharmaceuticals, Inc.",Rx,Licensed,NaT,2015-10-23
-125514,Merck Sharp & Dohme LLC,Disc,Licensed,NaT,2014-09-04
-125516,United Therapeutics Corporation,Rx,Licensed,NaT,2015-03-10
-125518,Amgen Inc.,Rx,Licensed,NaT,2015-10-27
-125521,Eli Lilly and Company,Rx,Licensed,NaT,2016-03-22
-125522,Amgen Inc.,Rx,Licensed,NaT,2015-08-27
-125523,Mallinckrodt Pharma IP Trading DAC,Disc,Voluntarily Revoked,NaT,2015-04-30
-125525,Sanofi Pasteur Limited,Rx,Licensed,NaT,2015-03-24
-125526,GlaxoSmithKline LLC,Rx,Licensed,NaT,2015-11-04
-125544,"CELLTRION, Inc.",Rx,Licensed,NaT,2016-04-05
-125545,"Hospira Inc., a Pfizer Company",Rx,Licensed,NaT,2018-05-15
-125546,GlaxoSmithKline Biologicals,Rx,Licensed,NaT,2015-01-23
-125547,Eli Lilly and Company,Rx,Licensed,NaT,2015-11-24
-125549,Wyeth Pharmaceuticals LLC,Rx,Licensed,2014-10-29,2014-10-29
-125553,Sandoz Inc.,Rx,Licensed,NaT,2015-03-06
-125554,Bristol-Myers Squibb Company,Rx,Licensed,NaT,2014-12-22
-125555,Octapharma Pharmazeutika Produktionsges.m.b.H.,Rx,Licensed,NaT,2015-09-04
-125557,Amgen Inc.,Rx,Licensed,NaT,2014-12-03
-125559,"Regeneron Pharmaceuticals, Inc.",Rx,Licensed,NaT,2015-07-24
-125561,"Alexion Pharmaceuticals, Inc.",Rx,Licensed,NaT,2015-12-08
-125562,Emergent BioSolutions Canada Inc.,Rx,Licensed,NaT,2015-03-24
-125563,MSP Vaccine Company,Rx,Licensed,NaT,2018-12-21
-125566,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2015-11-13
-125574,Bayer HealthCare LLC,Rx,Licensed,NaT,2016-03-16
-125577,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2015-12-08
-125579,SmartPractice Denmark ApS,Rx,Licensed,NaT,2017-03-03
-125582,CSL Behring Lengnau AG,Rx,Licensed,NaT,2016-03-04
-125585,Bloodworks,Rx,Licensed,NaT,2016-01-28
-125586,AstraZeneca AB,Disc,Licensed,NaT,2018-05-03
-125587,Octapharma Pharmazeutika Produktionsges.m.b.H.,Rx,Licensed,NaT,2018-08-02
-125590,"ADMA Biologics, Inc.",Rx,Licensed,NaT,2019-04-01
-125591,CSL Behring Lengnau AG,Rx,Licensed,NaT,2016-05-25
-125592,ALK - Abello A/S,Rx,Licensed,NaT,2017-03-01
-125594,Cleveland Cord Blood Center,Rx,Licensed,NaT,2016-09-01
-125596,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2016-09-13
-125597,Bavarian Nordic A/S,Rx,Licensed,NaT,2016-06-10
-125603,Vericel Corporation,Rx,Licensed,NaT,2016-12-13
-125606,CSL Behring GmbH,Rx,Licensed,NaT,2017-06-22
-125610,"Spark Therapeutics, Inc.",Rx,Licensed,NaT,2017-12-19
-125611,Novo Nordisk Inc.,Rx,Licensed,NaT,2017-05-31
-125612,Octapharma Pharmazeutika Produktionsges.m.b.H.,Rx,Licensed,NaT,2017-06-07
-125613,Kamada Ltd.,Rx,Licensed,NaT,2017-08-23
-125614,GlaxoSmithKline Biologicals,Rx,Licensed,NaT,2017-10-20
-125640,"Instituto Grifols, S.A.",Rx,Licensed,NaT,2017-11-01
-125641,Laboratoire Francais du Fractionnement et des Biotechnologies S.A.,Rx,Licensed,NaT,2020-04-01
-125643,"Kite Pharma, Inc.",Rx,Licensed,NaT,2017-10-18
-125644,Bio Products Laboratory Limited,Rx,Licensed,NaT,2018-06-19
-125646,Novartis Pharmaceuticals Corporation,Rx,Licensed,NaT,2017-08-30
-125657,MD Anderson Cord Blood Bank,Rx,Licensed,NaT,2018-06-21
-125659,Kedrion Biopharma Inc.,Rx,Licensed,2021-06-04,2021-06-04
-125661,Bayer HealthCare LLC,Rx,Licensed,NaT,2018-08-29
-125668,Octapharma Pharmazeutika Produktionsges.m.b.H.,Rx,Licensed,NaT,2018-12-12
-125671,Novo Nordisk Inc.,Rx,Licensed,NaT,2019-02-19
-125678,Bavarian Nordic A/S,Rx,Licensed,NaT,2019-09-24
-125682,Sanofi Pasteur Inc.,Rx,Licensed,2019-05-01,2019-05-01
-125683,Grifols Therapeutics LLC,Rx,Licensed,NaT,2019-07-03
-125685,Sumitomo Pharma Switzerland GmbH,Rx,Licensed,2021-10-08,2021-10-08
-125690,Merck Sharp & Dohme LLC,Rx,Licensed,2019-12-19,2019-12-19
-125692,Seqirus Inc.,Disc,Licensed,NaT,2020-01-31
-125694,"Novartis Gene Therapies, Inc.",Rx,Licensed,2019-05-24,2019-05-24
-125696,"Greer Laboratories, Inc.",Rx,Licensed,NaT,2020-01-31
-125700,Ferring Pharmaceuticals A/S,Rx,Licensed,2022-12-16,2022-12-16
-125701,Sanofi Pasteur Inc.,Rx,Licensed,2020-04-23,2020-04-23
-125703,"Kite Pharma, Inc.",Rx,Licensed,NaT,2020-07-24
-125706,"Mesoblast, Inc.",Rx,Licensed,2024-12-18,2024-12-18
-125714,"Juno Therapeutics, Inc. a Bristol Myer-Squibb Company",Rx,Licensed,NaT,2021-02-05
-125717,Bluebird Bio Inc.,Rx,Licensed,2022-08-17,2022-08-17
-125720,Biomarin Pharmaceutical Inc.,Rx,Licensed,NaT,2023-06-29
-125722,PTC Therapeutics,Rx,Licensed,NaT,2024-11-13
-125730,Stratatech Corporation,Disc,Revoked,2021-06-15,2021-06-15
-125731,Wyeth Pharmaceuticals LLC,Rx,Licensed,2021-06-08,2021-06-08
-125734,CellTrans Inc.,Rx,Licensed,NaT,2023-06-28
-125736,"Celgene Corporation, a Bristol-Myers Squibb Company",Rx,Licensed,NaT,2021-03-03
-125737,"VBI Vaccines (Delaware), Inc.",Disc,Licensed,2021-11-30,2021-11-30
-125738,Gamida Cell Ltd.,Rx,Licensed,NaT,2023-04-17
-125739,Ferring Pharmaceuticals Inc.,Rx,Licensed,2022-11-30,2022-11-30
-125740,Pfizer Ireland Pharmaceuticals,Rx,Licensed,NaT,2021-08-13
-125741,Merck Sharp & Dohme LLC,Rx,Licensed,2021-07-16,2021-07-16
-125742,BioNTech Manufacturing GmbH,Disc,Licensed,NaT,2021-08-23
-125743,GC Biopharma Corp.,Rx,Licensed,NaT,2023-12-15
-125746,"Janssen Biotech, Inc.",Rx,Licensed,2022-02-28,2022-02-28
-125748,GlaxoSmithKline Biologicals,Rx,Licensed,NaT,2022-06-03
-125752,"ModernaTX, Inc.",Disc,Licensed,NaT,2022-01-31
-125755,Bluebird Bio Inc.,Rx,Licensed,2022-09-16,2022-09-16
-125757,"Aimmune Therapeutics, Inc.",Rx,Licensed,2023-04-26,2023-04-26
-125758,Orchard Therapeutics (Europe) Ltd.,Rx,Licensed,2024-03-18,2024-03-18
-125761,"Emergent Product Development Gaithersburg, Inc.",Rx,Licensed,NaT,2023-07-20
-125764,"StemCyte, Inc.",Rx,Licensed,NaT,2024-11-21
-125769,Pfizer Inc.,Rx,Licensed,NaT,2023-05-31
-125770,Pfizer Ireland Pharmaceuticals,Rx,Licensed,NaT,2023-10-20
-125771,"Bioverativ Therapeutics, Inc.",Rx,Licensed,NaT,2023-02-22
-125772,CSL Behring LLC,Rx,Licensed,2022-11-22,2022-11-22
-125773,"Iovance Biotherapeutics, Inc.",Rx,Licensed,2024-02-16,2024-02-16
-125774,"Krystal Biotech, Inc.",Rx,Licensed,NaT,2023-05-19
-125775,GlaxoSmithKline Biologicals,Rx,Licensed,2023-05-03,2023-05-03
-125776,Octapharma Pharmazeutika Produktionsges.m.b.H.,Rx,Licensed,NaT,2023-07-21
-125777,Valneva Austria GmbH,Rx,Licensed,NaT,2023-11-09
-125781,"Sarepta Therapeutics, Inc.",Rx,Licensed,2023-06-22,2023-06-22
-125786,Pfizer Inc.,Disc,Voluntarily Revoked,2024-04-25,2024-04-25
-125787,Vertex Pharmaceuticals Inc,Rx,Licensed,NaT,2023-12-08
-125788,bluebird bio Inc.,Rx,Licensed,NaT,2023-12-08
-125789,Adaptimmune LLC,Rx,Licensed,2024-08-01,2024-08-01
-125795,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2023-11-09
-125796,"ModernaTX, Inc.",Rx,Licensed,2024-05-31,2024-05-31
-125798,Neurotech Pharmaceuticals Inc.,Rx,Licensed,2025-03-05,2025-03-05
-125807,Abeona Therapeutics Inc.,Rx,Licensed,NaT,2025-04-28
-125810,YIMMUGO,Rx,Licensed,NaT,2024-06-13
-125812,Humacyte Global Inc.,Rx,Licensed,2024-12-19,2024-12-19
-125813,"Autolus, Inc.",Rx,Licensed,2024-11-08,2024-11-08
-125814,Merck Sharp & Dohme LLC,Rx,Licensed,2024-06-17,2024-06-17
-125817,"Novavax, Inc.",Rx,Licensed,NaT,2025-05-16
-125819,GlaxoSmithKline Biologicals,Rx,Licensed,NaT,2025-02-14
-125820,Bavarian Nordic A/S,Rx,Licensed,2025-02-14,2025-02-14
-125832,"Precigen, Inc.",Rx,Licensed,NaT,2025-08-14
-125835,"ModernaTX, Inc.",Rx,Licensed,NaT,2025-05-30
-203313,Novo Nordisk Inc.,Disc,Licensed,NaT,2015-09-25
-203314,Novo Nordisk Inc.,Rx,Licensed,NaT,2015-09-25
-205692,Eli Lilly and Company,Disc,Licensed,NaT,2015-12-16
-205747,Eli Lilly and Company,Rx,Licensed,NaT,2015-05-26
-206538,Sanofi-Aventis U.S. LLC,Rx,Licensed,NaT,2015-02-25
-208157,Baxter Healthcare Corporation,Rx,Licensed,NaT,2019-06-20
-208471,Sanofi-Aventis U.S. LLC,Disc,Licensed,NaT,2016-07-27
-208583,Novo Nordisk Inc.,Rx,Licensed,NaT,2016-11-21
-208673,Sanofi-Aventis U.S. LLC,Rx,Licensed,NaT,2016-11-21
-208751,Novo Nordisk Inc.,Rx,Licensed,NaT,2017-09-29
-209196,Sanofi-Aventis U.S. LLC,Rx,Licensed,NaT,2017-12-11
-210089,Cis Bio International,Rx,Licensed,NaT,2020-03-20
-210605,Mylan Pharmaceuticals Inc.,Disc,Voluntarily Revoked,NaT,2020-06-11
-761024,Amgen Inc.,Rx,Licensed,NaT,2016-09-23
-761025,"Boehringer Ingelheim Pharmaceuticals, Inc.",Rx,Licensed,NaT,2015-10-16
-761028,Amgen Inc.,Rx,Licensed,NaT,2017-09-14
-761029,Biogen Inc.,Disc,Voluntarily Revoked,NaT,2016-05-27
-761032,"Bausch Health Ireland, Limited",Rx,Licensed,NaT,2017-02-15
-761033,"Teva Respiratory, LLC",Rx,Licensed,NaT,2016-03-23
-761034,"Genentech, Inc.",Rx,Licensed,NaT,2016-05-18
-761035,Bristol-Myers Squibb Company,Rx,Licensed,NaT,2015-11-30
-761036,"Janssen Biotech, Inc.",Rx,Licensed,NaT,2015-11-16
-761037,Sanofi-Aventis U.S. LLC,Rx,Licensed,NaT,2017-05-22
-761038,Eli Lilly and Company,Disc,Voluntarily Revoked,NaT,2016-10-19
-761039,Accord BioPharma Inc.,Rx,Licensed,NaT,2018-11-02
-761040,Wyeth Pharmaceuticals LLC,Rx,Licensed,NaT,2017-08-17
-761042,Sandoz Inc.,Disc,Licensed,NaT,2016-08-30
-761043,GlaxoSmithKline LLC,Rx,Licensed,NaT,2017-07-20
-761044,"Janssen Biotech, Inc.",Rx,Licensed,NaT,2016-09-23
-761045,Sandoz Inc.,Rx,Licensed,NaT,2019-11-04
-761046,Merck Sharp & Dohme LLC,Rx,Licensed,NaT,2016-10-21
-761047,Ultragenyx Pharamceutical Inc.,Rx,Licensed,NaT,2017-11-15
-761049,"EMD Serono, Inc.",Rx,Licensed,NaT,2017-03-23
-761051,"Kyowa Kirin, Inc.",Rx,Licensed,NaT,2018-08-08
-761052,BioMarin Pharmaceutical Inc.,Rx,Licensed,NaT,2017-04-27
-761053,"Genentech, Inc.",Rx,Licensed,NaT,2017-03-28
-761054,"Samsung Bioepis Co., Ltd.",Rx,Licensed,NaT,2017-04-21
-761055,"Regeneron Pharmaceuticals, Inc.",Rx,Licensed,NaT,2017-03-28
-761058,"Boehringer Ingelheim Pharmaceuticals, Inc.",Rx,Licensed,NaT,2017-08-25
-761059,"Samsung Bioepis Co., Ltd.",Rx,Licensed,NaT,2019-07-23
-761060,Wyeth Pharmaceuticals LLC,Rx,Licensed,NaT,2017-09-01
-761061,"Janssen Biotech, Inc.",Rx,Licensed,NaT,2017-07-13
-761062,Amgen Inc.,Rx,Licensed,NaT,2019-04-09
-761063,Eli Lilly and Company,Rx,Licensed,NaT,2018-09-27
-761064,"Genentech, Inc.",Rx,Licensed,NaT,2017-06-22
-761065,Theratechnologies Inc.,Rx,Licensed,NaT,2018-03-06
-761066,"Samsung Bioepis Co., Ltd.",Disc,Licensed,NaT,2019-04-25
-761067,Sun Pharmaceutical Industries Limited,Rx,Licensed,NaT,2018-03-20
-761068,"Kyowa Kirin, Inc.",Rx,Licensed,NaT,2018-04-17
-761069,AstraZeneca UK Ltd,Rx,Licensed,NaT,2017-05-01
-761070,AstraZeneca AB,Rx,Licensed,NaT,2017-11-14
-761071,Sandoz Inc.,Rx,Licensed,NaT,2018-10-30
-761072,Pfizer Ireland Pharmaceuticals,Disc,Licensed,NaT,2017-12-13
-761073,Amgen Inc.,Rx,Licensed,NaT,2019-06-13
-761074,Biocon Biologics Inc.,Rx,Licensed,NaT,2017-12-01
-761075,Biocon Biologics Inc.,Rx,Licensed,NaT,2018-06-04
-761077,Amgen Inc.,Rx,Licensed,NaT,2018-05-17
-761079,BioMarin Pharmaceutical Inc.,Rx,Licensed,NaT,2018-05-24
-761080,"Hospira Inc., a Pfizer Company",Rx,Licensed,NaT,2018-07-20
-761081,Pfizer Ireland Pharmaceuticals,Rx,Licensed,NaT,2019-03-11
-761082,"Kashiv BioSciences, LLC",Rx,Licensed,NaT,2022-02-25
-761083,"Genentech, Inc.",Rx,Licensed,NaT,2017-11-16
-761084,"Kashiv BioSciences, LLC",Rx,Licensed,NaT,2022-05-26
-761085,Evolus Inc.,Rx,Licensed,NaT,2019-02-01
-761086,Amgen Inc.,Rx,Licensed,NaT,2019-12-06
-761088,"CELLTRION, Inc.",Rx,Licensed,NaT,2018-11-28
-761089,"Teva Branded Pharmaceutical Products R&D, Inc.",Rx,Licensed,NaT,2018-09-14
-761090,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2018-08-23
-761091,"CELLTRION, Inc.",Rx,Licensed,NaT,2018-12-14
-761092,"Chiesi USA, Inc.",Rx,Licensed,NaT,2018-10-05
-761094,Dompé farmaceutici S.p.A.,Rx,Licensed,NaT,2018-08-22
-761097,"Regeneron Pharmaceuticals, Inc.",Rx,Licensed,NaT,2018-09-28
-761099,Pfizer Inc.,Rx,Licensed,NaT,2019-06-27
-761100,"Samsung Bioepis Co., Ltd.",Rx,Licensed,NaT,2019-01-18
-761102,Servier Pharmaceuticals LLC,Rx,Licensed,NaT,2018-12-20
-761103,Pfizer Ireland Pharmaceuticals,Rx,Licensed,NaT,2019-07-23
-761104,AstraZeneca AB,Disc,Voluntarily Revoked,NaT,2018-09-13
-761105,AbbVie Inc.,Disc,Licensed,NaT,2019-04-23
-761106,"Genentech, Inc.",Rx,Licensed,NaT,2019-02-28
-761107,Swedish Orphan Biovitrum AB (publ),Rx,Licensed,NaT,2018-11-20
-761108,"Alexion Pharmaceuticals, Inc.",Rx,Licensed,NaT,2018-12-21
-761109,Eli Lilly and Company,Rx,Licensed,NaT,2020-06-15
-761111,"Hospira Inc., a Pfizer Company",Rx,Licensed,NaT,2020-06-10
-761112,Ablynx NV,Rx,Licensed,NaT,2019-02-06
-761113,Sanofi-Aventis U.S. LLC,Rx,Licensed,NaT,2020-03-02
-761115,"Gilead Sciences, Inc.",Rx,Licensed,NaT,2020-04-22
-761116,"Stemline Therapeutics, Inc.",Rx,Licensed,NaT,2018-12-21
-761118,Pfizer Inc.,Rx,Licensed,NaT,2019-11-15
-761119,"Lundbeck Seattle BioPharmaceuticals, Inc.",Rx,Licensed,NaT,2020-02-21
-761121,"Genentech, Inc.",Rx,Licensed,NaT,2019-06-10
-761122,GlaxoSmithKline LLC,Rx,Licensed,NaT,2019-06-06
-761123,AstraZeneca AB,Rx,Licensed,NaT,2021-07-30
-761125,Novartis Pharmaceuticals Corporation,Rx,Licensed,NaT,2019-10-07
-761126,"Tanvex BioPharma USA, Inc.",Rx,Licensed,NaT,2024-06-28
-761127,"Revance Therapeutics, Inc.",Rx,Licensed,NaT,2022-09-07
-761128,Novartis Pharmaceuticals Corporation,Rx,Licensed,NaT,2019-11-15
-761133,"Takeda Pharmaceuticals U.S.A., Inc.",Rx,Licensed,NaT,2023-09-27
-761134,Evive Biotechnology Singapore PTE. LTD.,Rx,Licensed,NaT,2023-11-16
-761136,"Celgene Corporation, a Bristol-Myers Squibb Company",Rx,Licensed,NaT,2019-11-08
-761137,"Astellas Pharma US, Inc.",Rx,Licensed,NaT,2019-12-18
-761139,"Daiichi Sankyo, Inc",Rx,Licensed,NaT,2019-12-20
-761140,Amgen Inc.,Rx,Licensed,NaT,2020-12-17
-761142,Horizon Therapeutics Ireland DAC,Rx,Licensed,NaT,2020-06-11
-761143,Horizon Therapeutics Ireland DAC,Rx,Licensed,NaT,2020-01-21
-761145,"Janssen Biotech, Inc.",Rx,Licensed,NaT,2020-05-01
-761146,Endo Global Aesthetics Limited,Rx,Licensed,NaT,2020-07-06
-761148,"Spectrum Pharmaceuticals, Inc.",Rx,Licensed,NaT,2022-09-09
-761149,"Genentech, Inc.",Rx,Licensed,NaT,2020-08-14
-761150,MacroGenics Inc.,Rx,Licensed,NaT,2020-12-16
-761151,"UCB, Inc.",Rx,Licensed,NaT,2023-10-17
-761154,Biocon Biologics Inc.,Rx,Licensed,NaT,2020-07-06
-761156,Novo Nordisk Inc.,Rx,Licensed,NaT,2020-08-28
-761158,GlaxoSmithKline Intellectual Property Development Ltd. England,Disc,Voluntarily Revoked,NaT,2020-08-05
-761161,Chiesi Farmaceutici S.p.A.,Rx,Licensed,NaT,2023-05-09
-761163,Incyte Corporation,Rx,Licensed,NaT,2020-07-31
-761164,"Bioverativ Therapeutics, Inc.",Rx,Licensed,NaT,2022-02-04
-761165,Sandoz Inc.,Rx,Licensed,NaT,2022-08-02
-761166,PharmaEssentia Corporation,Rx,Licensed,NaT,2021-11-12
-761169,"Regeneron Pharmaceuticals, Inc.",Rx,Licensed,NaT,2020-10-14
-761170,"Genentech, Inc.",Rx,Licensed,NaT,2020-06-29
-761171,"Y-mABs Therapeutics, Inc",Rx,Licensed,NaT,2020-11-25
-761172,Emergent Manufacturing Operations Baltimore LLC,Rx,Licensed,NaT,2020-12-21
-761173,"Fresenius Kabi USA, LLC",Rx,Licensed,NaT,2022-09-01
-761174,GlaxoSmithKline LLC,Rx,Licensed,NaT,2021-04-22
-761175,Biocon Biologics Inc.,Rx,Licensed,NaT,2025-04-09
-761177,Ascendis Pharma Endocrinology Division A/S,Rx,Licensed,NaT,2021-08-25
-761178,Biogen Inc.,Rx,Licensed,NaT,2021-06-07
-761179,Jazz Pharmaceuticals Ireland Limited,Rx,Licensed,NaT,2021-06-30
-761180,LEO Pharma A/S,Rx,Licensed,NaT,2021-12-27
-761181,"Regeneron Pharmaceuticals, Inc.",Rx,Licensed,NaT,2021-02-11
-761183,"Provention Bio, Inc.",Rx,Licensed,NaT,2022-11-17
-761184,Pfizer Ireland Pharmaceuticals,Rx,Licensed,NaT,2023-06-27
-761188,Biocon Biologics Inc.,Rx,Licensed,NaT,2025-07-15
-761192,Vericel Corporation,Disc,Licensed,NaT,2022-12-28
-761194,Genzyme Corporation,Rx,Licensed,NaT,2021-08-06
-761195,Argenx BV,Rx,Licensed,NaT,2021-12-17
-761196,ADC Therapeutics SA,Rx,Licensed,NaT,2021-04-23
-761197,"Genentech, Inc.",Rx,Licensed,NaT,2021-10-22
-761198,"Bio-Thera Solutions, Ltd.",Rx,Licensed,NaT,2023-12-06
-761201,Biocon Biologics Inc.,Rx,Licensed,NaT,2021-07-28
-761202,"Samsung Bioepis Co., Ltd.",Rx,Licensed,NaT,2021-09-17
-761204,"Amicus Therapeutics US, LLC",Rx,Licensed,NaT,2023-09-28
-761208,Seagen Inc.,Rx,Licensed,NaT,2021-09-20
-761210,"Janssen Biotech, Inc.",Rx,Licensed,NaT,2021-05-21
-761215,Eli Lilly and Company,Rx,Licensed,NaT,2021-12-17
-761216,Hong Kong King-Friend Industrial Company Limited,Rx,Licensed,NaT,2021-12-17
-761219,"CELLTRION, Inc.",Rx,Licensed,NaT,2023-05-23
-761224,AstraZeneca AB,Rx,Licensed,NaT,2021-12-17
-761225,"Hugel, Inc.",Rx,Licensed,NaT,2024-02-29
-761228,Immunocore Limited,Rx,Licensed,NaT,2022-01-25
-761231,Amneal Pharmaceuticals LLC,Rx,Licensed,NaT,2022-04-13
-761232,"BeiGene USA, Inc.",Rx,Licensed,NaT,2024-03-13
-761234,Bristol-Myers Squibb Company,Rx,Licensed,NaT,2022-03-18
-761235,"Genentech, Inc.",Rx,Licensed,NaT,2022-01-28
-761238,"TG Therapeutics, Inc.",Rx,Licensed,NaT,2022-12-28
-761240,"Coherus BioSciences, Inc.",Rx,Licensed,NaT,2023-10-27
-761244,"Boehringer Ingelheim Pharmaceuticals, Inc.",Rx,Licensed,NaT,2022-09-01
-761248,Eli Lilly and Company,Rx,Licensed,NaT,2024-07-02
-761255,"Fresenius Kabi USA, LLC",Rx,Licensed,NaT,2022-12-13
-761258,"Akeso Biopharma Co., Ltd.",Rx,Licensed,NaT,2025-04-23
-761261,Genzyme Corporation,Rx,Licensed,NaT,2022-08-31
-761262,AbbVie Inc.,Rx,Licensed,NaT,2022-06-16
-761263,"Genentech, Inc.",Rx,Licensed,NaT,2022-12-22
-761268,"CELLTRION, Inc.",Rx,Licensed,NaT,2022-09-27
-761269,"Eisai, Incorporated",Rx,Licensed,NaT,2023-01-06
-761274,Biocon Biologics Inc.,Rx,Licensed,NaT,2024-05-20
-761275,"Fresenius Kabi USA, LLC",Rx,Licensed,NaT,2024-03-05
-761278,Chiesi Farmaceutici S.p.A.,Rx,Licensed,NaT,2023-02-16
-761279,Eli Lilly and Company,Rx,Licensed,NaT,2023-10-26
-761285,Amgen Inc.,Rx,Licensed,NaT,2023-10-31
-761286,"UCB, Inc.",Rx,Licensed,NaT,2023-06-26
-761289,AstraZeneca AB,Rx,Licensed,NaT,2022-10-21
-761291,"Janssen Biotech, Inc.",Rx,Licensed,NaT,2022-10-25
-761297,"Checkpoint Therapeutics, Inc.",Rx,Licensed,NaT,2024-12-13
-761298,Amgen Inc.,Rx,Licensed,NaT,2024-08-23
-761299,Alvotech USA Inc.,Rx,Licensed,NaT,2024-02-23
-761304,Argenx BV,Rx,Licensed,NaT,2023-06-20
-761306,Eli Lilly and Company,Rx,Licensed,NaT,2024-09-13
-761309,"Genentech, Inc.",Rx,Licensed,NaT,2023-06-15
-761310,"ImmunoGen, Inc.",Rx,Licensed,NaT,2022-11-14
-761312,"Citius Pharmaceuticals, Inc.",Rx,Licensed,NaT,2024-08-07
-761315,Novo Nordisk Inc.,Rx,Licensed,NaT,2024-12-20
-761322,Sandoz Inc.,Rx,Licensed,NaT,2023-08-24
-761324,"Genmab US, Inc.",Rx,Licensed,NaT,2023-05-19
-761325,Sanofi-Aventis U.S. LLC,Rx,Licensed,NaT,2025-02-14
-761328,AstraZeneca AB,Rx,Licensed,NaT,2023-07-17
-761331,Amgen Inc.,Rx,Licensed,NaT,2023-10-31
-761333,Amgen Inc.,Rx,Licensed,NaT,2024-05-28
-761334,Incyte Corporation,Rx,Licensed,NaT,2023-03-22
-761336,"Altor BioScience, LLC, an indirect wholly-owned subsidiary of ImmunityBio, Inc.",Rx,Licensed,NaT,2024-04-22
-761338,"CELLTRION, Inc.",Rx,Licensed,NaT,2024-12-17
-761339,"Regeneron Pharmaceuticals, Inc.",Rx,Licensed,NaT,2023-08-18
-761340,"Samsung Bioepis Co., Ltd.",Rx,Licensed,NaT,2024-07-19
-761342,"Janssen Biotech, Inc.",Rx,Licensed,NaT,2023-08-09
-761343,Alvotech USA Inc.,Rx,Licensed,NaT,2024-04-16
-761344,Amgen Inc.,Rx,Licensed,NaT,2024-05-16
-761345,Pfizer Inc.,Rx,Licensed,NaT,2023-08-14
-761346,Accord BioPharma Inc.,Rx,Licensed,NaT,2024-04-25
-761347,"Genentech, Inc.",Rx,Licensed,NaT,2024-09-12
-761349,Novartis Pharmaceuticals Corporation,Rx,Licensed,NaT,2023-10-06
-761350,"Samsung Bioepis Co., Ltd.",Rx,Licensed,NaT,2024-05-20
-761352,Merus NV,Rx,Licensed,NaT,2024-12-04
-761354,Biogen MA Inc.,Rx,Licensed,NaT,2023-09-29
-761355,"Regeneron Pharmaceuticals, Inc.",Rx,Licensed,NaT,2023-08-18
-761358,"CELLTRION, Inc.",Rx,Licensed,NaT,2023-10-20
-761362,Sandoz Inc.,Disc,Licensed,NaT,2024-03-05
-761363,Merck Sharp & Dohme LLC,Rx,Licensed,NaT,2024-03-26
-761364,Accord BioPharma Inc.,Rx,Licensed,NaT,2024-10-10
-761365,"Astellas Pharma US, Inc.",Rx,Licensed,NaT,2024-10-18
-761367,CSL Behring LLC,Rx,Licensed,NaT,2025-06-16
-761369,Pfizer Inc.,Rx,Licensed,NaT,2024-10-11
-761371,"Genentech, Inc.",Rx,Licensed,NaT,2024-09-13
-761373,"Samsung Bioepis Co., Ltd.",Rx,Licensed,NaT,2024-06-28
-761375,"Eisai, Incorporated",Rx,Licensed,NaT,2025-08-29
-761378,Formycon AG,Rx,Licensed,NaT,2024-06-28
-761379,"Fresenius Kabi USA, LLC",Rx,Licensed,NaT,2024-09-27
-761381,Bristol-Myers Squibb Company,Rx,Licensed,NaT,2024-12-27
-761382,Sandoz Inc.,Rx,Licensed,NaT,2024-08-09
-761384,AbbVie Inc.,Rx,Licensed,NaT,2025-05-14
-761388,"Genentech, Inc.",Rx,Licensed,NaT,2024-06-20
-761390,"Galderma Laboratories, L.P.",Rx,Licensed,NaT,2024-08-12
-761392,"Samsung Bioepis Co., Ltd.",Rx,Licensed,NaT,2025-02-13
-761394,"Daiichi Sankyo, Inc",Rx,Licensed,NaT,2025-01-17
-761398,"Fresenius Kabi USA, LLC",Rx,Licensed,NaT,2025-03-25
-761399,"CELLTRION, Inc.",Rx,Licensed,NaT,2025-03-07
-761400,"Regeneron Pharmaceuticals, Inc.",Rx,Licensed,NaT,2025-07-02
-761404,"CELLTRION, Inc.",Rx,Licensed,NaT,2025-02-28
-761406,Biocon Biologics Inc.,Rx,Licensed,NaT,2024-11-29
-761411,Incyte Corporation,Rx,Licensed,NaT,2024-08-14
-761416,Jazz Pharmaceuticals Ireland Limited,Rx,Licensed,NaT,2024-11-20
-761419,"Bio-Thera Solutions, Ltd.",Rx,Licensed,NaT,2025-05-22
-761420,"CELLTRION, Inc.",Rx,Licensed,NaT,2025-01-24
-761425,"Samsung Bioepis Co., Ltd.",Rx,Licensed,NaT,2024-06-28
-761430,"Janssen Biotech, Inc.",Rx,Licensed,NaT,2025-04-29
-761432,Merck Sharp & Dohme LLC,Rx,Licensed,NaT,2025-06-09
-761436,Biocon Biologics Inc.,Rx,Licensed,NaT,2025-09-16
-761444,"Shanghai Henlius Biotech, Inc.",Rx,Licensed,NaT,2025-08-29
-761449,"Fresenius Kabi USA, LLC",Rx,Licensed,NaT,2025-03-14
-761467,Merck Sharp & Dohme LLC,Rx,Licensed,NaT,2025-09-19
+BLANumber,Applicant,Status,OriginalLicensureDate,LastUpdateDate
+125197,Dendreon Pharmaceuticals LLC,Licensed,NaT,2010-04-29
+125384,Kedrion Biopharma Inc.,Licensed,NaT,2011-06-03
+125822,"Kedrion, S.p.A.",Licensed,NaT,2025-09-26
+761439,Hikma Pharmaceuticals USA Inc.,Licensed,NaT,2025-09-26
+17016,Ferring Pharmaceuticals Inc.,Licensed,NaT,2074-01-15
+17054,"Bel-Mar Laboratories, Inc.",Licensed,NaT,2074-03-26
+17055,Ferring Pharmaceuticals Inc.,Licensed,NaT,2074-12-13
+17067,"Fresenius Kabi USA, LLC",Licensed,NaT,2073-03-05
+17646,"EMD Serono, Inc.",Licensed,NaT,2075-08-22
+17692,"Organon USA LLC, a subsidiary of Organon & Co.",Licensed,NaT,1976-10-20
+17776,Jubilant DraxImage Inc.,Licensed,NaT,1976-11-16
+17833,Bracco Diagnostics Inc.,Licensed,NaT,1976-02-23
+17835,"Iso-Tex Diagnostics, Inc.",Voluntarily Revoked,NaT,1976-02-23
+17836,"Iso-Tex Diagnostics, Inc.",Voluntarily Revoked,NaT,1976-02-23
+17837,"Iso-Tex Diagnostics, Inc.",Licensed,NaT,1976-02-23
+17881,Jubilant DraxImage Inc.,Licensed,NaT,1987-12-30
+18263,Pharmalucence Inc,Voluntarily Revoked,NaT,1983-03-25
+18663,"DisCure Medical, LLC",Licensed,NaT,1982-11-10
+18780,Eli Lilly and Company,Licensed,NaT,1982-10-28
+18781,Eli Lilly and Company,Licensed,NaT,1982-10-28
+19640,Eli Lilly and Company,Licensed,NaT,1987-06-23
+19717,Eli Lilly and Company,Licensed,NaT,1989-04-25
+19764,"EMD Serono, Inc.",Voluntarily Revoked,NaT,1996-10-08
+19774,Ferring Pharmaceuticals Inc.,Licensed,NaT,1995-05-25
+19818,"Leadiant Biosciences, Inc",Licensed,NaT,1990-03-21
+19938,Novo Nordisk Inc.,Licensed,NaT,1991-06-25
+19959,Novo Nordisk Inc.,Licensed,NaT,1991-07-01
+19991,Novo Nordisk Inc.,Licensed,NaT,1991-06-25
+20032,AbbVie Inc.,Licensed,NaT,1991-07-01
+20162,Ferring Pharmaceuticals Inc.,Licensed,NaT,1996-05-23
+20168,"Genentech, Inc.",Voluntarily Revoked,NaT,1993-11-17
+20280,Pharmacia & Upjohn Company LLC,Licensed,NaT,1995-08-24
+20304,Bayer HealthCare Pharmaceuticals Inc.,Licensed,NaT,1993-12-29
+20328,"Organon USA Inc., a subsidiary of Merck & Co., Inc.",Voluntarily Revoked,NaT,1994-09-01
+20367,Genzyme Corporation,Licensed,NaT,1994-05-23
+20378,"EMD Serono, Inc.",Licensed,NaT,1997-09-29
+20521,ONY Biotech Inc.,Licensed,NaT,1998-07-01
+20522,"Genentech, Inc.",Voluntarily Revoked,NaT,1995-12-29
+20563,Eli Lilly and Company,Licensed,NaT,1996-06-14
+20580,"Organon USA Inc., a subsidiary of Merck & Co., Inc.",Voluntarily Revoked,NaT,1996-12-09
+20582,"Organon USA Inc., a subsidiary of Merck & Co., Inc.",Voluntarily Revoked,NaT,1997-09-29
+20604,"EMD Serono, Inc.",Licensed,NaT,1996-08-23
+20725,AbbVie Inc.,Licensed,NaT,2009-04-30
+20744,"Chiesi USA, Inc.",Licensed,NaT,1999-11-18
+20772,"QOL Medical, LLC",Licensed,NaT,1998-04-09
+20898,Genzyme Corporation,Licensed,NaT,1998-11-30
+20986,Novo Nordisk Inc.,Licensed,NaT,2000-06-07
+21017,Eli Lilly and Company,Licensed,NaT,1999-12-22
+21018,Eli Lilly and Company,Licensed,NaT,1999-12-22
+21047,Ferring Pharmaceuticals Inc.,Licensed,NaT,1999-08-27
+21081,Sanofi-Aventis U.S. LLC,Licensed,NaT,2000-04-20
+21106,Pharmacia & Upjohn Company LLC,Licensed,NaT,2003-03-25
+21148,Novo Nordisk Inc.,Licensed,NaT,2000-06-20
+21149,"EMD Serono, Inc.",Licensed,NaT,2000-09-20
+21172,Novo Nordisk Inc.,Licensed,NaT,2001-11-01
+21211,"Organon USA LLC, a subsidiary of Organon & Co.",Licensed,NaT,2004-03-23
+21271,"Bausch Health US, LLC",Voluntarily Revoked,NaT,2003-04-04
+21273,"Organon USA Inc., a subsidiary of Merck & Co., Inc.",Voluntarily Revoked,NaT,2005-08-26
+21289,Ferring Pharmaceuticals Inc.,Voluntarily Revoked,NaT,2002-05-06
+21426,Sandoz Inc.,Licensed,NaT,2006-05-30
+21536,Novo Nordisk Inc.,Licensed,NaT,2005-06-16
+21538,Emergent Biosolutions Canada Inc.,Voluntarily Revoked,NaT,2008-01-23
+21629,Sanofi-Aventis U.S. LLC,Licensed,NaT,2004-04-16
+21640,Bausch & Lomb Incorporated,Licensed,NaT,2004-05-05
+21663,Ferring Pharmaceuticals Inc.,Licensed,NaT,2004-10-29
+21665,"Amphastar Pharmaceuticals, Inc.",Licensed,NaT,2004-10-26
+21684,"EMD Serono, Inc.",Licensed,NaT,2004-05-25
+21716,"Akorn, Inc.",Licensed,NaT,2005-10-25
+21765,"EMD Serono, Inc.",Licensed,NaT,2004-03-25
+21810,Novo Nordisk Inc.,Voluntarily Revoked,NaT,2008-08-26
+21839,"Eton Pharmaceuticals, Inc.",Licensed,NaT,2005-08-30
+21846,Microbix Biosystems Inc.,Licensed,NaT,1978-01-16
+21859,"Halozyme Therapeutics, Inc.",Licensed,NaT,2005-12-02
+21884,Insmed Incorporated,Voluntarily Revoked,NaT,2005-12-12
+22175,"Digestive Care, Inc.",Licensed,NaT,2012-05-17
+22210,"Zenpep, LLC",Licensed,NaT,2009-08-27
+22458,Pfizer Inc.,Licensed,NaT,2012-05-01
+22472,Mannkind Corporation,Licensed,NaT,2014-06-27
+22505,Theratechnologies Inc.,Licensed,NaT,2010-11-10
+22523,VIVUS LLC,Licensed,NaT,2010-04-12
+22542,"Viokace, LLC",Licensed,NaT,2012-03-01
+22575,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2010-02-26
+50114,"AllerQuest, LLC",Licensed,NaT,2074-07-25
+50294,"Parke-Davis, a Division of Pfizer Inc.",Voluntarily Revoked,NaT,2064-04-01
+101062,Merck Sharp & Dohme LLC,Licensed,NaT,2036-02-13
+101063,"Recordati Rare Diseases, Inc.",Licensed,NaT,1978-01-10
+101066,Merck Sharp & Dohme LLC,Licensed,NaT,1986-07-23
+101068,Merck Sharp & Dohme LLC,Voluntarily Revoked,NaT,2063-03-21
+101069,Merck Sharp & Dohme LLC,Licensed,NaT,2071-04-22
+101072,Merck Sharp & Dohme LLC,Voluntarily Revoked,NaT,2067-12-28
+101075,Merck Sharp & Dohme LLC,Voluntarily Revoked,NaT,2069-06-09
+101094,Merck Sharp & Dohme LLC,Licensed,NaT,1977-11-21
+101098,Wyeth Pharmaceuticals LLC,Voluntarily Revoked,NaT,2054-02-08
+101099,Wyeth Pharmaceuticals LLC,Licensed,NaT,2067-08-28
+101130,Grifols Therapeutics LLC,Licensed,NaT,2074-01-24
+101134,Grifols Therapeutics LLC,Licensed,NaT,2044-01-11
+101138,Grifols Therapeutics LLC,Licensed,NaT,2042-10-21
+101140,Grifols Therapeutics LLC,Licensed,NaT,2058-10-02
+101141,Grifols Therapeutics LLC,Licensed,NaT,2071-06-11
+101142,Grifols Therapeutics LLC,Licensed,NaT,2057-10-17
+101144,Grifols Therapeutics LLC,Licensed,NaT,2074-06-12
+101146,Grifols Therapeutics LLC,Licensed,NaT,1977-09-23
+101147,Grifols Therapeutics LLC,Voluntarily Revoked,NaT,1981-09-11
+101246,"Recordati Rare Diseases, Inc.",Licensed,NaT,1983-07-20
+101322,MassBiologics,Licensed,NaT,2070-07-27
+101377,"Allergy Laboratories, Inc.",Voluntarily Revoked,NaT,2030-07-11
+101378,"Allergy Laboratories, Inc.",Voluntarily Revoked,NaT,2030-07-11
+101379,"Allergy Laboratories, Inc.",Voluntarily Revoked,NaT,2030-06-14
+101380,"Allergy Laboratories, Inc.",Voluntarily Revoked,NaT,2030-06-14
+101381,"Allergy Laboratories, Inc.",Voluntarily Revoked,NaT,2030-06-14
+101382,"Allergy Laboratories, Inc.",Voluntarily Revoked,NaT,2030-06-14
+101383,"Allergy Laboratories, Inc.",Voluntarily Revoked,NaT,2030-06-14
+101384,"Allergy Laboratories, Inc.",Voluntarily Revoked,NaT,2030-06-14
+101385,"Allergy Laboratories, Inc.",Voluntarily Revoked,NaT,2030-06-14
+101386,"Allergy Laboratories, Inc.",Voluntarily Revoked,NaT,2030-06-14
+101387,"Allergy Laboratories, Inc.",Voluntarily Revoked,NaT,2030-06-14
+101447,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,1979-12-21
+101448,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2001-03-14
+101452,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2054-03-03
+101834,"Greer Laboratories, Inc.",Licensed,NaT,2058-09-15
+101835,"Greer Laboratories, Inc.",Licensed,NaT,2058-09-15
+101836,"Greer Laboratories, Inc.",Licensed,NaT,2030-06-14
+101837,"Greer Laboratories, Inc.",Licensed,NaT,2030-06-14
+101838,"Greer Laboratories, Inc.",Licensed,NaT,2030-06-14
+101839,"Greer Laboratories, Inc.",Licensed,NaT,2030-06-14
+101840,"Greer Laboratories, Inc.",Licensed,NaT,2030-06-14
+101841,"Greer Laboratories, Inc.",Licensed,NaT,2030-06-14
+101842,"Greer Laboratories, Inc.",Licensed,NaT,2030-06-14
+101843,"Greer Laboratories, Inc.",Licensed,NaT,2030-06-14
+101844,"Greer Laboratories, Inc.",Licensed,NaT,2030-06-14
+101845,"Greer Laboratories, Inc.",Licensed,NaT,2058-09-15
+101993,Central Laboratory of the Netherlands Red Cross Blood Transfusion Service,Licensed,NaT,1979-09-07
+101995,"Smith & Nephew, Inc.",Licensed,NaT,2065-06-04
+102212,"Allermed Laboratories, Inc.",Licensed,NaT,2074-03-12
+102213,"Allermed Laboratories, Inc.",Licensed,NaT,2074-03-12
+102214,"Allermed Laboratories, Inc.",Licensed,NaT,2030-06-14
+102215,"Allermed Laboratories, Inc.",Licensed,NaT,2030-06-14
+102216,"Allermed Laboratories, Inc.",Licensed,NaT,2074-03-12
+102217,"Allermed Laboratories, Inc.",Licensed,NaT,2074-03-12
+102218,"Allermed Laboratories, Inc.",Licensed,NaT,2074-03-12
+102219,"Allermed Laboratories, Inc.",Licensed,NaT,2074-03-12
+102220,"Allermed Laboratories, Inc.",Licensed,NaT,2074-03-12
+102221,"Allermed Laboratories, Inc.",Licensed,NaT,2030-06-14
+102366,CSL Behring AG,Licensed,NaT,1976-07-23
+102367,CSL Behring AG,Voluntarily Revoked,NaT,2000-07-27
+102475,Grifols Biologicals LLC,Licensed,NaT,1978-08-15
+102476,Grifols Biologicals LLC,Licensed,NaT,1981-07-20
+102478,Grifols Biologicals LLC,Licensed,NaT,1978-08-15
+102821,Merck Teknika LLC,Licensed,NaT,1989-06-21
+102865,"GenTrac, Inc.",Licensed,NaT,1986-02-03
+103000,AbbVie Inc.,Licensed,NaT,1991-12-09
+103050,Merck Teknika LLC,Licensed,NaT,1989-06-21
+103051,"ALK-Abello, Inc.",Licensed,NaT,2058-09-29
+103052,"ALK-Abello, Inc.",Licensed,NaT,2050-09-29
+103053,"ALK-Abello, Inc.",Licensed,NaT,2050-09-29
+103054,"ALK-Abello, Inc.",Licensed,NaT,2050-09-29
+103055,"ALK-Abello, Inc.",Licensed,NaT,2050-09-29
+103056,"ALK-Abello, Inc.",Licensed,NaT,2050-09-29
+103057,"ALK-Abello, Inc.",Licensed,NaT,2050-09-29
+103058,"ALK-Abello, Inc.",Licensed,NaT,2050-09-29
+103059,"ALK-Abello, Inc.",Licensed,NaT,2050-09-29
+103060,"ALK-Abello, Inc.",Licensed,NaT,2050-09-29
+103061,"ALK-Abello, Inc.",Voluntarily Revoked,NaT,2050-09-29
+103112,Baxalta US Inc.,Voluntarily Revoked,NaT,2070-08-21
+103113,"Allermed Laboratories, Inc.",Licensed,NaT,2074-03-13
+103123,Bavarian Nordic A/S,Licensed,NaT,1989-12-15
+103132,Merck Sharp & Dohme LLC,Voluntarily Revoked,NaT,1986-06-04
+103133,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,1986-02-18
+103141,Wellcome Foundation Limited Wellcome Research Laboratories,Voluntarily Revoked,NaT,1986-04-22
+103145,Hoffmann-La Roche Inc.,Voluntarily Revoked,NaT,1986-06-04
+103158,AIM ImmunoTech Inc.,Licensed,NaT,1989-10-10
+103171,Sanofi Pasteur Limited,Licensed,NaT,2003-11-03
+103172,"Genentech, Inc.",Licensed,NaT,1987-11-13
+103174,Grifols Therapeutics LLC,Licensed,NaT,1987-12-02
+103189,Kamada Ltd.,Licensed,NaT,1990-04-17
+103196,Grifols Therapeutics LLC,Licensed,NaT,1991-12-30
+103234,Amgen Inc.,Licensed,NaT,1989-06-01
+103237,Merck Sharp & Dohme LLC,Licensed,NaT,1989-12-20
+103239,GlaxoSmithKline Biologicals,Licensed,NaT,1989-08-28
+103249,Grifols Biologicals LLC,Licensed,NaT,1990-12-31
+103257,"Nielsen Bioscience, Inc",Licensed,NaT,1995-11-27
+103293,Iovance Biotherapeutics Manufacturing LLC,Licensed,NaT,1992-05-05
+103317,"Nielsen Bioscience, Inc",Licensed,NaT,1992-02-14
+103324,"Allergy Laboratories, Inc.",Voluntarily Revoked,NaT,2030-07-11
+103332,Bayer HealthCare LLC,Licensed,NaT,2002-08-20
+103334,Bavarian Nordic A/S,Licensed,NaT,1997-10-20
+103352,"Instituto Grifols, S.A.",Licensed,NaT,1995-02-17
+103353,Amgen Inc.,Licensed,NaT,1991-02-20
+103362,"Partner Therapeutics, Inc.",Licensed,NaT,1991-03-05
+103375,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,1992-12-10
+103397,"Greer Laboratories, Inc.",Licensed,NaT,2058-09-15
+103411,Servier Pharmaceuticals LLC,Licensed,NaT,1994-02-01
+103463,"Centocor Ortho Biotech Products, L.P.",Voluntarily Revoked,NaT,1992-09-14
+103471,Bayer HealthCare Pharmaceuticals Inc.,Licensed,NaT,1993-07-23
+103473,"Allermed Laboratories, Inc.",Licensed,NaT,2074-03-12
+103475,GlaxoSmithKline Biologicals,Licensed,NaT,1995-02-22
+103532,"Genentech, Inc.",Licensed,NaT,1993-12-30
+103552,Merck Sharp & Dohme LLC,Licensed,NaT,1995-03-17
+103569,"Greer Laboratories, Inc.",Licensed,NaT,1994-10-05
+103575,"Janssen Biotech, Inc.",Voluntarily Revoked,NaT,1994-12-22
+103606,Merck Sharp & Dohme LLC,Licensed,NaT,1996-03-29
+103608,"Aytu BioScience, Inc.",Licensed,NaT,1996-10-28
+103623,Merck Sharp & Dohme LLC,Voluntarily Revoked,NaT,1996-10-02
+103628,Biogen Inc.,Licensed,NaT,1996-05-17
+103647,GlaxoSmithKline Biologicals,Licensed,NaT,1997-01-29
+103649,Kamada Ltd.,Licensed,NaT,1996-04-02
+103661,Vericel Corporation,Licensed,NaT,1997-08-22
+103663,Kadmon Pharmaceuticals LLC,Voluntarily Revoked,NaT,1997-10-06
+103665,Novo Nordisk Inc.,Licensed,NaT,1999-03-25
+103666,Sanofi Pasteur Limited,Licensed,NaT,2002-05-14
+103676,Pharmacia & Upjohn Company LLC,Licensed,NaT,1996-12-04
+103677,Wyeth Pharmaceuticals LLC,Licensed,NaT,1997-02-11
+103691,"Smith & Nephew, Inc.",Licensed,NaT,1997-12-16
+103694,Wyeth Pharmaceuticals Inc.,Voluntarily Revoked,NaT,1997-11-25
+103705,"Genentech, Inc.",Licensed,NaT,1997-11-26
+103737,IDEC Pharmaceuticals Corp.,Voluntarily Revoked,NaT,2002-02-19
+103738,SmartPractice Denmark ApS,Licensed,NaT,1997-08-15
+103749,Hoffmann-La Roche Inc.,Voluntarily Revoked,NaT,1997-12-10
+103752,"ALK-Abello, Inc.",Licensed,NaT,2050-09-29
+103754,"ALK-Abello, Inc.",Licensed,NaT,2050-09-29
+103764,Novartis Pharmaceuticals Corporation,Licensed,NaT,1998-05-12
+103767,"Eisai, Incorporated",Licensed,NaT,1999-02-05
+103769,Boehringer Ingelheim Pharma GmbH & Co. KG,Voluntarily Revoked,NaT,1998-10-13
+103770,Swedish Orphan Biovitrum AB (publ),Licensed,NaT,1998-06-19
+103772,"Janssen Biotech, Inc.",Licensed,NaT,1998-08-24
+103777,Kedrion Biopharma Inc.,Licensed,NaT,1998-04-23
+103779,Wyeth Pharmaceuticals LLC,Licensed,NaT,2001-06-27
+103780,"EMD Serono, Inc.",Licensed,NaT,2002-03-07
+103782,Endo Operations Limited,Licensed,NaT,1998-04-20
+103786,"Chiesi USA, Inc.",Licensed,NaT,1996-10-30
+103788,BTG International Inc.,Licensed,NaT,2000-10-02
+103792,"Genentech, Inc.",Licensed,NaT,1998-09-25
+103795,Immunex Corporation,Licensed,NaT,1998-11-02
+103810,"ALK-Abello, Inc.",Licensed,NaT,2071-12-16
+103820,Emergent BioDefense Operations Lansing LLC,Licensed,NaT,1998-11-12
+103821,Emergent BioDefense Operations Lansing LLC,Licensed,NaT,1998-11-12
+103836,Horizon Therapeutics Ireland DAC,Licensed,NaT,1999-02-25
+103837,Seqirus Vaccines Limited,Licensed,NaT,1998-11-03
+103846,"Solstice NeuroSciences, LLC",Licensed,NaT,2000-12-08
+103850,GlaxoSmithKline Biologicals,Licensed,NaT,2001-05-11
+103869,Genzyme Corporation,Licensed,NaT,1999-05-19
+103870,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103871,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103872,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103873,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103874,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103875,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103876,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103877,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103878,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103879,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103880,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103882,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103883,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103884,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103885,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103886,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103887,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103889,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103890,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103891,Jubilant HollisterStier LLC,Licensed,NaT,2024-03-13
+103905,Wyeth Pharmaceuticals LLC,Voluntarily Revoked,NaT,2000-02-17
+103907,GlaxoSmithKline Biologicals,Licensed,NaT,2002-12-13
+103909,"Genentech, Inc.",Licensed,NaT,2000-06-02
+103910,BTG International Inc.,Licensed,NaT,2001-08-31
+103913,Sanofi Pasteur Inc.,Voluntarily Revoked,NaT,1999-12-09
+103914,Sanofi Pasteur Inc.,Licensed,NaT,1999-12-09
+103915,Sanofi Pasteur Inc.,Licensed,NaT,1999-12-09
+103919,Sanofi Pasteur Inc.,Voluntarily Revoked,NaT,1999-12-09
+103921,Sanofi Pasteur Inc.,Voluntarily Revoked,NaT,1999-12-09
+103922,Sanofi Pasteur Inc.,Voluntarily Revoked,NaT,1999-12-09
+103923,Sanofi Pasteur Inc.,Voluntarily Revoked,NaT,1999-12-09
+103924,Sanofi Pasteur Inc.,Voluntarily Revoked,NaT,1999-12-09
+103925,Sanofi Pasteur Inc.,Voluntarily Revoked,NaT,1999-12-09
+103926,Sanofi Pasteur Inc.,Voluntarily Revoked,NaT,1999-12-09
+103928,"Palatin Technologies, Inc.",Voluntarily Revoked,NaT,2004-07-02
+103930,Sanofi Pasteur SA,Licensed,NaT,2000-02-04
+103931,Sanofi Pasteur SA,Licensed,NaT,2000-02-04
+103932,Sanofi Pasteur SA,Voluntarily Revoked,NaT,2001-03-06
+103935,Sanofi Pasteur SA,Licensed,NaT,2000-02-04
+103936,Sanofi Pasteur SA,Licensed,NaT,2000-02-04
+103937,Sanofi Pasteur Limited,Voluntarily Revoked,NaT,2000-02-24
+103940,Sanofi Pasteur Limited,Licensed,NaT,2000-02-24
+103941,Sanofi Pasteur Limited,Licensed,NaT,2000-02-24
+103942,Sanofi Pasteur Limited,Voluntarily Revoked,NaT,2000-02-24
+103943,Sanofi Pasteur Limited,Voluntarily Revoked,NaT,2000-02-24
+103944,Sanofi Pasteur Limited,Voluntarily Revoked,NaT,2000-02-24
+103945,"ADMA Biologics, Inc.",Licensed,NaT,2001-10-23
+103946,Sanofi-Aventis U.S. LLC,Licensed,NaT,2002-07-12
+103948,Genzyme Corporation,Licensed,NaT,2001-05-07
+103949,Merck Sharp & Dohme LLC,Voluntarily Revoked,NaT,2001-01-19
+103950,Swedish Orphan Biovitrum AB (publ),Licensed,NaT,2001-11-14
+103951,Amgen Inc.,Licensed,NaT,2001-09-17
+103953,CSL Behring LLC,Voluntarily Revoked,NaT,2003-05-14
+103955,CSL Behring LLC,Voluntarily Revoked,NaT,2000-03-17
+103956,CSL Behring LLC,Voluntarily Revoked,NaT,2000-03-17
+103957,CSL Behring LLC,Voluntarily Revoked,NaT,2000-03-17
+103960,CSL Behring GmbH,Licensed,NaT,2000-04-11
+103964,pharmaand GmbH,Licensed,NaT,2002-10-16
+103969,ALK - Abello A/S,Voluntarily Revoked,NaT,1991-10-08
+103970,ALK - Abello A/S,Voluntarily Revoked,NaT,1991-10-08
+103971,ALK - Abello A/S,Voluntarily Revoked,NaT,1991-10-08
+103972,ALK - Abello A/S,Voluntarily Revoked,NaT,1991-10-08
+103973,ALK - Abello A/S,Voluntarily Revoked,NaT,1991-10-08
+103974,ALK - Abello A/S,Voluntarily Revoked,NaT,1991-10-08
+103976,"Genentech, Inc.",Licensed,NaT,2003-06-20
+103979,Genzyme Corporation,Licensed,NaT,2003-04-24
+103980,Baxter Healthcare Corporation,Licensed,NaT,1998-05-01
+125010,Omrix Biopharmaceuticals Ltd,Voluntarily Revoked,NaT,2003-03-21
+125011,GlaxoSmithKline LLC,Voluntarily Revoked,NaT,2003-06-27
+125019,Acrotech Biopharma Inc.,Licensed,NaT,2002-02-19
+125020,"MedImmune, LLC",Licensed,NaT,2003-06-17
+125029,Eli Lilly and Company,Voluntarily Revoked,NaT,2001-11-21
+125031,Amgen Inc.,Licensed,NaT,2002-01-31
+125034,California Department of Public Health (CDPH),Licensed,NaT,2003-10-23
+125035,Kamada Ltd.,Licensed,NaT,2006-01-27
+125036,"Astellas Pharma US, Inc.",Voluntarily Revoked,NaT,2003-01-30
+125039,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2002-12-23
+125046,Grifols Therapeutics LLC,Licensed,NaT,2003-08-27
+125057,AbbVie Inc.,Licensed,NaT,2002-12-31
+125058,BioMarin Pharmaceutical Inc.,Licensed,NaT,2003-04-30
+125062,Octapharma Pharmazeutika Produktionsges.m.b.H.,Licensed,NaT,2004-05-21
+125063,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2003-07-25
+125070,CSL Behring AG,Licensed,NaT,2004-02-12
+125075,"Genentech, Inc.",Voluntarily Revoked,NaT,2003-10-27
+125077,"Instituto Grifols, S.A.",Licensed,NaT,2003-12-15
+125078,CSL Behring LLC,Licensed,NaT,2003-07-08
+125083,Hoffmann-La Roche Inc.,Voluntarily Revoked,NaT,2004-06-04
+125084,Eli Lilly and Company,Licensed,NaT,2004-02-12
+125085,"Genentech, Inc.",Licensed,NaT,2004-02-26
+125089,Sanofi Pasteur Inc.,Licensed,NaT,2005-01-14
+125103,Swedish Orphan Biovitrum AB (publ),Licensed,NaT,2004-12-15
+125104,Biogen Inc.,Licensed,NaT,2004-11-23
+125105,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2005-04-27
+125106,GlaxoSmithKline Biologicals,Licensed,NaT,2005-05-03
+125108,Merck Sharp & Dohme LLC,Licensed,NaT,2005-09-06
+125109,Emergent BioSolutions Canada Inc.,Licensed,NaT,2005-05-02
+125111,Sanofi Pasteur Limited,Licensed,NaT,2005-06-10
+125115,CSL Behring GmbH,Voluntarily Revoked,NaT,2006-01-09
+125117,BioMarin Pharmaceutical Inc.,Licensed,NaT,2005-05-31
+125118,Bristol-Myers Squibb Company,Licensed,NaT,2005-12-23
+125122,Merck Sharp & Dohme LLC,Licensed,NaT,2006-02-03
+125123,Merck Sharp & Dohme LLC,Licensed,NaT,2006-05-25
+125126,Merck Sharp & Dohme LLC,Licensed,NaT,2006-06-08
+125127,GlaxoSmithKline Biologicals,Licensed,NaT,2005-08-31
+125141,Genzyme Corporation,Voluntarily Revoked,NaT,2006-04-28
+125145,Sanofi Pasteur Limited,Licensed,NaT,2008-06-20
+125147,Amgen Inc.,Licensed,NaT,2006-09-27
+125151,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2006-07-24
+125154,Octapharma Pharmazeutika Produktionsges.m.b.H.,Licensed,NaT,2006-10-17
+125156,"Genentech, Inc.",Licensed,NaT,2006-06-30
+125158,"Emergent Product Development Gaithersburg, Inc.",Licensed,NaT,2007-08-31
+125160,"UCB, Inc.",Licensed,NaT,2008-04-22
+125163,ID Biomedical Corporation of Quebec,Licensed,NaT,2006-10-05
+125164,Vifor (International) Inc.,Licensed,NaT,2016-04-28
+125166,"Alexion Pharmaceuticals, Inc.",Licensed,NaT,2007-03-16
+125196,"Schering Corporation a subsidiary of Merck & Co., Inc.",Voluntarily Revoked,NaT,2008-06-13
+125201,CSL Behring AG,Licensed,NaT,2007-07-26
+125234,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2007-03-30
+125244,Sanofi Pasteur Inc.,Licensed,NaT,2007-04-17
+125247,Omrix Biopharmaceuticals Ltd,Licensed,NaT,2007-08-27
+125248,Baxter Healthcare Corporation,Licensed,NaT,2008-01-17
+125249,"Kiniksa Pharmaceuticals (UK), Ltd.",Licensed,NaT,2008-02-27
+125251,Octapharma Pharmazeutika Produktionsges.m.b.H.,Licensed,NaT,2010-12-20
+125254,Seqirus Pty Ltd.,Licensed,NaT,2007-09-28
+125259,GlaxoSmithKline Biologicals,Licensed,NaT,2009-10-16
+125260,GlaxoSmithKline Biologicals,Licensed,NaT,2008-06-24
+125261,"Janssen Biotech, Inc.",Licensed,NaT,2009-09-25
+125264,Wyeth Pharmaceuticals LLC,Licensed,NaT,2008-02-21
+125265,GlaxoSmithKline Biologicals,Licensed,NaT,2008-04-03
+125266,Baxter Healthcare Corporation,Licensed,NaT,2008-03-19
+125267,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2008-10-10
+125268,Amgen Inc.,Licensed,NaT,2008-08-22
+125274,Ipsen Biopharm Limited,Licensed,NaT,2009-04-29
+125276,"Genentech, Inc.",Licensed,NaT,2010-01-08
+125277,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2009-12-01
+125280,Valneva Austria GmbH,Licensed,NaT,2009-03-30
+125284,"rEVO Biologics, Inc.",Voluntarily Revoked,NaT,2009-02-06
+125285,Protein Sciences Corporation,Licensed,2013-01-16,2013-01-16
+125287,CSL Behring GmbH,Licensed,NaT,2009-10-09
+125288,Bristol-Myers Squibb Company,Licensed,NaT,2011-06-15
+125289,"Janssen Biotech, Inc.",Licensed,NaT,2009-04-24
+125290,Novartis Pharmaceuticals Corporation,Voluntarily Revoked,NaT,2009-08-14
+125291,Genzyme Corporation,Licensed,NaT,2010-05-24
+125293,Horizon Therapeutics Ireland DAC,Licensed,NaT,2010-09-14
+125294,UAB Teva Baltics,Licensed,2012-08-29,2012-08-29
+125296,"Teva Women's Health, Inc.",Licensed,NaT,2011-03-16
+125297,Seqirus Inc.,Licensed,NaT,2009-11-27
+125300,GlaxoSmithKline Biologicals,Licensed,NaT,2010-02-19
+125317,CSL Behring GmbH,Licensed,NaT,2009-01-16
+125319,Novartis Pharmaceuticals Corporation,Licensed,NaT,2009-06-17
+125320,Amgen Inc.,Licensed,NaT,2010-06-01
+125324,Wyeth Pharmaceuticals LLC,Licensed,NaT,2010-02-24
+125325,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2010-07-01
+125326,Novartis Pharmaceuticals Corporation,Licensed,NaT,2009-10-26
+125327,BTG International Inc.,Licensed,NaT,2012-01-17
+125329,Bio Products Laboratory Limited,Licensed,NaT,2009-09-17
+125335,"Rare Disease Therapeutics, Inc. (RDT)",Licensed,NaT,2011-08-03
+125338,"Auxilium Pharmaceuticals, Inc.",Licensed,NaT,2010-02-02
+125347,GlaxoSmithKline Biologicals,Licensed,NaT,2009-08-19
+125348,"Fibrocell Technologies, Inc.",Licensed,NaT,2011-06-21
+125349,Emergent Manufacturing Operations Baltimore LLC,Licensed,NaT,2012-12-14
+125350,CSL Behring AG,Licensed,NaT,2010-03-04
+125351,Corza Medical GmbH,Licensed,NaT,2010-04-05
+125354,"Nielsen Bioscience, Inc",Licensed,NaT,2011-07-29
+125359,"Jazz Pharmaceuticals, Inc.",Voluntarily Revoked,NaT,2011-11-18
+125360,Merz Pharmaceuticals GmbH c/o Merz Pharmaceuticals LLC,Licensed,NaT,2010-07-30
+125363,GlaxoSmithKline Biologicals,Voluntarily Revoked,NaT,2012-06-14
+125370,GlaxoSmithKline LLC,Licensed,NaT,2011-03-09
+125377,Bristol-Myers Squibb Company,Licensed,NaT,2011-03-25
+125385,CSL Behring GmbH,Licensed,NaT,2011-02-17
+125387,"Regeneron Pharmaceuticals, Inc.",Licensed,2011-11-18,2011-11-18
+125388,Seagen Inc.,Licensed,NaT,2011-08-19
+125389,"ADMA Biologics, Inc.",Licensed,NaT,2012-12-19
+125390,Chiesi Farmaceutici S.p.A.,Licensed,NaT,2014-02-24
+125391,Clinimmune Labs,Licensed,NaT,2012-05-24
+125392,"Ethicon, Inc.",Licensed,NaT,2012-12-05
+125397,"New York Blood Center, Inc.",Licensed,NaT,2011-11-10
+125398,Novo Nordisk Inc.,Licensed,NaT,2013-12-23
+125400,"Organogenesis, Inc.",Licensed,NaT,2012-03-09
+125402,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2014-09-12
+125407,Duke University School of Medicine,Licensed,NaT,2012-10-04
+125408,Seqirus Inc.,Voluntarily Revoked,NaT,2012-11-20
+125409,"Genentech, Inc.",Licensed,2012-06-08,2012-06-08
+125413,SSM Cardinal Glennon Children's Medical Center,Licensed,NaT,2013-05-30
+125416,Octapharma Pharmazeutika Produktionsges.m.b.H.,Licensed,NaT,2013-01-17
+125418,Sanofi-Aventis U.S. LLC,Licensed,NaT,2012-08-03
+125419,ID Biomedical Corporation of Quebec,Licensed,NaT,2013-11-22
+125421,CSL Behring GmbH,Licensed,NaT,2013-04-29
+125422,ThromboGenics Inc.,Voluntarily Revoked,NaT,2017-02-22
+125426,"Medexus Pharma, Inc.",Licensed,NaT,2015-04-29
+125427,"Genentech, Inc.",Licensed,NaT,2013-02-22
+125428,Dynavax Technologies Corporation,Licensed,NaT,2017-11-09
+125430,Kamada Ltd.,Licensed,NaT,2012-12-20
+125431,GlaxoSmithKline LLC,Voluntarily Revoked,NaT,2014-04-15
+125432,"LifeSouth Community Blood Centers, Inc.",Licensed,NaT,2013-06-13
+125433,"Janssen Biotech, Inc.",Licensed,NaT,2013-07-18
+125444,"Bioverativ Therapeutics, Inc.",Licensed,NaT,2014-03-28
+125446,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2013-06-26
+125460,BioMarin Pharmaceutical Inc.,Licensed,NaT,2014-02-14
+125462,Emergent BioSolutions Canada Inc.,Licensed,NaT,2013-03-22
+125466,Novo Nordisk Inc.,Licensed,NaT,2013-10-15
+125469,Eli Lilly and Company,Licensed,NaT,2014-09-18
+125471,"Stallergenes, SAS",Licensed,NaT,2014-04-01
+125472,"Genentech, Inc.",Licensed,NaT,2013-10-21
+125473,ALK - Abello A/S,Licensed,NaT,2014-04-11
+125476,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2014-05-20
+125477,Eli Lilly and Company,Licensed,NaT,2014-04-21
+125478,ALK - Abello A/S,Licensed,NaT,2014-04-17
+125486,"Genentech, Inc.",Licensed,NaT,2013-11-01
+125487,"Bioverativ Therapeutics, Inc.",Licensed,NaT,2014-06-06
+125488,"Rare Disease Therapeutics, Inc. (RDT)",Licensed,NaT,2015-05-06
+125495,Pharming Americas BV,Licensed,2014-07-16,2014-07-16
+125496,"Recordati Rare Diseases, Inc.",Licensed,NaT,2014-04-23
+125499,Biogen Inc.,Licensed,NaT,2014-08-15
+125504,Novartis Pharmaceuticals Corporation,Licensed,NaT,2015-01-21
+125506,Bio Products Laboratory Limited,Licensed,NaT,2015-10-20
+125508,Merck Sharp & Dohme LLC,Licensed,NaT,2014-12-10
+125509,"Elusys Therapeutics, Inc.",Licensed,NaT,2016-03-18
+125510,Seqirus Inc.,Licensed,NaT,2015-11-24
+125511,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2015-01-23
+125512,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2014-10-23
+125513,"Alexion Pharmaceuticals, Inc.",Licensed,NaT,2015-10-23
+125514,Merck Sharp & Dohme LLC,Licensed,NaT,2014-09-04
+125516,United Therapeutics Corporation,Licensed,NaT,2015-03-10
+125518,Amgen Inc.,Licensed,NaT,2015-10-27
+125521,Eli Lilly and Company,Licensed,NaT,2016-03-22
+125522,Amgen Inc.,Licensed,NaT,2015-08-27
+125523,Mallinckrodt Pharma IP Trading DAC,Voluntarily Revoked,NaT,2015-04-30
+125525,Sanofi Pasteur Limited,Licensed,NaT,2015-03-24
+125526,GlaxoSmithKline LLC,Licensed,NaT,2015-11-04
+125544,"CELLTRION, Inc.",Licensed,NaT,2016-04-05
+125545,"Hospira Inc., a Pfizer Company",Licensed,NaT,2018-05-15
+125546,GlaxoSmithKline Biologicals,Licensed,NaT,2015-01-23
+125547,Eli Lilly and Company,Licensed,NaT,2015-11-24
+125549,Wyeth Pharmaceuticals LLC,Licensed,2014-10-29,2014-10-29
+125553,Sandoz Inc.,Licensed,NaT,2015-03-06
+125554,Bristol-Myers Squibb Company,Licensed,NaT,2014-12-22
+125555,Octapharma Pharmazeutika Produktionsges.m.b.H.,Licensed,NaT,2015-09-04
+125557,Amgen Inc.,Licensed,NaT,2014-12-03
+125559,"Regeneron Pharmaceuticals, Inc.",Licensed,NaT,2015-07-24
+125561,"Alexion Pharmaceuticals, Inc.",Licensed,NaT,2015-12-08
+125562,Emergent BioSolutions Canada Inc.,Licensed,NaT,2015-03-24
+125563,MSP Vaccine Company,Licensed,NaT,2018-12-21
+125566,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2015-11-13
+125574,Bayer HealthCare LLC,Licensed,NaT,2016-03-16
+125577,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2015-12-08
+125579,SmartPractice Denmark ApS,Licensed,NaT,2017-03-03
+125582,CSL Behring Lengnau AG,Licensed,NaT,2016-03-04
+125585,Bloodworks,Licensed,NaT,2016-01-28
+125586,AstraZeneca AB,Licensed,NaT,2018-05-03
+125587,Octapharma Pharmazeutika Produktionsges.m.b.H.,Licensed,NaT,2018-08-02
+125590,"ADMA Biologics, Inc.",Licensed,NaT,2019-04-01
+125591,CSL Behring Lengnau AG,Licensed,NaT,2016-05-25
+125592,ALK - Abello A/S,Licensed,NaT,2017-03-01
+125594,Cleveland Cord Blood Center,Licensed,NaT,2016-09-01
+125596,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2016-09-13
+125597,Bavarian Nordic A/S,Licensed,NaT,2016-06-10
+125603,Vericel Corporation,Licensed,NaT,2016-12-13
+125606,CSL Behring GmbH,Licensed,NaT,2017-06-22
+125610,"Spark Therapeutics, Inc.",Licensed,NaT,2017-12-19
+125611,Novo Nordisk Inc.,Licensed,NaT,2017-05-31
+125612,Octapharma Pharmazeutika Produktionsges.m.b.H.,Licensed,NaT,2017-06-07
+125613,Kamada Ltd.,Licensed,NaT,2017-08-23
+125614,GlaxoSmithKline Biologicals,Licensed,NaT,2017-10-20
+125640,"Instituto Grifols, S.A.",Licensed,NaT,2017-11-01
+125641,Laboratoire Francais du Fractionnement et des Biotechnologies S.A.,Licensed,NaT,2020-04-01
+125643,"Kite Pharma, Inc.",Licensed,NaT,2017-10-18
+125644,Bio Products Laboratory Limited,Licensed,NaT,2018-06-19
+125646,Novartis Pharmaceuticals Corporation,Licensed,NaT,2017-08-30
+125657,MD Anderson Cord Blood Bank,Licensed,NaT,2018-06-21
+125659,Kedrion Biopharma Inc.,Licensed,2021-06-04,2021-06-04
+125661,Bayer HealthCare LLC,Licensed,NaT,2018-08-29
+125668,Octapharma Pharmazeutika Produktionsges.m.b.H.,Licensed,NaT,2018-12-12
+125671,Novo Nordisk Inc.,Licensed,NaT,2019-02-19
+125678,Bavarian Nordic A/S,Licensed,NaT,2019-09-24
+125682,Sanofi Pasteur Inc.,Licensed,2019-05-01,2019-05-01
+125683,Grifols Therapeutics LLC,Licensed,NaT,2019-07-03
+125685,Sumitomo Pharma Switzerland GmbH,Licensed,2021-10-08,2021-10-08
+125690,Merck Sharp & Dohme LLC,Licensed,2019-12-19,2019-12-19
+125692,Seqirus Inc.,Licensed,NaT,2020-01-31
+125694,"Novartis Gene Therapies, Inc.",Licensed,2019-05-24,2019-05-24
+125696,"Greer Laboratories, Inc.",Licensed,NaT,2020-01-31
+125700,Ferring Pharmaceuticals A/S,Licensed,2022-12-16,2022-12-16
+125701,Sanofi Pasteur Inc.,Licensed,2020-04-23,2020-04-23
+125703,"Kite Pharma, Inc.",Licensed,NaT,2020-07-24
+125706,"Mesoblast, Inc.",Licensed,2024-12-18,2024-12-18
+125714,"Juno Therapeutics, Inc. a Bristol Myer-Squibb Company",Licensed,NaT,2021-02-05
+125717,Bluebird Bio Inc.,Licensed,2022-08-17,2022-08-17
+125720,Biomarin Pharmaceutical Inc.,Licensed,NaT,2023-06-29
+125722,PTC Therapeutics,Licensed,NaT,2024-11-13
+125730,Stratatech Corporation,Revoked,2021-06-15,2021-06-15
+125731,Wyeth Pharmaceuticals LLC,Licensed,2021-06-08,2021-06-08
+125734,CellTrans Inc.,Licensed,NaT,2023-06-28
+125736,"Celgene Corporation, a Bristol-Myers Squibb Company",Licensed,NaT,2021-03-03
+125737,"VBI Vaccines (Delaware), Inc.",Licensed,2021-11-30,2021-11-30
+125738,Gamida Cell Ltd.,Licensed,NaT,2023-04-17
+125739,Ferring Pharmaceuticals Inc.,Licensed,2022-11-30,2022-11-30
+125740,Pfizer Ireland Pharmaceuticals,Licensed,NaT,2021-08-13
+125741,Merck Sharp & Dohme LLC,Licensed,2021-07-16,2021-07-16
+125742,BioNTech Manufacturing GmbH,Licensed,NaT,2021-08-23
+125743,GC Biopharma Corp.,Licensed,NaT,2023-12-15
+125746,"Janssen Biotech, Inc.",Licensed,2022-02-28,2022-02-28
+125748,GlaxoSmithKline Biologicals,Licensed,NaT,2022-06-03
+125752,"ModernaTX, Inc.",Licensed,NaT,2022-01-31
+125755,Bluebird Bio Inc.,Licensed,2022-09-16,2022-09-16
+125757,"Aimmune Therapeutics, Inc.",Licensed,2023-04-26,2023-04-26
+125758,Orchard Therapeutics (Europe) Ltd.,Licensed,2024-03-18,2024-03-18
+125761,"Emergent Product Development Gaithersburg, Inc.",Licensed,NaT,2023-07-20
+125764,"StemCyte, Inc.",Licensed,NaT,2024-11-21
+125769,Pfizer Inc.,Licensed,NaT,2023-05-31
+125770,Pfizer Ireland Pharmaceuticals,Licensed,NaT,2023-10-20
+125771,"Bioverativ Therapeutics, Inc.",Licensed,NaT,2023-02-22
+125772,CSL Behring LLC,Licensed,2022-11-22,2022-11-22
+125773,"Iovance Biotherapeutics, Inc.",Licensed,2024-02-16,2024-02-16
+125774,"Krystal Biotech, Inc.",Licensed,NaT,2023-05-19
+125775,GlaxoSmithKline Biologicals,Licensed,2023-05-03,2023-05-03
+125776,Octapharma Pharmazeutika Produktionsges.m.b.H.,Licensed,NaT,2023-07-21
+125777,Valneva Austria GmbH,Licensed,NaT,2023-11-09
+125781,"Sarepta Therapeutics, Inc.",Licensed,2023-06-22,2023-06-22
+125786,Pfizer Inc.,Voluntarily Revoked,2024-04-25,2024-04-25
+125787,Vertex Pharmaceuticals Inc,Licensed,NaT,2023-12-08
+125788,bluebird bio Inc.,Licensed,NaT,2023-12-08
+125789,Adaptimmune LLC,Licensed,2024-08-01,2024-08-01
+125795,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2023-11-09
+125796,"ModernaTX, Inc.",Licensed,2024-05-31,2024-05-31
+125798,Neurotech Pharmaceuticals Inc.,Licensed,2025-03-05,2025-03-05
+125807,Abeona Therapeutics Inc.,Licensed,NaT,2025-04-28
+125810,YIMMUGO,Licensed,NaT,2024-06-13
+125812,Humacyte Global Inc.,Licensed,2024-12-19,2024-12-19
+125813,"Autolus, Inc.",Licensed,2024-11-08,2024-11-08
+125814,Merck Sharp & Dohme LLC,Licensed,2024-06-17,2024-06-17
+125817,"Novavax, Inc.",Licensed,NaT,2025-05-16
+125819,GlaxoSmithKline Biologicals,Licensed,NaT,2025-02-14
+125820,Bavarian Nordic A/S,Licensed,2025-02-14,2025-02-14
+125832,"Precigen, Inc.",Licensed,NaT,2025-08-14
+125835,"ModernaTX, Inc.",Licensed,NaT,2025-05-30
+203313,Novo Nordisk Inc.,Licensed,NaT,2015-09-25
+203314,Novo Nordisk Inc.,Licensed,NaT,2015-09-25
+205692,Eli Lilly and Company,Licensed,NaT,2015-12-16
+205747,Eli Lilly and Company,Licensed,NaT,2015-05-26
+206538,Sanofi-Aventis U.S. LLC,Licensed,NaT,2015-02-25
+208157,Baxter Healthcare Corporation,Licensed,NaT,2019-06-20
+208471,Sanofi-Aventis U.S. LLC,Licensed,NaT,2016-07-27
+208583,Novo Nordisk Inc.,Licensed,NaT,2016-11-21
+208673,Sanofi-Aventis U.S. LLC,Licensed,NaT,2016-11-21
+208751,Novo Nordisk Inc.,Licensed,NaT,2017-09-29
+209196,Sanofi-Aventis U.S. LLC,Licensed,NaT,2017-12-11
+210089,Cis Bio International,Licensed,NaT,2020-03-20
+210605,Mylan Pharmaceuticals Inc.,Voluntarily Revoked,NaT,2020-06-11
+761024,Amgen Inc.,Licensed,NaT,2016-09-23
+761025,"Boehringer Ingelheim Pharmaceuticals, Inc.",Licensed,NaT,2015-10-16
+761028,Amgen Inc.,Licensed,NaT,2017-09-14
+761029,Biogen Inc.,Voluntarily Revoked,NaT,2016-05-27
+761032,"Bausch Health Ireland, Limited",Licensed,NaT,2017-02-15
+761033,"Teva Respiratory, LLC",Licensed,NaT,2016-03-23
+761034,"Genentech, Inc.",Licensed,NaT,2016-05-18
+761035,Bristol-Myers Squibb Company,Licensed,NaT,2015-11-30
+761036,"Janssen Biotech, Inc.",Licensed,NaT,2015-11-16
+761037,Sanofi-Aventis U.S. LLC,Licensed,NaT,2017-05-22
+761038,Eli Lilly and Company,Voluntarily Revoked,NaT,2016-10-19
+761039,Accord BioPharma Inc.,Licensed,NaT,2018-11-02
+761040,Wyeth Pharmaceuticals LLC,Licensed,NaT,2017-08-17
+761042,Sandoz Inc.,Licensed,NaT,2016-08-30
+761043,GlaxoSmithKline LLC,Licensed,NaT,2017-07-20
+761044,"Janssen Biotech, Inc.",Licensed,NaT,2016-09-23
+761045,Sandoz Inc.,Licensed,NaT,2019-11-04
+761046,Merck Sharp & Dohme LLC,Licensed,NaT,2016-10-21
+761047,Ultragenyx Pharamceutical Inc.,Licensed,NaT,2017-11-15
+761049,"EMD Serono, Inc.",Licensed,NaT,2017-03-23
+761051,"Kyowa Kirin, Inc.",Licensed,NaT,2018-08-08
+761052,BioMarin Pharmaceutical Inc.,Licensed,NaT,2017-04-27
+761053,"Genentech, Inc.",Licensed,NaT,2017-03-28
+761054,"Samsung Bioepis Co., Ltd.",Licensed,NaT,2017-04-21
+761055,"Regeneron Pharmaceuticals, Inc.",Licensed,NaT,2017-03-28
+761058,"Boehringer Ingelheim Pharmaceuticals, Inc.",Licensed,NaT,2017-08-25
+761059,"Samsung Bioepis Co., Ltd.",Licensed,NaT,2019-07-23
+761060,Wyeth Pharmaceuticals LLC,Licensed,NaT,2017-09-01
+761061,"Janssen Biotech, Inc.",Licensed,NaT,2017-07-13
+761062,Amgen Inc.,Licensed,NaT,2019-04-09
+761063,Eli Lilly and Company,Licensed,NaT,2018-09-27
+761064,"Genentech, Inc.",Licensed,NaT,2017-06-22
+761065,Theratechnologies Inc.,Licensed,NaT,2018-03-06
+761066,"Samsung Bioepis Co., Ltd.",Licensed,NaT,2019-04-25
+761067,Sun Pharmaceutical Industries Limited,Licensed,NaT,2018-03-20
+761068,"Kyowa Kirin, Inc.",Licensed,NaT,2018-04-17
+761069,AstraZeneca UK Ltd,Licensed,NaT,2017-05-01
+761070,AstraZeneca AB,Licensed,NaT,2017-11-14
+761071,Sandoz Inc.,Licensed,NaT,2018-10-30
+761072,Pfizer Ireland Pharmaceuticals,Licensed,NaT,2017-12-13
+761073,Amgen Inc.,Licensed,NaT,2019-06-13
+761074,Biocon Biologics Inc.,Licensed,NaT,2017-12-01
+761075,Biocon Biologics Inc.,Licensed,NaT,2018-06-04
+761077,Amgen Inc.,Licensed,NaT,2018-05-17
+761079,BioMarin Pharmaceutical Inc.,Licensed,NaT,2018-05-24
+761080,"Hospira Inc., a Pfizer Company",Licensed,NaT,2018-07-20
+761081,Pfizer Ireland Pharmaceuticals,Licensed,NaT,2019-03-11
+761082,"Kashiv BioSciences, LLC",Licensed,NaT,2022-02-25
+761083,"Genentech, Inc.",Licensed,NaT,2017-11-16
+761084,"Kashiv BioSciences, LLC",Licensed,NaT,2022-05-26
+761085,Evolus Inc.,Licensed,NaT,2019-02-01
+761086,Amgen Inc.,Licensed,NaT,2019-12-06
+761088,"CELLTRION, Inc.",Licensed,NaT,2018-11-28
+761089,"Teva Branded Pharmaceutical Products R&D, Inc.",Licensed,NaT,2018-09-14
+761090,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2018-08-23
+761091,"CELLTRION, Inc.",Licensed,NaT,2018-12-14
+761092,"Chiesi USA, Inc.",Licensed,NaT,2018-10-05
+761094,Dompé farmaceutici S.p.A.,Licensed,NaT,2018-08-22
+761097,"Regeneron Pharmaceuticals, Inc.",Licensed,NaT,2018-09-28
+761099,Pfizer Inc.,Licensed,NaT,2019-06-27
+761100,"Samsung Bioepis Co., Ltd.",Licensed,NaT,2019-01-18
+761102,Servier Pharmaceuticals LLC,Licensed,NaT,2018-12-20
+761103,Pfizer Ireland Pharmaceuticals,Licensed,NaT,2019-07-23
+761104,AstraZeneca AB,Voluntarily Revoked,NaT,2018-09-13
+761105,AbbVie Inc.,Licensed,NaT,2019-04-23
+761106,"Genentech, Inc.",Licensed,NaT,2019-02-28
+761107,Swedish Orphan Biovitrum AB (publ),Licensed,NaT,2018-11-20
+761108,"Alexion Pharmaceuticals, Inc.",Licensed,NaT,2018-12-21
+761109,Eli Lilly and Company,Licensed,NaT,2020-06-15
+761111,"Hospira Inc., a Pfizer Company",Licensed,NaT,2020-06-10
+761112,Ablynx NV,Licensed,NaT,2019-02-06
+761113,Sanofi-Aventis U.S. LLC,Licensed,NaT,2020-03-02
+761115,"Gilead Sciences, Inc.",Licensed,NaT,2020-04-22
+761116,"Stemline Therapeutics, Inc.",Licensed,NaT,2018-12-21
+761118,Pfizer Inc.,Licensed,NaT,2019-11-15
+761119,"Lundbeck Seattle BioPharmaceuticals, Inc.",Licensed,NaT,2020-02-21
+761121,"Genentech, Inc.",Licensed,NaT,2019-06-10
+761122,GlaxoSmithKline LLC,Licensed,NaT,2019-06-06
+761123,AstraZeneca AB,Licensed,NaT,2021-07-30
+761125,Novartis Pharmaceuticals Corporation,Licensed,NaT,2019-10-07
+761126,"Tanvex BioPharma USA, Inc.",Licensed,NaT,2024-06-28
+761127,"Revance Therapeutics, Inc.",Licensed,NaT,2022-09-07
+761128,Novartis Pharmaceuticals Corporation,Licensed,NaT,2019-11-15
+761133,"Takeda Pharmaceuticals U.S.A., Inc.",Licensed,NaT,2023-09-27
+761134,Evive Biotechnology Singapore PTE. LTD.,Licensed,NaT,2023-11-16
+761136,"Celgene Corporation, a Bristol-Myers Squibb Company",Licensed,NaT,2019-11-08
+761137,"Astellas Pharma US, Inc.",Licensed,NaT,2019-12-18
+761139,"Daiichi Sankyo, Inc",Licensed,NaT,2019-12-20
+761140,Amgen Inc.,Licensed,NaT,2020-12-17
+761142,Horizon Therapeutics Ireland DAC,Licensed,NaT,2020-06-11
+761143,Horizon Therapeutics Ireland DAC,Licensed,NaT,2020-01-21
+761145,"Janssen Biotech, Inc.",Licensed,NaT,2020-05-01
+761146,Endo Global Aesthetics Limited,Licensed,NaT,2020-07-06
+761148,"Spectrum Pharmaceuticals, Inc.",Licensed,NaT,2022-09-09
+761149,"Genentech, Inc.",Licensed,NaT,2020-08-14
+761150,MacroGenics Inc.,Licensed,NaT,2020-12-16
+761151,"UCB, Inc.",Licensed,NaT,2023-10-17
+761154,Biocon Biologics Inc.,Licensed,NaT,2020-07-06
+761156,Novo Nordisk Inc.,Licensed,NaT,2020-08-28
+761158,GlaxoSmithKline Intellectual Property Development Ltd. England,Voluntarily Revoked,NaT,2020-08-05
+761161,Chiesi Farmaceutici S.p.A.,Licensed,NaT,2023-05-09
+761163,Incyte Corporation,Licensed,NaT,2020-07-31
+761164,"Bioverativ Therapeutics, Inc.",Licensed,NaT,2022-02-04
+761165,Sandoz Inc.,Licensed,NaT,2022-08-02
+761166,PharmaEssentia Corporation,Licensed,NaT,2021-11-12
+761169,"Regeneron Pharmaceuticals, Inc.",Licensed,NaT,2020-10-14
+761170,"Genentech, Inc.",Licensed,NaT,2020-06-29
+761171,"Y-mABs Therapeutics, Inc",Licensed,NaT,2020-11-25
+761172,Emergent Manufacturing Operations Baltimore LLC,Licensed,NaT,2020-12-21
+761173,"Fresenius Kabi USA, LLC",Licensed,NaT,2022-09-01
+761174,GlaxoSmithKline LLC,Licensed,NaT,2021-04-22
+761175,Biocon Biologics Inc.,Licensed,NaT,2025-04-09
+761177,Ascendis Pharma Endocrinology Division A/S,Licensed,NaT,2021-08-25
+761178,Biogen Inc.,Licensed,NaT,2021-06-07
+761179,Jazz Pharmaceuticals Ireland Limited,Licensed,NaT,2021-06-30
+761180,LEO Pharma A/S,Licensed,NaT,2021-12-27
+761181,"Regeneron Pharmaceuticals, Inc.",Licensed,NaT,2021-02-11
+761183,"Provention Bio, Inc.",Licensed,NaT,2022-11-17
+761184,Pfizer Ireland Pharmaceuticals,Licensed,NaT,2023-06-27
+761188,Biocon Biologics Inc.,Licensed,NaT,2025-07-15
+761192,Vericel Corporation,Licensed,NaT,2022-12-28
+761194,Genzyme Corporation,Licensed,NaT,2021-08-06
+761195,Argenx BV,Licensed,NaT,2021-12-17
+761196,ADC Therapeutics SA,Licensed,NaT,2021-04-23
+761197,"Genentech, Inc.",Licensed,NaT,2021-10-22
+761198,"Bio-Thera Solutions, Ltd.",Licensed,NaT,2023-12-06
+761201,Biocon Biologics Inc.,Licensed,NaT,2021-07-28
+761202,"Samsung Bioepis Co., Ltd.",Licensed,NaT,2021-09-17
+761204,"Amicus Therapeutics US, LLC",Licensed,NaT,2023-09-28
+761208,Seagen Inc.,Licensed,NaT,2021-09-20
+761210,"Janssen Biotech, Inc.",Licensed,NaT,2021-05-21
+761215,Eli Lilly and Company,Licensed,NaT,2021-12-17
+761216,Hong Kong King-Friend Industrial Company Limited,Licensed,NaT,2021-12-17
+761219,"CELLTRION, Inc.",Licensed,NaT,2023-05-23
+761224,AstraZeneca AB,Licensed,NaT,2021-12-17
+761225,"Hugel, Inc.",Licensed,NaT,2024-02-29
+761228,Immunocore Limited,Licensed,NaT,2022-01-25
+761231,Amneal Pharmaceuticals LLC,Licensed,NaT,2022-04-13
+761232,"BeiGene USA, Inc.",Licensed,NaT,2024-03-13
+761234,Bristol-Myers Squibb Company,Licensed,NaT,2022-03-18
+761235,"Genentech, Inc.",Licensed,NaT,2022-01-28
+761238,"TG Therapeutics, Inc.",Licensed,NaT,2022-12-28
+761240,"Coherus BioSciences, Inc.",Licensed,NaT,2023-10-27
+761244,"Boehringer Ingelheim Pharmaceuticals, Inc.",Licensed,NaT,2022-09-01
+761248,Eli Lilly and Company,Licensed,NaT,2024-07-02
+761255,"Fresenius Kabi USA, LLC",Licensed,NaT,2022-12-13
+761258,"Akeso Biopharma Co., Ltd.",Licensed,NaT,2025-04-23
+761261,Genzyme Corporation,Licensed,NaT,2022-08-31
+761262,AbbVie Inc.,Licensed,NaT,2022-06-16
+761263,"Genentech, Inc.",Licensed,NaT,2022-12-22
+761268,"CELLTRION, Inc.",Licensed,NaT,2022-09-27
+761269,"Eisai, Incorporated",Licensed,NaT,2023-01-06
+761274,Biocon Biologics Inc.,Licensed,NaT,2024-05-20
+761275,"Fresenius Kabi USA, LLC",Licensed,NaT,2024-03-05
+761278,Chiesi Farmaceutici S.p.A.,Licensed,NaT,2023-02-16
+761279,Eli Lilly and Company,Licensed,NaT,2023-10-26
+761285,Amgen Inc.,Licensed,NaT,2023-10-31
+761286,"UCB, Inc.",Licensed,NaT,2023-06-26
+761289,AstraZeneca AB,Licensed,NaT,2022-10-21
+761291,"Janssen Biotech, Inc.",Licensed,NaT,2022-10-25
+761297,"Checkpoint Therapeutics, Inc.",Licensed,NaT,2024-12-13
+761298,Amgen Inc.,Licensed,NaT,2024-08-23
+761299,Alvotech USA Inc.,Licensed,NaT,2024-02-23
+761304,Argenx BV,Licensed,NaT,2023-06-20
+761306,Eli Lilly and Company,Licensed,NaT,2024-09-13
+761309,"Genentech, Inc.",Licensed,NaT,2023-06-15
+761310,"ImmunoGen, Inc.",Licensed,NaT,2022-11-14
+761312,"Citius Pharmaceuticals, Inc.",Licensed,NaT,2024-08-07
+761315,Novo Nordisk Inc.,Licensed,NaT,2024-12-20
+761322,Sandoz Inc.,Licensed,NaT,2023-08-24
+761324,"Genmab US, Inc.",Licensed,NaT,2023-05-19
+761325,Sanofi-Aventis U.S. LLC,Licensed,NaT,2025-02-14
+761328,AstraZeneca AB,Licensed,NaT,2023-07-17
+761331,Amgen Inc.,Licensed,NaT,2023-10-31
+761333,Amgen Inc.,Licensed,NaT,2024-05-28
+761334,Incyte Corporation,Licensed,NaT,2023-03-22
+761336,"Altor BioScience, LLC, an indirect wholly-owned subsidiary of ImmunityBio, Inc.",Licensed,NaT,2024-04-22
+761338,"CELLTRION, Inc.",Licensed,NaT,2024-12-17
+761339,"Regeneron Pharmaceuticals, Inc.",Licensed,NaT,2023-08-18
+761340,"Samsung Bioepis Co., Ltd.",Licensed,NaT,2024-07-19
+761342,"Janssen Biotech, Inc.",Licensed,NaT,2023-08-09
+761343,Alvotech USA Inc.,Licensed,NaT,2024-04-16
+761344,Amgen Inc.,Licensed,NaT,2024-05-16
+761345,Pfizer Inc.,Licensed,NaT,2023-08-14
+761346,Accord BioPharma Inc.,Licensed,NaT,2024-04-25
+761347,"Genentech, Inc.",Licensed,NaT,2024-09-12
+761349,Novartis Pharmaceuticals Corporation,Licensed,NaT,2023-10-06
+761350,"Samsung Bioepis Co., Ltd.",Licensed,NaT,2024-05-20
+761352,Merus NV,Licensed,NaT,2024-12-04
+761354,Biogen MA Inc.,Licensed,NaT,2023-09-29
+761355,"Regeneron Pharmaceuticals, Inc.",Licensed,NaT,2023-08-18
+761358,"CELLTRION, Inc.",Licensed,NaT,2023-10-20
+761362,Sandoz Inc.,Licensed,NaT,2024-03-05
+761363,Merck Sharp & Dohme LLC,Licensed,NaT,2024-03-26
+761364,Accord BioPharma Inc.,Licensed,NaT,2024-10-10
+761365,"Astellas Pharma US, Inc.",Licensed,NaT,2024-10-18
+761367,CSL Behring LLC,Licensed,NaT,2025-06-16
+761369,Pfizer Inc.,Licensed,NaT,2024-10-11
+761371,"Genentech, Inc.",Licensed,NaT,2024-09-13
+761373,"Samsung Bioepis Co., Ltd.",Licensed,NaT,2024-06-28
+761375,"Eisai, Incorporated",Licensed,NaT,2025-08-29
+761378,Formycon AG,Licensed,NaT,2024-06-28
+761379,"Fresenius Kabi USA, LLC",Licensed,NaT,2024-09-27
+761381,Bristol-Myers Squibb Company,Licensed,NaT,2024-12-27
+761382,Sandoz Inc.,Licensed,NaT,2024-08-09
+761384,AbbVie Inc.,Licensed,NaT,2025-05-14
+761388,"Genentech, Inc.",Licensed,NaT,2024-06-20
+761390,"Galderma Laboratories, L.P.",Licensed,NaT,2024-08-12
+761392,"Samsung Bioepis Co., Ltd.",Licensed,NaT,2025-02-13
+761394,"Daiichi Sankyo, Inc",Licensed,NaT,2025-01-17
+761398,"Fresenius Kabi USA, LLC",Licensed,NaT,2025-03-25
+761399,"CELLTRION, Inc.",Licensed,NaT,2025-03-07
+761400,"Regeneron Pharmaceuticals, Inc.",Licensed,NaT,2025-07-02
+761404,"CELLTRION, Inc.",Licensed,NaT,2025-02-28
+761406,Biocon Biologics Inc.,Licensed,NaT,2024-11-29
+761411,Incyte Corporation,Licensed,NaT,2024-08-14
+761416,Jazz Pharmaceuticals Ireland Limited,Licensed,NaT,2024-11-20
+761419,"Bio-Thera Solutions, Ltd.",Licensed,NaT,2025-05-22
+761420,"CELLTRION, Inc.",Licensed,NaT,2025-01-24
+761425,"Samsung Bioepis Co., Ltd.",Licensed,NaT,2024-06-28
+761430,"Janssen Biotech, Inc.",Licensed,NaT,2025-04-29
+761432,Merck Sharp & Dohme LLC,Licensed,NaT,2025-06-09
+761436,Biocon Biologics Inc.,Licensed,NaT,2025-09-16
+761444,"Shanghai Henlius Biotech, Inc.",Licensed,NaT,2025-08-29
+761449,"Fresenius Kabi USA, LLC",Licensed,NaT,2025-03-14
+761467,Merck Sharp & Dohme LLC,Licensed,NaT,2025-09-19

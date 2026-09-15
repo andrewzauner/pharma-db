@@ -206,6 +206,10 @@ def _parse_date(s: Optional[str]) -> Optional[str]:
     if s is None or (isinstance(s, float) and pd.isna(s)) or str(s).strip()=="":
         return None
     ss = str(s).strip()
+    # Orange Book convention for pre-1982 approvals, e.g. "Approved Prior to Jan 1, 1982"
+    m = re.match(r"approved\s+prior\s+to\s+(.+)", ss, re.IGNORECASE)
+    if m:
+        ss = m.group(1).strip()
     for fmt in ("%Y-%m-%d","%m/%d/%Y","%Y%m%d"):
         try:
             return pd.to_datetime(ss, format=fmt).date().isoformat()
@@ -517,6 +521,28 @@ def main():
         prod["TECode"] = prod["TECodeRaw"].apply(lambda s: _split_te_codes(s)[0] if _split_te_codes(s) else pd.NA)
     else:
         prod["TECode"] = pd.NA
+
+    # The official Orange Book ZIP has no standalone Application file, so when
+    # app_df isn't available, derive one application-level row per ApplNo by
+    # rolling up the product-level rows (which carry ApplType/Applicant/dates).
+    if dim_app.empty and "ApplNo" in prod.columns:
+        app_src = _ensure_cols(prod.copy(), ["ApplNo", "ApplType", "ApplicantName", "MarketingStatus", "ApprovalDate"])
+        app_src = app_src.dropna(subset=["ApplNo"])
+        app_src["FirstApprovalDate"] = app_src["ApprovalDate"].map(_parse_date)
+        app_src["_IsActive"] = app_src["MarketingStatus"].astype(str).str.upper().isin(["RX", "OTC"])
+
+        if not app_src.empty:
+            grouped = app_src.groupby("ApplNo")
+            first_non_null = lambda s: s.dropna().iloc[0] if s.notna().any() else pd.NA
+            dim_app = pd.DataFrame({"ApplNo": list(grouped.groups.keys())})
+            dim_app["ApplType"] = grouped["ApplType"].agg(first_non_null).values
+            dim_app["ApplicantName"] = grouped["ApplicantName"].agg(first_non_null).values
+            dim_app["ApplStatus"] = grouped["_IsActive"].any().map({True: "Active", False: "Discontinued"}).values
+            dim_app["FirstApprovalDate"] = grouped["FirstApprovalDate"].agg(
+                lambda s: s.dropna().min() if s.notna().any() else pd.NA
+            ).values
+            dim_app["LastUpdateDate"] = pd.NA
+            dim_app = dim_app[app_cols]
 
     needed = ["ApplNo","ProductNo","TradeName","ActiveIngredient","Strength","DosageForm","Route",
               "ReferenceListedDrugFlag","ReferenceStandardFlag","MarketingStatus","TECode"]
