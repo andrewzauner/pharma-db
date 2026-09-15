@@ -642,6 +642,7 @@ def main():
             "patentexpirationdate": "PatentExpiration",
             "expirationdate": "PatentExpiration",
             "expdate": "PatentExpiration",
+            "patentexpiredatetext": "PatentExpiration",  # actual header in the official ZIP's Patent.txt
             "drugsubstanceflag": "DrugSubstanceFlag",
             "substance": "DrugSubstanceFlag",
             "drugproductflag": "DrugProductFlag",
@@ -650,11 +651,13 @@ def main():
             "usecode": "PatentUseCode",
             "delistrequested": "DelistRequested",
             "delistrequestflag": "DelistRequested",
+            "delistflag": "DelistRequested",  # actual header in the official ZIP's Patent.txt
             "pediatricextension": "PediatricExtension",
             "pediatric": "PediatricExtension",
             "filedate": "FileDate",
             "lastupdatedate": "FileDate",
             "updatedate": "FileDate",
+            "submissiondate": "FileDate",  # actual header in the official ZIP's Patent.txt
         }
         pn = _rename_with_aliases(patent_df, pat_alias)
 
