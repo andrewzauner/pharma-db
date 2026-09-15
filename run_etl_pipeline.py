@@ -105,7 +105,17 @@ Examples:
         nargs="+",
         help="Custom drug names for RxNorm ingest (default: uses seed names from script)"
     )
-    
+    parser.add_argument(
+        "--skip-validate",
+        action="store_true",
+        help="Skip data quality validation between ingest and load"
+    )
+    parser.add_argument(
+        "--force-load",
+        action="store_true",
+        help="Load to Postgres even if data quality validation reported errors"
+    )
+
     args = parser.parse_args()
     
     start_time = datetime.now()
@@ -118,6 +128,7 @@ Examples:
         "orange_book": False,
         "purple_book": False,
         "rxnorm": False,
+        "validate": False,
         "load": False
     }
     
@@ -165,19 +176,35 @@ Examples:
         if not results["rxnorm"]:
             logger.warning("RxNorm ingest failed, but continuing...")
     
-    # Step 4: Load to PostgreSQL
-    if run_load:
+    # Step 4: Validate data quality
+    validation_passed = True
+    if not args.skip_validate:
         logger.info("\n" + "=" * 70)
-        logger.info("STEP 4: Load to PostgreSQL")
+        logger.info("STEP 4: Validate Data Quality")
         logger.info("=" * 70)
-        load_args = ["--append"] if args.append else []
-        results["load"] = run_script(
-            "load_to_postgres.py",
-            "PostgreSQL data load",
-            *load_args
-        )
-        if not results["load"]:
-            logger.error("PostgreSQL load failed!")
+        validation_passed = run_script("validate_data.py", "Data quality validation")
+        results["validate"] = validation_passed
+        if not validation_passed:
+            logger.error("Data quality validation found errors (see report above).")
+    else:
+        results["validate"] = True
+
+    # Step 5: Load to PostgreSQL
+    if run_load:
+        if not validation_passed and not args.force_load:
+            logger.error("Skipping PostgreSQL load because validation failed. Fix the data or re-run with --force-load.")
+        else:
+            logger.info("\n" + "=" * 70)
+            logger.info("STEP 5: Load to PostgreSQL")
+            logger.info("=" * 70)
+            load_args = ["--append"] if args.append else []
+            results["load"] = run_script(
+                "load_to_postgres.py",
+                "PostgreSQL data load",
+                *load_args
+            )
+            if not results["load"]:
+                logger.error("PostgreSQL load failed!")
     
     # Summary
     end_time = datetime.now()

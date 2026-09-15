@@ -45,11 +45,14 @@ pip install -r requirements.txt
 
 ### 2. Configure Database Connection
 
-Set environment variables for PostgreSQL connection:
+Copy the example config, then set environment variables for the PostgreSQL
+connection (config.py is gitignored so local credentials are never committed):
 
-
-
-Or edit `config.py` directly to set default values.
+```bash
+cp config.py.example config.py
+export DB_HOST=192.168.0.85
+export DB_PASSWORD=your_password
+```
 
 ### 3. Run the Pipeline
 
@@ -100,9 +103,24 @@ python load_to_postgres.py
 - `load_ob_from_csv.py`: Legacy SQL Server loader (Orange Book)
 - `load_rxnorm_from_csv.py`: Legacy SQL Server loader (RxNorm)
 
+### Validation
+
+- `validate_data.py`: Checks the processed CSVs in `data/` for empty tables,
+  duplicate/collided columns (a common failure mode when an ingest script's
+  column-alias map accidentally maps two different source columns to the
+  same output name), dangling foreign keys between fact and dimension
+  tables, and raw source files that were saved as the wrong file type (an
+  HTML error page or an image instead of real data, which happens when an
+  FDA download silently fails). Runs automatically between ingest and load
+  in `run_etl_pipeline.py`; exits non-zero if it finds an error. Run it
+  standalone with `python validate_data.py`.
+
 ### Orchestration
 
-- `run_etl_pipeline.py`: Main orchestration script that runs all steps in order
+- `run_etl_pipeline.py`: Main orchestration script that runs all steps in
+  order (ingest → validate → load). If validation reports errors, the load
+  step is skipped by default to avoid pushing corrupted data to Postgres;
+  pass `--force-load` to load anyway, or `--skip-validate` to skip the check.
 
 ### Configuration
 

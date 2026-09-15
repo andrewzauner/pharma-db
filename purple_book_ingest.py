@@ -275,58 +275,50 @@ def _read_purple_book_csv(path: str) -> Optional[pd.DataFrame]:
     Finds the actual header row and data, skipping metadata.
     """
     try:
-        # Read file line by line to find the header
-        with open(path, 'r', encoding='utf-8-sig', errors='replace') as f:
-            lines = f.readlines()
-        
+        # Parse with csv.reader directly on the file (not readlines()), so that
+        # legitimately-quoted fields containing an embedded newline (Purple Book
+        # occasionally wraps multi-line Strength values, e.g. "80MG/4ML\n(20MG/ML)")
+        # are reassembled into one row by the csv module instead of being split
+        # across two lines and turned into two misaligned/garbage rows.
+        with open(path, 'r', encoding='utf-8-sig', errors='replace', newline='') as f:
+            all_rows = list(csv.reader(f))
+
         # Look for the header row - it should contain "N/R/U" and "BLA Number"
         header_idx = None
-        for i, line in enumerate(lines):
-            line_lower = line.lower()
+        for i, row in enumerate(all_rows):
+            row_lower = ",".join(row).lower()
             # Check if this looks like the header row
-            if 'n/r/u' in line_lower and 'bla number' in line_lower and 'applicant' in line_lower:
+            if 'n/r/u' in row_lower and 'bla number' in row_lower and 'applicant' in row_lower:
                 header_idx = i
                 break
-        
+
         if header_idx is None:
             logging.warning(f"Could not find header row in {path}, trying standard CSV read")
             # Fallback to standard read
             return pd.read_csv(path, dtype=str, keep_default_na=False, na_values=[""], skipinitialspace=True)
-        
-        # Read from the header row onwards
-        # Use the header row as column names
-        header_line = lines[header_idx].strip()
-        
-        # Parse header
-        reader = csv.reader([header_line])
-        header = next(reader)
-        header = [h.strip() for h in header]
-        
+
+        header = [h.strip() for h in all_rows[header_idx]]
+
         # Read data rows (skip header and any empty rows)
         data_rows = []
-        for line in lines[header_idx + 1:]:
-            line = line.strip()
-            if not line:  # Skip empty lines
+        for row in all_rows[header_idx + 1:]:
+            if not row or all(not c.strip() for c in row):  # Skip empty lines
                 continue
-            
+
             # Check if this is another header row (sometimes headers repeat)
-            if line.lower().startswith('n/r/u') and 'bla number' in line.lower():
+            row_lower = ",".join(row).lower()
+            if row[0].strip().lower() == 'n/r/u' and 'bla number' in row_lower:
                 continue  # Skip duplicate headers
-            
-            # Parse the row
-            try:
-                reader = csv.reader([line])
-                row = next(reader)
-                # Only add if it has the expected number of columns (or close)
-                if len(row) >= len(header) * 0.5:  # At least half the columns
-                    # Pad or truncate to match header length
-                    if len(row) < len(header):
-                        row.extend([''] * (len(header) - len(row)))
-                    elif len(row) > len(header):
-                        row = row[:len(header)]
-                    data_rows.append(row)
-            except Exception:
-                continue
+
+            row = [c.strip() for c in row]
+            # Only add if it has the expected number of columns (or close)
+            if len(row) >= len(header) * 0.5:  # At least half the columns
+                # Pad or truncate to match header length
+                if len(row) < len(header):
+                    row.extend([''] * (len(header) - len(row)))
+                elif len(row) > len(header):
+                    row = row[:len(header)]
+                data_rows.append(row)
         
         if not data_rows:
             logging.warning(f"No data rows found after header in {path}")
@@ -543,15 +535,35 @@ def _map_biosimilar(df: pd.DataFrame) -> pd.DataFrame:
         "blanumber": "BLANumber", "bla number": "BLANumber",
         "proprietaryname": "BiosimilarProprietaryName", "proprietary name": "BiosimilarProprietaryName",
         "propername": "BiosimilarProperName", "proper name": "BiosimilarProperName",
-        "refproductproprietaryname": "ReferenceProductName", "ref. product proprietary name": "ReferenceProductName",
-        "referenceproductproprietaryname": "ReferenceProductName",
-        "refproductpropername": "ReferenceProductName", "ref. product proper name": "ReferenceProductName",
-        "referenceproductpropername": "ReferenceProductName",
-        "approvaldate": "LicensureDate", "approval date": "LicensureDate",
-        "dateoffirstlicensure": "LicensureDate", "date of first licensure": "LicensureDate",
     }
     ren = {c: alias[_norm_col(c)] for c in df.columns if _norm_col(c) in alias}
     bs = df.rename(columns=ren)
+
+    # Reference product name: the raw file carries the reference product's
+    # proprietary (brand) name and proper (generic) name as two separate
+    # columns. Both used to be aliased onto the same "ReferenceProductName"
+    # target, which made df.rename() collapse them into two duplicate columns
+    # in the output CSV. Coalesce them into a single column instead, preferring
+    # the brand name and falling back to the generic name.
+    def _clean_ref(col: Optional[str]) -> pd.Series:
+        if col is None:
+            return pd.Series([pd.NA] * len(df), index=df.index)
+        return df[col].apply(lambda x: x if pd.notna(x) and str(x).strip().upper() not in ("", "N/A") else pd.NA)
+
+    ref_proprietary_col = _best_col(df, "Ref. Product Proprietary Name", "Ref Product Proprietary Name")
+    ref_proper_col = _best_col(df, "Ref. Product Proper Name", "Ref Product Proper Name")
+    bs["ReferenceProductName"] = _clean_ref(ref_proprietary_col).combine_first(_clean_ref(ref_proper_col))
+
+    # Licensure date: similarly, "Approval Date" and "Date of First Licensure"
+    # were both aliased onto "LicensureDate" and could collide the same way.
+    licensure_col = _best_col(df, "Date of First Licensure")
+    approval_col = _best_col(df, "Approval Date")
+    date_cols = [c for c in (licensure_col, approval_col) if c is not None]
+    if date_cols:
+        combined_date = df[date_cols[0]]
+        for c in date_cols[1:]:
+            combined_date = combined_date.combine_first(df[c])
+        bs["LicensureDate"] = combined_date
 
     # Set InterchangeabilityFlag - check if "First Interchangeable Exclusivity" date exists
     if "InterchangeabilityFlag" not in bs.columns:
@@ -653,10 +665,24 @@ def _map_application(df: pd.DataFrame) -> pd.DataFrame:
     alias = {
         "blanumber": "BLANumber", "bla number": "BLANumber",
         "applicant": "Applicant",
-        "licensure": "Status", "marketingstatus": "Status", "marketing status": "Status",
     }
     ren = {c: alias[_norm_col(c)] for c in df.columns if _norm_col(c) in alias}
     app = df.rename(columns=ren)
+
+    # Status: "Licensure" (Licensed/Revoked) and "Marketing Status" (Rx/OTC/Disc)
+    # were both aliased onto the same "Status" target, which made df.rename()
+    # collapse them into two duplicate "Status" columns in the output CSV.
+    # Prefer the licensure status (an application-level regulatory status,
+    # matching what this table otherwise represents); fall back to marketing
+    # status when licensure isn't present in the source file.
+    licensure_col = _best_col(df, "Licensure")
+    marketing_col = _best_col(df, "Marketing Status")
+    status_cols = [c for c in (licensure_col, marketing_col) if c is not None]
+    if status_cols:
+        status = df[status_cols[0]]
+        for c in status_cols[1:]:
+            status = status.combine_first(df[c])
+        app["Status"] = status
 
     # Use Date of First Licensure for OriginalLicensureDate
     for col in df.columns:
@@ -739,7 +765,8 @@ def main():
         # Use a local file directly
         if os.path.exists(args.local):
             dest = os.path.join(RAW_DIR, os.path.basename(args.local))
-            shutil.copy2(args.local, dest)
+            if not os.path.exists(dest) or not os.path.samefile(args.local, dest):
+                shutil.copy2(args.local, dest)
             logging.info(f"Using local file → {dest}")
             downloaded_path = dest
         else:

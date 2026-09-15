@@ -2,11 +2,10 @@ BLANumber,ProperName,ProprietaryName,Applicant,DosageForm,Route,Strength,Referen
 125197,sipuleucel-T,Provenge,Dendreon Pharmaceuticals LLC,Injection,Intravenous,50 M CD54 + ACTIVATED CELLS/250 ML,N/A,Y,2010-04-29
 125384,Albumin (Human),Kedbumin,Kedrion Biopharma Inc.,Injection,Intravenous,12.5G/50ML,N/A,Y,2011-06-03
 125384,Albumin (Human),Kedbumin,Kedrion Biopharma Inc.,Injection,Intravenous,25G/100ML,N/A,Y,2013-09-05
-125822,"Immune Globulin Intravenous, Human-kthm, 10% Solution",QIVIGY,"Kedrion, S.p.A.",Solution,Intravenous,5G/50ML,<NA>,N,2025-09-26
-125822,"Immune Globulin Intravenous, Human-kthm, 10% Solution",QIVIGY,"Kedrion, S.p.A.",Solution,Intravenous,10G/100ML,<NA>,N,2025-09-26
+125822,"Immune Globulin Intravenous, Human-kthm, 10% Solution",QIVIGY,"Kedrion, S.p.A.",Solution,Intravenous,5G/50ML,,Y,2025-09-26
+125822,"Immune Globulin Intravenous, Human-kthm, 10% Solution",QIVIGY,"Kedrion, S.p.A.",Solution,Intravenous,10G/100ML,,Y,2025-09-26
 761439,denosumab-qbde,Enoby,Hikma Pharmaceuticals USA Inc.,Injection,Subcutaneous,60MG/ML,Prolia,N,2025-09-26
 761439,denosumab-qbde,Xtrenbo,Hikma Pharmaceuticals USA Inc.,Injection,Subcutaneous,120MG/1.7ML (70MG/ML),Xgeva,N,2025-09-26
-<NA>,<NA>,<NA>,<NA>,<NA>,<NA>,<NA>,<NA>,N,NaT
 17016,chorionic gonadotropin,Novarel,Ferring Pharmaceuticals Inc.,For Injection,Intramuscular,"20,000UNITS",N/A,Y,2074-01-15
 17016,chorionic gonadotropin,Novarel,Ferring Pharmaceuticals Inc.,For Injection,Intramuscular,"5,000UNITS",N/A,Y,2074-01-15
 17016,chorionic gonadotropin,Novarel,Ferring Pharmaceuticals Inc.,For Injection,Intramuscular,"10,000UNITS",N/A,Y,2074-01-15
@@ -22,7 +21,7 @@ BLANumber,ProperName,ProprietaryName,Applicant,DosageForm,Route,Strength,Referen
 17067,chorionic gonadotropin,Chorionic Gonadotropin,"Fresenius Kabi USA, LLC",For Injection,Intramuscular,"10,000UNITS",N/A,Y,2073-03-05
 17067,chorionic gonadotropin,Chorionic Gonadotropin,"Fresenius Kabi USA, LLC",For Injection,Intramuscular,"15,0000UNITS",N/A,Y,2073-03-05
 17067,chorionic gonadotropin,Chorionic Gonadotropin,"Fresenius Kabi USA, LLC",For Injection,Intramuscular,"20,000UNITS",N/A,Y,2073-03-05
-17646,menotropins,Pergonal,"EMD Serono, Inc.",For Injection,"Subcutaneous, Intramuscular",75IU,N/A,Y,1975-08-22
+17646,menotropins,Pergonal,"EMD Serono, Inc.",For Injection,"Subcutaneous, Intramuscular",75IU,N/A,Y,2075-08-22
 17646,menotropins,Pergonal,"EMD Serono, Inc.",For Injection,"Subcutaneous, Intramuscular",150IU,N/A,Y,1985-05-20
 17692,chorionic gonadotropin,Pregnyl,"Organon USA LLC, a subsidiary of Organon & Co.",For Injection,Intramuscular,"10,000UNITS",N/A,Y,1976-10-20
 17776,kit for the preparation of technetium Tc-99m albumin aggregated,Pulmolite,Jubilant DraxImage Inc.,For Injectable Suspension,Intravenous,1MG/10MG/0.24MG/ 0.7MG/0.13MG/10MG,N/A,Y,1976-11-16
@@ -39,7 +38,7 @@ BLANumber,ProperName,ProprietaryName,Applicant,DosageForm,Route,Strength,Referen
 17837,iodinated I-131 albumin,Megatope,"Iso-Tex Diagnostics, Inc.",Injection,Intravenous,5uCi/AMP,N/A,Y,1976-02-23
 17837,iodinated I-131 albumin,Megatope,"Iso-Tex Diagnostics, Inc.",Injection,Intravenous,20uCi/AMP,N/A,Y,1976-02-23
 17881,kit for the preparation of technetium Tc-99m albumin aggregated,Draximage MAA,Jubilant DraxImage Inc.,For Injectable Suspension,Intravenous,2.5MG/5MG/0.6MG/ 1.2MG,N/A,Y,1987-12-30
-18263,radiolabeled albumin technetium Tc-99m albumin colloid kit,Microlite,Pharmalucence Inc,<NA>,<NA>,<NA>,N/A,Y,1983-03-25
+18263,radiolabeled albumin technetium Tc-99m albumin colloid kit,Microlite,Pharmalucence Inc,,,,N/A,Y,1983-03-25
 18663,chymopapain,Chymodiactin,"DisCure Medical, LLC",For Injection,Intrathecal,"10,000UNITS",N/A,Y,1982-11-10
 18663,chymopapain,Chymodiactin,"DisCure Medical, LLC",For Injection,Intrathecal,"4,000UNITS",N/A,Y,1984-08-21
 18780,insulin human,Humulin R U-100,Eli Lilly and Company,Injection,Subcutaneous,"1,000UNITS/10ML (100UNITS/ML)",N/A,Y,1982-10-28
@@ -237,21 +236,21 @@ BLANumber,ProperName,ProprietaryName,Applicant,DosageForm,Route,Strength,Referen
 22575,velaglucerase alfa,VPRIV,"Takeda Pharmaceuticals U.S.A., Inc.",For Injection,Intravenous,200UNITS,N/A,Y,2010-02-26
 50114,benzylpenicilloyl polylysine,Pre-Pen,"AllerQuest, LLC",Injection,Intradermal,0.25ML,N/A,Y,2074-07-25
 50294,"fibrinolysin and desoxyribonuclease combined [bovine], with chloramphenicol",Elase-chloromycetin,"Parke-Davis, a Division of Pfizer Inc.",Ointment,Topical,10MG/GM; 666UNITS/GM; 1UNIT/GM,N/A,Y,2064-04-01
-101062,Antivenin (Latrodectus mactans),<NA>,Merck Sharp & Dohme LLC,For Injection,Intravenous,NLT6000U,N/A,Y,2036-02-13
-101062,Antivenin (Latrodectus mactans),<NA>,Merck Sharp & Dohme LLC,For Injection,Intramuscular,NLT6000U,N/A,Y,2036-02-13
+101062,Antivenin (Latrodectus mactans),,Merck Sharp & Dohme LLC,For Injection,Intravenous,NLT6000U,N/A,Y,2036-02-13
+101062,Antivenin (Latrodectus mactans),,Merck Sharp & Dohme LLC,For Injection,Intramuscular,NLT6000U,N/A,Y,2036-02-13
 101063,asparaginase,Elspar,"Recordati Rare Diseases, Inc.",For Injection,"Intravenous, Intramuscular","10,000INTERNATIONAL UNITS",N/A,Y,1978-01-10
 101066,Hepatitis B Vaccine (Recombinant),"Recombivax, Recombivax Hb",Merck Sharp & Dohme LLC,Injection,Intramuscular,5UG/ML,N/A,Y,1986-07-23
 101066,Hepatitis B Vaccine (Recombinant),"Recombivax, Recombivax Hb",Merck Sharp & Dohme LLC,Injection,Intramuscular,40UG/ML,N/A,Y,1986-07-23
 101066,Hepatitis B Vaccine (Recombinant),"Recombivax, Recombivax Hb",Merck Sharp & Dohme LLC,Injection,Intramuscular,10UG/ML,N/A,Y,1986-07-23
-101068,Measles Virus Vaccine Live,ATTENUVAX,Merck Sharp & Dohme LLC,For Injection,Subcutaneous,NLT1000U/.5ML,<NA>,N,2063-03-21
+101068,Measles Virus Vaccine Live,ATTENUVAX,Merck Sharp & Dohme LLC,For Injection,Subcutaneous,NLT1000U/.5ML,,Y,2063-03-21
 101069,"Measles, Mumps and Rubella Virus Vaccine Live",M-M-R Ii,Merck Sharp & Dohme LLC,For Injection,Subcutaneous,0.5ML,N/A,Y,2071-04-22
 101069,"Measles, Mumps and Rubella Virus Vaccine Live",M-M-R Ii,Merck Sharp & Dohme LLC,For Injection,Intramuscular,0.5ML,N/A,Y,2023-02-27
-101072,Mumps Virus Vaccine Live,MumpsVax,Merck Sharp & Dohme LLC,For Injection,Subcutaneous,0.5ML,<NA>,N,2067-12-28
-101075,Rubella Virus Vaccine Live,MERUVAX II,Merck Sharp & Dohme LLC,For Injection,Subcutaneous,NLT1000U/.5ML,<NA>,N,2069-06-09
+101072,Mumps Virus Vaccine Live,MumpsVax,Merck Sharp & Dohme LLC,For Injection,Subcutaneous,0.5ML,,Y,2067-12-28
+101075,Rubella Virus Vaccine Live,MERUVAX II,Merck Sharp & Dohme LLC,For Injection,Subcutaneous,NLT1000U/.5ML,,Y,2069-06-09
 101094,"Pneumococcal Vaccine, Polyvalent",Pneumovax 23,Merck Sharp & Dohme LLC,Injection,Intramuscular,25UG/.5ML,N/A,Y,1977-11-21
 101094,"Pneumococcal Vaccine, Polyvalent",Pneumovax 23,Merck Sharp & Dohme LLC,Injection,Subcutaneous,25UG/.5ML,N/A,Y,1977-11-21
-101098,Antivenin (Crotalidae) Polyvalent,<NA>,Wyeth Pharmaceuticals LLC,For Injection,Intravenous,10ML,N/A,Y,2054-02-08
-101099,Antivenin (Micrurus fulvius),<NA>,Wyeth Pharmaceuticals LLC,For Injection,Intravenous,10ML,N/A,Y,2067-08-28
+101098,Antivenin (Crotalidae) Polyvalent,,Wyeth Pharmaceuticals LLC,For Injection,Intravenous,10ML,N/A,Y,2054-02-08
+101099,Antivenin (Micrurus fulvius),,Wyeth Pharmaceuticals LLC,For Injection,Intravenous,10ML,N/A,Y,2067-08-28
 101130,Antihemophilic Factor (Human),"Koate, Koate-Dvi",Grifols Therapeutics LLC,For Injection,Intravenous,"1,000IU",N/A,Y,2074-01-24
 101130,Antihemophilic Factor (Human),"Koate, Koate-Dvi",Grifols Therapeutics LLC,For Injection,Intravenous,250IU,N/A,Y,2074-01-24
 101130,Antihemophilic Factor (Human),"Koate, Koate-Dvi",Grifols Therapeutics LLC,For Injection,Intravenous,500IU,N/A,Y,2074-01-24
@@ -276,47 +275,47 @@ BLANumber,ProperName,ProprietaryName,Applicant,DosageForm,Route,Strength,Referen
 101146,Hepatitis B Immune Globulin (Human),"Bayhep B, Hyperhep B S/D",Grifols Therapeutics LLC,Injection,Intramuscular,220U/ML,N/A,Y,1977-09-23
 101146,Hepatitis B Immune Globulin (Human),"Bayhep B, Hyperhep B S/D",Grifols Therapeutics LLC,Injection,Intramuscular,220U/.5ML,N/A,Y,1977-09-23
 101146,Hepatitis B Immune Globulin (Human),"Bayhep B, Hyperhep B S/D",Grifols Therapeutics LLC,Injection,Intramuscular,220IU/5ML,N/A,Y,1977-09-23
-101147,Immune Globulin Intravenous (Human),Gamimune,Grifols Therapeutics LLC,Injection,Intravenous,5PCT,<NA>,N,1981-09-11
-101147,Immune Globulin Intravenous (Human),Gamimune,Grifols Therapeutics LLC,Injection,Intravenous,10PCT,<NA>,N,1981-09-11
+101147,Immune Globulin Intravenous (Human),Gamimune,Grifols Therapeutics LLC,Injection,Intravenous,5PCT,,Y,1981-09-11
+101147,Immune Globulin Intravenous (Human),Gamimune,Grifols Therapeutics LLC,Injection,Intravenous,10PCT,,Y,1981-09-11
 101246,Hemin for Injection,Panhematin,"Recordati Rare Diseases, Inc.",For Injection,Intravenous,350MG,N/A,Y,1983-07-20
 101322,Tetanus and Diphtheria Toxoids Adsorbed,Tdvax,MassBiologics,Injection,Intramuscular,0.5ML,N/A,Y,2070-07-27
-101377,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000AU/ML",N/A,Y,2030-07-11
-101377,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000AU/ML",N/A,Y,2030-07-11
-101378,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000AU/ML",N/A,Y,2030-07-11
-101378,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000AU/ML",N/A,Y,2030-07-11
-101379,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101379,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101380,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101380,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101380,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101380,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101381,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101381,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101381,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101381,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101382,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101382,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101382,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101382,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,1997-05-29
-101383,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101383,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101383,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101383,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101384,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101384,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101384,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101384,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,1997-06-25
-101385,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101385,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101385,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101385,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101386,"Pollens - Grasses, Timothy Phleum pratense",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101386,"Pollens - Grasses, Timothy Phleum pratense",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101386,"Pollens - Grasses, Timothy Phleum pratense",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101386,"Pollens - Grasses, Timothy Phleum pratense",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101387,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,1:10W/V,N/A,Y,2030-06-14
-101387,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,"Allergy Laboratories, Inc.",Injection,Intradermal,1:10W/V,N/A,Y,2030-06-14
-101387,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,1:10W/V,N/A,Y,2030-06-14
+101377,"Insects (Whole Body), Mite Dermatophagoides farinae",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000AU/ML",N/A,Y,2030-07-11
+101377,"Insects (Whole Body), Mite Dermatophagoides farinae",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000AU/ML",N/A,Y,2030-07-11
+101378,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000AU/ML",N/A,Y,2030-07-11
+101378,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000AU/ML",N/A,Y,2030-07-11
+101379,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101379,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101380,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101380,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101380,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101380,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101381,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101381,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101381,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101381,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101382,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101382,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101382,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101382,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,1997-05-29
+101383,"Pollens - Grasses, Redtop Agrostis alba",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101383,"Pollens - Grasses, Redtop Agrostis alba",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101383,"Pollens - Grasses, Redtop Agrostis alba",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101383,"Pollens - Grasses, Redtop Agrostis alba",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101384,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101384,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101384,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101384,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,1997-06-25
+101385,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101385,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101385,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101385,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101386,"Pollens - Grasses, Timothy Phleum pratense",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101386,"Pollens - Grasses, Timothy Phleum pratense",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101386,"Pollens - Grasses, Timothy Phleum pratense",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101386,"Pollens - Grasses, Timothy Phleum pratense",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101387,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",,"Allergy Laboratories, Inc.",Injection,Percutaneous,1:10W/V,N/A,Y,2030-06-14
+101387,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",,"Allergy Laboratories, Inc.",Injection,Intradermal,1:10W/V,N/A,Y,2030-06-14
+101387,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,1:10W/V,N/A,Y,2030-06-14
 101447,Anti-Inhibitor Coagulant Complex,"Autoplex, Feiba Nf, Feiba Vh","Takeda Pharmaceuticals U.S.A., Inc.",For Injection,Intravenous,1000IU,N/A,Y,1979-12-21
 101447,Anti-Inhibitor Coagulant Complex,"Autoplex, Feiba Nf, Feiba Vh","Takeda Pharmaceuticals U.S.A., Inc.",For Injection,Intravenous,500IU,N/A,Y,1979-12-21
 101447,Anti-Inhibitor Coagulant Complex,"Autoplex, Feiba Nf, Feiba Vh","Takeda Pharmaceuticals U.S.A., Inc.",For Injection,Intravenous,1000U,N/A,Y,2000-07-31
@@ -331,115 +330,115 @@ BLANumber,ProperName,ProprietaryName,Applicant,DosageForm,Route,Strength,Referen
 101452,Albumin (Human),"Buminate, Flexbumin","Takeda Pharmaceuticals U.S.A., Inc.",Injection,Intravenous,12.5G/50ML,N/A,Y,2054-03-03
 101452,Albumin (Human),"Buminate, Flexbumin","Takeda Pharmaceuticals U.S.A., Inc.",Injection,Intravenous,10G/50ML,N/A,Y,2054-03-03
 101452,Albumin (Human),"Buminate, Flexbumin","Takeda Pharmaceuticals U.S.A., Inc.",Injection,Intravenous,12.5G/250ML,N/A,Y,2054-03-03
-101834,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000AU/ML",N/A,Y,2058-09-15
-101834,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"5,000AU/ML",N/A,Y,2058-09-15
-101834,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"5,000AU/ML",N/A,Y,2058-09-15
-101834,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000AU/ML",N/A,Y,2058-09-15
-101834,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000AU/ML",N/A,Y,2058-09-15
-101834,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"30,000AU/ML",N/A,Y,2058-09-15
-101834,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"30,000AU/ML",N/A,Y,2058-09-15
-101835,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000AU/ML",N/A,Y,2058-09-15
-101835,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"5,000AU/ML",N/A,Y,2058-09-15
-101835,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"5,000AU/ML",N/A,Y,2058-09-15
-101835,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000AU/ML",N/A,Y,2058-09-15
-101835,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000AU/ML",N/A,Y,2058-09-15
-101835,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"30,000AU/ML",N/A,Y,2058-09-15
-101835,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"30,000AU/ML",N/A,Y,2058-09-15
-101836,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101836,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
-101836,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101836,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101836,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
-101836,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101837,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101837,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
-101837,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101838,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101838,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
-101838,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101838,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101838,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
-101838,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101839,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101839,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
-101839,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101839,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101839,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
-101839,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101840,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101840,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
-101840,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101840,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101840,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
-101840,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101841,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101841,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
-101841,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101841,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101841,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
-101841,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101842,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101842,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
-101842,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101842,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101842,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
-101842,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101843,"Pollens - Grasses, Timothy Phleum pratense",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101843,"Pollens - Grasses, Timothy Phleum pratense",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
-101843,"Pollens - Grasses, Timothy Phleum pratense",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-101843,"Pollens - Grasses, Timothy Phleum pratense",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101843,"Pollens - Grasses, Timothy Phleum pratense",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
-101843,"Pollens - Grasses, Timothy Phleum pratense",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-101844,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,1:20W/V,N/A,Y,2030-06-14
-101844,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,1:20W/V,N/A,Y,2030-06-14
-101844,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,1:20W/V,N/A,Y,2030-06-14
-101845,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia elatior",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2058-09-15
-101845,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia elatior",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2058-09-15
-101845,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia elatior",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2058-09-15
-101845,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia elatior",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2058-09-15
-101845,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia elatior",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2058-09-15
-101845,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia elatior",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2058-09-15
-101993,Albumin (Human),<NA>,Central Laboratory of the Netherlands Red Cross Blood Transfusion Service,Injection,Intravenous,0.25,N/A,Y,1979-09-07
+101834,"Insects (Whole Body), Mite Dermatophagoides farinae",,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000AU/ML",N/A,Y,2058-09-15
+101834,"Insects (Whole Body), Mite Dermatophagoides farinae",,"Greer Laboratories, Inc.",Injection,Intradermal,"5,000AU/ML",N/A,Y,2058-09-15
+101834,"Insects (Whole Body), Mite Dermatophagoides farinae",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"5,000AU/ML",N/A,Y,2058-09-15
+101834,"Insects (Whole Body), Mite Dermatophagoides farinae",,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000AU/ML",N/A,Y,2058-09-15
+101834,"Insects (Whole Body), Mite Dermatophagoides farinae",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000AU/ML",N/A,Y,2058-09-15
+101834,"Insects (Whole Body), Mite Dermatophagoides farinae",,"Greer Laboratories, Inc.",Injection,Intradermal,"30,000AU/ML",N/A,Y,2058-09-15
+101834,"Insects (Whole Body), Mite Dermatophagoides farinae",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"30,000AU/ML",N/A,Y,2058-09-15
+101835,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000AU/ML",N/A,Y,2058-09-15
+101835,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,"Greer Laboratories, Inc.",Injection,Intradermal,"5,000AU/ML",N/A,Y,2058-09-15
+101835,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"5,000AU/ML",N/A,Y,2058-09-15
+101835,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000AU/ML",N/A,Y,2058-09-15
+101835,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000AU/ML",N/A,Y,2058-09-15
+101835,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,"Greer Laboratories, Inc.",Injection,Intradermal,"30,000AU/ML",N/A,Y,2058-09-15
+101835,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"30,000AU/ML",N/A,Y,2058-09-15
+101836,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101836,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
+101836,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101836,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",,"Greer Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101836,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",,"Greer Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
+101836,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101837,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101837,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
+101837,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101838,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101838,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
+101838,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101838,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"Greer Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101838,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"Greer Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
+101838,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101839,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101839,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
+101839,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101839,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"Greer Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101839,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"Greer Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
+101839,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101840,"Pollens - Grasses, Redtop Agrostis alba",,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101840,"Pollens - Grasses, Redtop Agrostis alba",,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
+101840,"Pollens - Grasses, Redtop Agrostis alba",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101840,"Pollens - Grasses, Redtop Agrostis alba",,"Greer Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101840,"Pollens - Grasses, Redtop Agrostis alba",,"Greer Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
+101840,"Pollens - Grasses, Redtop Agrostis alba",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101841,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101841,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
+101841,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101841,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,"Greer Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101841,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,"Greer Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
+101841,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101842,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101842,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
+101842,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101842,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,"Greer Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101842,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,"Greer Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
+101842,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101843,"Pollens - Grasses, Timothy Phleum pratense",,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101843,"Pollens - Grasses, Timothy Phleum pratense",,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
+101843,"Pollens - Grasses, Timothy Phleum pratense",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+101843,"Pollens - Grasses, Timothy Phleum pratense",,"Greer Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101843,"Pollens - Grasses, Timothy Phleum pratense",,"Greer Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
+101843,"Pollens - Grasses, Timothy Phleum pratense",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+101844,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",,"Greer Laboratories, Inc.",Injection,Percutaneous,1:20W/V,N/A,Y,2030-06-14
+101844,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",,"Greer Laboratories, Inc.",Injection,Intradermal,1:20W/V,N/A,Y,2030-06-14
+101844,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",,"Greer Laboratories, Inc.",Injection,Subcutaneous,1:20W/V,N/A,Y,2030-06-14
+101845,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia elatior",,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2058-09-15
+101845,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia elatior",,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2058-09-15
+101845,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia elatior",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2058-09-15
+101845,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia elatior",,"Greer Laboratories, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2058-09-15
+101845,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia elatior",,"Greer Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2058-09-15
+101845,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia elatior",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2058-09-15
+101993,Albumin (Human),,Central Laboratory of the Netherlands Red Cross Blood Transfusion Service,Injection,Intravenous,0.25,N/A,Y,1979-09-07
 101995,collagenase,Santyl,"Smith & Nephew, Inc.",Ointment,Topical,250UNITS/GRAM,N/A,Y,2065-06-04
-102212,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"5,000AU/ML",N/A,Y,2074-03-12
-102212,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"5,000AU/ML",N/A,Y,2074-03-12
-102212,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000AU/ML",N/A,Y,2074-03-12
-102212,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000AU/ML",N/A,Y,2074-03-12
-102213,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"5,000AU/ML",N/A,Y,2074-03-12
-102213,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"5,000AU/ML",N/A,Y,2074-03-12
-102213,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000AU/ML",N/A,Y,2074-03-12
-102213,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000AU/ML",N/A,Y,2074-03-12
-102214,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
-102214,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-102215,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
-102215,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-102215,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
-102215,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-102216,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2074-03-12
-102216,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2074-03-12
-102216,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2074-03-12
-102216,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2074-03-12
-102217,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2074-03-12
-102217,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2074-03-12
-102217,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2074-03-12
-102217,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2074-03-12
-102218,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2074-03-12
-102218,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2074-03-12
-102218,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2074-03-12
-102218,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2074-03-12
-102219,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2074-03-12
-102219,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
-102219,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-102219,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
-102219,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
-102220,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2074-03-12
-102220,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2074-03-12
-102220,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2074-03-12
-102220,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2074-03-12
-102221,"Pollens - Grasses, Timothy Phleum pratense",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
-102221,"Pollens - Grasses, Timothy Phleum pratense",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
-102221,"Pollens - Grasses, Timothy Phleum pratense",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
-102221,"Pollens - Grasses, Timothy Phleum pratense",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+102212,"Insects (Whole Body), Mite Dermatophagoides farinae",,"Allermed Laboratories, Inc.",Injection,Intradermal,"5,000AU/ML",N/A,Y,2074-03-12
+102212,"Insects (Whole Body), Mite Dermatophagoides farinae",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"5,000AU/ML",N/A,Y,2074-03-12
+102212,"Insects (Whole Body), Mite Dermatophagoides farinae",,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000AU/ML",N/A,Y,2074-03-12
+102212,"Insects (Whole Body), Mite Dermatophagoides farinae",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000AU/ML",N/A,Y,2074-03-12
+102213,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,"Allermed Laboratories, Inc.",Injection,Intradermal,"5,000AU/ML",N/A,Y,2074-03-12
+102213,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"5,000AU/ML",N/A,Y,2074-03-12
+102213,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000AU/ML",N/A,Y,2074-03-12
+102213,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000AU/ML",N/A,Y,2074-03-12
+102214,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
+102214,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+102215,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
+102215,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+102215,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,"Allermed Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
+102215,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+102216,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2074-03-12
+102216,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2074-03-12
+102216,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"Allermed Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2074-03-12
+102216,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2074-03-12
+102217,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2074-03-12
+102217,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2074-03-12
+102217,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"Allermed Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2074-03-12
+102217,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2074-03-12
+102218,"Pollens - Grasses, Redtop Agrostis alba",,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2074-03-12
+102218,"Pollens - Grasses, Redtop Agrostis alba",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2074-03-12
+102218,"Pollens - Grasses, Redtop Agrostis alba",,"Allermed Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2074-03-12
+102218,"Pollens - Grasses, Redtop Agrostis alba",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2074-03-12
+102219,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2074-03-12
+102219,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
+102219,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+102219,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,"Allermed Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
+102219,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
+102220,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2074-03-12
+102220,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2074-03-12
+102220,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,"Allermed Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2074-03-12
+102220,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2074-03-12
+102221,"Pollens - Grasses, Timothy Phleum pratense",,"Allermed Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2030-06-14
+102221,"Pollens - Grasses, Timothy Phleum pratense",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-06-14
+102221,"Pollens - Grasses, Timothy Phleum pratense",,"Allermed Laboratories, Inc.",Injection,Intradermal,"100,000BAU/ML",N/A,Y,2030-06-14
+102221,"Pollens - Grasses, Timothy Phleum pratense",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2030-06-14
 102366,Albumin (Human),Alburx,CSL Behring AG,Injection,Intravenous,25G/100mL,N/A,Y,1976-07-23
 102366,Albumin (Human),Alburx,CSL Behring AG,Injection,Intravenous,25G/500ML,N/A,Y,1976-07-23
 102366,Albumin (Human),Alburx,CSL Behring AG,Injection,Intravenous,12.5G/50ML,N/A,Y,1976-07-23
@@ -472,40 +471,40 @@ BLANumber,ProperName,ProprietaryName,Applicant,DosageForm,Route,Strength,Referen
 103000,onabotulinumtoxinA,Botox,AbbVie Inc.,For Injection,"Injection, Intramuscular, Intradermal, Intradetrusor",50UNITS,N/A,Y,1991-12-09
 103000,onabotulinumtoxinA,Botox,AbbVie Inc.,For Injection,"Injection, Intramuscular, Intradermal, Intradetrusor",100UNITS,N/A,Y,1991-12-09
 103000,onabotulinumtoxinA,Botox,AbbVie Inc.,For Injection,"Injection, Intramuscular, Intradermal, Intradetrusor",200UNITS,N/A,Y,1991-12-09
-103050,BCG Vaccine,<NA>,Merck Teknika LLC,For Injection,Percutaneous,100-800 MIL CFU,N/A,Y,1989-06-21
-103051,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2058-09-29
-103051,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2058-09-29
-103052,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
-103052,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
-103052,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,"ALK-Abello, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
-103052,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,"ALK-Abello, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
-103053,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
-103053,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
-103053,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"ALK-Abello, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
-103053,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,"ALK-Abello, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
-103054,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
-103054,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
-103054,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"ALK-Abello, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
-103054,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,"ALK-Abello, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
-103055,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
-103055,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
-103055,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"ALK-Abello, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
-103055,"Pollens - Grasses, Redtop Agrostis alba",<NA>,"ALK-Abello, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
-103056,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
-103056,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
-103057,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,"ALK-Abello, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
-103057,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,"ALK-Abello, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
-103058,"Pollens - Grasses, Timothy Phleum pratense",<NA>,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
-103058,"Pollens - Grasses, Timothy Phleum pratense",<NA>,"ALK-Abello, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
-103059,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,"ALK-Abello, Inc.",Injection,Percutaneous,1:20W/V,N/A,Y,2050-09-29
-103059,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,"ALK-Abello, Inc.",Injection,Subcutaneous,1:20W/V,N/A,Y,2050-09-29
-103060,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
-103060,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
-103061,"Animal Allergens, Standardized Cat Pelt",<NA>,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
-103061,"Animal Allergens, Standardized Cat Pelt",<NA>,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
-103112,Factor IX Complex,Proplex-T; Bebulin,Baxalta US Inc.,For Injection,Intravenous,200-1200U/20ML,<NA>,N,2070-08-21
-103113,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,1:10W/V,N/A,Y,2074-03-13
-103113,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,"Allermed Laboratories, Inc.",Injection,Intradermal,1:10W/V,N/A,Y,2074-03-13
+103050,BCG Vaccine,,Merck Teknika LLC,For Injection,Percutaneous,100-800 MIL CFU,N/A,Y,1989-06-21
+103051,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2058-09-29
+103051,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2058-09-29
+103052,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
+103052,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
+103052,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,"ALK-Abello, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
+103052,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,"ALK-Abello, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
+103053,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
+103053,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
+103053,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"ALK-Abello, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
+103053,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,"ALK-Abello, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
+103054,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
+103054,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
+103054,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"ALK-Abello, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
+103054,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,"ALK-Abello, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
+103055,"Pollens - Grasses, Redtop Agrostis alba",,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
+103055,"Pollens - Grasses, Redtop Agrostis alba",,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
+103055,"Pollens - Grasses, Redtop Agrostis alba",,"ALK-Abello, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
+103055,"Pollens - Grasses, Redtop Agrostis alba",,"ALK-Abello, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
+103056,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
+103056,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
+103057,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,"ALK-Abello, Inc.",Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
+103057,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,"ALK-Abello, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
+103058,"Pollens - Grasses, Timothy Phleum pratense",,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
+103058,"Pollens - Grasses, Timothy Phleum pratense",,"ALK-Abello, Inc.",Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2050-09-29
+103059,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",,"ALK-Abello, Inc.",Injection,Percutaneous,1:20W/V,N/A,Y,2050-09-29
+103059,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",,"ALK-Abello, Inc.",Injection,Subcutaneous,1:20W/V,N/A,Y,2050-09-29
+103060,"Insects (Whole Body), Mite Dermatophagoides farinae",,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
+103060,"Insects (Whole Body), Mite Dermatophagoides farinae",,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
+103061,"Animal Allergens, Standardized Cat Pelt",,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
+103061,"Animal Allergens, Standardized Cat Pelt",,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
+103112,Factor IX Complex,Proplex-T; Bebulin,Baxalta US Inc.,For Injection,Intravenous,200-1200U/20ML,,Y,2070-08-21
+103113,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,1:10W/V,N/A,Y,2074-03-13
+103113,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",,"Allermed Laboratories, Inc.",Injection,Intradermal,1:10W/V,N/A,Y,2074-03-13
 103123,Typhoid Vaccine Live Oral Ty21a,Vivotif,Bavarian Nordic A/S,Capsule,Oral,2-6.8 BIL. CFU,N/A,Y,1989-12-15
 103132,interferon alfa-2b,Intron A,Merck Sharp & Dohme LLC,For Injection,"Intramuscular, Intravenous, Subcutaneous",3MIU,N/A,Y,1986-06-04
 103132,interferon alfa-2b,Intron A,Merck Sharp & Dohme LLC,For Injection,"Intramuscular, Intravenous, Subcutaneous",5MIU,N/A,Y,1986-06-04
@@ -559,9 +558,9 @@ BLANumber,ProperName,ProprietaryName,Applicant,DosageForm,Route,Strength,Referen
 103249,Coagulation Factor IX (Human),"Alphanine, Alphanine Hp, Alphanine Sd",Grifols Biologicals LLC,Injection,Intravenous,1500IU,N/A,Y,1990-12-31
 103257,Candida albicans Skin Test Antigen for Cellular Hypersensitivity,Candin,"Nielsen Bioscience, Inc",Injection,Intradermal,1U/.1ML,N/A,Y,1995-11-27
 103293,aldesleukin,Proleukin,Iovance Biotherapeutics Manufacturing LLC,For Injection,Intravenous,22MILLION INTERNATIONAL UNITS (1.3MG),N/A,Y,1992-05-05
-103317,Positive Skin Test Control-Histamine,<NA>,"Nielsen Bioscience, Inc",Injection,Percutaneous,1.8MG/ML,N/A,Y,1992-02-14
-103324,"Animal Allergens, Standardized Cat Hair",<NA>,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-07-11
-103324,"Animal Allergens, Standardized Cat Hair",<NA>,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-07-11
+103317,Positive Skin Test Control-Histamine,,"Nielsen Bioscience, Inc",Injection,Percutaneous,1.8MG/ML,N/A,Y,1992-02-14
+103324,"Animal Allergens, Standardized Cat Hair",,"Allergy Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2030-07-11
+103324,"Animal Allergens, Standardized Cat Hair",,"Allergy Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2030-07-11
 103332,Antihemophilic Factor (Recombinant),"Helixate Fs, Kogenate, Kogenate Fs",Bayer HealthCare LLC,For Injection,Intravenous,250IU,N/A,Y,2002-08-20
 103332,Antihemophilic Factor (Recombinant),"Helixate Fs, Kogenate, Kogenate Fs",Bayer HealthCare LLC,For Injection,Intravenous,500IU,N/A,Y,2002-08-20
 103332,Antihemophilic Factor (Recombinant),"Helixate Fs, Kogenate, Kogenate Fs",Bayer HealthCare LLC,For Injection,Intravenous,1000IU,N/A,Y,2002-08-20
@@ -583,28 +582,28 @@ BLANumber,ProperName,ProprietaryName,Applicant,DosageForm,Route,Strength,Referen
 103375,Antihemophilic Factor (Recombinant),"Bioclate (Armour), Recombinate","Takeda Pharmaceuticals U.S.A., Inc.",For Injection,Intravenous,250IU,N/A,Y,1992-12-10
 103375,Antihemophilic Factor (Recombinant),"Bioclate (Armour), Recombinate","Takeda Pharmaceuticals U.S.A., Inc.",For Injection,Intravenous,1500IU,N/A,Y,2010-03-10
 103375,Antihemophilic Factor (Recombinant),"Bioclate (Armour), Recombinate","Takeda Pharmaceuticals U.S.A., Inc.",For Injection,Intravenous,2000IU,N/A,Y,2010-03-10
-103397,"Animal Allergens, Standardized Cat Hair",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2058-09-15
-103397,"Animal Allergens, Standardized Cat Hair",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2058-09-15
-103397,"Animal Allergens, Standardized Cat Hair",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2058-09-15
-103397,"Animal Allergens, Standardized Cat Hair",<NA>,"Greer Laboratories, Inc.",Injection,Intradermal,"5,000BAU/ML",N/A,Y,2058-09-15
-103397,"Animal Allergens, Standardized Cat Hair",<NA>,"Greer Laboratories, Inc.",Injection,Subcutaneous,"5,000BAU/ML",N/A,Y,2058-09-15
-103397,"Animal Allergens, Standardized Cat Hair",<NA>,"Greer Laboratories, Inc.",Injection,Percutaneous,"5,000BAU/ML",N/A,Y,2058-09-15
+103397,"Animal Allergens, Standardized Cat Hair",,"Greer Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2058-09-15
+103397,"Animal Allergens, Standardized Cat Hair",,"Greer Laboratories, Inc.",Injection,Intradermal,"10,000BAU/ML",N/A,Y,2058-09-15
+103397,"Animal Allergens, Standardized Cat Hair",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2058-09-15
+103397,"Animal Allergens, Standardized Cat Hair",,"Greer Laboratories, Inc.",Injection,Intradermal,"5,000BAU/ML",N/A,Y,2058-09-15
+103397,"Animal Allergens, Standardized Cat Hair",,"Greer Laboratories, Inc.",Injection,Subcutaneous,"5,000BAU/ML",N/A,Y,2058-09-15
+103397,"Animal Allergens, Standardized Cat Hair",,"Greer Laboratories, Inc.",Injection,Percutaneous,"5,000BAU/ML",N/A,Y,2058-09-15
 103411,pegaspargase,Oncaspar,Servier Pharmaceuticals LLC,Injection,"Intravenous, Intramuscular","3,750IU/5ML(750IU/ML)",N/A,Y,1994-02-01
 103463,muromonab-CD3,Orthoclone OKT3,"Centocor Ortho Biotech Products, L.P.",Injection,Intravenous,1MG/ML,N/A,Y,1992-09-14
 103471,interferon beta-1b,Betaseron,Bayer HealthCare Pharmaceuticals Inc.,For Injection,Subcutaneous,0.3MG,N/A,Y,1993-07-23
-103473,"Animal Allergens, Standardized Cat Hair",<NA>,"Allermed Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2074-03-12
-103473,"Animal Allergens, Standardized Cat Hair",<NA>,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2074-03-12
+103473,"Animal Allergens, Standardized Cat Hair",,"Allermed Laboratories, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2074-03-12
+103473,"Animal Allergens, Standardized Cat Hair",,"Allermed Laboratories, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2074-03-12
 103475,Hepatitis A Vaccine,Havrix,GlaxoSmithKline Biologicals,Injection,Intramuscular,720ELISA U/.5ML,N/A,Y,1995-02-22
 103475,Hepatitis A Vaccine,Havrix,GlaxoSmithKline Biologicals,Injection,Intramuscular,1440ELISA U/ML,N/A,Y,1995-02-22
 103532,dornase alfa,Pulmozyme,"Genentech, Inc.",Solution,Inhalation,2.5MG/2.5ML (1MG/ML),N/A,Y,1993-12-30
 103552,Varicella Virus Vaccine Live,Varivax,Merck Sharp & Dohme LLC,For Injection,Subcutaneous,NLT  1350PFU/.5ML,N/A,Y,1995-03-17
 103552,Varicella Virus Vaccine Live,Varivax,Merck Sharp & Dohme LLC,For Injection,Intramuscular,NLT  1350PFU/.5ML,N/A,Y,2023-02-27
-103569,Plague Vaccine,<NA>,"Greer Laboratories, Inc.",Injection,Intramuscular,2BIL. CELL/ML,N/A,Y,1994-10-05
+103569,Plague Vaccine,,"Greer Laboratories, Inc.",Injection,Intramuscular,2BIL. CELL/ML,N/A,Y,1994-10-05
 103575,abciximab,Reopro,"Janssen Biotech, Inc.",Injection,Intravenous,2MG/ML,N/A,Y,1994-12-22
 103606,Hepatitis A Vaccine Inactivated,Vaqta,Merck Sharp & Dohme LLC,Injection,Intramuscular,50U/ML,N/A,Y,1996-03-29
 103606,Hepatitis A Vaccine Inactivated,Vaqta,Merck Sharp & Dohme LLC,Injection,Intramuscular,25U/.5ML,N/A,Y,1996-03-29
 103608,capromab pendetide,ProstaScint,"Aytu BioScience, Inc.",Injection,Intravenous,0.5MG/1ML,N/A,Y,1996-10-28
-103623,Haemophilus b Conjugate (Meningococcal Protein Conjugate) and Hepatitis B (Recombinant) Vaccine,COMVAX,Merck Sharp & Dohme LLC,Injection,Intramuscular,7.5UG PRP/125UG OMPC/5UG HBsAg,<NA>,N,1996-10-02
+103623,Haemophilus b Conjugate (Meningococcal Protein Conjugate) and Hepatitis B (Recombinant) Vaccine,COMVAX,Merck Sharp & Dohme LLC,Injection,Intramuscular,7.5UG PRP/125UG OMPC/5UG HBsAg,,Y,1996-10-02
 103628,interferon beta-1a,Avonex,Biogen Inc.,For Injection,Intramuscular,30MCG,N/A,Y,1996-05-17
 103628,interferon beta-1a,Avonex,Biogen Inc.,Injection,Intramuscular,30MCG/0.5ML,N/A,Y,2003-05-28
 103628,interferon beta-1a,Avonex,Biogen Inc.,Injection,Intramuscular,30MCG/0.5ML,N/A,Y,2012-02-27
@@ -651,8 +650,8 @@ BLANumber,ProperName,ProprietaryName,Applicant,DosageForm,Route,Strength,Referen
 103737,rituximab,Rituxan,IDEC Pharmaceuticals Corp.,Injection,Intravenous,500MG/50ML (10MG/ML),N/A,Y,2002-02-19
 103738,Thin-Layer Rapid Use Epicutaneous Patch Test,T.R.U.E. Test,SmartPractice Denmark ApS,Patch,Topical,"36 MCG NICKEL/PATCH, 810 MCG WOOL ALCOHOL/PATCH, 486 MCG NEOMYCIN SULFATE/PATCH, 15.7 MCG CHROMIUM/PATCH, 510 MCG CAINE MIX/PATCH, 405 MCG FRAGRANCE MIX/PATCH, 972 MCG COLOPHONY/PATCH, 810 MCG PARABEN/PATCH, 648 MCG OF BALSAM OF PERU RESIN/PATCH, 18 MCG E",N/A,Y,1997-08-15
 103749,daclizumab,Zenapax,Hoffmann-La Roche Inc.,Injection,Intravenous,25MG/5ML,N/A,Y,1997-12-10
-103752,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
-103752,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
+103752,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
+103752,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2050-09-29
 103754,Positive Skin Test Control-Histamine,Histatrol,"ALK-Abello, Inc.",Injection,Intradermal,0.1MG/ML,N/A,Y,2050-09-29
 103754,Positive Skin Test Control-Histamine,Histatrol,"ALK-Abello, Inc.",Injection,Percutaneous,1MG/ML,N/A,Y,2050-09-29
 103764,basiliximab,Simulect,Novartis Pharmaceuticals Corporation,For Injection,Intravenous,20MG,N/A,Y,1998-05-12
@@ -688,8 +687,8 @@ BLANumber,ProperName,ProprietaryName,Applicant,DosageForm,Route,Strength,Referen
 103795,etanercept,Enbrel Mini,Immunex Corporation,Injection,Subcutaneous,50MG/ML,N/A,Y,2017-09-14
 103795,etanercept,Enbrel,Immunex Corporation,Injection,Subcutaneous,50MG/ML,N/A,Y,NaT
 103795,etanercept,Enbrel,Immunex Corporation,Injection,Subcutaneous,25MG/0.5ML,N/A,Y,2020-03-05
-103810,"Animal Allergens, Standardized Cat Hair",<NA>,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2071-12-16
-103810,"Animal Allergens, Standardized Cat Hair",<NA>,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2071-12-16
+103810,"Animal Allergens, Standardized Cat Hair",,"ALK-Abello, Inc.",Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2071-12-16
+103810,"Animal Allergens, Standardized Cat Hair",,"ALK-Abello, Inc.",Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2071-12-16
 103820,Rabies Vaccine Adsorbed,Biorab,Emergent BioDefense Operations Lansing LLC,Injection,Intramuscular,1.0ML,N/A,Y,1998-11-12
 103821,Anthrax Vaccine Adsorbed,Biothrax,Emergent BioDefense Operations Lansing LLC,Injection,Intramuscular,0.5ML,N/A,Y,1998-11-12
 103821,Anthrax Vaccine Adsorbed,Biothrax,Emergent BioDefense Operations Lansing LLC,Injection,Subcutaneous,0.5ML,N/A,Y,1998-11-12
@@ -700,101 +699,101 @@ BLANumber,ProperName,ProprietaryName,Applicant,DosageForm,Route,Strength,Referen
 103846,rimabotulinumtoxinB,Myobloc,"Solstice NeuroSciences, LLC",Injection,"Intramuscular, Intraglandular","10,000UNITS/2ML (5,000UNITS/ML)",N/A,Y,2000-12-08
 103850,Hepatitis A & Hepatitis B (Recombinant) Vaccine,Twinrix,GlaxoSmithKline Biologicals,Injection,Intramuscular,1ML,N/A,Y,2001-05-11
 103869,Anti-thymocyte Globulin (Rabbit),Thymoglobulin,Genzyme Corporation,For Injection,Intravenous,25MG,N/A,Y,1999-05-19
-103870,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000AU/ML",N/A,Y,2024-03-13
-103870,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,30AU/ML,N/A,Y,2024-03-13
-103870,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"30,000AU/ML",N/A,Y,2024-03-13
-103870,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,300AU/ML,N/A,Y,2024-03-13
-103870,"Insects (Whole Body), Mite Dermatophagoides farinae",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"30,000AU/ML",N/A,Y,2024-03-13
-103871,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000AU/ML",N/A,Y,2024-03-13
-103871,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,30AU/ML,N/A,Y,2024-03-13
-103871,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"30,000AU/ML",N/A,Y,2024-03-13
-103871,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,300AU/ML,N/A,Y,2024-03-13
-103871,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"30,000AU/ML",N/A,Y,2024-03-13
-103872,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103872,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,100BAU/ML,N/A,Y,2024-03-13
-103872,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,"1,000BAU/ML",N/A,Y,2024-03-13
-103872,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103873,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103873,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,100BAU/ML,N/A,Y,2024-03-13
-103873,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
-103873,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,"1,000BAU/ML",N/A,Y,2024-03-13
-103873,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103873,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
-103874,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103874,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,100BAU/ML,N/A,Y,2024-03-13
-103874,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
-103874,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,"1,000BAU/ML",N/A,Y,2024-03-13
-103874,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103874,"Pollens - Grasses, Fescue, Meadow Festuca elatior",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
-103875,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103875,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,100BAU/ML,N/A,Y,2024-03-13
-103875,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
-103875,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,"1,000BAU/ML",N/A,Y,2024-03-13
-103875,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103875,"Pollens - Grasses, Orchard Grass Dactylis glomerata",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
-103876,"Pollens - Grasses, Redtop Agrostis alba",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103876,"Pollens - Grasses, Redtop Agrostis alba",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,100BAU/ML,N/A,Y,2024-03-13
-103876,"Pollens - Grasses, Redtop Agrostis alba",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
-103876,"Pollens - Grasses, Redtop Agrostis alba",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,"1,000BAU/ML",N/A,Y,2024-03-13
-103876,"Pollens - Grasses, Redtop Agrostis alba",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103876,"Pollens - Grasses, Redtop Agrostis alba",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
-103877,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103877,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,100BAU/ML,N/A,Y,2024-03-13
-103877,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
-103877,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,"1,000BAU/ML",N/A,Y,2024-03-13
-103877,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103877,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
-103878,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103878,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,100BAU/ML,N/A,Y,2024-03-13
-103878,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
-103878,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,"1,000BAU/ML",N/A,Y,2024-03-13
-103878,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103878,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
-103879,"Pollens - Grasses, Timothy Phleum pratense",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103879,"Pollens - Grasses, Timothy Phleum pratense",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,100BAU/ML,N/A,Y,2024-03-13
-103879,"Pollens - Grasses, Timothy Phleum pratense",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
-103879,"Pollens - Grasses, Timothy Phleum pratense",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,"1,000BAU/ML",N/A,Y,2024-03-13
-103879,"Pollens - Grasses, Timothy Phleum pratense",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103879,"Pollens - Grasses, Timothy Phleum pratense",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
-103880,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,1:20W/V,N/A,Y,2024-03-13
-103880,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,1:20W/V,N/A,Y,2024-03-13
-103880,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,1:20W/V,N/A,Y,2024-03-13
-103882,"Venoms, Honey Bee Venom",<NA>,Jubilant HollisterStier LLC,For Injection,Percutaneous,100UG/ML,N/A,Y,2024-03-13
-103882,"Venoms, Honey Bee Venom",<NA>,Jubilant HollisterStier LLC,For Injection,Subcutaneous,100UG/ML,N/A,Y,2024-03-13
-103883,"Venoms, Mixed Vespid Venom Protein",<NA>,Jubilant HollisterStier LLC,For Injection,Subcutaneous,100UG/ML,N/A,Y,2024-03-13
-103884,"Venoms, Wasp Venom Protein",<NA>,Jubilant HollisterStier LLC,For Injection,Percutaneous,100UG/ML,N/A,Y,2024-03-13
-103884,"Venoms, Wasp Venom Protein",<NA>,Jubilant HollisterStier LLC,For Injection,Subcutaneous,100UG/ML,N/A,Y,2024-03-13
-103885,"Venoms, White Faced Hornet Venom Protein",<NA>,Jubilant HollisterStier LLC,For Injection,Percutaneous,100UG/ML,N/A,Y,2024-03-13
-103885,"Venoms, White Faced Hornet Venom Protein",<NA>,Jubilant HollisterStier LLC,For Injection,Subcutaneous,100UG/ML,N/A,Y,2024-03-13
-103886,"Venoms, Yellow Hornet Venom Protein",<NA>,Jubilant HollisterStier LLC,For Injection,Percutaneous,100UG/ML,N/A,Y,2024-03-13
-103886,"Venoms, Yellow Hornet Venom Protein",<NA>,Jubilant HollisterStier LLC,For Injection,Subcutaneous,100UG/ML,N/A,Y,2024-03-13
-103887,"Venoms, Yellow Jacket Venom Protein",<NA>,Jubilant HollisterStier LLC,For Injection,Percutaneous,100UG/ML,N/A,Y,2024-03-13
-103887,"Venoms, Yellow Jacket Venom Protein",<NA>,Jubilant HollisterStier LLC,For Injection,Subcutaneous,100UG/ML,N/A,Y,2024-03-13
-103889,"Animal Allergens, Standardized Cat Hair",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103889,"Animal Allergens, Standardized Cat Hair",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,"10,000BAU/ML",N/A,Y,2024-03-13
-103889,"Animal Allergens, Standardized Cat Hair",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103890,"Animal Allergens, Standardized Cat Pelt",<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103890,"Animal Allergens, Standardized Cat Pelt",<NA>,Jubilant HollisterStier LLC,Injection,Intradermal,"10,000BAU/ML",N/A,Y,2024-03-13
-103890,"Animal Allergens, Standardized Cat Pelt",<NA>,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
-103891,Positive Skin Test Control-Histamine,<NA>,Jubilant HollisterStier LLC,Injection,Percutaneous,6MG/ML,N/A,Y,2024-03-13
-103905,Pneumococcal 7-valent Conjugate Vaccine (Diphtheria CRM197 Protein),prevnar,Wyeth Pharmaceuticals LLC,Injection,Intramuscular,0.5ML/VIAL,<NA>,N,2000-02-17
+103870,"Insects (Whole Body), Mite Dermatophagoides farinae",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000AU/ML",N/A,Y,2024-03-13
+103870,"Insects (Whole Body), Mite Dermatophagoides farinae",,Jubilant HollisterStier LLC,Injection,Intradermal,30AU/ML,N/A,Y,2024-03-13
+103870,"Insects (Whole Body), Mite Dermatophagoides farinae",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"30,000AU/ML",N/A,Y,2024-03-13
+103870,"Insects (Whole Body), Mite Dermatophagoides farinae",,Jubilant HollisterStier LLC,Injection,Intradermal,300AU/ML,N/A,Y,2024-03-13
+103870,"Insects (Whole Body), Mite Dermatophagoides farinae",,Jubilant HollisterStier LLC,Injection,Percutaneous,"30,000AU/ML",N/A,Y,2024-03-13
+103871,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000AU/ML",N/A,Y,2024-03-13
+103871,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,Jubilant HollisterStier LLC,Injection,Intradermal,30AU/ML,N/A,Y,2024-03-13
+103871,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"30,000AU/ML",N/A,Y,2024-03-13
+103871,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,Jubilant HollisterStier LLC,Injection,Intradermal,300AU/ML,N/A,Y,2024-03-13
+103871,"Insects (Whole Body), Mite Dermatophagoides pteronyssinus",,Jubilant HollisterStier LLC,Injection,Percutaneous,"30,000AU/ML",N/A,Y,2024-03-13
+103872,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103872,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",,Jubilant HollisterStier LLC,Injection,Intradermal,100BAU/ML,N/A,Y,2024-03-13
+103872,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",,Jubilant HollisterStier LLC,Injection,Intradermal,"1,000BAU/ML",N/A,Y,2024-03-13
+103872,"Pollens - Grasses, Bermuda Grass Cynodon dactylon",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103873,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103873,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,Jubilant HollisterStier LLC,Injection,Intradermal,100BAU/ML,N/A,Y,2024-03-13
+103873,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,Jubilant HollisterStier LLC,Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
+103873,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,Jubilant HollisterStier LLC,Injection,Intradermal,"1,000BAU/ML",N/A,Y,2024-03-13
+103873,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103873,"Pollens - Grasses, Bluegrass, Kentucky (June) Poa pratensis",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
+103874,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103874,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,Jubilant HollisterStier LLC,Injection,Intradermal,100BAU/ML,N/A,Y,2024-03-13
+103874,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,Jubilant HollisterStier LLC,Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
+103874,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,Jubilant HollisterStier LLC,Injection,Intradermal,"1,000BAU/ML",N/A,Y,2024-03-13
+103874,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103874,"Pollens - Grasses, Fescue, Meadow Festuca elatior",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
+103875,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103875,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,Jubilant HollisterStier LLC,Injection,Intradermal,100BAU/ML,N/A,Y,2024-03-13
+103875,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,Jubilant HollisterStier LLC,Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
+103875,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,Jubilant HollisterStier LLC,Injection,Intradermal,"1,000BAU/ML",N/A,Y,2024-03-13
+103875,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103875,"Pollens - Grasses, Orchard Grass Dactylis glomerata",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
+103876,"Pollens - Grasses, Redtop Agrostis alba",,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103876,"Pollens - Grasses, Redtop Agrostis alba",,Jubilant HollisterStier LLC,Injection,Intradermal,100BAU/ML,N/A,Y,2024-03-13
+103876,"Pollens - Grasses, Redtop Agrostis alba",,Jubilant HollisterStier LLC,Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
+103876,"Pollens - Grasses, Redtop Agrostis alba",,Jubilant HollisterStier LLC,Injection,Intradermal,"1,000BAU/ML",N/A,Y,2024-03-13
+103876,"Pollens - Grasses, Redtop Agrostis alba",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103876,"Pollens - Grasses, Redtop Agrostis alba",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
+103877,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103877,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,Jubilant HollisterStier LLC,Injection,Intradermal,100BAU/ML,N/A,Y,2024-03-13
+103877,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,Jubilant HollisterStier LLC,Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
+103877,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,Jubilant HollisterStier LLC,Injection,Intradermal,"1,000BAU/ML",N/A,Y,2024-03-13
+103877,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103877,"Pollens - Grasses, Ryegrass, Perennial Lolium perenne",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
+103878,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103878,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,Jubilant HollisterStier LLC,Injection,Intradermal,100BAU/ML,N/A,Y,2024-03-13
+103878,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,Jubilant HollisterStier LLC,Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
+103878,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,Jubilant HollisterStier LLC,Injection,Intradermal,"1,000BAU/ML",N/A,Y,2024-03-13
+103878,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103878,"Pollens - Grasses, Sweet Vernal Grass Anthoxanthum odoratum",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
+103879,"Pollens - Grasses, Timothy Phleum pratense",,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103879,"Pollens - Grasses, Timothy Phleum pratense",,Jubilant HollisterStier LLC,Injection,Intradermal,100BAU/ML,N/A,Y,2024-03-13
+103879,"Pollens - Grasses, Timothy Phleum pratense",,Jubilant HollisterStier LLC,Injection,Percutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
+103879,"Pollens - Grasses, Timothy Phleum pratense",,Jubilant HollisterStier LLC,Injection,Intradermal,"1,000BAU/ML",N/A,Y,2024-03-13
+103879,"Pollens - Grasses, Timothy Phleum pratense",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103879,"Pollens - Grasses, Timothy Phleum pratense",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"100,000BAU/ML",N/A,Y,2024-03-13
+103880,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",,Jubilant HollisterStier LLC,Injection,Percutaneous,1:20W/V,N/A,Y,2024-03-13
+103880,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",,Jubilant HollisterStier LLC,Injection,Intradermal,1:20W/V,N/A,Y,2024-03-13
+103880,"Pollens - Weeds and Garden Plants, Ragweed, Short Ambrosia artemisiifolia",,Jubilant HollisterStier LLC,Injection,Subcutaneous,1:20W/V,N/A,Y,2024-03-13
+103882,"Venoms, Honey Bee Venom",,Jubilant HollisterStier LLC,For Injection,Percutaneous,100UG/ML,N/A,Y,2024-03-13
+103882,"Venoms, Honey Bee Venom",,Jubilant HollisterStier LLC,For Injection,Subcutaneous,100UG/ML,N/A,Y,2024-03-13
+103883,"Venoms, Mixed Vespid Venom Protein",,Jubilant HollisterStier LLC,For Injection,Subcutaneous,100UG/ML,N/A,Y,2024-03-13
+103884,"Venoms, Wasp Venom Protein",,Jubilant HollisterStier LLC,For Injection,Percutaneous,100UG/ML,N/A,Y,2024-03-13
+103884,"Venoms, Wasp Venom Protein",,Jubilant HollisterStier LLC,For Injection,Subcutaneous,100UG/ML,N/A,Y,2024-03-13
+103885,"Venoms, White Faced Hornet Venom Protein",,Jubilant HollisterStier LLC,For Injection,Percutaneous,100UG/ML,N/A,Y,2024-03-13
+103885,"Venoms, White Faced Hornet Venom Protein",,Jubilant HollisterStier LLC,For Injection,Subcutaneous,100UG/ML,N/A,Y,2024-03-13
+103886,"Venoms, Yellow Hornet Venom Protein",,Jubilant HollisterStier LLC,For Injection,Percutaneous,100UG/ML,N/A,Y,2024-03-13
+103886,"Venoms, Yellow Hornet Venom Protein",,Jubilant HollisterStier LLC,For Injection,Subcutaneous,100UG/ML,N/A,Y,2024-03-13
+103887,"Venoms, Yellow Jacket Venom Protein",,Jubilant HollisterStier LLC,For Injection,Percutaneous,100UG/ML,N/A,Y,2024-03-13
+103887,"Venoms, Yellow Jacket Venom Protein",,Jubilant HollisterStier LLC,For Injection,Subcutaneous,100UG/ML,N/A,Y,2024-03-13
+103889,"Animal Allergens, Standardized Cat Hair",,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103889,"Animal Allergens, Standardized Cat Hair",,Jubilant HollisterStier LLC,Injection,Intradermal,"10,000BAU/ML",N/A,Y,2024-03-13
+103889,"Animal Allergens, Standardized Cat Hair",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103890,"Animal Allergens, Standardized Cat Pelt",,Jubilant HollisterStier LLC,Injection,Percutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103890,"Animal Allergens, Standardized Cat Pelt",,Jubilant HollisterStier LLC,Injection,Intradermal,"10,000BAU/ML",N/A,Y,2024-03-13
+103890,"Animal Allergens, Standardized Cat Pelt",,Jubilant HollisterStier LLC,Injection,Subcutaneous,"10,000BAU/ML",N/A,Y,2024-03-13
+103891,Positive Skin Test Control-Histamine,,Jubilant HollisterStier LLC,Injection,Percutaneous,6MG/ML,N/A,Y,2024-03-13
+103905,Pneumococcal 7-valent Conjugate Vaccine (Diphtheria CRM197 Protein),prevnar,Wyeth Pharmaceuticals LLC,Injection,Intramuscular,0.5ML/VIAL,,Y,2000-02-17
 103907,"Diphtheria and Tetanus Toxoids and Acellular Pertussis Adsorbed, Hepatitis B (Recombinant) and Inactivated Poliovirus Vaccine",Pediarix,GlaxoSmithKline Biologicals,Injection,Intramuscular,0.5ML,N/A,Y,2002-12-13
 103909,tenecteplase,TNKase,"Genentech, Inc.",For Injection,Intravenous,50MG,N/A,Y,2000-06-02
 103909,tenecteplase,TNKase,"Genentech, Inc.",For Injection,Intravenous,25MG,N/A,Y,2025-02-28
 103910,Digoxin Immune Fab (Ovine),Digifab,BTG International Inc.,For Injection,Intravenous,40MG,N/A,Y,2001-08-31
-103913,Tetanus Toxoid Adsorbed,<NA>,Sanofi Pasteur Inc.,Injection,Intramuscular,5LF/.5ML,<NA>,N,1999-12-09
+103913,Tetanus Toxoid Adsorbed,,Sanofi Pasteur Inc.,Injection,Intramuscular,5LF/.5ML,,Y,1999-12-09
 103914,Influenza Virus Vaccine,"Fluzone, Fluzone Hd Quadrivalent, Fluzone High Dose, Fluzone Intradermal, Fluzone Quadrivalent",Sanofi Pasteur Inc.,Injection,Intramuscular,45UG/.5ML,N/A,Y,1999-12-09
 103914,Influenza Virus Vaccine,"Fluzone, Fluzone Hd Quadrivalent, Fluzone High Dose, Fluzone Intradermal, Fluzone Quadrivalent",Sanofi Pasteur Inc.,Injection,Intramuscular,180 UG/.5ML,N/A,Y,2009-12-23
 103914,Influenza Virus Vaccine,"Fluzone, Fluzone Hd Quadrivalent, Fluzone High Dose, Fluzone Intradermal, Fluzone Quadrivalent",Sanofi Pasteur Inc.,Injection,Intradermal,27UG/0.1,N/A,Y,2011-05-09
 103914,Influenza Virus Vaccine,"Fluzone, Fluzone Hd Quadrivalent, Fluzone High Dose, Fluzone Intradermal, Fluzone Quadrivalent",Sanofi Pasteur Inc.,Injection,Intramuscular,60UG/.5ML,N/A,Y,2013-06-07
 103914,Influenza Virus Vaccine,"Fluzone, Fluzone Hd Quadrivalent, Fluzone High Dose, Fluzone Intradermal, Fluzone Quadrivalent",Sanofi Pasteur Inc.,Injection,Intradermal,36UG/.5ML,N/A,Y,2014-12-11
-103914,Influenza Virus Vaccine,"Fluzone, Fluzone Hd Quadrivalent, Fluzone High Dose, Fluzone Intradermal, Fluzone Quadrivalent",Sanofi Pasteur Inc.,Injection,Intramuscular,240UG/.7ML,<NA>,N,2019-11-04
-103914,Influenza Virus Vaccine,"Fluzone, Fluzone Hd Quadrivalent, Fluzone High Dose, Fluzone Intradermal, Fluzone Quadrivalent",Sanofi Pasteur Inc.,Injection,Intramuscular,45UG/.5ML,<NA>,N,2019-11-04
+103914,Influenza Virus Vaccine,"Fluzone, Fluzone Hd Quadrivalent, Fluzone High Dose, Fluzone Intradermal, Fluzone Quadrivalent",Sanofi Pasteur Inc.,Injection,Intramuscular,240UG/.7ML,,Y,2019-11-04
+103914,Influenza Virus Vaccine,"Fluzone, Fluzone Hd Quadrivalent, Fluzone High Dose, Fluzone Intradermal, Fluzone Quadrivalent",Sanofi Pasteur Inc.,Injection,Intramuscular,45UG/.5ML,,Y,2019-11-04
 103915,Yellow Fever Vaccine,Yf-Vax,Sanofi Pasteur Inc.,For Injection,Subcutaneous,23.7PFU/.5ML,N/A,Y,1999-12-09
 103915,Yellow Fever Vaccine,Yf-Vax,Sanofi Pasteur Inc.,For Injection,Subcutaneous,4.74PFU/.5ML,N/A,Y,1999-12-09
-103919,Diphtheria & Tetanus Toxoids Adsorbed,<NA>,Sanofi Pasteur Inc.,Injection,Intramuscular,6.6; 5 UNITS,<NA>,N,1999-12-09
-103921,Tetanus and Diphtheria Toxoids Adsorbed,<NA>,Sanofi Pasteur Inc.,Injection,Intramuscular,"2.5LF, 5LF, 2.5UG, 8UG/.5ML",<NA>,N,1999-12-09
-103922,Diphtheria & Tetanus Toxoids & Acellular Pertussis Vaccine Adsorbed,Tripedia,Sanofi Pasteur Inc.,Injection,Intramuscular,"6.7LF, 5LF, 46.8UG/.5ML",<NA>,N,1999-12-09
+103919,Diphtheria & Tetanus Toxoids Adsorbed,,Sanofi Pasteur Inc.,Injection,Intramuscular,6.6; 5 UNITS,,Y,1999-12-09
+103921,Tetanus and Diphtheria Toxoids Adsorbed,,Sanofi Pasteur Inc.,Injection,Intramuscular,"2.5LF, 5LF, 2.5UG, 8UG/.5ML",,Y,1999-12-09
+103922,Diphtheria & Tetanus Toxoids & Acellular Pertussis Vaccine Adsorbed,Tripedia,Sanofi Pasteur Inc.,Injection,Intramuscular,"6.7LF, 5LF, 46.8UG/.5ML",,Y,1999-12-09
 103923,"Meningococcal Polysaccharide Vaccine, Group C",Menomune-C,Sanofi Pasteur Inc.,For Injection,Subcutaneous,0.5ML,N/A,Y,1999-12-09
 103924,"Meningococcal Polysaccharide Vaccine, Group A",Menomune-A,Sanofi Pasteur Inc.,For Injection,Subcutaneous,0.5ML,N/A,Y,1999-12-09
 103925,"Meningococcal Polysaccharide Vaccine, Groups A and C Combined",Menomune-A/C,Sanofi Pasteur Inc.,For Injection,Subcutaneous,50UG/.5ML,N/A,Y,1999-12-09
@@ -807,13 +806,13 @@ BLANumber,ProperName,ProprietaryName,Applicant,DosageForm,Route,Strength,Referen
 103935,Haemophilus b Conjugate Vaccine (Tetanus Toxoid Conjugate),"Acthib,Omnihib",Sanofi Pasteur SA,For Injection,Intramuscular,24UG,N/A,Y,2000-02-04
 103936,Typhoid Vi Polysaccharide Vaccine,Typhim Vi,Sanofi Pasteur SA,Injection,Intramuscular,50UG/ML,N/A,Y,2000-02-04
 103936,Typhoid Vi Polysaccharide Vaccine,Typhim Vi,Sanofi Pasteur SA,Injection,Intramuscular,25UG/.5ML,N/A,Y,2000-02-04
-103937,Botulism Antitoxin Bivalent (Equine) Types A and B.,<NA>,Sanofi Pasteur Limited,Injection,Intravenous,5000IU,<NA>,N,2000-02-24
+103937,Botulism Antitoxin Bivalent (Equine) Types A and B.,,Sanofi Pasteur Limited,Injection,Intravenous,5000IU,,Y,2000-02-24
 103940,Poliovirus Vaccine Inactivated (Human Diploid Cell),Poliovax,Sanofi Pasteur Limited,Injection,Subcutaneous,0.5ML,N/A,Y,2000-02-24
 103940,Poliovirus Vaccine Inactivated (Human Diploid Cell),Poliovax,Sanofi Pasteur Limited,Injection,Intramuscular,0.5ML,N/A,Y,2000-02-24
 103941,"Tuberculin, Purified Protein Derivative",Tubersol,Sanofi Pasteur Limited,Injection,Intradermal,5TU/.1ML,N/A,Y,2000-02-24
-103942,BCG Vaccine,Mycobax,Sanofi Pasteur Limited,For Injection,Intradermal,1.5MG,<NA>,N,2000-02-24
-103943,BCG Live,TheraCys,Sanofi Pasteur Limited,For Injection,Intravesical,81MG,<NA>,N,2000-02-24
-103944,Diphtheria & Tetanus Toxoids Adsorbed,<NA>,Sanofi Pasteur Limited,Injection,Intramuscular,25/LF/5LF/0.5ML,N/A,Y,2000-02-24
+103942,BCG Vaccine,Mycobax,Sanofi Pasteur Limited,For Injection,Intradermal,1.5MG,,Y,2000-02-24
+103943,BCG Live,TheraCys,Sanofi Pasteur Limited,For Injection,Intravesical,81MG,,Y,2000-02-24
+103944,Diphtheria & Tetanus Toxoids Adsorbed,,Sanofi Pasteur Limited,Injection,Intramuscular,25/LF/5LF/0.5ML,N/A,Y,2000-02-24
 103945,Hepatitis B Immune Globulin (Human),Nabi-HB,"ADMA Biologics, Inc.",Injection,Intramuscular,312IU/ML,N/A,Y,2001-10-23
 103945,Hepatitis B Immune Globulin (Human),Nabi-HB,"ADMA Biologics, Inc.",Injection,Intramuscular,1560IU/5ML,N/A,Y,2001-10-23
 103946,rasburicase,Elitek,Sanofi-Aventis U.S. LLC,For Injection,Intravenous,1.5MG,N/A,Y,2002-07-12
@@ -826,9 +825,8 @@ BLANumber,ProperName,ProprietaryName,Applicant,DosageForm,Route,Strength,Referen
 103949,peginterferon alfa-2b,Sylatron,Merck Sharp & Dohme LLC,For Injection,Subcutaneous,300MCG,N/A,Y,2011-03-29
 103949,peginterferon alfa-2b,Sylatron,Merck Sharp & Dohme LLC,For Injection,Subcutaneous,600MCG,N/A,Y,2011-03-29
 103949,peginterferon alfa-2b,Pegintron,Merck Sharp & Dohme LLC,Injection,Subcutaneous,80MCG/0.5ML,N/A,Y,2001-01-19
-Subcutaneous,Disc,Autoinjector,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 103949,peginterferon alfa-2b,Pegintron,Merck Sharp & Dohme LLC,Injection,Subcutaneous,120MCG/0.5ML,N/A,Y,2001-01-19
-Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
+103949,peginterferon alfa-2b,Pegintron,Merck Sharp & Dohme LLC,Injection,Subcutaneous,150MCG/0.5ML,N/A,Y,2001-01-19
 103950,anakinra,Kineret,Swedish Orphan Biovitrum AB (publ),Injection,Subcutaneous,100MG/0.67ML,N/A,Y,2001-11-14
 103951,darbepoetin alpha,Aranesp,Amgen Inc.,Injection,"Intravenous, Subcutaneous",25MCG/1ML,N/A,Y,2001-09-17
 103951,darbepoetin alpha,Aranesp,Amgen Inc.,Injection,"Intravenous, Subcutaneous",40MCG/1ML,N/A,Y,2001-09-17
@@ -875,10 +873,10 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 103955,Albumin (Human),"Albuminar, Albuminar-20, Albuminar-25, Albuminar-5",CSL Behring LLC,Injection,Intravenous,12.5G/50ML,N/A,Y,2000-07-17
 103955,Albumin (Human),"Albuminar, Albuminar-20, Albuminar-25, Albuminar-5",CSL Behring LLC,Injection,Intravenous,12.5G/250ML,N/A,Y,2000-07-17
 103955,Albumin (Human),"Albuminar, Albuminar-20, Albuminar-25, Albuminar-5",CSL Behring LLC,Injection,Intravenous,25G/500ML,N/A,Y,2000-07-17
-103956,Immune Globulin Intravenous (Human),"gammar i.v.,gammar-p i.v.",CSL Behring LLC,For Injection,Intravenous,10G,<NA>,N,2000-03-17
-103956,Immune Globulin Intravenous (Human),"gammar i.v.,gammar-p i.v.",CSL Behring LLC,For Injection,Intravenous,5G,<NA>,N,2000-03-17
-103956,Immune Globulin Intravenous (Human),"gammar i.v.,gammar-p i.v.",CSL Behring LLC,For Injection,Intravenous,2.5G,<NA>,N,2000-03-17
-103956,Immune Globulin Intravenous (Human),"gammar i.v.,gammar-p i.v.",CSL Behring LLC,For Injection,Intravenous,1G,<NA>,N,2000-03-17
+103956,Immune Globulin Intravenous (Human),"gammar i.v.,gammar-p i.v.",CSL Behring LLC,For Injection,Intravenous,10G,,Y,2000-03-17
+103956,Immune Globulin Intravenous (Human),"gammar i.v.,gammar-p i.v.",CSL Behring LLC,For Injection,Intravenous,5G,,Y,2000-03-17
+103956,Immune Globulin Intravenous (Human),"gammar i.v.,gammar-p i.v.",CSL Behring LLC,For Injection,Intravenous,2.5G,,Y,2000-03-17
+103956,Immune Globulin Intravenous (Human),"gammar i.v.,gammar-p i.v.",CSL Behring LLC,For Injection,Intravenous,1G,,Y,2000-03-17
 103957,Coagulation Factor IX (Human),Mononine,CSL Behring LLC,For Injection,Intravenous,1000IU,N/A,Y,2000-03-17
 103957,Coagulation Factor IX (Human),Mononine,CSL Behring LLC,For Injection,Intravenous,500IU,N/A,Y,2000-03-17
 103960,Antihemophilic Factor/von Willebrand Factor Complex (Human),Humate-P,CSL Behring GmbH,For Injection,Intravenous,1000IU,N/A,Y,2000-04-11
@@ -981,9 +979,9 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125078,Alpha-1-Proteinase Inhibitor (Human),Zemaira,CSL Behring LLC,For Injection,Intravenous,1000MG,N/A,Y,2003-07-08
 125078,Alpha-1-Proteinase Inhibitor (Human),Zemaira,CSL Behring LLC,For Injection,Intravenous,4000MG,N/A,Y,2019-04-16
 125078,Alpha-1-Proteinase Inhibitor (Human),Zemaira,CSL Behring LLC,For Injection,Intravenous,5000MG,N/A,Y,2019-04-16
-125083,peginterferon alfa-2a and ribavirin,Pegasys Copegus Combination Pack,Hoffmann-La Roche Inc.,<NA>,<NA>,180MCG/0.5ML & 800MG,N/A,Y,2004-06-04
-125083,peginterferon alfa-2a and ribavirin,Pegasys Copegus Combination Pack,Hoffmann-La Roche Inc.,<NA>,<NA>,180MCG/0.5ML &1000MG,N/A,Y,2004-06-04
-125083,peginterferon alfa-2a and ribavirin,Pegasys Copegus Combination Pack,Hoffmann-La Roche Inc.,<NA>,<NA>,180MCG/0.5ML & 1200MG,N/A,Y,2004-06-04
+125083,peginterferon alfa-2a and ribavirin,Pegasys Copegus Combination Pack,Hoffmann-La Roche Inc.,,,180MCG/0.5ML & 800MG,N/A,Y,2004-06-04
+125083,peginterferon alfa-2a and ribavirin,Pegasys Copegus Combination Pack,Hoffmann-La Roche Inc.,,,180MCG/0.5ML &1000MG,N/A,Y,2004-06-04
+125083,peginterferon alfa-2a and ribavirin,Pegasys Copegus Combination Pack,Hoffmann-La Roche Inc.,,,180MCG/0.5ML & 1200MG,N/A,Y,2004-06-04
 125084,cetuximab,Erbitux,Eli Lilly and Company,Injection,Intravenous,100MG/50ML (2MG/ML),N/A,Y,2004-02-12
 125084,cetuximab,Erbitux,Eli Lilly and Company,Injection,Intravenous,200MG/100ML (2MG/ML),N/A,Y,2007-03-28
 125085,bevacizumab,Avastin,"Genentech, Inc.",Injection,Intravenous,100MG/4ML (25MG/ML),N/A,Y,2004-02-26
@@ -997,7 +995,7 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125108,"Measles, Mumps, Rubella and Varicella Virus Vaccine Live",Proquad,Merck Sharp & Dohme LLC,For Injection,Intramuscular,0.5ML,N/A,Y,2023-02-27
 125109,Vaccinia Immune Globulin Intravenous (Human),Cnj-016,Emergent BioSolutions Canada Inc.,Injection,Intravenous,">=50,000U",N/A,Y,2005-05-02
 125111,"Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed",Adacel,Sanofi Pasteur Limited,Injection,Intramuscular,0.5ML,N/A,Y,2005-06-10
-125115,Immune Globulin Subcutaneous (Human),Vivaglobin,CSL Behring GmbH,For Injection,Subcutaneous,160MG/ML,<NA>,N,2006-01-09
+125115,Immune Globulin Subcutaneous (Human),Vivaglobin,CSL Behring GmbH,For Injection,Subcutaneous,160MG/ML,,Y,2006-01-09
 125117,galsulfase,Naglazyme,BioMarin Pharmaceutical Inc.,Injection,Intravenous,5MG/5ML (1MG/ML),N/A,Y,2005-05-31
 125118,abatacept,Orencia,Bristol-Myers Squibb Company,For Injection,Intravenous,250MG,N/A,Y,2005-12-23
 125118,abatacept,Orencia,Bristol-Myers Squibb Company,Injection,Subcutaneous,125MG/ML,N/A,Y,2011-07-29
@@ -1015,13 +1013,13 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125147,panitumumab,Vectibix,Amgen Inc.,Injection,Intravenous,400MG/20ML (20MG/ML),N/A,Y,2006-09-27
 125147,panitumumab,Vectibix,Amgen Inc.,Injection,Intravenous,200MG/10ML (20MG/ML),N/A,Y,2006-09-27
 125151,idursulfase,Elaprase,"Takeda Pharmaceuticals U.S.A., Inc.",Injection,Intravenous,6MG/3ML (2MG/ML),N/A,Y,2006-07-24
-125154,Albumin (Human),<NA>,Octapharma Pharmazeutika Produktionsges.m.b.H.,Injection,Intravenous,12.5G/250ML,N/A,Y,2006-10-17
-125154,Albumin (Human),<NA>,Octapharma Pharmazeutika Produktionsges.m.b.H.,Injection,Intravenous,5G/100ML,N/A,Y,2006-10-17
-125154,Albumin (Human),<NA>,Octapharma Pharmazeutika Produktionsges.m.b.H.,Injection,Intravenous,10G/50ML,N/A,Y,2007-09-27
-125154,Albumin (Human),<NA>,Octapharma Pharmazeutika Produktionsges.m.b.H.,Injection,Intravenous,25G/100ML,N/A,Y,2006-10-17
-125154,Albumin (Human),<NA>,Octapharma Pharmazeutika Produktionsges.m.b.H.,Injection,Intravenous,25G/500ML,N/A,Y,2006-10-17
-125154,Albumin (Human),<NA>,Octapharma Pharmazeutika Produktionsges.m.b.H.,Injection,Intravenous,20G/100ML,N/A,Y,2007-09-27
-125154,Albumin (Human),<NA>,Octapharma Pharmazeutika Produktionsges.m.b.H.,Injection,Intravenous,12.5G/50ML,N/A,Y,2006-10-17
+125154,Albumin (Human),,Octapharma Pharmazeutika Produktionsges.m.b.H.,Injection,Intravenous,12.5G/250ML,N/A,Y,2006-10-17
+125154,Albumin (Human),,Octapharma Pharmazeutika Produktionsges.m.b.H.,Injection,Intravenous,5G/100ML,N/A,Y,2006-10-17
+125154,Albumin (Human),,Octapharma Pharmazeutika Produktionsges.m.b.H.,Injection,Intravenous,10G/50ML,N/A,Y,2007-09-27
+125154,Albumin (Human),,Octapharma Pharmazeutika Produktionsges.m.b.H.,Injection,Intravenous,25G/100ML,N/A,Y,2006-10-17
+125154,Albumin (Human),,Octapharma Pharmazeutika Produktionsges.m.b.H.,Injection,Intravenous,25G/500ML,N/A,Y,2006-10-17
+125154,Albumin (Human),,Octapharma Pharmazeutika Produktionsges.m.b.H.,Injection,Intravenous,20G/100ML,N/A,Y,2007-09-27
+125154,Albumin (Human),,Octapharma Pharmazeutika Produktionsges.m.b.H.,Injection,Intravenous,12.5G/50ML,N/A,Y,2006-10-17
 125156,ranibizumab,Lucentis,"Genentech, Inc.",Injection,Intravitreal,10MG/ML (0.5MG/0.05ML),N/A,Y,2006-06-30
 125156,ranibizumab,Lucentis,"Genentech, Inc.",Injection,Intravitreal,6MG/ML (0.3MG/0.05ML),N/A,Y,2012-08-10
 125156,ranibizumab,Lucentis,"Genentech, Inc.",Injection,Intravitreal,10MG/ML (0.5MG/0.05ML),N/A,Y,2016-10-13
@@ -1054,10 +1052,10 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125164,methoxy polyethylene glycol-epoetin beta,Mircera,Vifor (International) Inc.,Injection,"Intravenous, Subcutaneous",600MCG/0.6ML,N/A,Y,2007-11-14
 125164,methoxy polyethylene glycol-epoetin beta,Mircera,Vifor (International) Inc.,Injection,"Intravenous, Subcutaneous",800MCG/0.6ML,N/A,Y,2007-11-14
 125166,eculizumab,Soliris,"Alexion Pharmaceuticals, Inc.",Injection,Intravenous,300MG/30ML (10MG/ML),N/A,Y,2007-03-16
-125196,peginterferon alfa-2b and ribavirin,PegIntron/ Rebetol Combo Pack,"Schering Corporation a subsidiary of Merck & Co., Inc.",<NA>,<NA>,50MCG/0.5ML & 200MG,N/A,Y,2008-06-13
-125196,peginterferon alfa-2b and ribavirin,PegIntron/ Rebetol Combo Pack,"Schering Corporation a subsidiary of Merck & Co., Inc.",<NA>,<NA>,80MCG/0.5ML & 200MG,N/A,Y,2008-06-13
-125196,peginterferon alfa-2b and ribavirin,PegIntron/ Rebetol Combo Pack,"Schering Corporation a subsidiary of Merck & Co., Inc.",<NA>,<NA>,120MCG/0.5ML & 200MG,N/A,Y,2008-06-13
-125196,peginterferon alfa-2b and ribavirin,PegIntron/ Rebetol Combo Pack,"Schering Corporation a subsidiary of Merck & Co., Inc.",<NA>,<NA>,150MCG/0.5ML & 200MG,N/A,Y,2008-06-13
+125196,peginterferon alfa-2b and ribavirin,PegIntron/ Rebetol Combo Pack,"Schering Corporation a subsidiary of Merck & Co., Inc.",,,50MCG/0.5ML & 200MG,N/A,Y,2008-06-13
+125196,peginterferon alfa-2b and ribavirin,PegIntron/ Rebetol Combo Pack,"Schering Corporation a subsidiary of Merck & Co., Inc.",,,80MCG/0.5ML & 200MG,N/A,Y,2008-06-13
+125196,peginterferon alfa-2b and ribavirin,PegIntron/ Rebetol Combo Pack,"Schering Corporation a subsidiary of Merck & Co., Inc.",,,120MCG/0.5ML & 200MG,N/A,Y,2008-06-13
+125196,peginterferon alfa-2b and ribavirin,PegIntron/ Rebetol Combo Pack,"Schering Corporation a subsidiary of Merck & Co., Inc.",,,150MCG/0.5ML & 200MG,N/A,Y,2008-06-13
 125201,"Immune Globulin Intravenous (Human), 10% Liquid",Privigen,CSL Behring AG,Injection,Intravenous,20G,N/A,Y,2007-07-26
 125201,"Immune Globulin Intravenous (Human), 10% Liquid",Privigen,CSL Behring AG,Injection,Intravenous,10G,N/A,Y,2007-07-26
 125201,"Immune Globulin Intravenous (Human), 10% Liquid",Privigen,CSL Behring AG,Injection,Intravenous,5G,N/A,Y,2007-07-26
@@ -1065,7 +1063,7 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125201,"Immune Globulin Intravenous (Human), 10% Liquid",Privigen,CSL Behring AG,Injection,Intravenous,40G,N/A,Y,2013-02-07
 125234,Protein C Concentrate (Human),Ceprotin,"Takeda Pharmaceuticals U.S.A., Inc.",For Injection,Intravenous,500IU,N/A,Y,2007-03-30
 125234,Protein C Concentrate (Human),Ceprotin,"Takeda Pharmaceuticals U.S.A., Inc.",For Injection,Intravenous,1000IU,N/A,Y,2007-03-30
-125244,"Influenza Virus Vaccine, H5N1",<NA>,Sanofi Pasteur Inc.,Injection,Intramuscular,90 MG/.5ML,N/A,Y,2007-04-17
+125244,"Influenza Virus Vaccine, H5N1",,Sanofi Pasteur Inc.,Injection,Intramuscular,90 MG/.5ML,N/A,Y,2007-04-17
 125247,"Thrombin, Topical (Human)",Evithrom,Omrix Biopharmaceuticals Ltd,Solution,Topical,2ML IU/ML,N/A,Y,2007-08-27
 125247,"Thrombin, Topical (Human)",Evithrom,Omrix Biopharmaceuticals Ltd,Solution,Topical,20ML IU/ML,N/A,Y,2007-08-27
 125247,"Thrombin, Topical (Human)",Evithrom,Omrix Biopharmaceuticals Ltd,Solution,Topical,5ML IU/ML,N/A,Y,2007-08-27
@@ -1091,7 +1089,7 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125264,"Antihemophilic Factor (Recombinant), Plasma/Albumin Free","Xyntha, Xyntha Solofuse",Wyeth Pharmaceuticals LLC,For Injection,Intravenous,500IU,N/A,Y,2008-02-21
 125264,"Antihemophilic Factor (Recombinant), Plasma/Albumin Free","Xyntha, Xyntha Solofuse",Wyeth Pharmaceuticals LLC,For Injection,Intravenous,3000IU,N/A,Y,2010-08-06
 125265,"Rotavirus Vaccine, Live, Oral",Rotarix,GlaxoSmithKline Biologicals,For Suspension,Oral,1ML,N/A,Y,2008-04-03
-125265,"Rotavirus Vaccine, Live, Oral",Rotarix,GlaxoSmithKline Biologicals,Suspension,Oral,106.0CCID50,<NA>,N,2022-11-04
+125265,"Rotavirus Vaccine, Live, Oral",Rotarix,GlaxoSmithKline Biologicals,Suspension,Oral,106.0CCID50,,Y,2022-11-04
 125266,Fibrin Sealant (Human),Artiss,Baxter Healthcare Corporation,Solution,Topical,4ML,N/A,Y,2008-03-19
 125266,Fibrin Sealant (Human),Artiss,Baxter Healthcare Corporation,Solution,Topical,10ML,N/A,Y,2008-03-19
 125266,Fibrin Sealant (Human),Artiss,Baxter Healthcare Corporation,Solution,Topical,2ML,N/A,Y,2008-03-19
@@ -1104,6 +1102,7 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125268,romiplostim,Nplate,Amgen Inc.,For Injection,Subcutaneous,125MCG,N/A,Y,2019-07-22
 125274,abobotulinumtoxinA,Dysport,Ipsen Biopharm Limited,For Injection,Intramuscular,300UNITS,N/A,Y,2009-04-29
 125274,abobotulinumtoxinA,Dysport,Ipsen Biopharm Limited,For Injection,Intramuscular,500UNITS,N/A,Y,2009-04-29
+125276,tocilizumab,Actemra,"Genentech, Inc.",Injection,Intravenous,80MG/4ML (20MG/ML),N/A,Y,2010-01-08
 125276,tocilizumab,Actemra,"Genentech, Inc.",Injection,Intravenous,200MG/10ML (20MG/ML),N/A,Y,2010-01-08
 125276,tocilizumab,Actemra,"Genentech, Inc.",Injection,Intravenous,400MG/20ML (20MG/ML),N/A,Y,2010-01-08
 125277,ecallantide,Kalbitor,"Takeda Pharmaceuticals U.S.A., Inc.",Injection,Subcutaneous,10MG/ML,N/A,Y,2009-12-01
@@ -1125,7 +1124,7 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125294,tbo-filgrastim,Granix,UAB Teva Baltics,Injection,Subcutaneous,480MCG/0.8ML,N/A,Y,2012-08-29
 125294,tbo-filgrastim,Granix,UAB Teva Baltics,Injection,Subcutaneous,300MCG/1ML,N/A,Y,2018-07-31
 125294,tbo-filgrastim,Granix,UAB Teva Baltics,Injection,Subcutaneous,480MCG/1.6ML,N/A,Y,2018-07-31
-125296,"Adenovirus Type 4 and Type 7 Vaccine, Live, Oral",<NA>,"Teva Women's Health, Inc.",Tablet,Oral,4.5LOG 10TCID,N/A,Y,2011-03-16
+125296,"Adenovirus Type 4 and Type 7 Vaccine, Live, Oral",,"Teva Women's Health, Inc.",Tablet,Oral,4.5LOG 10TCID,N/A,Y,2011-03-16
 125297,Influenza Virus Vaccine,Agriflu,Seqirus Inc.,Injection,Intramuscular,.05ML,N/A,Y,2009-11-27
 125300,"Meningococcal (Groups A, C, Y, and W-135) Oligosaccharide Diphtheria CRM197 Conjugate Vaccine",Menveo,GlaxoSmithKline Biologicals,Injection,Intramuscular,0.5ML,N/A,Y,2010-02-19
 125300,"Meningococcal (Groups A, C, Y, and W-135) Oligosaccharide Diphtheria CRM197 Conjugate Vaccine",Menveo,GlaxoSmithKline Biologicals,Injection,Intramuscular,0.5ML,N/A,Y,2022-10-14
@@ -1153,7 +1152,7 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125338,collagenase clostridium histolyticum,Xiaflex,"Auxilium Pharmaceuticals, Inc.",For Injection,Intralesional,0.9MG,N/A,Y,2010-02-02
 125347,Haemophilus b Conjugate Vaccine (Tetanus Toxoid Conjugate),Hiberix,GlaxoSmithKline Biologicals,For Injection,Intramuscular,10UG/25UG,N/A,Y,2009-08-19
 125348,Azficel-T,Laviv,"Fibrocell Technologies, Inc.",Injection,Intradermal,18MU CELL/ML,N/A,Y,2011-06-21
-125349,raxibacumab,<NA>,Emergent Manufacturing Operations Baltimore LLC,Injection,Intravenous,"1,700MG/34ML (50MG/ML)",N/A,Y,2012-12-14
+125349,raxibacumab,,Emergent Manufacturing Operations Baltimore LLC,Injection,Intravenous,"1,700MG/34ML (50MG/ML)",N/A,Y,2012-12-14
 125350,"Immune Globulin Subcutaneous (Human), 20% Liquid",Hizentra,CSL Behring AG,Injection,Subcutaneous,2G/10ML,N/A,Y,2010-03-04
 125350,"Immune Globulin Subcutaneous (Human), 20% Liquid",Hizentra,CSL Behring AG,Injection,Subcutaneous,1G/5ML,N/A,Y,2010-03-04
 125350,"Immune Globulin Subcutaneous (Human), 20% Liquid",Hizentra,CSL Behring AG,Injection,Subcutaneous,10G/50ML,N/A,Y,2010-03-04
@@ -1167,7 +1166,7 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125360,incobotulinumtoxinA,Xeomin,Merz Pharmaceuticals GmbH c/o Merz Pharmaceuticals LLC,For Injection,"Intramuscular, Intraglandular",50UNITS,N/A,Y,2010-07-30
 125360,incobotulinumtoxinA,Xeomin,Merz Pharmaceuticals GmbH c/o Merz Pharmaceuticals LLC,For Injection,"Intramuscular, Intraglandular",100UNITS,N/A,Y,2010-07-30
 125360,incobotulinumtoxinA,Xeomin,Merz Pharmaceuticals GmbH c/o Merz Pharmaceuticals LLC,For Injection,"Intramuscular, Intraglandular",200UNITS,N/A,Y,2015-11-20
-125363,Meningococcal Groups C and Y and Haemophilus b Tetanus Toxoid Conjugate Vaccine,MENHIBRIX,GlaxoSmithKline Biologicals,Injection,Intramuscular,0.5ML,<NA>,N,2012-06-14
+125363,Meningococcal Groups C and Y and Haemophilus b Tetanus Toxoid Conjugate Vaccine,MENHIBRIX,GlaxoSmithKline Biologicals,Injection,Intramuscular,0.5ML,,Y,2012-06-14
 125370,belimumab,Benlysta,GlaxoSmithKline LLC,For Injection,Intravenous,120MG,N/A,Y,2011-03-09
 125370,belimumab,Benlysta,GlaxoSmithKline LLC,For Injection,Intravenous,400MG,N/A,Y,2011-03-09
 125377,ipilimumab,Yervoy,Bristol-Myers Squibb Company,Injection,Intravenous,50MG/10ML (5MG/ML),N/A,Y,2011-03-25
@@ -1179,7 +1178,7 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125389,Immune Globulin Intravenous (Human),Bivigam,"ADMA Biologics, Inc.",Injection,Intravenous,5GM/50ML,N/A,Y,2012-12-19
 125389,Immune Globulin Intravenous (Human),Bivigam,"ADMA Biologics, Inc.",Injection,Intravenous,10GM/100ML,N/A,Y,2012-12-19
 125390,metreleptin,Myalept,Chiesi Farmaceutici S.p.A.,For Injection,Subcutaneous,11.3MG,N/A,Y,2014-02-24
-125391,"HPC, Cord Blood",<NA>,Clinimmune Labs,Injection,Intravenous,5X10^8 TOTAL NUCLEATED CELLS WITH AT LEAST 1.25X10^6 VIABLE CD34+ CELLS,N/A,Y,2012-05-24
+125391,"HPC, Cord Blood",,Clinimmune Labs,Injection,Intravenous,5X10^8 TOTAL NUCLEATED CELLS WITH AT LEAST 1.25X10^6 VIABLE CD34+ CELLS,N/A,Y,2012-05-24
 125392,Fibrin Sealant Patch,Evarrest,"Ethicon, Inc.",Patch,Topical,50.3MG FIBRINOGEN&203.2IU THROMBIN/IN^2; 4x4 IN,N/A,Y,2012-12-05
 125392,Fibrin Sealant Patch,Evarrest,"Ethicon, Inc.",Patch,Topical,55.5MG FIBRINOGEN&241.9IU THROMBIN/IN^2; 4x4 IN,N/A,Y,2013-05-16
 125392,Fibrin Sealant Patch,Evarrest,"Ethicon, Inc.",Patch,Topical,55.5MG FIBRINOGEN&241.9IU THROMBIN/IN^2; 2x4 IN,N/A,Y,2014-05-27
@@ -1276,7 +1275,7 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125508,"Human Papillomavirus 9-valent Vaccine, Recombinant",Gardasil 9,Merck Sharp & Dohme LLC,Injection,Intramuscular,0.5ML,N/A,Y,2014-12-10
 125509,obiltoxaximab,Anthim,"Elusys Therapeutics, Inc.",Injection,Intravenous,600MG/6ML (100MG/ML),N/A,Y,2016-03-18
 125510,"Influenza Vaccine, Adjuvanted",Fluad,Seqirus Inc.,Injection,Intramuscular,45UG/.5ML,N/A,Y,2015-11-24
-125510,"Influenza Vaccine, Adjuvanted","Fluad,Fluad Quadrivalent",Seqirus Inc.,Injection,Intramuscular,60UG/.5ML,<NA>,N,2020-02-21
+125510,"Influenza Vaccine, Adjuvanted","Fluad,Fluad Quadrivalent",Seqirus Inc.,Injection,Intramuscular,60UG/.5ML,,Y,2020-02-21
 125511,parathyroid hormone,Natpara,"Takeda Pharmaceuticals U.S.A., Inc.",For Injection,Subcutaneous,25MCG,N/A,Y,2015-01-23
 125511,parathyroid hormone,Natpara,"Takeda Pharmaceuticals U.S.A., Inc.",For Injection,Subcutaneous,50MCG,N/A,Y,2015-01-23
 125511,parathyroid hormone,Natpara,"Takeda Pharmaceuticals U.S.A., Inc.",For Injection,Subcutaneous,75MCG,N/A,Y,2015-01-23
@@ -1296,9 +1295,9 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125521,ixekizumab,Taltz,Eli Lilly and Company,Injection,Subcutaneous,20MG/0.25ML,N/A,Y,2024-08-20
 125522,evolocumab,Repatha,Amgen Inc.,Injection,Subcutaneous,140MG/ML,N/A,Y,2015-08-27
 125522,evolocumab,Repatha,Amgen Inc.,Injection,Subcutaneous,420MG/3.5ML,N/A,Y,2016-07-08
-125523,Fibrin Sealant (Human),Raplixa,Mallinckrodt Pharma IP Trading DAC,Powder,Topical,0.5G,<NA>,N,2015-04-30
-125523,Fibrin Sealant (Human),Raplixa,Mallinckrodt Pharma IP Trading DAC,Powder,Topical,1G,<NA>,N,2015-04-30
-125523,Fibrin Sealant (Human),Raplixa,Mallinckrodt Pharma IP Trading DAC,Powder,Topical,2G,<NA>,N,2015-04-30
+125523,Fibrin Sealant (Human),Raplixa,Mallinckrodt Pharma IP Trading DAC,Powder,Topical,0.5G,,Y,2015-04-30
+125523,Fibrin Sealant (Human),Raplixa,Mallinckrodt Pharma IP Trading DAC,Powder,Topical,1G,,Y,2015-04-30
+125523,Fibrin Sealant (Human),Raplixa,Mallinckrodt Pharma IP Trading DAC,Powder,Topical,2G,,Y,2015-04-30
 125525,Diphtheria and Tetanus Toxoids and Acellular Pertussis Adsorbed and Inactivated Poliovirus Vaccine,Quadracel,Sanofi Pasteur Limited,Injection,Intramuscular,0.5ML,N/A,Y,2015-03-24
 125526,mepolizumab,Nucala,GlaxoSmithKline LLC,For Injection,Subcutaneous,100MG,N/A,Y,2015-11-04
 125526,mepolizumab,Nucala,GlaxoSmithKline LLC,Injection,Subcutaneous,100MG/ML,N/A,Y,2019-06-06
@@ -1357,7 +1356,7 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125582,"Coagulation Factor IX (Recombinant), Albumin Fusion Protein",Idelvion,CSL Behring Lengnau AG,For Injection,Intravenous,2000IU,N/A,Y,2016-03-04
 125582,"Coagulation Factor IX (Recombinant), Albumin Fusion Protein",Idelvion,CSL Behring Lengnau AG,For Injection,Intravenous,250IU,N/A,Y,2016-03-04
 125582,"Coagulation Factor IX (Recombinant), Albumin Fusion Protein",Idelvion,CSL Behring Lengnau AG,For Injection,Intravenous,3500IU,N/A,Y,2018-05-30
-125585,"HPC, Cord Blood",<NA>,Bloodworks,Injection,Intravenous,5X10^8 NUCLEATED CELLS CONTENT WITH 85% VIABILITY & 1.25X10^6 VIABLE CD34+ CELLS (PRE-CRYOPRESERVATION),N/A,Y,2016-01-28
+125585,"HPC, Cord Blood",,Bloodworks,Injection,Intravenous,5X10^8 NUCLEATED CELLS CONTENT WITH 85% VIABILITY & 1.25X10^6 VIABLE CD34+ CELLS (PRE-CRYOPRESERVATION),N/A,Y,2016-01-28
 125586,"Coagulation Factor Xa (Recombinant), Inactivated-zhzo",Andexxa,AstraZeneca AB,Injection,Intravenous,100MG,N/A,Y,2018-05-03
 125586,"Coagulation Factor Xa (Recombinant), Inactivated-zhzo",Andexxa,AstraZeneca AB,Injection,Intravenous,200MG,N/A,Y,2018-12-31
 125587,Immune Globulin Intravenous (Human)-ifas,Panzyga,Octapharma Pharmazeutika Produktionsges.m.b.H.,Injection,Intravenous,1G ML,N/A,Y,2018-08-02
@@ -1395,22 +1394,22 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125612,Fibrinogen (Human),Fibryga,Octapharma Pharmazeutika Produktionsges.m.b.H.,For Injection,Intravenous,1G,N/A,Y,2017-06-07
 125613,Rabies Immune Globulin (Human),Kedrab,Kamada Ltd.,Solution,Subcutaneous,150IU/ML,N/A,Y,2017-08-23
 125614,"Zoster Vaccine Recombinant, Adjuvanted",Shingrix,GlaxoSmithKline Biologicals,Injection,Intramuscular,0.5ML,N/A,Y,2017-10-20
-125614,"Zoster Vaccine Recombinant, Adjuvanted",Shingrix,GlaxoSmithKline Biologicals,For Injection,Intramuscular,50UG,<NA>,N,2021-07-23
-125614,"Zoster Vaccine Recombinant, Adjuvanted",Shingrix,GlaxoSmithKline Biologicals,Injection,Intramuscular,50UG,<NA>,N,2025-07-16
+125614,"Zoster Vaccine Recombinant, Adjuvanted",Shingrix,GlaxoSmithKline Biologicals,For Injection,Intramuscular,50UG,,Y,2021-07-23
+125614,"Zoster Vaccine Recombinant, Adjuvanted",Shingrix,GlaxoSmithKline Biologicals,Injection,Intramuscular,50UG,,Y,2025-07-16
 125640,Fibrin Sealant (Human),Vistaseal,"Instituto Grifols, S.A.",Frozen,Topical,10ML,N/A,Y,2017-11-01
 125640,Fibrin Sealant (Human),Vistaseal,"Instituto Grifols, S.A.",Frozen,Topical,2ML,N/A,Y,2017-11-01
 125640,Fibrin Sealant (Human),Vistaseal,"Instituto Grifols, S.A.",Frozen,Topical,4ML,N/A,Y,2017-11-01
 125640,Fibrin Sealant (Human),Vistaseal,"Instituto Grifols, S.A.",Frozen,Topical,6ML,N/A,Y,2017-11-01
-125641,coagulation factor VIIa (recombinant)-jncw,Sevenfact,Laboratoire Francais du Fractionnement et des Biotechnologies S.A.,Injection,Intravenous,1MG,<NA>,N,2020-04-01
-125641,coagulation factor VIIa (recombinant)-jncw,Sevenfact,Laboratoire Francais du Fractionnement et des Biotechnologies S.A.,Injection,Intravenous,5MG,<NA>,N,2020-04-01
-125641,coagulation factor VIIa (recombinant)-jncw,Sevenfact,Laboratoire Francais du Fractionnement et des Biotechnologies S.A.,Injection,Intravenous,2MG,<NA>,N,2024-06-20
+125641,coagulation factor VIIa (recombinant)-jncw,Sevenfact,Laboratoire Francais du Fractionnement et des Biotechnologies S.A.,Injection,Intravenous,1MG,,Y,2020-04-01
+125641,coagulation factor VIIa (recombinant)-jncw,Sevenfact,Laboratoire Francais du Fractionnement et des Biotechnologies S.A.,Injection,Intravenous,5MG,,Y,2020-04-01
+125641,coagulation factor VIIa (recombinant)-jncw,Sevenfact,Laboratoire Francais du Fractionnement et des Biotechnologies S.A.,Injection,Intravenous,2MG,,Y,2024-06-20
 125643,axicabtagene ciloleucel,Yescarta,"Kite Pharma, Inc.",Injection,Intravenous,2 × 10^6 CAR-POSITIVE VIABLE T CELLS PER KG OF BODY WEIGHT,N/A,Y,2017-10-18
 125644,Albumin (Human)-kjda,Albuminex,Bio Products Laboratory Limited,Solution,Intravenous,12.5G/50ML,N/A,Y,2018-06-19
 125644,Albumin (Human)-kjda,Albuminex,Bio Products Laboratory Limited,Solution,Intravenous,25G/100ML,N/A,Y,2018-06-19
 125644,Albumin (Human)-kjda,Albuminex,Bio Products Laboratory Limited,Solution,Intravenous,12.5G/250ML,N/A,Y,2018-06-19
 125644,Albumin (Human)-kjda,Albuminex,Bio Products Laboratory Limited,Solution,Intravenous,25G/500ML,N/A,Y,2018-06-19
 125646,tisagenlecleucel,Kymriah,Novartis Pharmaceuticals Corporation,Injection,Intravenous,0.6 to 6.0 x 10^8 CAR-POSITIVE VIABLE T CELLS,N/A,Y,2017-08-30
-125657,"Hematopoietic Progenitor Cells, Cord (HPC-C)",<NA>,MD Anderson Cord Blood Bank,Injection,Intravenous,2.5X10E7/KG CELL/ML,N/A,Y,2018-06-21
+125657,"Hematopoietic Progenitor Cells, Cord (HPC-C)",,MD Anderson Cord Blood Bank,Injection,Intravenous,2.5X10E7/KG CELL/ML,N/A,Y,2018-06-21
 125659,"plasminogen, human-tvmh",Ryplazim,Kedrion Biopharma Inc.,For Injection,Intravenous,68.8MG,N/A,Y,2021-06-04
 125661,"Antihemophilic factor (recombinant), PEGylated-aucl",Jivi,Bayer HealthCare LLC,For Injection,Intravenous,1000IU,N/A,Y,2018-08-29
 125661,"Antihemophilic factor (recombinant), PEGylated-aucl",Jivi,Bayer HealthCare LLC,For Injection,Intravenous,3000IU,N/A,Y,2018-08-29
@@ -1437,33 +1436,33 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125683,"immune globulin subcutaneous, human-klhw",Xembify,Grifols Therapeutics LLC,Injection,Subcutaneous,1GM MG/ML,N/A,Y,2019-07-03
 125685,allogeneic processed thymus tissue-agdc,Rethymic,Sumitomo Pharma Switzerland GmbH,For Suspension,Implantation,SEMI-QUANTITATIVE,N/A,Y,2021-10-08
 125690,"Ebola Zaire Vaccine, Live",Ervebo,Merck Sharp & Dohme LLC,Injection,Intramuscular,1ML,N/A,Y,2019-12-19
-125692,"Influenza A (H5N1) Monovalent Vaccine, Adjuvanted",Audenz,Seqirus Inc.,Injection,Intramuscular,7.5HA UG/.5ML,<NA>,N,2020-01-31
+125692,"Influenza A (H5N1) Monovalent Vaccine, Adjuvanted",Audenz,Seqirus Inc.,Injection,Intramuscular,7.5HA UG/.5ML,,Y,2020-01-31
 125694,onasemnogene abeparvovec-xioi,Zolgensma,"Novartis Gene Therapies, Inc.",Injection,Intravenous,2x10^13VG/ML,N/A,Y,2019-05-24
-125696,Peanut (Arachis hypogaea) Allergen Powder-dnfp,Palforzia,"Greer Laboratories, Inc.",Powder,Oral,0.5MG,<NA>,N,2020-01-31
-125696,Peanut (Arachis hypogaea) Allergen Powder-dnfp,Palforzia,"Greer Laboratories, Inc.",Powder,Oral,1MG,<NA>,N,2020-01-31
-125696,Peanut (Arachis hypogaea) Allergen Powder-dnfp,Palforzia,"Greer Laboratories, Inc.",Powder,Oral,10MG,<NA>,N,2020-01-31
-125696,Peanut (Arachis hypogaea) Allergen Powder-dnfp,Palforzia,"Greer Laboratories, Inc.",Powder,Oral,20MG,<NA>,N,2020-01-31
-125696,Peanut (Arachis hypogaea) Allergen Powder-dnfp,Palforzia,"Greer Laboratories, Inc.",Powder,Oral,100MG,<NA>,N,2020-01-31
-125696,Peanut (Arachis hypogaea) Allergen Powder-dnfp,Palforzia,"Greer Laboratories, Inc.",Powder,Oral,300MG,<NA>,N,2020-01-31
+125696,Peanut (Arachis hypogaea) Allergen Powder-dnfp,Palforzia,"Greer Laboratories, Inc.",Powder,Oral,0.5MG,,Y,2020-01-31
+125696,Peanut (Arachis hypogaea) Allergen Powder-dnfp,Palforzia,"Greer Laboratories, Inc.",Powder,Oral,1MG,,Y,2020-01-31
+125696,Peanut (Arachis hypogaea) Allergen Powder-dnfp,Palforzia,"Greer Laboratories, Inc.",Powder,Oral,10MG,,Y,2020-01-31
+125696,Peanut (Arachis hypogaea) Allergen Powder-dnfp,Palforzia,"Greer Laboratories, Inc.",Powder,Oral,20MG,,Y,2020-01-31
+125696,Peanut (Arachis hypogaea) Allergen Powder-dnfp,Palforzia,"Greer Laboratories, Inc.",Powder,Oral,100MG,,Y,2020-01-31
+125696,Peanut (Arachis hypogaea) Allergen Powder-dnfp,Palforzia,"Greer Laboratories, Inc.",Powder,Oral,300MG,,Y,2020-01-31
 125700,nadofaragene firadenovec-vncg,Adstiladrin,Ferring Pharmaceuticals A/S,For Suspension,Intravesical,3x10^11 viral particles (vp)/mL,N/A,Y,2022-12-16
-125701,"Meningococcal (Groups A, C, Y, W) Conjugate Vaccine",Menquadfi,Sanofi Pasteur Inc.,Injection,Intramuscular,0.5ML,<NA>,N,2020-04-23
-125703,Brexucabtagene Autoleucel,Tecartus,"Kite Pharma, Inc.",For Injection,Intravenous,2×10^6 CAR-positive viable T cells per kg body weight,<NA>,N,2020-07-24
+125701,"Meningococcal (Groups A, C, Y, W) Conjugate Vaccine",Menquadfi,Sanofi Pasteur Inc.,Injection,Intramuscular,0.5ML,,Y,2020-04-23
+125703,Brexucabtagene Autoleucel,Tecartus,"Kite Pharma, Inc.",For Injection,Intravenous,2×10^6 CAR-positive viable T cells per kg body weight,,Y,2020-07-24
 125706,remestemcel-L-rknd,ryoncil,"Mesoblast, Inc.",Suspension,Intravenous,6.68X10^CELL/ML,N/A,Y,2024-12-18
-125714,lisocabtagene maraleucel,Breyanzi,"Juno Therapeutics, Inc. a Bristol Myer-Squibb Company",Injection,Intravenous,4.6ML/VIAL,<NA>,N,2021-02-05
+125714,lisocabtagene maraleucel,Breyanzi,"Juno Therapeutics, Inc. a Bristol Myer-Squibb Company",Injection,Intravenous,4.6ML/VIAL,,Y,2021-02-05
 125717,betibeglogene autotemcel,Zynteglo,Bluebird Bio Inc.,For Injection,Intravenous,1.7-20 X 10^6CELL/ML,N/A,Y,2022-08-17
-125720,valoctocogene roxaparvovec-rvox,Roctavian,Biomarin Pharmaceutical Inc.,Injection,Intravenous,16X 10E13GENOMES PER ML,<NA>,N,2023-06-29
+125720,valoctocogene roxaparvovec-rvox,Roctavian,Biomarin Pharmaceutical Inc.,Injection,Intravenous,16X 10E13GENOMES PER ML,,Y,2023-06-29
 125722,eladocagene exuparvovec-tneq,KEBILIDI,PTC Therapeutics,Suspension,Intraputaminal,5.6x10^11VG/ML,N/A,Y,2024-11-13
 125730,Allogeneic cultured keratinocytes and dermal fibroblasts in murine collagen-dsat,StrataGraft,Stratatech Corporation,Cell Sheets,Topical,100CM SQUARED,N/A,Y,2021-06-15
 125731,Pneumococcal 20-valent Conjugate Vaccine,Prevnar 20,Wyeth Pharmaceuticals LLC,Injection,Intramuscular,0.5 ML,N/A,Y,2021-06-08
-125734,donislecel-jujn,Lantidra,CellTrans Inc.,Suspension,Intravenous,1X10E6EQUIVALENT ISLET NUMBER (EIN),<NA>,N,2023-06-28
+125734,donislecel-jujn,Lantidra,CellTrans Inc.,Suspension,Intravenous,1X10E6EQUIVALENT ISLET NUMBER (EIN),,Y,2023-06-28
 125736,idecabtagene vicleucel,Abecma,"Celgene Corporation, a Bristol-Myers Squibb Company",Suspension,Intravenous,300 to 460 X 10^6 CHIMERIC ANTIGEN RECEPTOR (CAR)-POSITIVE T CELLS,N/A,Y,2021-03-03
 125736,idecabtagene vicleucel,Abecma,"Celgene Corporation, a Bristol-Myers Squibb Company",Suspension,Intravenous,300 to 510 X 10^6 CHIMERIC ANTIGEN RECEPTOR (CAR)-POSITIVE T CELLS,N/A,Y,2024-04-04
 125737,Hepatitis B Vaccine (Recombinant),Prehevbrio,"VBI Vaccines (Delaware), Inc.",For Injection,Intramuscular,10UG/ML,N/A,Y,2021-11-30
 125738,omidubicel-onlv,OMISIRGE,Gamida Cell Ltd.,For Injection,Intravenous,">4.0x10^8 total viable cells, >2.4x10^7 CD3+ cells with 41mL dil sol; >8.0x10^8 total viable cells, >8.7% CD34+ cells, >9.2x10^7 CD34+ cells with 81mL dil so",N/A,Y,2023-04-17
 125739,"fecal microbiota, live-jslm",Rebyota,Ferring Pharmaceuticals Inc.,Suspension,Rectal,BETWEEN 1X10^8 AND 5X10^10CFU,N/A,Y,2022-11-30
-125740,Tick-Borne Encephalitis Vaccine,Ticovac,Pfizer Ireland Pharmaceuticals,Injection,Intramuscular,2.4UG/0.5ML,<NA>,N,2021-08-13
-125740,Tick-Borne Encephalitis Vaccine,Ticovac,Pfizer Ireland Pharmaceuticals,Injection,Intramuscular,1.2UG/0.25ML,<NA>,N,2021-08-13
-125741,Pneumococcal 15-valent Conjugate Vaccine,Vaxneuvance,Merck Sharp & Dohme LLC,Injection,Intramuscular,2.0UG,<NA>,N,2021-07-16
+125740,Tick-Borne Encephalitis Vaccine,Ticovac,Pfizer Ireland Pharmaceuticals,Injection,Intramuscular,2.4UG/0.5ML,,Y,2021-08-13
+125740,Tick-Borne Encephalitis Vaccine,Ticovac,Pfizer Ireland Pharmaceuticals,Injection,Intramuscular,1.2UG/0.25ML,,Y,2021-08-13
+125741,Pneumococcal 15-valent Conjugate Vaccine,Vaxneuvance,Merck Sharp & Dohme LLC,Injection,Intramuscular,2.0UG,,Y,2021-07-16
 125742,"COVID-19 Vaccine, mRNA",Comirnaty,BioNTech Manufacturing GmbH,For Injection,Intramuscular,30UG,N/A,Y,2021-08-23
 125742,"COVID-19 Vaccine, mRNA",Comirnaty,BioNTech Manufacturing GmbH,For Injection,Intramuscular,30UG,N/A,Y,2023-09-11
 125742,"COVID-19 Vaccine, mRNA",Comirnaty,BioNTech Manufacturing GmbH,For Injection,Intramuscular,10UG,N/A,Y,2025-08-27
@@ -1474,7 +1473,7 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125752,"COVID-19 Vaccine, mRNA",Spikevax,"ModernaTX, Inc.",Injection,Intramuscular,50UG/0.5mL,N/A,Y,2023-09-11
 125752,"COVID-19 Vaccine, mRNA",Spikevax,"ModernaTX, Inc.",Injection,Intramuscular,50UG,N/A,Y,2023-09-11
 125752,"COVID-19 Vaccine, mRNA",Spikevax,"ModernaTX, Inc.",Injection,Intramuscular,25UG/0.25mL,N/A,Y,2025-07-09
-125755,elivaldogene autotemcel,Skysona,Bluebird Bio Inc.,Injection,Intravenous,2-30 × 10^6 CELL/ML,<NA>,N,2022-09-16
+125755,elivaldogene autotemcel,Skysona,Bluebird Bio Inc.,Injection,Intravenous,2-30 × 10^6 CELL/ML,,Y,2022-09-16
 125757,"fecal microbiota spores, live-brpk",Vowst,"Aimmune Therapeutics, Inc.",Capsule,Oral,1X10 LOG 6 AND 3X10 LOG 7CFU/TAB,N/A,Y,2023-04-26
 125758,atidarsagene autotemcel,Lenmeldy,Orchard Therapeutics (Europe) Ltd.,Suspension,Intravenous,2 x 10^6 to 11.8 x 10^6CELL/ML,N/A,Y,2024-03-18
 125761,"Anthrax Vaccine Adsorbed, Adjuvanted",CYFENDUS,"Emergent Product Development Gaithersburg, Inc.",Injection,Intramuscular,100UG/ML,N/A,Y,2023-07-20
@@ -1492,8 +1491,8 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 125773,Lifileucel,AMTAGVI,"Iovance Biotherapeutics, Inc.",Suspension,Intravenous,7.5x10^9 to 72x10^9Cells,N/A,Y,2024-02-16
 125774,beremagene geperpavec-svdt,VYJUVEK,"Krystal Biotech, Inc.",Gel,Topical,5.0x10^9 PFU/mL,N/A,Y,2023-05-19
 125775,"Respiratory Syncytial Virus Vaccine, Adjuvanted",Arexvy,GlaxoSmithKline Biologicals,For Injection,Intramuscular,120UG/.5ML,N/A,Y,2023-05-03
-125776,"Prothrombin complex concentrate, human-lans",Balfaxar,Octapharma Pharmazeutika Produktionsges.m.b.H.,For Injection,Intravenous,500IU,<NA>,N,2023-07-21
-125776,"Prothrombin complex concentrate, human-lans",Balfaxar,Octapharma Pharmazeutika Produktionsges.m.b.H.,For Injection,Intravenous,1000IU,<NA>,N,2023-07-21
+125776,"Prothrombin complex concentrate, human-lans",Balfaxar,Octapharma Pharmazeutika Produktionsges.m.b.H.,For Injection,Intravenous,500IU,,Y,2023-07-21
+125776,"Prothrombin complex concentrate, human-lans",Balfaxar,Octapharma Pharmazeutika Produktionsges.m.b.H.,For Injection,Intravenous,1000IU,,Y,2023-07-21
 125777,"Chikungunya Vaccine, Live",IXCHIQ,Valneva Austria GmbH,For Injection,Intramuscular,3.0 log10 TCID,N/A,Y,2023-11-09
 125781,delandistrogene moxeparvovec-rokl,ELEVIDYS,"Sarepta Therapeutics, Inc.",Suspension,Intravenous,1.33 ×10E14 vector genomes (vg)/kg/bodyweight(bw),N/A,Y,2023-06-22
 125786,fidanacogene elaparvovec-dzkt,BEQVEZ,Pfizer Inc.,Suspension,Intravenous,1x E13 VG/ML,N/A,Y,2024-04-25
@@ -1828,7 +1827,7 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 761248,donanemab-azbt,Kisunla,Eli Lilly and Company,Injection,Intravenous,350MG/20ML (17.5MG/ML),N/A,Y,2024-07-02
 761255,adalimumab-aacf,Idacio,"Fresenius Kabi USA, LLC",Injection,Subcutaneous,40MG/0.8ML,Humira,N,2022-12-13
 761255,adalimumab-aacf,Idacio,"Fresenius Kabi USA, LLC",Injection,Subcutaneous,40MG/0.8ML,Humira,N,2024-01-05
-761258,penpulimab-kcqx,<NA>,"Akeso Biopharma Co., Ltd.",Injection,Intravenous,100MG/10ML (10MG/ML),N/A,Y,2025-04-23
+761258,penpulimab-kcqx,,"Akeso Biopharma Co., Ltd.",Injection,Intravenous,100MG/10ML (10MG/ML),N/A,Y,2025-04-23
 761261,olipudase alfa-rpcp,Xenpozyme,Genzyme Corporation,For Injection,Intravenous,20MG,N/A,Y,2022-08-31
 761261,olipudase alfa-rpcp,Xenpozyme,Genzyme Corporation,For Injection,Intravenous,4MG,N/A,Y,2023-03-31
 761262,risankizumab-rzaa,Skyrizi,AbbVie Inc.,Injection,Intravenous,600MG/10ML (60MG/ML),N/A,Y,2022-06-16
@@ -1839,6 +1838,7 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 761269,lecanemab-irmb,Leqembi,"Eisai, Incorporated",Injection,Intravenous,200MG/2ML (100MG/ML),N/A,Y,2023-01-06
 761269,lecanemab-irmb,Leqembi,"Eisai, Incorporated",Injection,Intravenous,500MG/5ML (100MG/ML),N/A,Y,2023-01-06
 761274,aflibercept-jbvf,Yesafili,Biocon Biologics Inc.,Injection,Intravitreal,2MG/0.05ML,Eylea,N,2024-05-20
+761275,tocilizumab-aazg,Tyenne,"Fresenius Kabi USA, LLC",Injection,Intravenous,80MG/4ML (20MG/ML),Actemra,N,2024-03-05
 761275,tocilizumab-aazg,Tyenne,"Fresenius Kabi USA, LLC",Injection,Intravenous,200MG/10ML (20MG/ML),Actemra,N,2024-03-05
 761275,tocilizumab-aazg,Tyenne,"Fresenius Kabi USA, LLC",Injection,Intravenous,400MG/20ML (20MG/ML),Actemra,N,2024-03-05
 761278,velmanase alfa-tycv,Lamzede,Chiesi Farmaceutici S.p.A.,For Injection,Intravenous,10MG,N/A,Y,2023-02-16
@@ -1905,6 +1905,7 @@ Subcutaneous,Disc,Single-Dose Vial,Injection,N/A,N/A,19-Jan-01,<NA>,N,NaT
 761349,secukinumab,Cosentyx,Novartis Pharmaceuticals Corporation,Injection,Intravenous,125MG/5ML,N/A,Y,2023-10-06
 761350,aflibercept-yszy,Opuviz,"Samsung Bioepis Co., Ltd.",Injection,Intravitreal,2MG/0.05ML,Eylea,N,2024-05-20
 761352,zenocutuzumab-zbco,Bizengri,Merus NV,Injection,Intravenous,375MG/18.75ML (20MG/ML),N/A,Y,2024-12-04
+761354,tocilizumab-bavi,Tofidence,Biogen MA Inc.,Injection,Intravenous,80MG/4ML (20MG/ML),Actemra,N,2023-09-29
 761354,tocilizumab-bavi,Tofidence,Biogen MA Inc.,Injection,Intravenous,200MG/10ML (20MG/ML),Actemra,N,2023-09-29
 761354,tocilizumab-bavi,Tofidence,Biogen MA Inc.,Injection,Intravenous,400MG/20ML (20MG/ML),Actemra,N,2023-09-29
 761355,aflibercept,Eylea HD,"Regeneron Pharmaceuticals, Inc.",Injection,Intravitreal,8MG/0.07ML,N/A,Y,2023-08-18
