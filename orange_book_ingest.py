@@ -196,6 +196,174 @@ def _normalize_ob_file(raw_path: str, expected_basename: str) -> str:
 
     return raw_path
 
+def derive_application_from_products(prod: pd.DataFrame, app_cols: List[str]) -> pd.DataFrame:
+    """
+    Roll up one application-level row per ApplNo from product-level rows
+    (ApplType/ApplicantName/MarketingStatus/ApprovalDate), for use when no
+    standalone Application file is available (the official Orange Book ZIP
+    doesn't ship one).
+    """
+    if "ApplNo" not in prod.columns:
+        return pd.DataFrame(columns=app_cols)
+
+    app_src = _ensure_cols(prod.copy(), ["ApplNo", "ApplType", "ApplicantName", "MarketingStatus", "ApprovalDate"])
+    app_src = app_src.dropna(subset=["ApplNo"])
+    app_src["FirstApprovalDate"] = app_src["ApprovalDate"].map(_parse_date)
+    app_src["_IsActive"] = app_src["MarketingStatus"].astype(str).str.upper().isin(["RX", "OTC"])
+
+    if app_src.empty:
+        return pd.DataFrame(columns=app_cols)
+
+    grouped = app_src.groupby("ApplNo")
+    first_non_null = lambda s: s.dropna().iloc[0] if s.notna().any() else pd.NA
+    dim_app = pd.DataFrame({"ApplNo": list(grouped.groups.keys())})
+    dim_app["ApplType"] = grouped["ApplType"].agg(first_non_null).values
+    dim_app["ApplicantName"] = grouped["ApplicantName"].agg(first_non_null).values
+    dim_app["ApplStatus"] = grouped["_IsActive"].any().map({True: "Active", False: "Discontinued"}).values
+    dim_app["FirstApprovalDate"] = grouped["FirstApprovalDate"].agg(
+        lambda s: s.dropna().min() if s.notna().any() else pd.NA
+    ).values
+    dim_app["LastUpdateDate"] = pd.NA
+    return dim_app[app_cols]
+
+
+def map_exclusivity_columns(excl_df: Optional[pd.DataFrame]) -> pd.DataFrame:
+    """Map a raw Exclusivity.txt-shaped dataframe to canonical column names."""
+    cols = ["ApplNo", "ProductNo", "ExclusivityCode", "ExclusivityEndDate", "Notes", "FileDate"]
+    if excl_df is None or excl_df.empty:
+        return pd.DataFrame(columns=cols)
+
+    excl_alias = {
+        "applno": "ApplNo",
+        "applicationnumber": "ApplNo",
+        "newdrugapplicationnumber": "ApplNo",
+        "productno": "ProductNo",
+        "productnumber": "ProductNo",
+        "prodno": "ProductNo",
+        "exclusivitycode": "ExclusivityCode",
+        "exclusivity": "ExclusivityCode",
+        "exclcode": "ExclusivityCode",
+        "exclusivitydate": "ExclusivityEndDate",
+        "enddate": "ExclusivityEndDate",
+        "expirationdate": "ExclusivityEndDate",
+        "expdate": "ExclusivityEndDate",
+        "notes": "Notes",
+        "note": "Notes",
+        "filedate": "FileDate",
+        "lastupdatedate": "FileDate",
+        "updatedate": "FileDate",
+    }
+    en = _rename_with_aliases(excl_df, excl_alias)
+
+    if "ApplNo" not in en:
+        c = _best_col(en, "Appl No", "Application Number", "NDA", "ANDA", "ApplNo")
+        if c: en = en.rename(columns={c: "ApplNo"})
+    if "ProductNo" not in en:
+        c = _best_col(en, "Product No", "Prod No", "Product Number")
+        if c: en = en.rename(columns={c: "ProductNo"})
+    if "ExclusivityCode" not in en:
+        c = _best_col(en, "Exclusivity Code", "Exclusivity", "EXC Code")
+        if c: en = en.rename(columns={c: "ExclusivityCode"})
+    if "ExclusivityEndDate" not in en:
+        c = _best_col(en, "Exclusivity Date", "End Date", "Expiration Date", "Exp Date")
+        if c: en = en.rename(columns={c: "ExclusivityEndDate"})
+    if "Notes" not in en:
+        c = _best_col(en, "Notes", "Note", "Comment")
+        if c: en = en.rename(columns={c: "Notes"})
+    if "FileDate" not in en:
+        c = _best_col(en, "File Date", "Update Date", "Last Update Date")
+        if c: en = en.rename(columns={c: "FileDate"})
+
+    for col in cols:
+        if col not in en: en[col] = pd.NA
+    en["ExclusivityEndDate"] = en["ExclusivityEndDate"].map(_parse_date)
+    en["FileDate"] = en["FileDate"].map(_parse_date)
+
+    return en[cols].drop_duplicates()
+
+
+def map_patent_columns(patent_df: Optional[pd.DataFrame]) -> pd.DataFrame:
+    """Map a raw Patent.txt-shaped dataframe to canonical column names."""
+    cols = [
+        "ApplNo", "ProductNo", "PatentNo", "PatentExpiration",
+        "DrugSubstanceFlag", "DrugProductFlag", "PatentUseCode",
+        "DelistRequested", "PediatricExtension", "FileDate",
+    ]
+    if patent_df is None or patent_df.empty:
+        return pd.DataFrame(columns=cols)
+
+    pat_alias = {
+        "applno": "ApplNo",
+        "applicationnumber": "ApplNo",
+        "newdrugapplicationnumber": "ApplNo",
+        "productno": "ProductNo",
+        "productnumber": "ProductNo",
+        "prodno": "ProductNo",
+        "patentno": "PatentNo",
+        "patentnumber": "PatentNo",
+        "patentexpirationdate": "PatentExpiration",
+        "expirationdate": "PatentExpiration",
+        "expdate": "PatentExpiration",
+        "patentexpiredatetext": "PatentExpiration",  # actual header in the official ZIP's Patent.txt
+        "drugsubstanceflag": "DrugSubstanceFlag",
+        "substance": "DrugSubstanceFlag",
+        "drugproductflag": "DrugProductFlag",
+        "product": "DrugProductFlag",
+        "patentusecode": "PatentUseCode",
+        "usecode": "PatentUseCode",
+        "delistrequested": "DelistRequested",
+        "delistrequestflag": "DelistRequested",
+        "delistflag": "DelistRequested",  # actual header in the official ZIP's Patent.txt
+        "pediatricextension": "PediatricExtension",
+        "pediatric": "PediatricExtension",
+        "filedate": "FileDate",
+        "lastupdatedate": "FileDate",
+        "updatedate": "FileDate",
+        "submissiondate": "FileDate",  # actual header in the official ZIP's Patent.txt
+    }
+    pn = _rename_with_aliases(patent_df, pat_alias)
+
+    if "ApplNo" not in pn:
+        c = _best_col(pn, "Appl No", "Application Number", "NDA", "ANDA", "ApplNo")
+        if c: pn = pn.rename(columns={c: "ApplNo"})
+    if "ProductNo" not in pn:
+        c = _best_col(pn, "Product No", "Prod No", "Product Number")
+        if c: pn = pn.rename(columns={c: "ProductNo"})
+    if "PatentNo" not in pn:
+        c = _best_col(pn, "Patent No", "Patent Number")
+        if c: pn = pn.rename(columns={c: "PatentNo"})
+    if "PatentExpiration" not in pn:
+        c = _best_col(pn, "Patent Expiration Date", "Expiration Date", "Exp Date")
+        if c: pn = pn.rename(columns={c: "PatentExpiration"})
+    if "PatentUseCode" not in pn:
+        c = _best_col(pn, "Patent Use Code", "Use Code")
+        if c: pn = pn.rename(columns={c: "PatentUseCode"})
+    if "DrugSubstanceFlag" not in pn:
+        c = _best_col(pn, "Drug Substance Flag", "Substance")
+        if c: pn = pn.rename(columns={c: "DrugSubstanceFlag"})
+    if "DrugProductFlag" not in pn:
+        c = _best_col(pn, "Drug Product Flag", "Product")
+        if c: pn = pn.rename(columns={c: "DrugProductFlag"})
+    if "DelistRequested" not in pn:
+        c = _best_col(pn, "Delist Requested", "Delist Request Flag")
+        if c: pn = pn.rename(columns={c: "DelistRequested"})
+    if "PediatricExtension" not in pn:
+        c = _best_col(pn, "Pediatric Extension", "Pediatric")
+        if c: pn = pn.rename(columns={c: "PediatricExtension"})
+    if "FileDate" not in pn:
+        c = _best_col(pn, "File Date", "Update Date", "Last Update Date")
+        if c: pn = pn.rename(columns={c: "FileDate"})
+
+    for col in cols:
+        if col not in pn: pn[col] = pd.NA
+    for col in ("DrugSubstanceFlag", "DrugProductFlag", "DelistRequested", "PediatricExtension"):
+        pn[col] = pn[col].map(_yn)
+    pn["PatentExpiration"] = pn["PatentExpiration"].map(_parse_date)
+    pn["FileDate"] = pn["FileDate"].map(_parse_date)
+
+    return pn[cols].drop_duplicates()
+
+
 def _ensure_cols(df: pd.DataFrame, cols: List[str]) -> pd.DataFrame:
     for col in cols:
         if col not in df.columns:
@@ -525,24 +693,8 @@ def main():
     # The official Orange Book ZIP has no standalone Application file, so when
     # app_df isn't available, derive one application-level row per ApplNo by
     # rolling up the product-level rows (which carry ApplType/Applicant/dates).
-    if dim_app.empty and "ApplNo" in prod.columns:
-        app_src = _ensure_cols(prod.copy(), ["ApplNo", "ApplType", "ApplicantName", "MarketingStatus", "ApprovalDate"])
-        app_src = app_src.dropna(subset=["ApplNo"])
-        app_src["FirstApprovalDate"] = app_src["ApprovalDate"].map(_parse_date)
-        app_src["_IsActive"] = app_src["MarketingStatus"].astype(str).str.upper().isin(["RX", "OTC"])
-
-        if not app_src.empty:
-            grouped = app_src.groupby("ApplNo")
-            first_non_null = lambda s: s.dropna().iloc[0] if s.notna().any() else pd.NA
-            dim_app = pd.DataFrame({"ApplNo": list(grouped.groups.keys())})
-            dim_app["ApplType"] = grouped["ApplType"].agg(first_non_null).values
-            dim_app["ApplicantName"] = grouped["ApplicantName"].agg(first_non_null).values
-            dim_app["ApplStatus"] = grouped["_IsActive"].any().map({True: "Active", False: "Discontinued"}).values
-            dim_app["FirstApprovalDate"] = grouped["FirstApprovalDate"].agg(
-                lambda s: s.dropna().min() if s.notna().any() else pd.NA
-            ).values
-            dim_app["LastUpdateDate"] = pd.NA
-            dim_app = dim_app[app_cols]
+    if dim_app.empty:
+        dim_app = derive_application_from_products(prod, app_cols)
 
     needed = ["ApplNo","ProductNo","TradeName","ActiveIngredient","Strength","DosageForm","Route",
               "ReferenceListedDrugFlag","ReferenceStandardFlag","MarketingStatus","TECode"]
@@ -570,138 +722,10 @@ def main():
     dim_product_te = pd.DataFrame(product_te_rows).drop_duplicates() if product_te_rows else pd.DataFrame({"ApplNo": [], "ProductNo": [], "TECode": []})
 
     # ---- Exclusivity fact (robust) ----
-    fact_excl = pd.DataFrame(columns=["ApplNo","ProductNo","ExclusivityCode","ExclusivityEndDate","Notes","FileDate"])
-    if excl_df is not None and not excl_df.empty:
-        excl_alias = {
-            "applno": "ApplNo",
-            "applicationnumber": "ApplNo",
-            "newdrugapplicationnumber": "ApplNo",
-            "productno": "ProductNo",
-            "productnumber": "ProductNo",
-            "prodno": "ProductNo",
-            "exclusivitycode": "ExclusivityCode",
-            "exclusivity": "ExclusivityCode",
-            "exclcode": "ExclusivityCode",
-            "exclusivitydate": "ExclusivityEndDate",
-            "enddate": "ExclusivityEndDate",
-            "expirationdate": "ExclusivityEndDate",
-            "expdate": "ExclusivityEndDate",
-            "notes": "Notes",
-            "note": "Notes",
-            "filedate": "FileDate",
-            "lastupdatedate": "FileDate",
-            "updatedate": "FileDate",
-        }
-        en = _rename_with_aliases(excl_df, excl_alias)
-
-        # Fallbacks if still missing
-        if "ApplNo" not in en:
-            c = _best_col(en, "Appl No", "Application Number", "NDA", "ANDA", "ApplNo")
-            if c: en = en.rename(columns={c: "ApplNo"})
-        if "ProductNo" not in en:
-            c = _best_col(en, "Product No", "Prod No", "Product Number")
-            if c: en = en.rename(columns={c: "ProductNo"})
-        if "ExclusivityCode" not in en:
-            c = _best_col(en, "Exclusivity Code", "Exclusivity", "EXC Code")
-            if c: en = en.rename(columns={c: "ExclusivityCode"})
-        if "ExclusivityEndDate" not in en:
-            c = _best_col(en, "Exclusivity Date", "End Date", "Expiration Date", "Exp Date")
-            if c: en = en.rename(columns={c: "ExclusivityEndDate"})
-        if "Notes" not in en:
-            c = _best_col(en, "Notes", "Note", "Comment")
-            if c: en = en.rename(columns={c: "Notes"})
-        if "FileDate" not in en:
-            c = _best_col(en, "File Date", "Update Date", "Last Update Date")
-            if c: en = en.rename(columns={c: "FileDate"})
-
-        # Ensure columns and types
-        for col in ["ApplNo","ProductNo","ExclusivityCode","ExclusivityEndDate","Notes","FileDate"]:
-            if col not in en: en[col] = pd.NA
-        en["ExclusivityEndDate"] = en["ExclusivityEndDate"].map(_parse_date)
-        en["FileDate"] = en["FileDate"].map(_parse_date)
-
-        fact_excl = en[["ApplNo","ProductNo","ExclusivityCode","ExclusivityEndDate","Notes","FileDate"]].drop_duplicates()
-
+    fact_excl = map_exclusivity_columns(excl_df)
 
     # ---- Patent fact (robust) ----
-    fact_pat = pd.DataFrame(columns=[
-        "ApplNo","ProductNo","PatentNo","PatentExpiration",
-        "DrugSubstanceFlag","DrugProductFlag","PatentUseCode",
-        "DelistRequested","PediatricExtension","FileDate"
-    ])
-    if patent_df is not None and not patent_df.empty:
-        pat_alias = {
-            "applno": "ApplNo",
-            "applicationnumber": "ApplNo",
-            "newdrugapplicationnumber": "ApplNo",
-            "productno": "ProductNo",
-            "productnumber": "ProductNo",
-            "prodno": "ProductNo",
-            "patentno": "PatentNo",
-            "patentnumber": "PatentNo",
-            "patentexpirationdate": "PatentExpiration",
-            "expirationdate": "PatentExpiration",
-            "expdate": "PatentExpiration",
-            "patentexpiredatetext": "PatentExpiration",  # actual header in the official ZIP's Patent.txt
-            "drugsubstanceflag": "DrugSubstanceFlag",
-            "substance": "DrugSubstanceFlag",
-            "drugproductflag": "DrugProductFlag",
-            "product": "DrugProductFlag",
-            "patentusecode": "PatentUseCode",
-            "usecode": "PatentUseCode",
-            "delistrequested": "DelistRequested",
-            "delistrequestflag": "DelistRequested",
-            "delistflag": "DelistRequested",  # actual header in the official ZIP's Patent.txt
-            "pediatricextension": "PediatricExtension",
-            "pediatric": "PediatricExtension",
-            "filedate": "FileDate",
-            "lastupdatedate": "FileDate",
-            "updatedate": "FileDate",
-            "submissiondate": "FileDate",  # actual header in the official ZIP's Patent.txt
-        }
-        pn = _rename_with_aliases(patent_df, pat_alias)
-
-        # Fallbacks if still missing
-        if "ApplNo" not in pn:
-            c = _best_col(pn, "Appl No", "Application Number", "NDA", "ANDA", "ApplNo")
-            if c: pn = pn.rename(columns={c: "ApplNo"})
-        if "ProductNo" not in pn:
-            c = _best_col(pn, "Product No", "Prod No", "Product Number")
-            if c: pn = pn.rename(columns={c: "ProductNo"})
-        if "PatentNo" not in pn:
-            c = _best_col(pn, "Patent No", "Patent Number")
-            if c: pn = pn.rename(columns={c: "PatentNo"})
-        if "PatentExpiration" not in pn:
-            c = _best_col(pn, "Patent Expiration Date", "Expiration Date", "Exp Date")
-            if c: pn = pn.rename(columns={c: "PatentExpiration"})
-        if "PatentUseCode" not in pn:
-            c = _best_col(pn, "Patent Use Code", "Use Code")
-            if c: pn = pn.rename(columns={c: "PatentUseCode"})
-        if "DrugSubstanceFlag" not in pn:
-            c = _best_col(pn, "Drug Substance Flag", "Substance")
-            if c: pn = pn.rename(columns={c: "DrugSubstanceFlag"})
-        if "DrugProductFlag" not in pn:
-            c = _best_col(pn, "Drug Product Flag", "Product")
-            if c: pn = pn.rename(columns={c: "DrugProductFlag"})
-        if "DelistRequested" not in pn:
-            c = _best_col(pn, "Delist Requested", "Delist Request Flag")
-            if c: pn = pn.rename(columns={c: "DelistRequested"})
-        if "PediatricExtension" not in pn:
-            c = _best_col(pn, "Pediatric Extension", "Pediatric")
-            if c: pn = pn.rename(columns={c: "PediatricExtension"})
-        if "FileDate" not in pn:
-            c = _best_col(pn, "File Date", "Update Date", "Last Update Date")
-            if c: pn = pn.rename(columns={c: "FileDate"})
-
-        # Ensure columns, coerce booleans/dates
-        for col in fact_pat.columns:
-            if col not in pn: pn[col] = pd.NA
-        for col in ("DrugSubstanceFlag","DrugProductFlag","DelistRequested","PediatricExtension"):
-            pn[col] = pn[col].map(_yn)
-        pn["PatentExpiration"] = pn["PatentExpiration"].map(_parse_date)
-        pn["FileDate"] = pn["FileDate"].map(_parse_date)
-
-        fact_pat = pn[list(fact_pat.columns)].drop_duplicates()
+    fact_pat = map_patent_columns(patent_df)
 
 
     # 9) Write outputs

@@ -85,7 +85,7 @@ def _load_csv(path):
         return e
 
 
-def check_table(report: Report, name: str, filename: str, required_cols=None, key_cols=None) -> "pd.DataFrame | None":
+def check_table(report: Report, name: str, filename: str, required_cols=None, key_cols=None, expected_empty_cols=None) -> "pd.DataFrame | None":
     path = os.path.join(DATA_DIR, filename)
     df = _load_csv(path)
 
@@ -118,6 +118,21 @@ def check_table(report: Report, name: str, filename: str, required_cols=None, ke
     if df.empty:
         report.error(f"{name}: table is empty (0 data rows) in {filename}")
         return df
+
+    # A column that is 100% null usually means a source column silently
+    # failed to map (an alias/fallback that doesn't match the real header --
+    # this is exactly how PatentExpiration, DelistRequested and FileDate went
+    # unnoticed at 0% populated in ob_fact_patent for a long time). Columns
+    # genuinely unavailable in the current source layout are named explicitly
+    # by the caller so they don't trip this check.
+    allowed_empty = set(expected_empty_cols or [])
+    unexpected_empty = [c for c in df.columns if c not in allowed_empty and df[c].isna().all()]
+    if unexpected_empty:
+        report.warn(
+            f"{name}: column(s) {unexpected_empty} are 100% null in {filename} — "
+            "if the source data actually has values here, an ingest alias/mapping is "
+            "probably not matching the real column name"
+        )
 
     if key_cols and all(c in df.columns for c in key_cols):
         n_dupes = int(df.duplicated(subset=key_cols).sum())
@@ -202,17 +217,22 @@ def main():
     # ---- Orange Book ----
     ob_app = check_table(report, "ob_dim_application", "ob_dim_application.csv",
                           required_cols=["ApplNo", "ApplType", "ApplicantName", "ApplStatus"],
-                          key_cols=["ApplNo"])
+                          key_cols=["ApplNo"],
+                          expected_empty_cols=["LastUpdateDate"])  # no source column in Products.txt
     ob_prod = check_table(report, "ob_dim_product", "ob_dim_product.csv",
                            required_cols=["ApplNo", "ProductNo", "TradeName"],
-                           key_cols=["ApplNo", "ProductNo"])
-    check_table(report, "ob_dim_tecode", "ob_dim_tecode.csv", required_cols=["TECode"])
+                           key_cols=["ApplNo", "ProductNo"],
+                           expected_empty_cols=["RxCUI_Ingredient", "RxCUI_Product", "LastUpdateDate"])
+    check_table(report, "ob_dim_tecode", "ob_dim_tecode.csv", required_cols=["TECode"],
+                expected_empty_cols=["TEDescription"])  # never populated by this ingest
     ob_pte = check_table(report, "ob_dim_product_te", "ob_dim_product_te.csv",
                           required_cols=["ApplNo", "ProductNo", "TECode"])
     ob_excl = check_table(report, "ob_fact_exclusivity", "ob_fact_exclusivity.csv",
-                           required_cols=["ApplNo", "ProductNo", "ExclusivityCode"])
+                           required_cols=["ApplNo", "ProductNo", "ExclusivityCode"],
+                           expected_empty_cols=["Notes", "FileDate"])  # no source columns in Exclusivity.txt
     ob_pat = check_table(report, "ob_fact_patent", "ob_fact_patent.csv",
-                          required_cols=["ApplNo", "ProductNo", "PatentNo"])
+                          required_cols=["ApplNo", "ProductNo", "PatentNo"],
+                          expected_empty_cols=["PediatricExtension"])  # no source column in Patent.txt
 
     if ob_prod is not None and not ob_prod.empty:
         check_foreign_key(report, "ob_dim_product", ob_prod, ["ApplNo"], "ob_dim_application", ob_app, ["ApplNo"])
@@ -224,9 +244,11 @@ def main():
     pb_prod = check_table(report, "pb_dim_product", "pb_dim_product.csv",
                            required_cols=["BLANumber", "ProperName", "ProprietaryName"])
     pb_bio = check_table(report, "pb_dim_biosimilar", "pb_dim_biosimilar.csv",
-                          required_cols=["BLANumber", "ReferenceProductName"])
+                          required_cols=["BLANumber", "ReferenceProductName"],
+                          expected_empty_cols=["ReferenceBLANumber"])  # not directly available from this source
     pb_excl = check_table(report, "pb_fact_exclusivity", "pb_fact_exclusivity.csv",
-                           required_cols=["BLANumber"])
+                           required_cols=["BLANumber"],
+                           expected_empty_cols=["Notes"])
     pb_app = check_table(report, "pb_dim_application", "pb_dim_application.csv",
                           required_cols=["BLANumber", "Applicant", "Status"],
                           key_cols=["BLANumber"])
@@ -238,11 +260,13 @@ def main():
 
     # ---- RxNorm ----
     rx_ing = check_table(report, "rxnorm_dim_ingredient", "dim_drug_ingredient.csv",
-                          required_cols=["IngredientRxCUI"], key_cols=["IngredientRxCUI"])
+                          required_cols=["IngredientRxCUI"], key_cols=["IngredientRxCUI"],
+                          expected_empty_cols=["AtcClass"])  # not enriched by this ingest
     rx_prod = check_table(report, "rxnorm_dim_product", "dim_drug_product.csv",
                            required_cols=["ProductRxCUI", "IngredientRxCUI"], key_cols=["ProductRxCUI"])
     rx_pack = check_table(report, "rxnorm_dim_productpack", "dim_productpack_ndc.csv",
-                           required_cols=["ProductRxCUI", "NDC11"])
+                           required_cols=["ProductRxCUI", "NDC11"],
+                           expected_empty_cols=["PackSize", "UoM", "UnitsPerPack", "GTIN"])  # no source for these yet
 
     if rx_prod is not None and not rx_prod.empty:
         check_foreign_key(report, "rxnorm_dim_product", rx_prod, ["IngredientRxCUI"], "rxnorm_dim_ingredient", rx_ing, ["IngredientRxCUI"])

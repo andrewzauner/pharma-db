@@ -612,7 +612,7 @@ def _map_exclusivity(excl_df: pd.DataFrame, product_df: pd.DataFrame) -> pd.Data
             excl_cols["FirstInterchangeableExclusivityExpDate"] = col
         elif "refproductexclusivityexpdate" in cn:
             excl_cols["RefProductExclusivityExpDate"] = col
-        elif "orphexclusivityexpdate" in cn:
+        elif "orphanexclusivityexpdate" in cn:
             excl_cols["OrphanExclusivityExpDate"] = col
     
     # Build exclusivity rows - one per exclusivity type
