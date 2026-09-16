@@ -19,6 +19,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Set up config.py
+        run: cp config.py.example config.py
+
       - name: Run unit tests
         run: python -m pytest tests/ -v
 
