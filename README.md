@@ -214,6 +214,22 @@ PharmaDB/
 └── requirements.txt
 ```
 
+## Testing
+
+```bash
+python -m pytest tests/
+```
+
+`tests/` covers the column-mapping and parsing logic in the ingest scripts
+(`orange_book_ingest.py`, `purple_book_ingest.py`, `rxnorm_ingest.py`) and
+`validate_data.py`'s own checks, with no network access required — RxNorm
+API calls are mocked with fixtures mirroring real RxNav response shapes.
+Most of these tests are regression tests for real bugs found in this
+pipeline (a source column silently not mapping to its output column,
+producing a 100%-empty or garbage field); `.github/workflows/ci.yml` runs
+them, plus `validate_data.py` against the committed data snapshot, on every
+push and pull request.
+
 ## Notes
 
 - The `raw` schema is intended to be transient - data is loaded as-is without transformation
